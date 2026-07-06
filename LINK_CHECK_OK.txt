@@ -1,0 +1,1 @@
+Local file link check passed. JavaScript template links are intentionally ignored.

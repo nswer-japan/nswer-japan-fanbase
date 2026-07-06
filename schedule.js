@@ -25,11 +25,11 @@ const events = [
   { date:'2026-04-15', type:'FC', title:'MOBILE先行 締切 23:59' },
 
   // MEMBER BIRTHDAYS
-  { date:'2026-01-17', type:'BIRTHDAY', title:'LILY Birthday' },
-  { date:'2026-01-26', type:'BIRTHDAY', title:'JIWOO Birthday' },
-  { date:'2026-02-26', type:'BIRTHDAY', title:'KYUJIN Birthday' },
-  { date:'2026-05-25', type:'BIRTHDAY', title:'HAEWON Birthday' },
-  { date:'2026-06-28', type:'BIRTHDAY', title:'SULLYOON Birthday' },
+  { date:'2026-01-26', type:'BIRTHDAY', title:'SULLYOON Birthday' },
+  { date:'2026-02-25', type:'BIRTHDAY', title:'HAEWON Birthday' },
+  { date:'2026-04-13', type:'BIRTHDAY', title:'JIWOO Birthday' },
+  { date:'2026-05-26', type:'BIRTHDAY', title:'KYUJIN Birthday' },
+  { date:'2026-10-17', type:'BIRTHDAY', title:'LILY Birthday' },
   { date:'2026-12-28', type:'BIRTHDAY', title:'BAE Birthday' }
 ];
 

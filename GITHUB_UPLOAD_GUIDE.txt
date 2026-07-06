@@ -1,0 +1,20 @@
+NSWER JAPAN FB 再公開版アップロード手順
+
+推奨設定:
+- GitHub Pages: Deploy from a branch
+- Branch: main
+- Folder: /(root)
+- Custom domain: nswerjapan.jp
+- Enforce HTTPS: 有効化できる状態になったらON
+
+アップロード方法:
+1. このZIPを解凍する
+2. nswer-japan-main-relaunch フォルダの中身を、現在のGitHubリポジトリ直下に上書きする
+3. GitHub Desktopを使う場合は、削除された古いファイルも含めてCommitする
+4. Commit名例: Relaunch NSWER JAPAN FB site
+5. Push後、Settings > Pages で公開状況を確認する
+
+Webアップロードだけで行う場合の注意:
+- ZIPに入っていない古いファイルはGitHub上に残ることがあります。
+- OLD_FILES_TO_DELETE_FROM_GITHUB.txt にある作業用フォルダ/ZIPは手動削除推奨です。
+- CNAME は消さないでください。

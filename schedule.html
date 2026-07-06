@@ -1,22 +1,23 @@
 <!DOCTYPE html>
+
 <html lang="ja">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
    スケジュール | NSWER JAPAN FB
   </title>
-  <meta content="NMIXXのスケジュールページです。" name="description"/>
-  <link href="https://fonts.googleapis.com" rel="preconnect"/>
-  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&amp;family=Noto+Sans+JP:wght@400;700;900&amp;display=swap" rel="stylesheet"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
-  <link href="css/common.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
-  <script>
+<meta content="NMIXXのライブ、ファンクラブ、リリース、メンバー誕生日などのスケジュールをまとめています。" name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&amp;family=Noto+Sans+JP:wght@400;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+<link href="css/common.css" rel="stylesheet"/>
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
+<script>
    try{if(localStorage.getItem('theme')==='light'){document.documentElement.classList.add('light-mode');}}catch(e){}
   </script>
-  <style>
+<style>
    .schedule-page{--sp-card:#221b22;--sp-text:#f7f2f6;--sp-muted:#c9b8c3;--sp-border:#4a3643}
 .light-mode .schedule-page{--sp-card:#fffdfd;--sp-text:#23161f;--sp-muted:#6f5c67;--sp-border:#ead9e3}
 .schedule-page .section-card{background:var(--sp-card);border:1px solid var(--sp-border);border-radius:20px;padding:22px;box-shadow:0 8px 24px rgba(0,0,0,.06)}
@@ -84,351 +85,99 @@
   .hs-row{grid-template-columns:1fr;gap:6px}
 }
   </style>
- </head>
- <body>
-  <header>
-   <div class="nav">
-    <a class="logo" href="index.html">
-     NSWER JAPAN FB
-    </a>
-    <nav class="nav-links">
-     <a href="index.html">
-      ホーム
-     </a>
-     <div class="dropdown">
-      <span class="dropdown-toggle">
-       NMIXXについて
-      </span>
-      <div class="dropdown-menu">
-       <a href="about.html">
-        NMIXXについて
-       </a>
-       <a href="about-fanbase.html">
-        NSWER JAPAN FBについて
-       </a>
-      </div>
-     </div>
-     <div class="dropdown">
-      <span class="dropdown-toggle">
-       音楽
-      </span>
-      <div class="dropdown-menu">
-       <a href="music.html">
-        ディスコグラフィ
-       </a>
-       <a href="mv.html">
-        MV一覧
-       </a>
-      </div>
-     </div>
-     <div class="dropdown">
-      <span class="dropdown-toggle">
-       音楽番組
-      </span>
-      <div class="dropdown-menu">
-       <a href="showchampion.html">
-        Show Champion
-       </a>
-       <a href="mcountdown.html">
-        M Countdown
-       </a>
-       <a href="musicbank.html">
-        Music Bank
-       </a>
-       <a href="musiccore.html">
-        Music Core
-       </a>
-       <a href="inkigayo.html">
-        Inkigayo
-       </a>
-      </div>
-     </div>
-     <div class="dropdown">
-      <span class="dropdown-toggle">
-       ストリーミング
-      </span>
-      <div class="dropdown-menu">
-       <a href="streaming-guide.html">
-        ストリーミングガイド
-       </a>
-       <a href="youtube-guide.html">
-        YouTube
-       </a>
-       <a href="spotify-guide.html">
-        Spotify
-       </a>
-       <a href="applemusic-guide.html">
-        Apple Music
-       </a>
-       <a href="stationhead-guide.html">
-        Stationhead
-       </a>
-       <a href="tiktok-guide.html">
-        TikTok
-       </a>
-       <a href="duckad-guide.html">
-        DuckAd
-       </a>
-      </div>
-     </div>
-     <div class="dropdown">
-      <span class="dropdown-toggle">
-       記録
-      </span>
-      <div class="dropdown-menu">
-       <a href="wins.html">
-        音楽番組1位 獲得数
-       </a>
-       <a href="hanteo.html">
-        ハントチャート
-       </a>
-       <a href="melon.html">
-        Melonチャート
-       </a>
-      </div>
-     </div>
-     <a href="schedule.html">
-      スケジュール
-     </a>
-     <div class="dropdown">
-      <span class="dropdown-toggle">
-       投票
-      </span>
-      <div class="dropdown-menu">
-       <a href="support.html">
-        応援ガイド
-       </a>
-       <a href="voting-score.html">
-        投票早見表
-       </a>
-       <a href="apps.html">
-        投票アプリ一覧
-       </a>
-       <a href="vote-guide.html">
-        投票券の集め方
-       </a>
-      </div>
-     </div>
-     <div class="dropdown">
-      <span class="dropdown-toggle">
-       リンク
-      </span>
-      <div class="dropdown-menu">
-       <a href="links.html">
-        公式リンク
-       </a>
-       <a href="membership-guide.html">
-        NSWER JAPAN / MOBILEの違い
-       </a>
-       <a href="contact.html">
-        お問い合わせ
-       </a>
-       <a href="fan-project.html">
-        ファンプロジェクト
-       </a>
-      </div>
-     </div>
-    </nav>
-    <div class="nav-actions">
-     <button class="theme-toggle" id="themeToggle" type="button">
-      🌙
-     </button>
-     <div class="hamburger" id="hamburger">
-      ☰
-     </div>
-    </div>
-   </div>
-  </header>
-  <nav class="mobile-menu" id="mobileMenu">
-   <a href="index.html">
-    ホーム
-   </a>
-   <details class="mobile-group">
-    <summary>
-     NMIXXについて
-    </summary>
-    <div class="mobile-submenu">
-     <a href="about.html">
-      NMIXXについて
-     </a>
-     <a href="about-fanbase.html">
-      NSWER JAPAN FBについて
-     </a>
-    </div>
-   </details>
-   <details class="mobile-group">
-    <summary>
-     音楽
-    </summary>
-    <div class="mobile-submenu">
-     <a href="music.html">
-      ディスコグラフィ
-     </a>
-     <a href="mv.html">
-      MV一覧
-     </a>
-    </div>
-   </details>
-   <details class="mobile-group">
-    <summary>
-     音楽番組
-    </summary>
-    <div class="mobile-submenu">
-     <a href="showchampion.html">
-      Show Champion
-     </a>
-     <a href="mcountdown.html">
-      M Countdown
-     </a>
-     <a href="musicbank.html">
-      Music Bank
-     </a>
-     <a href="musiccore.html">
-      Music Core
-     </a>
-     <a href="inkigayo.html">
-      Inkigayo
-     </a>
-    </div>
-   </details>
-   <details class="mobile-group">
-    <summary>
-     ストリーミング
-    </summary>
-    <div class="mobile-submenu">
-     <a href="streaming-guide.html">
-      ストリーミングガイド
-     </a>
-     <a href="youtube-guide.html">
-      YouTube
-     </a>
-     <a href="spotify-guide.html">
-      Spotify
-     </a>
-     <a href="applemusic-guide.html">
-      Apple Music
-     </a>
-     <a href="stationhead-guide.html">
-      Stationhead
-     </a>
-     <a href="tiktok-guide.html">
-      TikTok
-     </a>
-     <a href="duckad-guide.html">
-      DuckAd
-     </a>
-    </div>
-   </details>
-   <details class="mobile-group">
-    <summary>
-     記録
-    </summary>
-    <div class="mobile-submenu">
-     <a href="wins.html">
-      音楽番組1位 獲得数
-     </a>
-     <a href="hanteo.html">
-      ハントチャート
-     </a>
-     <a href="melon.html">
-      Melonチャート
-     </a>
-    </div>
-   </details>
-   <a href="schedule.html">
-    スケジュール
-   </a>
-   <details class="mobile-group">
-    <summary>
-     投票
-    </summary>
-    <div class="mobile-submenu">
-     <a href="support.html">
-      応援ガイド
-     </a>
-     <a href="voting-score.html">
-      投票早見表
-     </a>
-     <a href="apps.html">
-      投票アプリ一覧
-     </a>
-     <a href="vote-guide.html">
-      投票券の集め方
-     </a>
-    </div>
-   </details>
-   <details class="mobile-group">
-    <summary>
-     リンク
-    </summary>
-    <div class="mobile-submenu">
-     <a href="links.html">
-      公式リンク
-     </a>
-     <a href="membership-guide.html">
-      NSWER JAPAN / MOBILEの違い
-     </a>
-     <a href="contact.html">
-      お問い合わせ
-     </a>
-     <a href="fan-project.html">
-      ファンプロジェクト
-     </a>
-    </div>
-   </details>
-  </nav>
-  <div class="container schedule-page">
-   <section class="page-header">
-    <h1>
+<link href="https://nswerjapan.jp/schedule.html" rel="canonical"/><meta content="NSWER JAPAN FB" property="og:site_name"/><meta content="website" property="og:type"/><meta content="スケジュール | NSWER JAPAN FB" property="og:title"/><meta content="NMIXXのライブ、ファンクラブ、リリース、メンバー誕生日などのスケジュールをまとめています。" property="og:description"/><meta content="https://nswerjapan.jp/schedule.html" property="og:url"/><meta content="https://nswerjapan.jp/ogp.jpg" property="og:image"/><meta content="summary_large_image" name="twitter:card"/></head>
+<body><header>
+<div class="nav">
+<a class="logo" href="index.html">NSWER JAPAN FB</a>
+<nav aria-label="Main navigation" class="nav-links">
+<a href="index.html">ホーム</a>
+<a href="news.html">ニュース</a>
+<a href="schedule.html">スケジュール</a>
+<div class="dropdown"><span class="dropdown-toggle">NMIXX</span><div class="dropdown-menu">
+<a href="about.html">NMIXXについて</a><a href="about-fanbase.html">ファンベースについて</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu">
+<a href="music.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">ストリーミング</span><div class="dropdown-menu">
+<a href="streaming-guide.html">総合ガイド</a><a href="youtube-guide.html">YouTube</a><a href="spotify-guide.html">Spotify</a><a href="applemusic-guide.html">Apple Music</a><a href="stationhead-guide.html">Stationhead</a><a href="tiktok-guide.html">TikTok</a><a href="duckad-guide.html">DuckAD</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu">
+<a href="support.html">応援ガイドTOP</a><a href="voting-score.html">投票早見表</a><a href="apps.html">投票アプリ一覧</a><a href="vote-guide.html">投票券の集め方</a><a href="showchampion.html">Show Champion</a><a href="mcountdown.html">M Countdown</a><a href="musicbank.html">Music Bank</a><a href="musiccore.html">Music Core</a><a href="inkigayo.html">Inkigayo</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">記録</span><div class="dropdown-menu">
+<a href="wins.html">音楽番組1位</a><a href="hanteo.html">Hanteo</a><a href="melon.html">Melon</a>
+</div></div>
+<div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
+<a href="links.html">公式リンク</a><a href="membership-guide.html">FC案内</a><a href="contact.html">お問い合わせ</a>
+</div></div>
+</nav>
+<div class="nav-actions"><button aria-label="テーマ切り替え" class="theme-toggle" id="themeToggle" type="button">🌙</button><div aria-label="メニュー" class="hamburger" id="hamburger">☰</div></div>
+</div>
+</header>
+<nav aria-label="Mobile navigation" class="mobile-menu" id="mobileMenu">
+<a href="index.html">ホーム</a><a href="news.html">ニュース</a><a href="schedule.html">スケジュール</a>
+<details class="mobile-group"><summary>NMIXX</summary><div class="mobile-submenu"><a href="about.html">NMIXXについて</a><a href="about-fanbase.html">ファンベースについて</a></div></details>
+<details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="music.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a></div></details>
+<details class="mobile-group"><summary>ストリーミング</summary><div class="mobile-submenu"><a href="streaming-guide.html">総合ガイド</a><a href="youtube-guide.html">YouTube</a><a href="spotify-guide.html">Spotify</a><a href="applemusic-guide.html">Apple Music</a><a href="stationhead-guide.html">Stationhead</a><a href="tiktok-guide.html">TikTok</a><a href="duckad-guide.html">DuckAD</a></div></details>
+<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="support.html">応援ガイドTOP</a><a href="voting-score.html">投票早見表</a><a href="apps.html">投票アプリ一覧</a><a href="vote-guide.html">投票券の集め方</a><a href="showchampion.html">Show Champion</a><a href="mcountdown.html">M Countdown</a><a href="musicbank.html">Music Bank</a><a href="musiccore.html">Music Core</a><a href="inkigayo.html">Inkigayo</a></div></details>
+<details class="mobile-group"><summary>記録</summary><div class="mobile-submenu"><a href="wins.html">音楽番組1位</a><a href="hanteo.html">Hanteo</a><a href="melon.html">Melon</a></div></details>
+<details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a><a href="membership-guide.html">FC案内</a><a href="contact.html">お問い合わせ</a></div></details>
+</nav>
+
+
+<div class="container schedule-page">
+<section class="page-header">
+<h1>
      スケジュール
     </h1>
-   </section>
-   <section class="section">
-    <div class="section-card">
-     <h2 class="section-title">
+</section>
+<section class="section">
+<div class="section-card">
+<h2 class="section-title">
       東京公演カウントダウン
      </h2>
-     <div class="countdown-card">
-      <div>
-       <div class="countdown-kicker">
+<div class="countdown-card">
+<div>
+<div class="countdown-kicker">
         東京公演
        </div>
-       <div>
-        <span class="countdown-num" id="countdownDays">
+<div>
+<span class="countdown-num" id="countdownDays">
          --
         </span>
-        <span class="countdown-unit">
+<span class="countdown-unit">
          日
         </span>
-       </div>
-      </div>
-      <div class="countdown-meta">
+</div>
+</div>
+<div class="countdown-meta">
        2026.08.08 / KEIO ARENA TOKYO / OPEN 16:30 START 17:30
       </div>
-     </div>
-    </div>
-   </section>
-   <section class="section">
-    <div class="section-card">
-     <h2 class="section-title">
+</div>
+</div>
+</section>
+<section class="section">
+<div class="section-card">
+<h2 class="section-title">
       直近の予定
      </h2>
-     <div class="upcoming-list" id="upcomingList">
-     </div>
-    </div>
-   </section>
-   <section class="section">
-    <div class="section-card">
-     <h2 class="section-title">
+<div class="upcoming-list" id="upcomingList">
+</div>
+</div>
+</section>
+<section class="section">
+<div class="section-card">
+<h2 class="section-title">
       Heavy Serenade カムバックスケジュール
      </h2>
-     <div class="card" style="display:grid;gap:24px;align-items:start;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:12px;">
-      <div>
-       <img alt="Heavy Serenade スケジュール" src="images/heavy-serenade-schedule.jpg" style="width:100%;border-radius:20px;border:1px solid var(--line)"/>
-      </div>
-      <div>
-       <p>
-        <strong>
+<div class="card" style="display:grid;gap:24px;align-items:start;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:12px;">
+<div>
+<img alt="Heavy Serenade スケジュール" src="images/heavy-serenade-schedule.jpg" style="width:100%;border-radius:20px;border:1px solid var(--line)"/>
+</div>
+<div>
+<p>
+<strong>
          5月11日
         </strong>
         にNMIXX 5th EP
@@ -437,316 +186,312 @@
         </strong>
         がリリースされます。
        </p>
-       <p class="subtle">
+<p class="subtle">
         販売形態: Heavy Ver. / Serenade Ver. / POCAALBUM Ver. / Melody Box Ver.
        </p>
-       <div class="hs-text-schedule">
-        <div class="hs-row">
-         <div class="hs-date">
+<div class="hs-text-schedule">
+<div class="hs-row">
+<div class="hs-date">
           4/21 22:00
          </div>
-         <div class="hs-desc">
+<div class="hs-desc">
           “Heavy Serenade” Album Trailer
          </div>
-        </div>
-        <div class="hs-row">
-         <div class="hs-date">
+</div>
+<div class="hs-row">
+<div class="hs-date">
           4/22 22:00
          </div>
-         <div class="hs-desc">
+<div class="hs-desc">
           Track List / “Heavy Serenade” Motion Poster
          </div>
-        </div>
-        <div class="hs-row">
-         <div class="hs-date">
+</div>
+<div class="hs-row">
+<div class="hs-date">
           4/24 00:00
          </div>
-         <div class="hs-desc">
+<div class="hs-desc">
           Concept Photo: Heavy Ver.
          </div>
-        </div>
-        <div class="hs-row">
-         <div class="hs-date">
+</div>
+<div class="hs-row">
+<div class="hs-date">
           4/25 00:00
          </div>
-         <div class="hs-desc">
+<div class="hs-desc">
           Concept Photo: Serenade Ver.
          </div>
-        </div>
-        <div class="hs-row">
-         <div class="hs-date">
+</div>
+<div class="hs-row">
+<div class="hs-date">
           4/26 00:00
          </div>
-         <div class="hs-desc">
+<div class="hs-desc">
           “Heavy Serenade” Special Website Launch
          </div>
-        </div>
-        <div class="hs-row">
-         <div class="hs-date">
+</div>
+<div class="hs-row">
+<div class="hs-date">
           4/27 00:00
          </div>
-         <div class="hs-desc">
+<div class="hs-desc">
           Pre-release “Crescendo” M/V Teaser
          </div>
-        </div>
-        <div class="hs-row">
-         <div class="hs-date">
+</div>
+<div class="hs-row">
+<div class="hs-date">
           4/28 18:00
          </div>
-         <div class="hs-desc">
+<div class="hs-desc">
           Pre-release “Crescendo” M/V
          </div>
-        </div>
-        <div class="hs-row">
-         <div class="hs-date">
+</div>
+<div class="hs-row">
+<div class="hs-date">
           5/3 20:00
          </div>
-         <div class="hs-desc">
+<div class="hs-desc">
           A Cappella Highlight Medley
          </div>
-        </div>
-        <div class="hs-row">
-         <div class="hs-date">
+</div>
+<div class="hs-row">
+<div class="hs-date">
           5/7 20:00
          </div>
-         <div class="hs-desc">
+<div class="hs-desc">
           Original Highlight Medley
          </div>
-        </div>
-        <div class="hs-row">
-         <div class="hs-date">
+</div>
+<div class="hs-row">
+<div class="hs-date">
           5/8 12:00
          </div>
-         <div class="hs-desc">
+<div class="hs-desc">
           “Heavy Serenade” 3D Album Preview
          </div>
-        </div>
-        <div class="hs-row">
-         <div class="hs-date">
+</div>
+<div class="hs-row">
+<div class="hs-date">
           5/10 00:00
          </div>
-         <div class="hs-desc">
+<div class="hs-desc">
           “Heavy Serenade” M/V Teaser
          </div>
-        </div>
-        <div class="hs-row">
-         <div class="hs-date">
+</div>
+<div class="hs-row">
+<div class="hs-date">
           5/11 16:40
          </div>
-         <div class="hs-desc">
+<div class="hs-desc">
           “Heavy Serenade” Countdown Live
          </div>
-        </div>
-        <div class="hs-row">
-         <div class="hs-date">
+</div>
+<div class="hs-row">
+<div class="hs-date">
           5/11 18:00
          </div>
-         <div class="hs-desc">
+<div class="hs-desc">
           “Heavy Serenade” M/V
          </div>
-        </div>
-        <div class="hs-row">
-         <div class="hs-date">
+</div>
+<div class="hs-row">
+<div class="hs-date">
           5/18 18:00
          </div>
-         <div class="hs-desc">
+<div class="hs-desc">
           In-ear Monitor Audio
          </div>
-        </div>
-       </div>
-       <p class="hs-note">
+</div>
+</div>
+<p class="hs-note">
         画像のスケジュールを文字でも確認できるように、カレンダーページ内にテキスト版を追加しています。
        </p>
-      </div>
-     </div>
-    </div>
-   </section>
-   <section class="section">
-    <div class="section-card">
-     <div class="map-section-title">
-      <h2 class="section-title">
+</div>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="section-card">
+<div class="map-section-title">
+<h2 class="section-title">
        ワールドツアー
       </h2>
-      <div class="map-note">
+<div class="map-note">
        ドラッグ・ズームできます
       </div>
-     </div>
-     <div class="tour-legend">
-      <span class="pill">
-       <i class="dot kr">
-       </i>
+</div>
+<div class="tour-legend">
+<span class="pill">
+<i class="dot kr">
+</i>
        韓国
       </span>
-      <span class="pill">
-       <i class="dot eu">
-       </i>
+<span class="pill">
+<i class="dot eu">
+</i>
        ヨーロッパ
       </span>
-      <span class="pill">
-       <i class="dot na">
-       </i>
+<span class="pill">
+<i class="dot na">
+</i>
        北米
       </span>
-      <span class="pill">
-       <i class="dot jp">
-       </i>
+<span class="pill">
+<i class="dot jp">
+</i>
        日本
       </span>
-     </div>
-     <div id="tourMap">
-     </div>
-     <div class="tour-groups">
-      <div class="tour-group kr">
-       <h3>
+</div>
+<div id="tourMap">
+</div>
+<div class="tour-groups">
+<div class="tour-group kr">
+<h3>
         韓国
        </h3>
-       <p class="tour-date">
+<p class="tour-date">
         2025年11月29日〜30日
        </p>
-       <p>
+<p>
         仁川 / INSPIRE ARENA
        </p>
-      </div>
-      <div class="tour-group eu">
-       <h3>
+</div>
+<div class="tour-group eu">
+<h3>
         ヨーロッパ
        </h3>
-       <ul>
-        <li>
+<ul>
+<li>
          2026年3月17日 / マドリード / PALACIO VISTALEGRE
         </li>
-        <li>
+<li>
          2026年3月20日 / アムステルダム / AFAS LIVE
         </li>
-        <li>
+<li>
          2026年3月22日 / パリ / SALLE PLEYEL
         </li>
-        <li>
+<li>
          2026年3月24日 / フランクフルト / MYTICKET JAHRHUNDERTHALLE
         </li>
-        <li>
+<li>
          2026年3月26日 / ロンドン / EVENTIM APOLLO
         </li>
-       </ul>
-      </div>
-      <div class="tour-group na">
-       <h3>
+</ul>
+</div>
+<div class="tour-group na">
+<h3>
         北米
        </h3>
-       <ul>
-        <li>
+<ul>
+<li>
          2026年3月29日 / トロント / GREAT CANADIAN TORONTO
         </li>
-        <li>
+<li>
          2026年3月31日 / ブルックリン / BROOKLYN PARAMOUNT
         </li>
-        <li>
+<li>
          2026年4月2日 / ナショナルハーバー / THE THEATER AT MGM NATIONAL HARBOR
         </li>
-        <li>
+<li>
          2026年4月4日 / アービング / THE PAVILION AT TOYOTA MUSIC FACTORY
         </li>
-        <li>
+<li>
          2026年4月7日 / オークランド / PARAMOUNT THEATRE
         </li>
-        <li>
+<li>
          2026年4月9日 / ロサンゼルス / YOUTUBE THEATER
         </li>
-       </ul>
-      </div>
-      <div class="tour-group jp">
-       <h3>
+</ul>
+</div>
+<div class="tour-group jp">
+<h3>
         日本
        </h3>
-       <p class="tour-date">
+<p class="tour-date">
         2026年8月8日〜9日 🆕
        </p>
-       <p>
+<p>
         東京 / KEIO ARENA TOKYO
        </p>
-      </div>
-     </div>
-    </div>
-   </section>
-   <section class="section">
-    <div class="section-card">
-     <h2 class="section-title">
+</div>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="section-card">
+<h2 class="section-title">
       カレンダー
      </h2>
-     <div class="legend-mini">
-      <span class="legend-pill live">
+<div class="legend-mini">
+<span class="legend-pill live">
        LIVE
       </span>
-      <span class="legend-pill fc">
+<span class="legend-pill fc">
        FC
       </span>
-      <span class="legend-pill birthday">
+<span class="legend-pill birthday">
        誕生日
       </span>
-      <span class="legend-pill live">
+<span class="legend-pill live">
        COMEBACK
       </span>
-     </div>
-     <div class="calendar-controls">
-      <button id="prevMonth" type="button">
+</div>
+<div class="calendar-controls">
+<button id="prevMonth" type="button">
        ‹
       </button>
-      <div class="month-label" id="monthLabel">
-      </div>
-      <button id="nextMonth" type="button">
+<div class="month-label" id="monthLabel">
+</div>
+<button id="nextMonth" type="button">
        ›
       </button>
-     </div>
-     <div class="calendar-weekdays">
-      <div>
+</div>
+<div class="calendar-weekdays">
+<div>
        Sun
       </div>
-      <div>
+<div>
        Mon
       </div>
-      <div>
+<div>
        Tue
       </div>
-      <div>
+<div>
        Wed
       </div>
-      <div>
+<div>
        Thu
       </div>
-      <div>
+<div>
        Fri
       </div>
-      <div>
+<div>
        Sat
       </div>
-     </div>
-     <div class="calendar-grid" id="calendarGrid">
-     </div>
-    </div>
-   </section>
-   <section class="section">
-    <div class="section-card">
-     <h2 class="section-title">
+</div>
+<div class="calendar-grid" id="calendarGrid">
+</div>
+</div>
+</section>
+<section class="section">
+<div class="section-card">
+<h2 class="section-title">
       月別の予定一覧
      </h2>
-     <div class="month-list" id="monthList">
-     </div>
-    </div>
-   </section>
-  </div>
-  <footer>
-   <div>
-    NSWER JAPAN FB
-   </div>
-   <div class="footer-note">
-    このサイトはNMIXXを応援するためのファンサイトです。
-   </div>
-  </footer>
-  <script src="js/common.js">
-  </script>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
-  </script>
-  <script>
+<div class="month-list" id="monthList">
+</div>
+</div>
+</section>
+</div>
+<footer>
+<div><strong>NSWER JAPAN FB</strong></div>
+<div class="footer-note">このサイトはNMIXXを応援する非公式ファンベースです。公式情報は各公式サイト・アプリもあわせてご確認ください。</div>
+</footer>
+<script src="js/common.js">
+</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+</script>
+<script>
    const events=[
 {date:'2026-04-21',type:'COMEBACK',title:'22:00 Album Trailer'},
 {date:'2026-04-22',type:'COMEBACK',title:'22:00 Track List / Motion Poster'},
@@ -782,11 +527,11 @@
 {date:'2026-04-05',type:'FC',title:'NSWER JAPAN先行 締切 23:59'},
 {date:'2026-04-06',type:'FC',title:'MOBILE先行 受付開始'},
 {date:'2026-04-15',type:'FC',title:'MOBILE先行 締切 23:59'},
-{date:'2026-01-17',type:'BIRTHDAY',title:'LILY 誕生日'},
-{date:'2026-01-26',type:'BIRTHDAY',title:'JIWOO 誕生日'},
-{date:'2026-02-26',type:'BIRTHDAY',title:'KYUJIN 誕生日'},
-{date:'2026-05-25',type:'BIRTHDAY',title:'HAEWON 誕生日'},
-{date:'2026-06-28',type:'BIRTHDAY',title:'SULLYOON 誕生日'},
+{date:'2026-01-26',type:'BIRTHDAY',title:'SULLYOON 誕生日'},
+{date:'2026-02-25',type:'BIRTHDAY',title:'HAEWON 誕生日'},
+{date:'2026-04-13',type:'BIRTHDAY',title:'JIWOO 誕生日'},
+{date:'2026-05-26',type:'BIRTHDAY',title:'KYUJIN 誕生日'},
+{date:'2026-10-17',type:'BIRTHDAY',title:'LILY 誕生日'},
 {date:'2026-12-28',type:'BIRTHDAY',title:'BAE 誕生日'}
 ];
 
@@ -897,5 +642,5 @@ document.getElementById('prevMonth').addEventListener('click',()=>{currentMonth-
 document.getElementById('nextMonth').addEventListener('click',()=>{currentMonth++;if(currentMonth>11){currentMonth=0;currentYear++;}rerenderAll();});
 initMap();
   </script>
- </body>
+</body>
 </html>

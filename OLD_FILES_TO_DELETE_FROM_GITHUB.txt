@@ -1,0 +1,23 @@
+GitHub上に残っていたら削除推奨:
+
+index_search_console/
+nswer_complete_setup/
+nswerjapan-index-final-head/
+nswerjapan-ogp-update/
+nswer_real_worldmap_leaflet.zip
+nswer_support_final_records_fixed.zip
+CLEANUP_GUIDE.txt
+DELETE_THESE_FROM_GITHUB.txt
+INSTALL.txt
+README_DOMAIN_CHANGE.txt
+README_IMAGES.txt
+SCHEDULE_UPDATE_README.txt
+
+通常ナビから外したページ（削除ではなく残してOK）:
+fan-project.html
+event-wmember-campaign.html
+zero-frontier-incheon-photobook.html
+
+リダイレクトとして残すページ:
+discography.html -> music.html
+youtube.html -> youtube-guide.html

@@ -1,13 +1,12 @@
-Heavy Serenade 更新差し替え用セットです。
+NSWER JAPAN FB Relaunch Version
 
-含まれるファイル:
-- index.html
-- news.html
-- js/wins-data.js
+主な変更:
+- トップページを再公開版として再設計
+- ナビを整理（音楽番組・投票アプリ系は応援ガイド配下へ）
+- メンバー誕生日を修正
+- 期限切れ/準備中ページを通常ナビから非表示
+- discography.html / youtube.html は新ページへリダイレクト
+- robots.txt / sitemap.xml / canonical / OGP を nswerjapan.jp に合わせて整理
+- CNAME / .nojekyll を同梱
 
-変更内容:
-- トップページの最新情報に Heavy Serenade のカムバック情報を軽め表示で追加
-- ニュースページでも Heavy Serenade の記事が表示されるように更新
-- 記事内容はカムバック日とアルバムバージョン中心に整理
-
-既存サイト一式の中で、同名ファイルを上書きしてください。
+アップロード前に GITHUB_UPLOAD_GUIDE.txt を確認してください。
