@@ -23,9 +23,15 @@
    return `<li><span class="track-no">${escapeHtml(item.no||String(index+1).padStart(2,'0'))}</span><span class="track-title">${escapeHtml(item.title||'曲名未設定')}</span>${action}</li>`;
   }).join('');
   const actions=[];
-  const apple=safeUrl(release.appleMusic); const spotify=safeUrl(release.spotify);
+  const official=safeUrl(release.officialLink); const apple=safeUrl(release.appleMusic); const spotify=safeUrl(release.spotify);
+  const youtubeMusic=safeUrl(release.youtubeMusic); const youtube=safeUrl(release.youtube); const lineMusic=safeUrl(release.lineMusic); const purchase=safeUrl(release.purchase);
+  if(official)actions.push(`<a class="release-link primary" href="${escapeHtml(official)}" rel="noopener noreferrer" target="_blank">公式配信一覧 ↗</a>`);
   if(apple)actions.push(`<a class="release-link" href="${escapeHtml(apple)}" rel="noopener noreferrer" target="_blank"><img alt="" src="assets/platform-icons/apple-music.png">Apple Music ↗</a>`);
   if(spotify)actions.push(`<a class="release-link" href="${escapeHtml(spotify)}" rel="noopener noreferrer" target="_blank"><img alt="" src="assets/platform-icons/spotify.png">Spotify ↗</a>`);
+  if(youtubeMusic)actions.push(`<a class="release-link" href="${escapeHtml(youtubeMusic)}" rel="noopener noreferrer" target="_blank"><img alt="" src="assets/platform-icons/youtube.png">YouTube Music ↗</a>`);
+  if(youtube)actions.push(`<a class="release-link" href="${escapeHtml(youtube)}" rel="noopener noreferrer" target="_blank"><img alt="" src="assets/platform-icons/youtube.png">MV / YouTube ↗</a>`);
+  if(lineMusic)actions.push(`<a class="release-link" href="${escapeHtml(lineMusic)}" rel="noopener noreferrer" target="_blank">LINE MUSIC ↗</a>`);
+  if(purchase)actions.push(`<a class="release-link" href="${escapeHtml(purchase)}" rel="noopener noreferrer" target="_blank">購入ページ ↗</a>`);
   return `<article class="card release-card${cover?' has-cover':''}" id="${escapeHtml(release.anchor||`release-${release.slug||'item'}`)}">${coverHtml}<div class="release-card-body"><div class="release-mark">${escapeHtml(release.mark||'RS')}</div><div class="release-meta"><span class="badge">${escapeHtml(release.badge||release.categoryName||'RELEASE')}</span><time datetime="${escapeHtml(release.releaseDate||'')}">${escapeHtml(formatDate(release.releaseDate))}</time></div><span class="release-type">${escapeHtml(release.type||release.categoryName||'RELEASE')}</span><div class="release-headline"><div><h2>${escapeHtml(release.title||'タイトル未設定')}</h2></div></div>${release.description?`<p class="release-desc">${escapeHtml(release.description)}</p>`:''}${tracks?`<ul class="track-list">${tracks}</ul>`:''}${actions.length?`<div class="release-actions">${actions.join('')}</div>`:''}</div></article>`;
  };
  const categorySection=category=>{

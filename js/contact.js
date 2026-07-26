@@ -22,9 +22,10 @@
   text('contactMainBadge',main.englishLabel||'CONTACT');rich('contactMainTitle',main.heading||main.title);text('contactMainDescription',main.description);
   const button=document.getElementById('contactMainButton');
   if(button){
-   if(main.buttonLabel)button.textContent=main.buttonLabel;
    const href=safeHref(main.linkUrl);
-   if(href)button.href=href;
+   const label=String(main.buttonLabel||'').trim();
+   if(href&&label){button.textContent=label;button.href=href;button.hidden=false;}
+   else{button.hidden=true;button.removeAttribute('href');}
   }
  }
  const routes=byType('連絡経路');

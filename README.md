@@ -4,12 +4,13 @@ NMIXXを日本から応援する非公式ファンベースサイトです。Git
 
 ## 特徴
 
-- 管理元はリポジトリ内のJSON・CSV・画像
+- 日常更新はNSWER専用Notion、緊急時はリポジトリ内JSON・CSVへフォールバック
 - 日本語／韓国語／英語の表示切替
 - スマートフォン対応、ダーク／ライト表示、サイト内検索、お気に入り、共有
 - SEO、ページ別OGP、構造化データ、サイトマップ、PWA、オフライン画面
+- NSWER専用NotionをGitHub Actionsで同期し、画像もリポジトリへ保存
 - 公式YouTubeチャンネルの公開コンテンツをGitHub Actionsで自動取得
-- 自動取得失敗時も前回データを維持
+- Notion・YouTubeの取得失敗時も前回データを維持
 - 音楽番組1位、Melon、Hanteo、ニュース記事などを静的ページへ自動生成
 
 ## 最初に読むファイル
@@ -18,6 +19,7 @@ NMIXXを日本から応援する非公式ファンベースサイトです。Git
 - `docs/データ更新マニュアル.md`: 各JSON／CSVの項目と更新例
 - `docs/移行設計・検査レポート.md`: 構成比較、移行方針、検査内容
 - `docs/画像素材一覧.md`: 採用画像の出典区分と差し替えルール
+- `docs/Notion同期設定.md`: NSWER専用Notion IntegrationとGitHub Secretの設定
 - `DELETE_OLD_FILES_BEFORE_UPLOAD.md`: 既存リポジトリへ上書きする際の注意
 
 ## 基本コマンド

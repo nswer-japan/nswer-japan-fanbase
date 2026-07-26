@@ -92,14 +92,15 @@ html.light-mode .summary-card,html.light-mode .sync-card,html.light-mode .operat
 <!-- SITE-HEADER-END -->
 <main class="container">
 <section class="page-header section status-hero" id="top"><span class="page-kicker">DATA &amp; BUILD STATUS</span><h1>データ・更新状況</h1><p>サイトの公開データ、生成処理、自動取得、品質検査の構成を確認する管理ページです。</p></section>
-<section class="section"><div class="record-overview"><article class="card record-stat"><small>MANUAL DATA</small><strong>JSON / CSV</strong><span>GitHub内で編集</span></article><article class="card record-stat"><small>AUTO DATA</small><strong>YouTube</strong><span>公開情報のみ取得</span></article><article class="card record-stat"><small>FAIL SAFE</small><strong>KEEP</strong><span>取得失敗時は既存データ維持</span></article></div></section>
+<section class="section"><div class="record-overview"><article class="card record-stat"><small>PRIMARY DATA</small><strong>NOTION</strong><span>NSWER専用DBから同期</span></article><article class="card record-stat"><small>AUTO DATA</small><strong>YouTube</strong><span>公開情報のみ取得</span></article><article class="card record-stat"><small>FAIL SAFE</small><strong>KEEP</strong><span>取得失敗時は既存データ維持</span></article></div></section>
 <section class="section"><div class="section-head"><div><span class="section-kicker">WORKFLOWS</span><h2 class="section-title">更新処理</h2></div></div><div class="grid-2">
 <article class="card"><h3>YouTube自動更新</h3><p><code>.github/workflows/sync-youtube.yml</code></p><p>公式チャンネルの公開動画を取得します。失敗した場合は既存のJSONへ書き戻しません。</p></article>
-<article class="card"><h3>手動データ生成</h3><p><code>.github/workflows/build-content.yml</code></p><p>JSON・CSVから表示用JS、記録ページ、検索、SEO、PWAを生成します。</p></article>
+<article class="card"><h3>Notion自動同期</h3><p><code>.github/workflows/sync-notion.yml</code></p><p>NSWER専用Notionからデータと画像を取得します。空データや失敗時は既存JSONを維持します。</p></article>
+<article class="card"><h3>JSON・CSV生成</h3><p><code>.github/workflows/build-content.yml</code></p><p>緊急時の手動データから表示用JS、記録ページ、検索、SEO、PWAを生成します。</p></article>
 <article class="card"><h3>サイト検査</h3><p><code>.github/workflows/check-site.yml</code></p><p>JSON、内部リンク、画像、構文、禁止文字列を検査します。</p></article>
-<article class="card"><h3>全体同期</h3><p><code>.github/workflows/sync-all.yml</code></p><p>YouTube取得、全生成、検査を順番に実行します。</p></article>
+<article class="card"><h3>全体同期</h3><p><code>.github/workflows/sync-all.yml</code></p><p>Notion同期、YouTube取得、全生成、検査を順番に実行します。</p></article>
 </div></section>
-<section class="section"><div class="card"><span class="section-kicker">OPERATIONS</span><h2>スマートフォンからの更新</h2><p>GitHubのWeb編集またはGitHub Mobileから <code>data/</code> のJSONを編集し、コミット後に「Build Repository Content」を実行します。詳しい操作は <code>docs/データ更新マニュアル.md</code> を確認してください。</p></div></section>
+<section class="section"><div class="card"><span class="section-kicker">OPERATIONS</span><h2>スマートフォンからの更新</h2><p>通常はNotionアプリから更新し、必要に応じて「Sync Notion Content」を実行します。緊急時はGitHubのWeb編集またはGitHub Mobileから <code>data/</code> のJSONを編集できます。詳しい操作は <code>docs/データ更新マニュアル.md</code> を確認してください。</p></div></section>
 </main>
 <!-- SITE-FOOTER-START -->
 <footer class="site-footer"><div class="footer-inner"><div><strong>NSWER JAPAN FB</strong><p>NMIXXを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="favorites.html">FAVORITES</a><a href="updates.html">UPDATES</a><a href="sync-status.html">DATA STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はNMIXXおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> NSWER JAPAN FB</div></footer>

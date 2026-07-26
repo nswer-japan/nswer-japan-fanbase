@@ -385,7 +385,6 @@ def static_structured_data(filename: str, meta: dict, canonical: str, image_url:
                 "alternateName": ALT_SITE_NAME,
                 "url": f"{BASE_URL}/",
                 "description": "NMIXXを日本から応援する非公式ファンベースです。",
-                "sameAs": ["https://x.com/nswer_japan"],
             },
         ])
     items.append(webpage)

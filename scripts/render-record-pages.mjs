@@ -75,7 +75,7 @@ const winList = wins.length ? `<div class="wins-list">${[...wins].reverse().map(
     <div class="record-win-image"><img src="${esc(image)}" alt="${esc(item.song || item.title)}が${esc(item.program || "音楽番組")}で1位を獲得した際の画像" loading="lazy"></div>
     <div class="record-win-copy"><div class="record-win-meta"><span class="wins-number">${String(wins.length - index).padStart(2, "0")}</span><time datetime="${esc(item.date)}">${esc(dateJa(item.date))}</time><span class="badge">${esc(item.program || "MUSIC SHOW")}</span></div>
     <h2>${esc(item.song || item.title)}</h2><p>${esc(item.description || "音楽番組で1位を獲得しました。")}</p>
-    <div class="win-detail-grid"><div class="win-detail"><small>PROGRAM</small><strong>${esc(item.program || "未入力")}</strong></div><div class="win-detail"><small>DATE</small><strong>${esc(dateJa(item.date))}</strong></div><div class="win-detail"><small>SONG</small><strong>${esc(item.song || "未入力")}</strong></div></div>
+    <div class="win-detail-grid"><div class="win-detail"><small>PROGRAM</small><strong>${esc(item.program || "未入力")}</strong></div><div class="win-detail"><small>DATE</small><strong>${esc(dateJa(item.date))}</strong></div><div class="win-detail"><small>SONG</small><strong>${esc(item.song || "未入力")}</strong></div><div class="win-detail"><small>SCORE</small><strong>${Number.isFinite(Number(item.score)) ? Number(item.score).toLocaleString("ja-JP") + "点" : "未登録"}</strong></div></div>
     ${video ? `<div class="win-actions"><a class="btn btn-primary" href="${esc(video)}" target="_blank" rel="noopener noreferrer">${esc(item.videoLabel || "映像を見る")} ↗</a></div>` : ""}</div>
   </article>`;
 }).join("\n")}</div>` : '<div class="card record-empty">公開中の音楽番組1位記録はまだありません。</div>';
@@ -103,7 +103,7 @@ await replaceBlock("records.html", "RECORDS-MILESTONES", milestones);
 {
   const recordsPath = "records.html";
   const source = await readFile(recordsPath, "utf8");
-  const next = source.replace("番組、獲得日、スコア、獲得時の映像を一覧で確認できます。", "番組、獲得日、楽曲、獲得時の映像を一覧で確認できます。");
+  const next = source.replace("番組、獲得日、スコア、獲得時の映像を一覧で確認できます。", "番組、獲得日、スコア、楽曲、獲得時の映像を一覧で確認できます。");
   if (next !== source) await writeFile(recordsPath, next, "utf8");
 }
 await replaceBlock("music-show-wins.html", "MUSIC-WINS-OVERVIEW", winOverview);

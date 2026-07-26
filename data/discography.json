@@ -65,7 +65,7 @@
       "mark": "LATEST",
       "badge": "5th EP",
       "type": "5th EP",
-      "description": "Heavy Ver. / Serenade Ver. / POCAALBUM Ver. / Melody Box Ver.",
+      "description": "Heavy Ver. / Serenade Ver. / POCAALBUM Ver. / Melody Box Ver.。公式配信・MV・購入リンクを掲載しています。",
       "tracks": [
         "Crescendo",
         "Heavy Serenade",
@@ -74,14 +74,16 @@
         "Superior",
         "LOUD"
       ],
-      "appleMusic": "",
-      "spotify": "",
+      "appleMusic": "https://music.apple.com/jp/album/heavy-serenade-ep/1895913782",
+      "spotify": "https://open.spotify.com/album/18i8wouCElE4oR6OqfFecg",
       "lineMusic": "",
       "youtube": "https://www.youtube.com/watch?v=6Ycn9qZK09I",
       "purchase": "https://jp.ktown4u.com/eventsub?eve_no=13135207&biz_no=783",
       "cover": "assets/discography/heavy-serenade.jpg",
       "order": 130,
-      "published": true
+      "published": true,
+      "officialLink": "https://nmixx.lnk.to/heavyserenade",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_md4y1seQXLJ2UE-1bsVLeCjP4QvIbl4kM"
     },
     {
       "anchor": "tic-tic",
