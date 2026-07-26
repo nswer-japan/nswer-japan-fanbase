@@ -15,11 +15,11 @@ NMIXXを日本から応援する非公式ファンベースサイトです。Git
 
 ## 最初に読むファイル
 
-- `docs/運営マニュアル.md`: 公開、日常運営、Actions、障害対応
-- `docs/データ更新マニュアル.md`: 各JSON／CSVの項目と更新例
-- `docs/移行設計・検査レポート.md`: 構成比較、移行方針、検査内容
-- `docs/画像素材一覧.md`: 採用画像の出典区分と差し替えルール
-- `docs/Notion同期設定.md`: NSWER専用Notion IntegrationとGitHub Secretの設定
+- `docs/operations-manual.md`: 公開、日常運営、Actions、障害対応
+- `docs/data-update-manual.md`: 各JSON／CSVの項目と更新例
+- `docs/migration-and-test-report.md`: 構成比較、移行方針、検査内容
+- `docs/image-assets-guide.md`: 採用画像の出典区分と差し替えルール
+- `docs/notion-sync-setup.md`: NSWER専用Notion IntegrationとGitHub Secretの設定
 - `DELETE_OLD_FILES_BEFORE_UPLOAD.md`: 既存リポジトリへ上書きする際の注意
 
 ## 基本コマンド
