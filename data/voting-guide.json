@@ -1,0 +1,471 @@
+{
+  "generatedAt": "2026-07-26T20:02:09+09:00",
+  "source": "repository-json",
+  "status": {
+    "title": "現在の投票案内",
+    "description": "投票期間・配点・アプリ仕様は変更される場合があります。必ず番組とアプリの最新案内を確認してください。",
+    "type": "manual",
+    "lastChecked": "2026-07-26"
+  },
+  "programs": [
+    {
+      "title": "SHOW CHAMPION",
+      "subtitle": "水曜放送",
+      "mark": "WED",
+      "voteType": "事前投票",
+      "app": "IDOLCHAMP",
+      "currency": "CHAMSIM",
+      "period": "アプリ内の対象投票期間",
+      "note": "放送・投票期間は毎回公式案内を確認してください。",
+      "icon": "assets/voting/apps/idolchamp.png",
+      "order": 20,
+      "score": {
+        "meta": "水曜放送 / IDOLCHAMP",
+        "items": [
+          {
+            "label": "音源",
+            "value": "35%"
+          },
+          {
+            "label": "音盤",
+            "value": "15%"
+          },
+          {
+            "label": "YouTube",
+            "value": "10%"
+          },
+          {
+            "label": "事前投票",
+            "value": "20%"
+          },
+          {
+            "label": "放送点数",
+            "value": "20%"
+          }
+        ],
+        "note": "番組改編などで変更される可能性があります。最新の公式案内も確認してください。"
+      }
+    },
+    {
+      "title": "M COUNTDOWN",
+      "subtitle": "木曜放送",
+      "mark": "THU",
+      "voteType": "事前投票・リアルタイム投票",
+      "app": "Mnet Plus",
+      "currency": "ポイント不要",
+      "period": "対象期間中にアカウントで投票",
+      "note": "ログインと本人確認を事前に済ませます。",
+      "icon": "assets/voting/apps/mnetplus.png",
+      "order": 30,
+      "score": {
+        "meta": "木曜放送 / Mnet Plus",
+        "items": [
+          {
+            "label": "音源",
+            "value": "50%"
+          },
+          {
+            "label": "音盤",
+            "value": "15%"
+          },
+          {
+            "label": "YouTube・TikTok",
+            "value": "15%"
+          },
+          {
+            "label": "事前投票",
+            "value": "10%"
+          },
+          {
+            "label": "リアルタイム投票",
+            "value": "10%"
+          },
+          {
+            "label": "放送点数",
+            "value": "10%"
+          }
+        ],
+        "note": "番組改編などで変更される可能性があります。最新の公式案内も確認してください。"
+      }
+    },
+    {
+      "title": "Music Bank",
+      "subtitle": "金曜放送",
+      "mark": "FRI",
+      "voteType": "事前投票",
+      "app": "Fancast",
+      "currency": "Hearts",
+      "period": "対象投票期間",
+      "note": "放送日時と受付期間は変更される場合があります。",
+      "icon": "assets/voting/apps/fancast.png",
+      "order": 40,
+      "score": {
+        "meta": "金曜放送 / Fancast",
+        "items": [
+          {
+            "label": "デジタル",
+            "value": "60%"
+          },
+          {
+            "label": "音盤",
+            "value": "5%"
+          },
+          {
+            "label": "YouTube",
+            "value": "5%"
+          },
+          {
+            "label": "事前投票",
+            "value": "10%"
+          },
+          {
+            "label": "放送点数",
+            "value": "20%"
+          }
+        ],
+        "note": "番組改編などで変更される可能性があります。最新の公式案内も確認してください。"
+      }
+    },
+    {
+      "title": "Show! Music Core",
+      "subtitle": "土曜放送",
+      "mark": "SAT",
+      "voteType": "事前投票・リアルタイム投票",
+      "app": "Mubeat",
+      "currency": "Heart Beats",
+      "period": "対象期間中",
+      "note": "使用できるポイントの種類と期限を確認します。",
+      "icon": "assets/voting/apps/mubeat.png",
+      "order": 50,
+      "score": {
+        "meta": "土曜放送 / Mubeat",
+        "items": [
+          {
+            "label": "音源",
+            "value": "50%"
+          },
+          {
+            "label": "音盤",
+            "value": "15%"
+          },
+          {
+            "label": "YouTube",
+            "value": "15%"
+          },
+          {
+            "label": "事前投票",
+            "value": "10%"
+          },
+          {
+            "label": "リアルタイム投票",
+            "value": "10%"
+          },
+          {
+            "label": "放送・視聴者評価",
+            "value": "15%"
+          }
+        ],
+        "note": "番組改編などで変更される可能性があります。最新の公式案内も確認してください。"
+      }
+    },
+    {
+      "title": "Inkigayo",
+      "subtitle": "日曜放送",
+      "mark": "SUN",
+      "voteType": "事前投票",
+      "app": "LiNC",
+      "currency": "ファンポイント",
+      "period": "対象投票期間",
+      "note": "事前投票の対象回を確認します。",
+      "icon": "assets/voting/apps/linc.jpg",
+      "order": 60,
+      "score": {
+        "meta": "日曜放送 / LiNC",
+        "items": [
+          {
+            "label": "音源",
+            "value": "50%"
+          },
+          {
+            "label": "音盤",
+            "value": "10%"
+          },
+          {
+            "label": "YouTube",
+            "value": "20%"
+          },
+          {
+            "label": "事前投票",
+            "value": "5%"
+          },
+          {
+            "label": "リアルタイム投票",
+            "value": "5%"
+          },
+          {
+            "label": "放送点数",
+            "value": "10%"
+          }
+        ],
+        "note": "番組改編などで変更される可能性があります。最新の公式案内も確認してください。"
+      }
+    },
+    {
+      "title": "Inkigayo",
+      "subtitle": "日曜放送",
+      "mark": "LIVE",
+      "voteType": "リアルタイム投票",
+      "app": "HIGHER",
+      "currency": "ルビー",
+      "period": "生放送中",
+      "note": "受付時間が短いため事前ログインを推奨します。",
+      "icon": "assets/voting/apps/higher.png",
+      "order": 70,
+      "score": {
+        "meta": "日曜放送 / HIGHER",
+        "items": [
+          {
+            "label": "音源",
+            "value": "50%"
+          },
+          {
+            "label": "音盤",
+            "value": "10%"
+          },
+          {
+            "label": "YouTube",
+            "value": "20%"
+          },
+          {
+            "label": "事前投票",
+            "value": "5%"
+          },
+          {
+            "label": "リアルタイム投票",
+            "value": "5%"
+          },
+          {
+            "label": "放送点数",
+            "value": "10%"
+          }
+        ],
+        "note": "番組改編などで変更される可能性があります。最新の公式案内も確認してください。"
+      }
+    }
+  ],
+  "apps": [
+    {
+      "title": "IDOLCHAMP",
+      "subtitle": "SHOW CHAMPION",
+      "description": "CHAMSIMを集めて事前投票に使用します。",
+      "icon": "assets/voting/apps/idolchamp.png",
+      "tags": [
+        "SHOW CHAMPION",
+        "CHAMSIM"
+      ],
+      "appStore": "",
+      "googlePlay": "",
+      "guide": {
+        "steps": [
+          {
+            "image": "assets/voting/idolchamp-home.jpg",
+            "title": "1. ホームを開く",
+            "text": "アプリへログインして投票タブを確認します。"
+          },
+          {
+            "image": "assets/voting/idolchamp-vote-list.jpg",
+            "title": "2. 対象投票を選ぶ",
+            "text": "SHOW CHAMPIONの対象投票を選択します。"
+          },
+          {
+            "image": "assets/voting/idolchamp-showchampion-detail.jpg",
+            "title": "3. NMIXXへ投票",
+            "text": "曲名とアーティスト名を確認して投票します。"
+          },
+          {
+            "image": "assets/voting/idolchamp-mission.jpg",
+            "title": "4. CHAMSIMを集める",
+            "text": "出席やミッションを活用します。"
+          }
+        ],
+        "note": "投票締切と使用ポイントの期限を確認してください。"
+      },
+      "order": 20
+    },
+    {
+      "title": "Mnet Plus",
+      "subtitle": "M COUNTDOWN",
+      "description": "ポイントを集めず、ログイン済みアカウントで投票します。",
+      "icon": "assets/voting/apps/mnetplus.png",
+      "tags": [
+        "M COUNTDOWN",
+        "ポイント不要"
+      ],
+      "appStore": "",
+      "googlePlay": "",
+      "guide": {
+        "steps": [
+          {
+            "image": "assets/voting/mnetplus-home.jpg",
+            "title": "1. ホームを開く",
+            "text": "Mnet Plusへログインします。"
+          },
+          {
+            "image": "assets/voting/mnetplus-mcountdown.jpg",
+            "title": "2. M COUNTDOWNへ",
+            "text": "番組ページを開きます。"
+          },
+          {
+            "image": "assets/voting/mnetplus-prevote-detail.jpg",
+            "title": "3. 対象投票を選ぶ",
+            "text": "NMIXXと楽曲名を確認して投票します。"
+          }
+        ],
+        "note": "投票開始前にログイン状態を確認してください。"
+      },
+      "order": 30
+    },
+    {
+      "title": "Fancast",
+      "subtitle": "Music Bank",
+      "description": "Heartsを集めてMusic Bankの投票に使用します。",
+      "icon": "assets/voting/apps/fancast.png",
+      "tags": [
+        "Music Bank",
+        "Hearts"
+      ],
+      "appStore": "",
+      "googlePlay": "",
+      "guide": {
+        "steps": [
+          {
+            "image": "assets/voting/fancast-home.jpg",
+            "title": "1. ホームを開く",
+            "text": "Fancastへログインします。"
+          },
+          {
+            "image": "assets/voting/fancast-musicbank-banner.jpg",
+            "title": "2. Music Bankを選ぶ",
+            "text": "対象バナーから投票へ進みます。"
+          },
+          {
+            "image": "assets/voting/fancast-fansstagepick.jpg",
+            "title": "3. 対象回を確認",
+            "text": "候補と対象回を確認します。"
+          },
+          {
+            "image": "assets/voting/fancast-hearts.jpg",
+            "title": "4. Heartsを準備",
+            "text": "投票前に残高と期限を確認します。"
+          }
+        ],
+        "note": "Heartsの有効期限を確認してください。"
+      },
+      "order": 40
+    },
+    {
+      "title": "Mubeat",
+      "subtitle": "Show! Music Core",
+      "description": "Heart Beatsを集めて事前投票などに使用します。",
+      "icon": "assets/voting/apps/mubeat.png",
+      "tags": [
+        "Music Core",
+        "Heart Beats"
+      ],
+      "appStore": "",
+      "googlePlay": "",
+      "guide": {
+        "steps": [
+          {
+            "image": "assets/voting/mubeat-home.jpg",
+            "title": "1. ホームを開く",
+            "text": "Mubeatへログインします。"
+          },
+          {
+            "image": "assets/voting/mubeat-vote.jpg",
+            "title": "2. 投票を開く",
+            "text": "Music Coreの対象投票を選択します。"
+          },
+          {
+            "image": "assets/voting/mubeat-heartbeats.jpg",
+            "title": "3. Heart Beatsを確認",
+            "text": "残高と有効期限を確認して投票します。"
+          }
+        ],
+        "note": "ポイント種別と期限を必ず確認してください。"
+      },
+      "order": 50
+    },
+    {
+      "title": "LiNC",
+      "subtitle": "Inkigayo 事前投票",
+      "description": "ファンポイントを集めて事前投票に使用します。",
+      "icon": "assets/voting/apps/linc.jpg",
+      "tags": [
+        "Inkigayo",
+        "ファンポイント"
+      ],
+      "appStore": "",
+      "googlePlay": "",
+      "guide": {
+        "steps": [
+          {
+            "image": "assets/voting/linc-home.jpg",
+            "title": "1. ホームを開く",
+            "text": "LiNCへログインします。"
+          },
+          {
+            "image": "assets/voting/linc-inkigayo-list.jpg",
+            "title": "2. Inkigayoを選ぶ",
+            "text": "対象投票を開きます。"
+          },
+          {
+            "image": "assets/voting/linc-fanpoint.jpg",
+            "title": "3. ファンポイントを確認",
+            "text": "残高を確認してNMIXXへ投票します。"
+          }
+        ],
+        "note": "対象回と締切を確認してください。"
+      },
+      "order": 60
+    },
+    {
+      "title": "HIGHER",
+      "subtitle": "Inkigayo リアルタイム投票",
+      "description": "ルビーを準備し、生放送中の投票に使用します。",
+      "icon": "assets/voting/apps/higher.png",
+      "tags": [
+        "Inkigayo",
+        "ルビー"
+      ],
+      "appStore": "",
+      "googlePlay": "",
+      "guide": {
+        "steps": [
+          {
+            "image": "assets/voting/higher-home.jpg",
+            "title": "1. ホームを開く",
+            "text": "放送前にログインします。"
+          },
+          {
+            "image": "assets/voting/higher-inkigayo-livevote.jpg",
+            "title": "2. リアルタイム投票へ",
+            "text": "生放送中に対象投票を開きます。"
+          },
+          {
+            "image": "assets/voting/higher-ruby.jpg",
+            "title": "3. ルビーを確認",
+            "text": "残高を確認します。"
+          },
+          {
+            "image": "assets/voting/higher-ruby-detail.jpg",
+            "title": "4. NMIXXへ投票",
+            "text": "候補を確認して投票を完了します。"
+          }
+        ],
+        "note": "受付時間が短いため、通信環境とログイン状態を事前確認してください。"
+      },
+      "order": 70
+    }
+  ]
+}

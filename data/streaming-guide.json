@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-07-26T03:00:00+09:00",
+  "source": "repository-json",
+  "guides": [
+    {
+      "type": "動画",
+      "subtitle": "公式MV・パフォーマンス",
+      "description": "公式チャンネルの動画を自然に視聴し、検索・高画質・適正音量を意識します。",
+      "preparation": [
+        "YouTubeアカウント",
+        "安定した通信環境"
+      ],
+      "points": [
+        "画質は720p以上を目安",
+        "同じ動画だけを不自然に連続再生しない",
+        "広告は可能な範囲で視聴"
+      ],
+      "steps": [
+        {
+          "title": "推奨設定を確認",
+          "text": "画質、自動再生、音量などを確認します。",
+          "image": "assets/streaming/nmixx-youtube-streaming-settings.png"
+        },
+        {
+          "title": "公式動画を視聴",
+          "text": "公式チャンネルからMVやパフォーマンスを再生します。",
+          "image": "assets/streaming/nmixx-youtube-streaming-guide.png"
+        }
+      ],
+      "link": "youtube.html",
+      "buttonLabel": "最新動画を見る",
+      "icon": "assets/platform-icons/youtube.png",
+      "note": "YouTubeの仕様変更時は公式ヘルプも確認してください。",
+      "title": "YouTube",
+      "anchor": "streaming-youtube",
+      "order": 10
+    },
+    {
+      "type": "音楽ストリーミング",
+      "subtitle": "音源再生",
+      "description": "SpotifyでNMIXXの楽曲を聴き、プレイリストや共有機能も活用します。",
+      "preparation": [
+        "Spotifyアプリ",
+        "ログイン済みアカウント"
+      ],
+      "points": [
+        "曲を最後まで自然に聴く",
+        "同一曲だけの極端な反復を避ける",
+        "公式アーティストページを利用"
+      ],
+      "steps": [
+        {
+          "title": "ガイドを確認",
+          "text": "再生・プレイリスト・共有の基本を確認します。",
+          "image": "assets/streaming/nmixx-spotify-streaming-guide.png"
+        }
+      ],
+      "link": "https://open.spotify.com/artist/28ot3wh4oNmoFOdVajibBl",
+      "buttonLabel": "Spotifyを開く",
+      "icon": "assets/platform-icons/spotify.png",
+      "note": "無料・有料プランで利用できる機能が異なります。",
+      "title": "Spotify",
+      "anchor": "streaming-spotify",
+      "order": 20
+    },
+    {
+      "type": "音楽ストリーミング",
+      "subtitle": "音源再生",
+      "description": "Apple MusicでNMIXXの楽曲をライブラリへ追加し、自然な再生を行います。",
+      "preparation": [
+        "Apple Musicアプリ",
+        "有効な利用環境"
+      ],
+      "points": [
+        "ライブラリへ追加",
+        "音量を極端に下げない",
+        "プレイリストを活用"
+      ],
+      "steps": [
+        {
+          "title": "ガイドを確認",
+          "text": "ライブラリ追加と再生方法を確認します。",
+          "image": "assets/streaming/nmixx-applemusic-streaming-guide.png"
+        }
+      ],
+      "link": "https://music.apple.com/jp/artist/nmixx/1609054388",
+      "buttonLabel": "Apple Musicを開く",
+      "icon": "assets/platform-icons/apple-music.png",
+      "note": "同期設定やダウンロード状態も確認してください。",
+      "title": "Apple Music",
+      "anchor": "streaming-apple-music",
+      "order": 30
+    },
+    {
+      "type": "コミュニティ",
+      "subtitle": "共同リスニング",
+      "description": "StationheadのNSWERコミュニティで、対応サービスを連携して一緒に再生します。",
+      "preparation": [
+        "Stationheadアカウント",
+        "Spotify PremiumまたはApple Music"
+      ],
+      "points": [
+        "音楽サービスを連携",
+        "ホストの案内を確認",
+        "音量と接続状態を確認"
+      ],
+      "steps": [
+        {
+          "title": "参加方法を確認",
+          "text": "アカウント作成、連携、ルーム参加の流れを確認します。",
+          "image": "assets/streaming/nmixx-stationhead-guide.png"
+        }
+      ],
+      "link": "https://stationhead.com/c/nswer",
+      "buttonLabel": "Stationheadを開く",
+      "icon": "assets/platform-icons/stationhead.webp",
+      "note": "海外ホストを含むコミュニティへのリンクです。",
+      "title": "Stationhead",
+      "anchor": "streaming-stationhead",
+      "order": 40
+    },
+    {
+      "type": "SNS",
+      "subtitle": "楽曲利用・拡散",
+      "description": "TikTokで公式音源を選択し、動画投稿や視聴、共有を行います。",
+      "preparation": [
+        "TikTokアプリ",
+        "投稿または共有する内容"
+      ],
+      "points": [
+        "公式音源を選ぶ",
+        "ハッシュタグを詰め込みすぎない",
+        "自然な視聴・共有を行う"
+      ],
+      "steps": [
+        {
+          "title": "投稿画面を開く",
+          "text": "＋ボタンから新規投稿へ進みます。",
+          "image": "assets/streaming/nmixx-tiktok-step1.jpg"
+        },
+        {
+          "title": "楽曲を選ぶ",
+          "text": "楽曲選択を開きます。",
+          "image": "assets/streaming/nmixx-tiktok-step2.jpg"
+        },
+        {
+          "title": "NMIXXを検索",
+          "text": "公式音源を選択して投稿します。",
+          "image": "assets/streaming/nmixx-tiktok-step3.jpg"
+        }
+      ],
+      "link": "https://www.tiktok.com/@nmixx_official",
+      "buttonLabel": "TikTokを開く",
+      "icon": "assets/platform-icons/tiktok.webp",
+      "note": "投稿内容は各サービスのルールに従ってください。",
+      "title": "TikTok",
+      "anchor": "streaming-tiktok",
+      "order": 50
+    },
+    {
+      "type": "応援サポート",
+      "subtitle": "韓国音源再生・投票支援",
+      "description": "Duck ADでアカウント登録、投票券獲得、音源再生支援を行う手順をまとめています。",
+      "preparation": [
+        "Duck ADアプリ",
+        "ログイン用アカウント"
+      ],
+      "points": [
+        "登録情報を確認",
+        "期限のあるポイントを確認",
+        "対象曲・アーティストを確認"
+      ],
+      "steps": [
+        {
+          "title": "アカウント登録",
+          "text": "登録画面の案内に沿って進めます。",
+          "image": "assets/streaming/nmixx-duckad-register-step1.jpg"
+        },
+        {
+          "title": "ストリーミング支援",
+          "text": "対象サービスと回数を確認します。",
+          "image": "assets/streaming/nmixx-duckad-streaming-step1.jpg"
+        },
+        {
+          "title": "投票へ進む",
+          "text": "対象投票を選び、NMIXXを確認します。",
+          "image": "assets/streaming/nmixx-duckad-vote-step1.jpg"
+        }
+      ],
+      "link": "",
+      "buttonLabel": "",
+      "icon": "assets/platform-icons/duck-ad.webp",
+      "note": "アプリ仕様は変更される場合があります。",
+      "title": "Duck AD",
+      "anchor": "streaming-duck-ad",
+      "order": 60
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-07-26T03:00:00+09:00",
+  "source": "repository-json",
+  "categories": [
+    {
+      "key": "latest",
+      "title": "最新活動曲",
+      "order": 10
+    },
+    {
+      "key": "title",
+      "title": "タイトル曲",
+      "order": 20
+    },
+    {
+      "key": "other",
+      "title": "その他",
+      "order": 30
+    }
+  ],
+  "chants": []
+}

@@ -1,0 +1,185 @@
+{
+  "generatedAt": "2026-07-26T03:00:00+09:00",
+  "source": "repository-seed",
+  "collectionMode": "all-public-videos-with-verified-publish-dates",
+  "classificationVersion": 2,
+  "channels": [
+    {
+      "key": "nmixx",
+      "label": "NMIXX Official",
+      "handle": "@NMIXXOfficial",
+      "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+      "url": "https://www.youtube.com/@NMIXXOfficial",
+      "description": "MV、ビハインド、ライブ、ショートなどNMIXXの公式コンテンツ。",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnUAyD4t2LkvW68YrDh7fDg",
+      "totalVideos": 8,
+      "typeCounts": {
+        "video": 8,
+        "short": 0,
+        "live": 0
+      },
+      "videos": [
+        {
+          "videoId": "EmeW6li6bbo",
+          "title": "NMIXX \"Blue Valentine\" M/V",
+          "url": "https://www.youtube.com/watch?v=EmeW6li6bbo",
+          "thumbnail": "https://i.ytimg.com/vi/EmeW6li6bbo/hqdefault.jpg",
+          "publishedAt": "2025-10-13T09:00:00+00:00",
+          "updatedAt": "2025-10-13T09:00:00+00:00",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "EmeW6li6bbo"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "aFrQIJ5cbRc",
+          "title": "NMIXX \"KNOW ABOUT ME\" M/V",
+          "url": "https://www.youtube.com/watch?v=aFrQIJ5cbRc",
+          "thumbnail": "https://i.ytimg.com/vi/aFrQIJ5cbRc/hqdefault.jpg",
+          "publishedAt": "2025-03-17T09:00:00+00:00",
+          "updatedAt": "2025-03-17T09:00:00+00:00",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "aFrQIJ5cbRc"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "_Q8Jskeps9w",
+          "title": "NMIXX \"See that?\" M/V",
+          "url": "https://www.youtube.com/watch?v=_Q8Jskeps9w",
+          "thumbnail": "https://i.ytimg.com/vi/_Q8Jskeps9w/hqdefault.jpg",
+          "publishedAt": "2024-08-19T09:00:00+00:00",
+          "updatedAt": "2024-08-19T09:00:00+00:00",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "_Q8Jskeps9w"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "7UecFm_bSTU",
+          "title": "NMIXX \"DASH\" M/V",
+          "url": "https://www.youtube.com/watch?v=7UecFm_bSTU",
+          "thumbnail": "https://i.ytimg.com/vi/7UecFm_bSTU/hqdefault.jpg",
+          "publishedAt": "2024-01-15T09:00:00+00:00",
+          "updatedAt": "2024-01-15T09:00:00+00:00",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "7UecFm_bSTU"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "Rd2wppggYxo",
+          "title": "NMIXX \"Party O'Clock\" M/V",
+          "url": "https://www.youtube.com/watch?v=Rd2wppggYxo",
+          "thumbnail": "https://i.ytimg.com/vi/Rd2wppggYxo/hqdefault.jpg",
+          "publishedAt": "2023-07-11T09:00:00+00:00",
+          "updatedAt": "2023-07-11T09:00:00+00:00",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "Rd2wppggYxo"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "EDnwWcFpObo",
+          "title": "NMIXX \"Love Me Like This\" M/V",
+          "url": "https://www.youtube.com/watch?v=EDnwWcFpObo",
+          "thumbnail": "https://i.ytimg.com/vi/EDnwWcFpObo/hqdefault.jpg",
+          "publishedAt": "2023-03-20T09:00:00+00:00",
+          "updatedAt": "2023-03-20T09:00:00+00:00",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "EDnwWcFpObo"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "p1bjnyDqI9k",
+          "title": "NMIXX \"DICE\" M/V",
+          "url": "https://www.youtube.com/watch?v=p1bjnyDqI9k",
+          "thumbnail": "https://i.ytimg.com/vi/p1bjnyDqI9k/hqdefault.jpg",
+          "publishedAt": "2022-09-19T09:00:00+00:00",
+          "updatedAt": "2022-09-19T09:00:00+00:00",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "p1bjnyDqI9k"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        },
+        {
+          "videoId": "3GWscde8rM8",
+          "title": "NMIXX \"O.O\" M/V",
+          "url": "https://www.youtube.com/watch?v=3GWscde8rM8",
+          "thumbnail": "https://i.ytimg.com/vi/3GWscde8rM8/hqdefault.jpg",
+          "publishedAt": "2022-02-22T09:00:00+00:00",
+          "updatedAt": "2022-02-22T09:00:00+00:00",
+          "videoType": "video",
+          "sourceTypes": [
+            "video"
+          ],
+          "sourceVideoIds": [
+            "3GWscde8rM8"
+          ],
+          "dateAccuracy": "exact",
+          "dateMetadataVerified": true,
+          "liveMetadataVerified": true,
+          "liveStatus": "not_live",
+          "classificationVersion": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-07-26T03:00:00+09:00",
+  "source": "repository-json",
+  "activeTheme": "heavy-serenade",
+  "themes": [
+    {
+      "key": "default",
+      "name": "NSWER Night",
+      "release": "",
+      "colors": {
+        "background": "#080b16",
+        "background2": "#10162a",
+        "card": "#151c33",
+        "primary": "#8f7cff",
+        "secondary": "#ff71b8",
+        "accent": "#58e0d1"
+      }
+    },
+    {
+      "key": "heavy-serenade",
+      "name": "Heavy Serenade",
+      "release": "Heavy Serenade",
+      "startDate": "2026-04-21",
+      "endDate": "",
+      "colors": {
+        "background": "#070a14",
+        "background2": "#111832",
+        "card": "#172040",
+        "primary": "#7382ff",
+        "secondary": "#ff6ea8",
+        "accent": "#75e4d4"
+      }
+    }
+  ]
+}

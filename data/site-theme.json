@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-07-26T03:00:00+09:00",
+  "source": "repository-json",
+  "theme": {
+    "name": "NSWER Night",
+    "background": "#080b16",
+    "background2": "#10162a",
+    "card": "#151c33",
+    "card2": "#1d2542",
+    "primary": "#8f7cff",
+    "primarySoft": "#c4b8ff",
+    "secondary": "#ff71b8",
+    "accent": "#58e0d1",
+    "blue": "#72b7ff",
+    "text": "#f8f9ff",
+    "muted": "#b8bfd6",
+    "lightBackground": "#f6f7ff",
+    "lightCard": "#ffffff",
+    "lightText": "#171a2b"
+  }
+}

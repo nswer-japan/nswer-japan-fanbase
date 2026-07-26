@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "generatedAt": "",
+  "startedAt": "",
+  "elapsedSeconds": 0,
+  "summary": {
+    "checked": 0,
+    "ok": 0,
+    "warning": 0,
+    "broken": 0,
+    "hosts": 0
+  },
+  "services": [],
+  "items": [],
+  "notes": [
+    "初回チェック前です。GitHub Actionsの「Check External Links」を実行してください。"
+  ]
+}

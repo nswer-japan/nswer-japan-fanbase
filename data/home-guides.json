@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-07-26T03:00:00+09:00",
+  "source": "repository-json",
+  "guides": [
+    {
+      "key": "streaming",
+      "title": "ストリーミングガイド",
+      "summary": "YouTube・Spotify・Apple Musicなどの再生方法",
+      "url": "streaming.html",
+      "category": "STREAMING",
+      "updatedAt": "2026-07-26",
+      "commit": "repository"
+    },
+    {
+      "key": "voting",
+      "title": "投票ガイド",
+      "summary": "音楽番組別のアプリ・ポイント・手順",
+      "url": "voting.html",
+      "category": "VOTING",
+      "updatedAt": "2026-07-26",
+      "commit": "repository"
+    },
+    {
+      "key": "fanclub",
+      "title": "日本ファンクラブ案内",
+      "summary": "NSWER JAPANとMOBILEの違い",
+      "url": "fan-services.html#fanclub",
+      "category": "FANCLUB",
+      "updatedAt": "2026-07-26",
+      "commit": "repository"
+    },
+    {
+      "key": "records",
+      "title": "NMIXX記録",
+      "summary": "音楽番組1位・Melon・Hanteo",
+      "url": "records.html",
+      "category": "RECORDS",
+      "updatedAt": "2026-07-26",
+      "commit": "repository"
+    }
+  ]
+}

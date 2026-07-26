@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-07-26T11:50:21.279930Z",
+  "baseUrl": "https://nswerjapan.jp",
+  "staticPages": 29,
+  "indexedStaticPages": 19,
+  "newsArticles": 6,
+  "ogpImages": 33,
+  "sitemapUrls": 25,
+  "canonicalPages": 35,
+  "structuredDataPages": 25,
+  "legacyArticleRedirect": true,
+  "sitemap": "sitemap.xml",
+  "robots": "robots.txt"
+}
