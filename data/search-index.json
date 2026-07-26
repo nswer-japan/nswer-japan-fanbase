@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T20:50:20.312294+09:00",
+  "generatedAt": "2026-07-26T22:03:01.014407+09:00",
   "items": [
     {
       "type": "page",
@@ -222,32 +222,32 @@
       "title": "ZERO FRONTIER IN JAPAN 一般追加販売（立見）の案内",
       "summary": "2026年8月8日・9日にKEIO ARENA TOKYOで開催される日本公演の追加販売情報をまとめています。",
       "url": "articles/zero-frontier-japan-additional-sale.html",
-      "keywords": "zero-frontier-japan-additional-sale 2026.07.02 event 公演 ZERO FRONTIER IN JAPAN 一般追加販売（立見）の案内 2026年8月8日・9日にKEIO ARENA TOKYOで開催される日本公演の追加販売情報をまとめています。 assets/news/zero-frontier-japan.jpg fan-services.html#tour 公演情報を見る",
-      "image": "assets/news/zero-frontier-japan.jpg"
+      "keywords": "zero-frontier-japan-additional-sale 2026.07.02 event 公演 ZERO FRONTIER IN JAPAN 一般追加販売（立見）の案内 2026年8月8日・9日にKEIO ARENA TOKYOで開催される日本公演の追加販売情報をまとめています。 assets/news/zero-frontier-tour.jpg fan-services.html#tour 公演情報を見る",
+      "image": "assets/news/zero-frontier-tour.jpg"
     },
     {
       "type": "news",
       "title": "ZERO FRONTIER IN JAPAN オフィシャルグッズ情報",
       "summary": "日本公演のオフィシャルグッズと先行通販の確認先をまとめています。",
       "url": "articles/zero-frontier-japan-goods.html",
-      "keywords": "zero-frontier-japan-goods 2026.06.24 event GOODS ZERO FRONTIER IN JAPAN オフィシャルグッズ情報 日本公演のオフィシャルグッズと先行通販の確認先をまとめています。 assets/news/zero-frontier-japan.jpg fan-services.html#tour 公演情報を見る",
-      "image": "assets/news/zero-frontier-japan.jpg"
+      "keywords": "zero-frontier-japan-goods 2026.06.24 event GOODS ZERO FRONTIER IN JAPAN オフィシャルグッズ情報 日本公演のオフィシャルグッズと先行通販の確認先をまとめています。 assets/news/zero-frontier-goods.jpg fan-services.html#tour 公演情報を見る",
+      "image": "assets/news/zero-frontier-goods.jpg"
     },
     {
       "type": "news",
       "title": "NMIXX 5th EP「Heavy Serenade」リリース",
       "summary": "販売形態、プロモーション日程、購入・配信リンクを確認できます。",
       "url": "articles/heavy-serenade-release.html",
-      "keywords": "heavy-serenade-release 2026.05.11 release RELEASE NMIXX 5th EP「Heavy Serenade」リリース 販売形態、プロモーション日程、購入・配信リンクを確認できます。 assets/news/heavy-serenade-schedule.jpg discography.html#heavy-serenade 作品情報を見る",
-      "image": "assets/news/heavy-serenade-schedule.jpg"
+      "keywords": "heavy-serenade-release 2026.05.11 release RELEASE NMIXX 5th EP「Heavy Serenade」リリース 販売形態、プロモーション日程、購入・配信リンクを確認できます。 assets/discography/heavy-serenade.jpg discography.html#heavy-serenade 作品情報を見る",
+      "image": "assets/discography/heavy-serenade.jpg"
     },
     {
       "type": "news",
       "title": "NMIXX日本公式X・ファンクラブ開設",
       "summary": "NSWER JAPANとNSWER JAPAN MOBILEの会費や特徴を整理しています。",
       "url": "articles/japan-fanclub-open.html",
-      "keywords": "japan-fanclub-open 2026.03.04 notice 公式 NMIXX日本公式X・ファンクラブ開設 NSWER JAPANとNSWER JAPAN MOBILEの会費や特徴を整理しています。 assets/group/nmixx-group.jpg fan-services.html#fanclub FC案内を見る",
-      "image": "assets/group/nmixx-group.jpg"
+      "keywords": "japan-fanclub-open 2026.03.04 notice 公式 NMIXX日本公式X・ファンクラブ開設 NSWER JAPANとNSWER JAPAN MOBILEの会費や特徴を整理しています。 assets/news/nswer-japan-fanclub.jpg fan-services.html#fanclub FC案内を見る",
+      "image": "assets/news/nswer-japan-fanclub.jpg"
     },
     {
       "type": "news",
@@ -262,16 +262,16 @@
       "title": "NSWER JAPAN FBを新しい管理方式へ全面移行",
       "summary": "ニュース、スケジュール、作品、記録、ガイドをリポジトリ内のJSON・CSV・画像で管理する構成へ移行しました。",
       "url": "articles/site-rebuild.html",
-      "keywords": "site-rebuild 2026.07.26 notice SITE NSWER JAPAN FBを新しい管理方式へ全面移行 ニュース、スケジュール、作品、記録、ガイドをリポジトリ内のJSON・CSV・画像で管理する構成へ移行しました。 assets/group/nmixx-group.jpg updates.html 更新履歴を見る",
-      "image": "assets/group/nmixx-group.jpg"
+      "keywords": "site-rebuild 2026.07.26 notice SITE NSWER JAPAN FBを新しい管理方式へ全面移行 ニュース、スケジュール、作品、記録、ガイドをリポジトリ内のJSON・CSV・画像で管理する構成へ移行しました。 assets/group/nmixx-group-wide.jpg updates.html 更新履歴を見る",
+      "image": "assets/group/nmixx-group-wide.jpg"
     },
     {
       "type": "discography",
       "title": "Caution",
       "summary": "Anderson .Paakとのコラボレーションシングル。",
       "url": "discography.html#caution",
-      "keywords": "caution caution Caution 2026-05-29 digital Collaboration Single NEW Collaboration Single Digital Single Anderson .Paakとのコラボレーションシングル。 https://bit.ly/4wX3fvU https://bit.ly/4dRBrAj     150 True",
-      "image": "assets/group/nmixx-group.jpg"
+      "keywords": "caution caution Caution 2026-05-29 digital Collaboration Single NEW Collaboration Single Digital Single Anderson .Paakとのコラボレーションシングル。 https://bit.ly/4wX3fvU https://bit.ly/4dRBrAj    assets/discography/caution.jpg 150 True",
+      "image": "assets/discography/caution.jpg"
     },
     {
       "type": "discography",
@@ -286,8 +286,8 @@
       "title": "TIC TIC (feat. Pabllo Vittar)",
       "summary": "Pabllo Vittarを迎えたコラボレーションシングル。",
       "url": "discography.html#tic-tic",
-      "keywords": "tic-tic tic-tic TIC TIC (feat. Pabllo Vittar) 2026-02-26 digital Collaboration Single  Collaboration Single Digital Single Pabllo Vittarを迎えたコラボレーションシングル。  https://bit.ly/4aBLDwn  https://www.youtube.com/watch?v=1tkjwhhYIFU   140 True",
-      "image": "assets/group/nmixx-group.jpg"
+      "keywords": "tic-tic tic-tic TIC TIC (feat. Pabllo Vittar) 2026-02-26 digital Collaboration Single  Collaboration Single Digital Single Pabllo Vittarを迎えたコラボレーションシングル。  https://bit.ly/4aBLDwn  https://www.youtube.com/watch?v=1tkjwhhYIFU  assets/discography/tic-tic.jpg 140 True",
+      "image": "assets/discography/tic-tic.jpg"
     },
     {
       "type": "discography",

@@ -1,5 +1,82 @@
 {
-  "generatedAt": "",
-  "source": "original-images",
-  "images": {}
+  "generatedAt": "2026-07-26",
+  "policy": "公式サイト・公式ファンクラブ・JYP公式ディスコグラフィ掲載素材を優先。第三者の再配布画像は採用しない。",
+  "images": {
+    "assets/group/nmixx-group.jpg": {
+      "source": "NMIXX日本公式ファンクラブ プロフィール",
+      "use": "ホーム用集合写真"
+    },
+    "assets/group/nmixx-group-wide.jpg": {
+      "source": "NMIXX日本公式ファンクラブ プロフィール",
+      "use": "About・ニュース用横長集合写真"
+    },
+    "assets/members/lily.jpg": {
+      "source": "NMIXX日本公式ファンクラブ プロフィール",
+      "use": "LILYプロフィール"
+    },
+    "assets/members/haewon.jpg": {
+      "source": "NMIXX日本公式ファンクラブ プロフィール",
+      "use": "HAEWONプロフィール"
+    },
+    "assets/members/sullyoon.jpg": {
+      "source": "NMIXX日本公式ファンクラブ プロフィール",
+      "use": "SULLYOONプロフィール"
+    },
+    "assets/members/bae.jpg": {
+      "source": "NMIXX日本公式ファンクラブ プロフィール",
+      "use": "BAEプロフィール"
+    },
+    "assets/members/jiwoo.jpg": {
+      "source": "NMIXX日本公式ファンクラブ プロフィール",
+      "use": "JIWOOプロフィール"
+    },
+    "assets/members/kyujin.jpg": {
+      "source": "NMIXX日本公式ファンクラブ プロフィール",
+      "use": "KYUJINプロフィール"
+    },
+    "assets/discography/heavy-serenade.jpg": {
+      "source": "JYP公式 NMIXX Discography",
+      "use": "Heavy Serenadeジャケット"
+    },
+    "assets/discography/forward.jpg": {
+      "source": "JYP公式 NMIXX Discography",
+      "use": "Fe3O4: FORWARDジャケット"
+    },
+    "assets/discography/stickout.jpg": {
+      "source": "JYP公式 NMIXX Discography",
+      "use": "Fe3O4: STICK OUTジャケット"
+    },
+    "assets/discography/midsummer.jpg": {
+      "source": "JYP公式 NMIXX Discography",
+      "use": "A Midsummer NMIXX's Dreamジャケット"
+    },
+    "assets/discography/funky-glitter-christmas.jpg": {
+      "source": "JYP公式 NMIXX Discography",
+      "use": "Funky Glitter Christmasジャケット"
+    },
+    "assets/discography/entwurf.jpg": {
+      "source": "JYP公式 NMIXX Discography",
+      "use": "ENTWURFジャケット"
+    },
+    "assets/discography/tic-tic.jpg": {
+      "source": "JYP公式お知らせ",
+      "use": "TIC TICジャケット"
+    },
+    "assets/discography/caution.jpg": {
+      "source": "JYP公式お知らせ",
+      "use": "Cautionジャケット"
+    },
+    "assets/news/zero-frontier-tour.jpg": {
+      "source": "NMIXX日本公式サイト",
+      "use": "ZERO FRONTIER IN JAPAN公演ニュース"
+    },
+    "assets/news/zero-frontier-goods.jpg": {
+      "source": "NMIXX日本公式サイト",
+      "use": "ZERO FRONTIER IN JAPANグッズニュース"
+    },
+    "assets/news/nswer-japan-fanclub.jpg": {
+      "source": "NMIXX日本公式ファンクラブ",
+      "use": "日本FCニュース"
+    }
+  }
 }

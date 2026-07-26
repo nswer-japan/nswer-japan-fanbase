@@ -51,7 +51,7 @@
       "lineMusic": "",
       "youtube": "",
       "purchase": "",
-      "cover": "",
+      "cover": "assets/discography/caution.jpg",
       "order": 150,
       "published": true
     },
@@ -102,7 +102,7 @@
       "lineMusic": "",
       "youtube": "https://www.youtube.com/watch?v=1tkjwhhYIFU",
       "purchase": "",
-      "cover": "",
+      "cover": "assets/discography/tic-tic.jpg",
       "order": 140,
       "published": true
     },

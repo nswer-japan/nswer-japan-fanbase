@@ -44,7 +44,9 @@
       "image": "assets/group/nmixx-group.jpg",
       "icon": "",
       "anchor": "hero",
-      "order": 10
+      "order": 10,
+      "imageDesktop": "assets/group/nmixx-group.jpg",
+      "imageMobile": "assets/group/nmixx-group.jpg"
     },
     {
       "slug": "latest",
@@ -195,7 +197,7 @@
       "secondaryLinkUrl": "members.html",
       "thirdButtonLabel": "",
       "thirdLinkUrl": "",
-      "image": "assets/group/nmixx-group.jpg",
+      "image": "assets/group/nmixx-group-wide.jpg",
       "icon": "",
       "anchor": "about-focus",
       "order": 40
