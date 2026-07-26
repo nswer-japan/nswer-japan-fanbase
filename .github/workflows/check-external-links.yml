@@ -1,0 +1,27 @@
+name: Check External Links
+"on":
+  workflow_dispatch:
+  schedule:
+    - cron: "23 19 * * 1"
+permissions:
+  contents: write
+concurrency:
+  group: nswer-content-write
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check public links
+        run: python3 scripts/check-external-links.py --workers 5
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/external-link-report.json .external-link-issue.md
+          git diff --cached --quiet || git commit -m "chore: refresh external link report"
+          git push

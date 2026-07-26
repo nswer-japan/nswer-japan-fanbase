@@ -1,0 +1,36 @@
+name: Sync YouTube
+"on":
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: nswer-content-write
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - uses: actions/setup-node@v4
+        with: {node-version: "22"}
+      - run: pip install pillow yt-dlp
+      - name: Fetch public YouTube data
+        id: youtube
+        continue-on-error: true
+        run: node scripts/sync-youtube-channels.mjs
+      - name: Keep previous data on failure
+        if: steps.youtube.outcome == 'failure'
+        run: echo "YouTube fetch failed; previous JSON remains unchanged."
+      - name: Build and validate
+        run: python3 scripts/build-content.py && python3 scripts/validate-site.py
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/youtube-channels.json data/search-index.json service-worker.js sitemap.xml assets/ogp articles '*.html'
+          git diff --cached --quiet || git commit -m "chore: sync YouTube data"
+          git push

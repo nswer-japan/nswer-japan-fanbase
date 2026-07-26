@@ -1,25 +1,15 @@
-name: Build Repository Content
+name: Sync All Site Data
 "on":
   workflow_dispatch:
-  push:
-    paths:
-      - "data/**"
-      - "assets/**"
-      - "templates/**"
-      - "scripts/**"
-      - "js/**"
-      - "css/**"
-      - "*.html"
-      - "manifest.webmanifest"
-      - "CNAME"
+  schedule:
+    - cron: "42 18 * * *"
 permissions:
   contents: write
 concurrency:
   group: nswer-content-write
   cancel-in-progress: false
 jobs:
-  build:
-    if: github.actor != 'github-actions[bot]'
+  sync-all:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -27,13 +17,18 @@ jobs:
         with: {python-version: "3.12"}
       - uses: actions/setup-node@v4
         with: {node-version: "22"}
-      - run: pip install pillow
-      - run: python3 scripts/build-content.py
-      - run: python3 scripts/validate-site.py
-      - name: Commit generated files
+      - run: pip install pillow yt-dlp
+      - name: Sync YouTube without deleting previous data
+        continue-on-error: true
+        run: node scripts/sync-youtube-channels.mjs
+      - name: Generate all content
+        run: python3 scripts/build-content.py
+      - name: Validate all content
+        run: python3 scripts/validate-site.py
+      - name: Commit once
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git diff --cached --quiet || git commit -m "build: refresh site content"
+          git diff --cached --quiet || git commit -m "chore: full site sync"
           git push
