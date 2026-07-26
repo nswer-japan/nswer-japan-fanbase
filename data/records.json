@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T03:00:00+09:00",
+  "generatedAt": "2026-07-26T22:00:00+09:00",
   "source": "repository-json",
   "musicShowWins": [
     {
@@ -7,231 +7,278 @@
       "song": "Love Me Like This",
       "date": "2023-03-29",
       "program": "SHOW CHAMPION",
-      "description": "NMIXX初の音楽番組1位。",
+      "description": "NMIXX初の音楽番組1位（9,176点）。",
       "videoUrl": "https://www.youtube.com/watch?v=O8zBPFYgz04",
       "image": "assets/discography/expergo.jpg",
       "order": 1,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 9176
     },
     {
       "title": "DASH - SHOW CHAMPION",
       "song": "DASH",
       "date": "2024-01-24",
       "program": "SHOW CHAMPION",
-      "description": "「DASH」でSHOW CHAMPIONの1位を獲得。",
+      "description": "「DASH」でSHOW CHAMPIONの1位を獲得（6,849点）。",
       "videoUrl": "https://www.youtube.com/watch?v=hoHy38Jjkvg",
       "image": "assets/discography/break.jpg",
       "order": 2,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 6849
     },
     {
       "title": "DASH - M COUNTDOWN",
       "song": "DASH",
       "date": "2024-01-25",
       "program": "M COUNTDOWN",
-      "description": "「DASH」でM COUNTDOWNの1位を獲得。",
+      "description": "「DASH」でM COUNTDOWNの1位を獲得（9,338点）。",
       "videoUrl": "https://www.youtube.com/watch?v=hoHy38Jjkvg",
       "image": "assets/discography/break.jpg",
       "order": 3,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 9338
     },
     {
       "title": "DASH - Music Bank",
       "song": "DASH",
       "date": "2024-01-26",
       "program": "Music Bank",
-      "description": "「DASH」でMusic Bankの1位を獲得。",
+      "description": "「DASH」でMusic Bankの1位を獲得（11,952点）。",
       "videoUrl": "https://www.youtube.com/watch?v=hoHy38Jjkvg",
       "image": "assets/discography/break.jpg",
       "order": 4,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 11952
     },
     {
       "title": "DASH - Inkigayo",
       "song": "DASH",
       "date": "2024-01-28",
       "program": "Inkigayo",
-      "description": "「DASH」でInkigayoの1位を獲得。",
+      "description": "「DASH」でInkigayoの1位を獲得（5,901点）。",
       "videoUrl": "https://www.youtube.com/watch?v=hoHy38Jjkvg",
       "image": "assets/discography/break.jpg",
       "order": 5,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 5901
     },
     {
       "title": "See that? - M COUNTDOWN",
       "song": "See that?",
       "date": "2024-08-29",
       "program": "M COUNTDOWN",
-      "description": "「See that?」でM COUNTDOWNの1位を獲得。",
+      "description": "「See that?」でM COUNTDOWNの1位を獲得（10,293点）。",
       "videoUrl": "https://www.youtube.com/watch?v=NCQ89aLx54Y",
       "image": "assets/discography/stickout.jpg",
       "order": 6,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 10293
     },
     {
       "title": "See that? - Music Bank",
       "song": "See that?",
       "date": "2024-08-30",
       "program": "Music Bank",
-      "description": "「See that?」でMusic Bankの1位を獲得。",
+      "description": "「See that?」でMusic Bankの1位を獲得（11,821点）。",
       "videoUrl": "https://www.youtube.com/watch?v=NCQ89aLx54Y",
       "image": "assets/discography/stickout.jpg",
       "order": 7,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 11821
     },
     {
       "title": "See that? - Inkigayo",
       "song": "See that?",
       "date": "2024-09-01",
       "program": "Inkigayo",
-      "description": "「See that?」でInkigayoの1位を獲得。",
+      "description": "「See that?」でInkigayoの1位を獲得（6,591点）。",
       "videoUrl": "https://www.youtube.com/watch?v=NCQ89aLx54Y",
       "image": "assets/discography/stickout.jpg",
       "order": 8,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 6591
     },
     {
       "title": "KNOW ABOUT ME - SHOW CHAMPION",
       "song": "KNOW ABOUT ME",
       "date": "2025-03-26",
       "program": "SHOW CHAMPION",
-      "description": "「KNOW ABOUT ME」でSHOW CHAMPIONの1位を獲得。",
+      "description": "「KNOW ABOUT ME」でSHOW CHAMPIONの1位を獲得（6,865点）。",
       "videoUrl": "https://www.youtube.com/watch?v=0rp54oXvJ4o",
       "image": "assets/discography/forward.jpg",
       "order": 9,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 6865
     },
     {
       "title": "KNOW ABOUT ME - Music Bank",
       "song": "KNOW ABOUT ME",
       "date": "2025-03-28",
       "program": "Music Bank",
-      "description": "「KNOW ABOUT ME」でMusic Bankの1位を獲得。",
+      "description": "「KNOW ABOUT ME」でMusic Bankの1位を獲得（11,040点）。",
       "videoUrl": "https://www.youtube.com/watch?v=0rp54oXvJ4o",
       "image": "assets/discography/forward.jpg",
       "order": 10,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 11040
     },
     {
       "title": "KNOW ABOUT ME - Inkigayo",
       "song": "KNOW ABOUT ME",
       "date": "2025-03-30",
       "program": "Inkigayo",
-      "description": "「KNOW ABOUT ME」でInkigayoの1位を獲得。",
+      "description": "「KNOW ABOUT ME」でInkigayoの1位を獲得（5,070点）。",
       "videoUrl": "https://www.youtube.com/watch?v=0rp54oXvJ4o",
       "image": "assets/discography/forward.jpg",
       "order": 11,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 5070
     },
     {
       "title": "Blue Valentine - SHOW CHAMPION",
       "song": "Blue Valentine",
       "date": "2025-10-22",
       "program": "SHOW CHAMPION",
-      "description": "「Blue Valentine」でSHOW CHAMPIONの1位を獲得。",
+      "description": "「Blue Valentine」でSHOW CHAMPIONの1位を獲得（8,614点）。",
       "videoUrl": "https://www.youtube.com/watch?v=rKg9I4mVLVc",
       "image": "assets/discography/bluevalentine.jpg",
       "order": 12,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 8614
     },
     {
       "title": "Blue Valentine - M COUNTDOWN",
       "song": "Blue Valentine",
       "date": "2025-10-23",
       "program": "M COUNTDOWN",
-      "description": "「Blue Valentine」でM COUNTDOWNの1位を獲得。",
+      "description": "「Blue Valentine」でM COUNTDOWNの1位を獲得（9,958点）。",
       "videoUrl": "https://www.youtube.com/watch?v=rKg9I4mVLVc",
       "image": "assets/discography/bluevalentine.jpg",
       "order": 13,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 9958
     },
     {
       "title": "Blue Valentine - Music Bank",
       "song": "Blue Valentine",
       "date": "2025-10-24",
       "program": "Music Bank",
-      "description": "「Blue Valentine」でMusic Bankの1位を獲得。",
+      "description": "「Blue Valentine」でMusic Bankの1位を獲得（11,908点）。",
       "videoUrl": "https://www.youtube.com/watch?v=rKg9I4mVLVc",
       "image": "assets/discography/bluevalentine.jpg",
       "order": 14,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 11908
     },
     {
       "title": "Blue Valentine - Show! Music Core",
       "song": "Blue Valentine",
       "date": "2025-10-25",
       "program": "Show! Music Core",
-      "description": "「Blue Valentine」でShow! Music Coreの1位を獲得。",
+      "description": "「Blue Valentine」でShow! Music Coreの1位を獲得（8,377点）。",
       "videoUrl": "https://www.youtube.com/watch?v=rKg9I4mVLVc",
       "image": "assets/discography/bluevalentine.jpg",
       "order": 15,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 8377
     },
     {
       "title": "Blue Valentine - Inkigayo",
       "song": "Blue Valentine",
       "date": "2025-10-26",
       "program": "Inkigayo",
-      "description": "「Blue Valentine」でInkigayoの1位を獲得。",
+      "description": "「Blue Valentine」でInkigayoの1位を獲得（5,454点）。",
       "videoUrl": "https://www.youtube.com/watch?v=rKg9I4mVLVc",
       "image": "assets/discography/bluevalentine.jpg",
       "order": 16,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 5454
     },
     {
       "title": "Blue Valentine - Inkigayo",
       "song": "Blue Valentine",
       "date": "2025-11-09",
       "program": "Inkigayo",
-      "description": "「Blue Valentine」でInkigayoの1位を獲得。",
+      "description": "「Blue Valentine」でInkigayoの1位を獲得（4,845点）。",
       "videoUrl": "https://www.youtube.com/watch?v=rKg9I4mVLVc",
       "image": "assets/discography/bluevalentine.jpg",
       "order": 17,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 4845
     },
     {
       "title": "Blue Valentine - Show! Music Core",
       "song": "Blue Valentine",
       "date": "2025-11-15",
       "program": "Show! Music Core",
-      "description": "「Blue Valentine」でShow! Music Coreの1位を獲得。",
+      "description": "「Blue Valentine」でShow! Music Coreの1位を獲得（6,805点）。",
       "videoUrl": "https://www.youtube.com/watch?v=rKg9I4mVLVc",
       "image": "assets/discography/bluevalentine.jpg",
       "order": 18,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 6805
     },
     {
       "title": "Blue Valentine - Inkigayo",
       "song": "Blue Valentine",
       "date": "2025-11-16",
       "program": "Inkigayo",
-      "description": "トリプルクラウン達成。",
+      "description": "「Blue Valentine」でInkigayoの1位を獲得（5,044点）。",
       "videoUrl": "https://www.youtube.com/watch?v=rKg9I4mVLVc",
       "image": "assets/discography/bluevalentine.jpg",
       "order": 19,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 5044
     },
     {
       "title": "Blue Valentine - Show! Music Core",
       "song": "Blue Valentine",
       "date": "2025-11-22",
       "program": "Show! Music Core",
-      "description": "トリプルクラウン達成。",
+      "description": "「Blue Valentine」でShow! Music Coreの1位を獲得（6,143点）。",
       "videoUrl": "https://www.youtube.com/watch?v=rKg9I4mVLVc",
       "image": "assets/discography/bluevalentine.jpg",
       "order": 20,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 6143
     },
     {
       "title": "Blue Valentine - Music Bank",
       "song": "Blue Valentine",
       "date": "2026-01-02",
       "program": "Music Bank",
-      "description": "「Blue Valentine」で10冠目を獲得。",
+      "description": "「Blue Valentine」でMusic Bankの1位を獲得（3,918点）。",
       "videoUrl": "https://www.youtube.com/watch?v=rKg9I4mVLVc",
       "image": "assets/discography/bluevalentine.jpg",
       "order": 21,
-      "videoLabel": "アンコール・受賞映像を見る"
+      "videoLabel": "アンコール・受賞映像を見る",
+      "score": 3918
+    },
+    {
+      "title": "Heavy Serenade - M COUNTDOWN",
+      "song": "Heavy Serenade",
+      "date": "2026-05-21",
+      "program": "M COUNTDOWN",
+      "score": 8167,
+      "description": "「Heavy Serenade」でM COUNTDOWNの1位を獲得。カムバック後初の1位（8,167点）。",
+      "videoUrl": "https://www.soompi.com/article/1842919wpp/watch-nmixx-takes-1st-win-for-heavy-serenade-on-m-countdown-performances-by-i-o-i-taeyang-and-more",
+      "sourceUrl": "https://www.soompi.com/article/1842919wpp/watch-nmixx-takes-1st-win-for-heavy-serenade-on-m-countdown-performances-by-i-o-i-taeyang-and-more",
+      "image": "assets/discography/heavy-serenade.jpg",
+      "order": 22,
+      "videoLabel": "受賞・アンコール記事を見る"
+    },
+    {
+      "title": "Heavy Serenade - Music Bank",
+      "song": "Heavy Serenade",
+      "date": "2026-05-22",
+      "program": "Music Bank",
+      "score": 9582,
+      "description": "「Heavy Serenade」でMusic Bankの1位を獲得。楽曲2冠目（9,582点）。",
+      "videoUrl": "https://www.soompi.com/article/1843103wpp/watch-nmixx-takes-2nd-win-for-heavy-serenade-on-music-bank-performances-by-le-sserafim-zerobaseone-and-more",
+      "sourceUrl": "https://www.soompi.com/article/1843103wpp/watch-nmixx-takes-2nd-win-for-heavy-serenade-on-music-bank-performances-by-le-sserafim-zerobaseone-and-more",
+      "image": "assets/discography/heavy-serenade.jpg",
+      "order": 23,
+      "videoLabel": "受賞・アンコール記事を見る"
     }
   ],
   "melonRecords": [

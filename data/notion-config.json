@@ -1,0 +1,17 @@
+{
+  "workspace": "NMIXX Fanbase JP",
+  "notionVersion": "2026-03-11",
+  "dataSources": {
+    "news": "042faaa4-2523-4688-923d-0441d40488a4",
+    "schedule": "3ee0f7ee-2b3e-44ea-b10b-4aea7a0c0908",
+    "members": "69aeab7e-1c37-4c5d-8fd8-72ff69085649",
+    "discography": "6fbdc2b3-e715-4a89-b2ef-ada28d148f63",
+    "musicShowWins": "bcf7ce57-0ec9-46db-b9c1-bc3354ec6ed1",
+    "charts": "33e67f69-0c97-4c05-8e50-9dce4443a855",
+    "guides": "2d4487e7-4454-407b-9fab-4aa0d9b5fef8",
+    "officialLinks": "8953221e-9dbf-4bff-85a5-003c5bf69692",
+    "homepage": "16a2b85b-8db5-4c21-abaf-e3b556716daf",
+    "siteTheme": "4fd920e4-3cf8-4b5d-ab79-7acdf5cbc30c",
+    "comebackThemes": "2ea3c50b-b5c1-4b9e-9f64-819b608f7931"
+  }
+}

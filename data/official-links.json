@@ -144,45 +144,6 @@
       "icon": "assets/platform-icons/apple-music.png",
       "iconText": "",
       "anchor": "apple-music"
-    },
-    {
-      "title": "NSWER JAPAN FB X",
-      "category": "ファンベース",
-      "categoryOrder": 50,
-      "order": 10,
-      "url": "https://x.com/nswer_japan",
-      "subtitle": "Fanbase",
-      "description": "NSWER JAPAN FB公式X",
-      "label": "X",
-      "icon": "",
-      "iconText": "X",
-      "anchor": "fanbase-x"
-    },
-    {
-      "title": "NSWER JAPAN FB Instagram",
-      "category": "ファンベース",
-      "categoryOrder": 50,
-      "order": 20,
-      "url": "https://www.instagram.com/nswer_japan",
-      "subtitle": "Fanbase",
-      "description": "NSWER JAPAN FB Instagram",
-      "label": "INSTAGRAM",
-      "icon": "",
-      "iconText": "IG",
-      "anchor": "fanbase-instagram"
-    },
-    {
-      "title": "NSWER JAPAN FB TikTok",
-      "category": "ファンベース",
-      "categoryOrder": 50,
-      "order": 30,
-      "url": "https://www.tiktok.com/@nswer.japan",
-      "subtitle": "Fanbase",
-      "description": "NSWER JAPAN FB TikTok",
-      "label": "TIKTOK",
-      "icon": "assets/platform-icons/tiktok.webp",
-      "iconText": "",
-      "anchor": "fanbase-tiktok"
     }
   ]
 }
