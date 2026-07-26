@@ -4,643 +4,78 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>
-   スケジュール | NSWER JAPAN FB
-  </title>
-<meta content="NMIXXのライブ、ファンクラブ、リリース、メンバー誕生日などのスケジュールをまとめています。" name="description"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<meta content="dark light" name="color-scheme"/>
+<title>スケジュール | NSWER JAPAN FB</title>
+<meta name="description" content="NMIXXのイベント、音楽番組、リリース、投票、記念日などの最新スケジュールを掲載しています。">
+<!-- SEO-AUTO-START -->
+<link rel="canonical" href="https://nswerjapan.jp/schedule.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#070a14">
+<meta property="og:site_name" content="NSWER JAPAN FB">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:type" content="website">
+<meta property="og:title" content="スケジュール | NSWER JAPAN FB">
+<meta property="og:description" content="NMIXXのイベント、音楽番組、リリース、投票、記念日などの最新スケジュールを掲載しています。">
+<meta property="og:url" content="https://nswerjapan.jp/schedule.html">
+<meta property="og:image" content="https://nswerjapan.jp/assets/ogp/schedule.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="スケジュール | NSWER JAPAN FB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="スケジュール | NSWER JAPAN FB">
+<meta name="twitter:description" content="NMIXXのイベント、音楽番組、リリース、投票、記念日などの最新スケジュールを掲載しています。">
+<meta name="twitter:image" content="https://nswerjapan.jp/assets/ogp/schedule.jpg">
+<meta name="twitter:image:alt" content="スケジュール | NSWER JAPAN FB">
+<script type="application/ld+json" data-seo-structured>{"@context":"https://schema.org","@type":"WebPage","@id":"https://nswerjapan.jp/schedule.html#webpage","url":"https://nswerjapan.jp/schedule.html","name":"スケジュール | NSWER JAPAN FB","description":"NMIXXのイベント、音楽番組、リリース、投票、記念日などの最新スケジュールを掲載しています。","inLanguage":"ja-JP","isPartOf":{"@id":"https://nswerjapan.jp/#website"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://nswerjapan.jp/assets/ogp/schedule.jpg","width":1200,"height":630},"breadcrumb":{"@id":"https://nswerjapan.jp/schedule.html#breadcrumb"}}</script>
+<script type="application/ld+json" data-seo-structured>{"@context":"https://schema.org","@type":"BreadcrumbList","@id":"https://nswerjapan.jp/schedule.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://nswerjapan.jp/"},{"@type":"ListItem","position":2,"name":"スケジュール","item":"https://nswerjapan.jp/schedule.html"}]}</script>
+<!-- SEO-AUTO-END -->
+
+<meta content="NMIXXのイベント、音楽番組、リリース、投票、記念日などの最新スケジュールを掲載しています。" name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect">
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&amp;family=Noto+Sans+JP:wght@400;700;900&amp;display=swap" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
 <link href="css/common.css" rel="stylesheet"/>
-<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
-<script>
-   try{if(localStorage.getItem('theme')==='light'){document.documentElement.classList.add('light-mode');}}catch(e){}
-  </script>
-<style>
-   .schedule-page{--sp-card:#221b22;--sp-text:#f7f2f6;--sp-muted:#c9b8c3;--sp-border:#4a3643}
-.light-mode .schedule-page{--sp-card:#fffdfd;--sp-text:#23161f;--sp-muted:#6f5c67;--sp-border:#ead9e3}
-.schedule-page .section-card{background:var(--sp-card);border:1px solid var(--sp-border);border-radius:20px;padding:22px;box-shadow:0 8px 24px rgba(0,0,0,.06)}
-.countdown-card{background:linear-gradient(135deg,#ff4fa4,#8a63ff);border-radius:22px;padding:22px;display:flex;justify-content:space-between;align-items:flex-end;gap:18px;flex-wrap:wrap;color:#fff}
-.countdown-kicker{font-size:.8rem;font-weight:900;letter-spacing:.08em;margin-bottom:10px;opacity:.9}
-.countdown-num{font-size:clamp(46px,8vw,84px);font-weight:900;line-height:1}
-.countdown-unit{font-size:1rem;margin-left:8px;opacity:.9}
-.countdown-meta{font-weight:700;opacity:.95}
-.upcoming-list{display:grid;gap:12px}
-.upcoming-item{display:grid;grid-template-columns:120px 90px 1fr;gap:14px;align-items:center;background:var(--sp-card);border:1px solid var(--sp-border);border-radius:16px;padding:14px 16px}
-.upcoming-date{font-weight:900;color:var(--sp-text)}
-.badge{display:inline-flex;justify-content:center;align-items:center;min-width:78px;padding:8px 12px;border-radius:999px;color:#fff;font-size:.75rem;font-weight:900}
-.badge.live{background:#ff4fa4}.badge.fc{background:#ff9f43}.badge.birthday{background:#f4c542;color:#241900}
-.upcoming-title{font-weight:800;color:var(--sp-text)}
-
-.map-section-title{display:flex;justify-content:space-between;align-items:end;gap:14px;flex-wrap:wrap}
-.map-note{color:var(--sp-muted);font-size:.92rem}
-#tourMap{height:560px;border-radius:18px;overflow:hidden;border:1px solid var(--sp-border);margin-top:16px}
-.light-mode #tourMap .leaflet-tile-pane{filter:saturate(.9) contrast(1.02)}
-.tour-legend{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
-.tour-legend .pill{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:6px 10px;font-size:.76rem;font-weight:900;background:var(--sp-card);border:1px solid var(--sp-border);color:var(--sp-text)}
-.tour-legend .dot{width:10px;height:10px;border-radius:999px;display:inline-block}
-.dot.kr{background:#8a63ff}.dot.eu{background:#5aa3ff}.dot.na{background:#39d0b3}.dot.jp{background:#ff4fa4}
-.tour-groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:16px}
-.tour-group{background:var(--sp-card);border:1px solid var(--sp-border);border-radius:18px;padding:16px}
-.tour-group h3{margin:0 0 10px;color:var(--sp-text);font-size:1.02rem}
-.tour-group p,.tour-group li{color:var(--sp-text)}
-.tour-group .tour-date{margin:0 0 8px;font-weight:900}
-.tour-group ul{margin:0;padding-left:18px}
-.tour-group li+li{margin-top:8px}
-.tour-group.kr{border-color:rgba(138,99,255,.45)}.tour-group.eu{border-color:rgba(90,163,255,.45)}.tour-group.na{border-color:rgba(57,208,179,.45)}.tour-group.jp{border-color:rgba(255,79,164,.55)}
-
-.calendar-controls{display:flex;align-items:center;justify-content:center;gap:16px;margin:6px 0 18px}
-.calendar-controls button{width:38px;height:38px;border-radius:999px;border:1px solid var(--sp-border);background:var(--sp-card);color:var(--sp-text);font-size:20px;cursor:pointer}
-.month-label{font-size:1.1rem;font-weight:900;color:var(--sp-text)}
-.legend-mini{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}
-.legend-pill{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:6px 10px;font-size:.72rem;font-weight:900}
-.legend-pill.live{background:#ff4fa4;color:#fff}.legend-pill.fc{background:#ff9f43;color:#fff}.legend-pill.birthday{background:#f4c542;color:#241900}
-.calendar-weekdays,.calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}
-.calendar-weekdays div{text-align:center;color:var(--sp-muted);font-size:.82rem;padding:6px 0}
-.calendar-day{min-height:108px;border:1px solid var(--sp-border);border-radius:16px;padding:10px;background:var(--sp-card)}
-.calendar-day.other-month{opacity:.35}
-.calendar-date{font-weight:900;margin-bottom:8px;color:var(--sp-text)}
-.calendar-items{display:flex;flex-wrap:wrap;gap:6px}
-.calendar-pill{border-radius:999px;padding:4px 8px;font-size:.62rem;font-weight:900;line-height:1.2}
-.calendar-pill.live{background:#ff4fa4;color:#fff}.calendar-pill.fc{background:#ff9f43;color:#fff}.calendar-pill.birthday{background:#f4c542;color:#241900}
-.month-list{display:grid;gap:10px}
-.month-row{display:grid;grid-template-columns:110px 90px 1fr;gap:14px;align-items:center;background:var(--sp-card);border:1px solid var(--sp-border);border-radius:14px;padding:12px 14px}
-.month-row-date{font-weight:900}.month-row-title{font-weight:700}
-.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#1b1620;color:#fff}
-.light-mode .leaflet-popup-content-wrapper,.light-mode .leaflet-popup-tip{background:#fff;color:#222}
-@media (max-width:760px){
-  .upcoming-item,.month-row{grid-template-columns:1fr;gap:8px}
-  .calendar-day{min-height:88px;padding:8px}
-  .calendar-pill{font-size:.56rem;padding:3px 6px}
-  #tourMap{height:440px}
-}
-
-.hs-text-schedule{display:grid;gap:10px;margin-top:18px}
-.hs-row{display:grid;grid-template-columns:120px 1fr;gap:14px;align-items:start;background:var(--sp-card);border:1px solid var(--sp-border);border-radius:14px;padding:12px 14px}
-.hs-date{font-weight:900;color:var(--sp-text)}
-.hs-desc{color:var(--sp-text);font-weight:700}
-.hs-note{color:var(--sp-muted);font-size:.92rem;margin-top:10px}
-@media (max-width:760px){
-  .hs-row{grid-template-columns:1fr;gap:6px}
-}
-  </style>
-<link href="https://nswerjapan.jp/schedule.html" rel="canonical"/><meta content="NSWER JAPAN FB" property="og:site_name"/><meta content="website" property="og:type"/><meta content="スケジュール | NSWER JAPAN FB" property="og:title"/><meta content="NMIXXのライブ、ファンクラブ、リリース、メンバー誕生日などのスケジュールをまとめています。" property="og:description"/><meta content="https://nswerjapan.jp/schedule.html" property="og:url"/><meta content="https://nswerjapan.jp/ogp.jpg" property="og:image"/><meta content="summary_large_image" name="twitter:card"/></head>
-<body><header>
+<!-- APP-HEAD-START -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icons/app-icon-192.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="application-name" content="NSWER JAPAN FB">
+<script>(()=>{try{const saved=localStorage.getItem('nswer-theme-mode')||localStorage.getItem('nswer-theme')||'system';const mode=['system','light','dark'].includes(saved)?saved:'system';const light=mode==='light'||(mode==='system'&&matchMedia('(prefers-color-scheme: light)').matches);document.documentElement.classList.toggle('light-mode',light);document.documentElement.dataset.theme=light?'light':'dark';document.documentElement.dataset.themePreference=mode;}catch(e){}})();</script>
+<!-- APP-HEAD-END -->
+</link></head>
+<body class="page-schedule">
+<!-- SITE-HEADER-START -->
+<header>
 <div class="nav">
-<a class="logo" href="index.html">NSWER JAPAN FB</a>
-<nav aria-label="Main navigation" class="nav-links">
+<a class="logo" href="index.html"><span>NSWER</span> JAPAN FB</a>
+<nav class="nav-links" aria-label="メインナビゲーション">
 <a href="index.html">ホーム</a>
-<a href="news.html">ニュース</a>
-<a href="schedule.html">スケジュール</a>
-<div class="dropdown"><span class="dropdown-toggle">NMIXX</span><div class="dropdown-menu">
-<a href="about.html">NMIXXについて</a><a href="about-fanbase.html">ファンベースについて</a>
-</div></div>
-<div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu">
-<a href="music.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a>
-</div></div>
-<div class="dropdown"><span class="dropdown-toggle">ストリーミング</span><div class="dropdown-menu">
-<a href="streaming-guide.html">総合ガイド</a><a href="youtube-guide.html">YouTube</a><a href="spotify-guide.html">Spotify</a><a href="applemusic-guide.html">Apple Music</a><a href="stationhead-guide.html">Stationhead</a><a href="tiktok-guide.html">TikTok</a><a href="duckad-guide.html">DuckAD</a>
-</div></div>
-<div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu">
-<a href="support.html">応援ガイドTOP</a><a href="voting-score.html">投票早見表</a><a href="apps.html">投票アプリ一覧</a><a href="vote-guide.html">投票券の集め方</a><a href="showchampion.html">Show Champion</a><a href="mcountdown.html">M Countdown</a><a href="musicbank.html">Music Bank</a><a href="musiccore.html">Music Core</a><a href="inkigayo.html">Inkigayo</a>
-</div></div>
-<div class="dropdown"><span class="dropdown-toggle">記録</span><div class="dropdown-menu">
-<a href="wins.html">音楽番組1位</a><a href="hanteo.html">Hanteo</a><a href="melon.html">Melon</a>
-</div></div>
-<div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu">
-<a href="links.html">公式リンク</a><a href="membership-guide.html">FC案内</a><a href="contact.html">お問い合わせ</a>
-</div></div>
+<div class="dropdown"><span class="dropdown-toggle">NMIXX</span><div class="dropdown-menu"><a href="about.html">NMIXXについて</a><a href="members.html">メンバー</a></div></div>
+<a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
+<div class="dropdown"><span class="dropdown-toggle">音楽</span><div class="dropdown-menu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a><a href="records.html">記録</a></div></div>
+<div class="dropdown"><span class="dropdown-toggle">応援ガイド</span><div class="dropdown-menu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a></div></div>
+<div class="dropdown"><span class="dropdown-toggle">リンク</span><div class="dropdown-menu"><a href="links.html">公式リンク</a><a href="fan-services.html">日本FC・公演ガイド</a><a href="contact.html">お問い合わせ</a></div></div>
 </nav>
-<div class="nav-actions"><button aria-label="テーマ切り替え" class="theme-toggle" id="themeToggle" type="button">🌙</button><div aria-label="メニュー" class="hamburger" id="hamburger">☰</div></div>
-</div>
-</header>
-<nav aria-label="Mobile navigation" class="mobile-menu" id="mobileMenu">
-<a href="index.html">ホーム</a><a href="news.html">ニュース</a><a href="schedule.html">スケジュール</a>
-<details class="mobile-group"><summary>NMIXX</summary><div class="mobile-submenu"><a href="about.html">NMIXXについて</a><a href="about-fanbase.html">ファンベースについて</a></div></details>
-<details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="music.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a></div></details>
-<details class="mobile-group"><summary>ストリーミング</summary><div class="mobile-submenu"><a href="streaming-guide.html">総合ガイド</a><a href="youtube-guide.html">YouTube</a><a href="spotify-guide.html">Spotify</a><a href="applemusic-guide.html">Apple Music</a><a href="stationhead-guide.html">Stationhead</a><a href="tiktok-guide.html">TikTok</a><a href="duckad-guide.html">DuckAD</a></div></details>
-<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="support.html">応援ガイドTOP</a><a href="voting-score.html">投票早見表</a><a href="apps.html">投票アプリ一覧</a><a href="vote-guide.html">投票券の集め方</a><a href="showchampion.html">Show Champion</a><a href="mcountdown.html">M Countdown</a><a href="musicbank.html">Music Bank</a><a href="musiccore.html">Music Core</a><a href="inkigayo.html">Inkigayo</a></div></details>
-<details class="mobile-group"><summary>記録</summary><div class="mobile-submenu"><a href="wins.html">音楽番組1位</a><a href="hanteo.html">Hanteo</a><a href="melon.html">Melon</a></div></details>
-<details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a><a href="membership-guide.html">FC案内</a><a href="contact.html">お問い合わせ</a></div></details>
-</nav>
-
-
-<div class="container schedule-page">
-<section class="page-header">
-<h1>
-     スケジュール
-    </h1>
-</section>
-<section class="section">
-<div class="section-card">
-<h2 class="section-title">
-      東京公演カウントダウン
-     </h2>
-<div class="countdown-card">
-<div>
-<div class="countdown-kicker">
-        東京公演
-       </div>
-<div>
-<span class="countdown-num" id="countdownDays">
-         --
-        </span>
-<span class="countdown-unit">
-         日
-        </span>
-</div>
-</div>
-<div class="countdown-meta">
-       2026.08.08 / KEIO ARENA TOKYO / OPEN 16:30 START 17:30
-      </div>
-</div>
-</div>
-</section>
-<section class="section">
-<div class="section-card">
-<h2 class="section-title">
-      直近の予定
-     </h2>
-<div class="upcoming-list" id="upcomingList">
-</div>
-</div>
-</section>
-<section class="section">
-<div class="section-card">
-<h2 class="section-title">
-      Heavy Serenade カムバックスケジュール
-     </h2>
-<div class="card" style="display:grid;gap:24px;align-items:start;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:12px;">
-<div>
-<img alt="Heavy Serenade スケジュール" src="images/heavy-serenade-schedule.jpg" style="width:100%;border-radius:20px;border:1px solid var(--line)"/>
-</div>
-<div>
-<p>
-<strong>
-         5月11日
-        </strong>
-        にNMIXX 5th EP
-        <strong>
-         “Heavy Serenade”
-        </strong>
-        がリリースされます。
-       </p>
-<p class="subtle">
-        販売形態: Heavy Ver. / Serenade Ver. / POCAALBUM Ver. / Melody Box Ver.
-       </p>
-<div class="hs-text-schedule">
-<div class="hs-row">
-<div class="hs-date">
-          4/21 22:00
-         </div>
-<div class="hs-desc">
-          “Heavy Serenade” Album Trailer
-         </div>
-</div>
-<div class="hs-row">
-<div class="hs-date">
-          4/22 22:00
-         </div>
-<div class="hs-desc">
-          Track List / “Heavy Serenade” Motion Poster
-         </div>
-</div>
-<div class="hs-row">
-<div class="hs-date">
-          4/24 00:00
-         </div>
-<div class="hs-desc">
-          Concept Photo: Heavy Ver.
-         </div>
-</div>
-<div class="hs-row">
-<div class="hs-date">
-          4/25 00:00
-         </div>
-<div class="hs-desc">
-          Concept Photo: Serenade Ver.
-         </div>
-</div>
-<div class="hs-row">
-<div class="hs-date">
-          4/26 00:00
-         </div>
-<div class="hs-desc">
-          “Heavy Serenade” Special Website Launch
-         </div>
-</div>
-<div class="hs-row">
-<div class="hs-date">
-          4/27 00:00
-         </div>
-<div class="hs-desc">
-          Pre-release “Crescendo” M/V Teaser
-         </div>
-</div>
-<div class="hs-row">
-<div class="hs-date">
-          4/28 18:00
-         </div>
-<div class="hs-desc">
-          Pre-release “Crescendo” M/V
-         </div>
-</div>
-<div class="hs-row">
-<div class="hs-date">
-          5/3 20:00
-         </div>
-<div class="hs-desc">
-          A Cappella Highlight Medley
-         </div>
-</div>
-<div class="hs-row">
-<div class="hs-date">
-          5/7 20:00
-         </div>
-<div class="hs-desc">
-          Original Highlight Medley
-         </div>
-</div>
-<div class="hs-row">
-<div class="hs-date">
-          5/8 12:00
-         </div>
-<div class="hs-desc">
-          “Heavy Serenade” 3D Album Preview
-         </div>
-</div>
-<div class="hs-row">
-<div class="hs-date">
-          5/10 00:00
-         </div>
-<div class="hs-desc">
-          “Heavy Serenade” M/V Teaser
-         </div>
-</div>
-<div class="hs-row">
-<div class="hs-date">
-          5/11 16:40
-         </div>
-<div class="hs-desc">
-          “Heavy Serenade” Countdown Live
-         </div>
-</div>
-<div class="hs-row">
-<div class="hs-date">
-          5/11 18:00
-         </div>
-<div class="hs-desc">
-          “Heavy Serenade” M/V
-         </div>
-</div>
-<div class="hs-row">
-<div class="hs-date">
-          5/18 18:00
-         </div>
-<div class="hs-desc">
-          In-ear Monitor Audio
-         </div>
-</div>
-</div>
-<p class="hs-note">
-        画像のスケジュールを文字でも確認できるように、カレンダーページ内にテキスト版を追加しています。
-       </p>
-</div>
-</div>
-</div>
-</section>
-<section class="section">
-<div class="section-card">
-<div class="map-section-title">
-<h2 class="section-title">
-       ワールドツアー
-      </h2>
-<div class="map-note">
-       ドラッグ・ズームできます
-      </div>
-</div>
-<div class="tour-legend">
-<span class="pill">
-<i class="dot kr">
-</i>
-       韓国
-      </span>
-<span class="pill">
-<i class="dot eu">
-</i>
-       ヨーロッパ
-      </span>
-<span class="pill">
-<i class="dot na">
-</i>
-       北米
-      </span>
-<span class="pill">
-<i class="dot jp">
-</i>
-       日本
-      </span>
-</div>
-<div id="tourMap">
-</div>
-<div class="tour-groups">
-<div class="tour-group kr">
-<h3>
-        韓国
-       </h3>
-<p class="tour-date">
-        2025年11月29日〜30日
-       </p>
-<p>
-        仁川 / INSPIRE ARENA
-       </p>
-</div>
-<div class="tour-group eu">
-<h3>
-        ヨーロッパ
-       </h3>
-<ul>
-<li>
-         2026年3月17日 / マドリード / PALACIO VISTALEGRE
-        </li>
-<li>
-         2026年3月20日 / アムステルダム / AFAS LIVE
-        </li>
-<li>
-         2026年3月22日 / パリ / SALLE PLEYEL
-        </li>
-<li>
-         2026年3月24日 / フランクフルト / MYTICKET JAHRHUNDERTHALLE
-        </li>
-<li>
-         2026年3月26日 / ロンドン / EVENTIM APOLLO
-        </li>
-</ul>
-</div>
-<div class="tour-group na">
-<h3>
-        北米
-       </h3>
-<ul>
-<li>
-         2026年3月29日 / トロント / GREAT CANADIAN TORONTO
-        </li>
-<li>
-         2026年3月31日 / ブルックリン / BROOKLYN PARAMOUNT
-        </li>
-<li>
-         2026年4月2日 / ナショナルハーバー / THE THEATER AT MGM NATIONAL HARBOR
-        </li>
-<li>
-         2026年4月4日 / アービング / THE PAVILION AT TOYOTA MUSIC FACTORY
-        </li>
-<li>
-         2026年4月7日 / オークランド / PARAMOUNT THEATRE
-        </li>
-<li>
-         2026年4月9日 / ロサンゼルス / YOUTUBE THEATER
-        </li>
-</ul>
-</div>
-<div class="tour-group jp">
-<h3>
-        日本
-       </h3>
-<p class="tour-date">
-        2026年8月8日〜9日 🆕
-       </p>
-<p>
-        東京 / KEIO ARENA TOKYO
-       </p>
-</div>
-</div>
-</div>
-</section>
-<section class="section">
-<div class="section-card">
-<h2 class="section-title">
-      カレンダー
-     </h2>
-<div class="legend-mini">
-<span class="legend-pill live">
-       LIVE
-      </span>
-<span class="legend-pill fc">
-       FC
-      </span>
-<span class="legend-pill birthday">
-       誕生日
-      </span>
-<span class="legend-pill live">
-       COMEBACK
-      </span>
-</div>
-<div class="calendar-controls">
-<button id="prevMonth" type="button">
-       ‹
-      </button>
-<div class="month-label" id="monthLabel">
-</div>
-<button id="nextMonth" type="button">
-       ›
-      </button>
-</div>
-<div class="calendar-weekdays">
-<div>
-       Sun
-      </div>
-<div>
-       Mon
-      </div>
-<div>
-       Tue
-      </div>
-<div>
-       Wed
-      </div>
-<div>
-       Thu
-      </div>
-<div>
-       Fri
-      </div>
-<div>
-       Sat
-      </div>
-</div>
-<div class="calendar-grid" id="calendarGrid">
-</div>
-</div>
-</section>
-<section class="section">
-<div class="section-card">
-<h2 class="section-title">
-      月別の予定一覧
-     </h2>
-<div class="month-list" id="monthList">
-</div>
-</div>
-</section>
-</div>
-<footer>
-<div><strong>NSWER JAPAN FB</strong></div>
-<div class="footer-note">このサイトはNMIXXを応援する非公式ファンベースです。公式情報は各公式サイト・アプリもあわせてご確認ください。</div>
-</footer>
-<script src="js/common.js">
-</script>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
-</script>
-<script>
-   const events=[
-{date:'2026-04-21',type:'COMEBACK',title:'22:00 Album Trailer'},
-{date:'2026-04-22',type:'COMEBACK',title:'22:00 Track List / Motion Poster'},
-{date:'2026-04-24',type:'COMEBACK',title:'00:00 Concept Photo: Heavy Ver.'},
-{date:'2026-04-25',type:'COMEBACK',title:'00:00 Concept Photo: Serenade Ver.'},
-{date:'2026-04-26',type:'COMEBACK',title:'00:00 Special Website Launch'},
-{date:'2026-04-27',type:'COMEBACK',title:'00:00 Pre-release “Crescendo” M/V Teaser'},
-{date:'2026-04-28',type:'COMEBACK',title:'18:00 Pre-release “Crescendo” M/V'},
-{date:'2026-05-03',type:'COMEBACK',title:'20:00 A Cappella Highlight Medley'},
-{date:'2026-05-07',type:'COMEBACK',title:'20:00 Original Highlight Medley'},
-{date:'2026-05-08',type:'COMEBACK',title:'12:00 3D Album Preview'},
-{date:'2026-05-10',type:'COMEBACK',title:'00:00 “Heavy Serenade” M/V Teaser'},
-{date:'2026-05-11',type:'COMEBACK',title:'16:40 Countdown Live / 18:00 “Heavy Serenade” M/V'},
-{date:'2026-05-18',type:'COMEBACK',title:'18:00 In-ear Monitor Audio'},
-{date:'2025-11-29',type:'LIVE',title:'仁川 / INSPIRE ARENA'},
-{date:'2025-11-30',type:'LIVE',title:'仁川 / INSPIRE ARENA'},
-{date:'2026-03-17',type:'LIVE',title:'マドリード / PALACIO VISTALEGRE'},
-{date:'2026-03-20',type:'LIVE',title:'アムステルダム / AFAS LIVE'},
-{date:'2026-03-22',type:'LIVE',title:'パリ / SALLE PLEYEL'},
-{date:'2026-03-24',type:'LIVE',title:'フランクフルト / MYTICKET JAHRHUNDERTHALLE'},
-{date:'2026-03-26',type:'LIVE',title:'ロンドン / EVENTIM APOLLO'},
-{date:'2026-03-29',type:'LIVE',title:'トロント / GREAT CANADIAN TORONTO'},
-{date:'2026-03-31',type:'LIVE',title:'ブルックリン / BROOKLYN PARAMOUNT'},
-{date:'2026-04-02',type:'LIVE',title:'ナショナルハーバー / THE THEATER AT MGM NATIONAL HARBOR'},
-{date:'2026-04-04',type:'LIVE',title:'アービング / THE PAVILION AT TOYOTA MUSIC FACTORY'},
-{date:'2026-04-07',type:'LIVE',title:'オークランド / PARAMOUNT THEATRE'},
-{date:'2026-04-09',type:'LIVE',title:'ロサンゼルス / YOUTUBE THEATER'},
-{date:'2026-08-08',type:'LIVE',title:'東京 / KEIO ARENA TOKYO'},
-{date:'2026-08-09',type:'LIVE',title:'東京 / KEIO ARENA TOKYO'},
-{date:'2026-03-13',type:'FC',title:'W会員先行 受付開始'},
-{date:'2026-03-26',type:'FC',title:'W会員先行 締切 23:59'},
-{date:'2026-03-27',type:'FC',title:'NSWER JAPAN先行 受付開始'},
-{date:'2026-04-05',type:'FC',title:'NSWER JAPAN先行 締切 23:59'},
-{date:'2026-04-06',type:'FC',title:'MOBILE先行 受付開始'},
-{date:'2026-04-15',type:'FC',title:'MOBILE先行 締切 23:59'},
-{date:'2026-01-26',type:'BIRTHDAY',title:'SULLYOON 誕生日'},
-{date:'2026-02-25',type:'BIRTHDAY',title:'HAEWON 誕生日'},
-{date:'2026-04-13',type:'BIRTHDAY',title:'JIWOO 誕生日'},
-{date:'2026-05-26',type:'BIRTHDAY',title:'KYUJIN 誕生日'},
-{date:'2026-10-17',type:'BIRTHDAY',title:'LILY 誕生日'},
-{date:'2026-12-28',type:'BIRTHDAY',title:'BAE 誕生日'}
-];
-
-const tourStops = [
-  ["仁川",37.4602,126.4407,"韓国","#8a63ff"],
-  ["マドリード",40.4168,-3.7038,"ヨーロッパ","#5aa3ff"],
-  ["アムステルダム",52.3676,4.9041,"ヨーロッパ","#5aa3ff"],
-  ["パリ",48.8566,2.3522,"ヨーロッパ","#5aa3ff"],
-  ["フランクフルト",50.1109,8.6821,"ヨーロッパ","#5aa3ff"],
-  ["ロンドン",51.5074,-0.1278,"ヨーロッパ","#5aa3ff"],
-  ["トロント",43.6532,-79.3832,"北米","#39d0b3"],
-  ["ブルックリン",40.6782,-73.9442,"北米","#39d0b3"],
-  ["ナショナルハーバー",38.7826,-77.0164,"北米","#39d0b3"],
-  ["アービング",32.8140,-96.9489,"北米","#39d0b3"],
-  ["オークランド",37.8044,-122.2711,"北米","#39d0b3"],
-  ["ロサンゼルス",34.0522,-118.2437,"北米","#39d0b3"],
-  ["東京",35.6762,139.6503,"日本","#ff4fa4"]
-];
-
-const nowBase=new Date();
-const today=new Date(nowBase.getFullYear(),nowBase.getMonth(),nowBase.getDate());
-
-function jp(dateStr){const d=new Date(dateStr+'T00:00:00');return `${d.getFullYear()}.${String(d.getMonth()+1).padStart(2,'0')}.${String(d.getDate()).padStart(2,'0')}`;}
-function cls(type){return type.toLowerCase();}
-function shortType(type){return type==='BIRTHDAY'?'誕生日':type;}
-
-function renderCountdown(){
-  const target=new Date('2026-08-08T17:30:00+09:00');
-  const diff=target-new Date();
-  const days=diff>0?Math.floor(diff/(1000*60*60*24)):0;
-  document.getElementById('countdownDays').textContent=days;
-}
-function renderUpcoming(){
-  const items=events.filter(e=>new Date(e.date+'T00:00:00')>=today).sort((a,b)=>new Date(a.date)-new Date(b.date)).slice(0,8);
-  document.getElementById('upcomingList').innerHTML=items.map(e=>`<div class="upcoming-item"><div class="upcoming-date">${jp(e.date)}</div><div><span class="badge ${cls(e.type)}">${shortType(e.type)}</span></div><div class="upcoming-title">${e.title}</div></div>`).join('');
-}
-let currentYear=today.getFullYear();
-let currentMonth=today.getMonth();
-function renderCalendar(){
-  const grid=document.getElementById('calendarGrid');
-  const label=document.getElementById('monthLabel');
-  grid.innerHTML='';
-  label.textContent=`${currentYear}.${String(currentMonth+1).padStart(2,'0')}`;
-  const first=new Date(currentYear,currentMonth,1);
-  const start=first.getDay();
-  const days=new Date(currentYear,currentMonth+1,0).getDate();
-  const prevDays=new Date(currentYear,currentMonth,0).getDate();
-  for(let i=0;i<start;i++){
-    const n=prevDays-start+i+1;
-    grid.insertAdjacentHTML('beforeend',`<div class="calendar-day other-month"><div class="calendar-date">${n}</div></div>`);
-  }
-  for(let d=1;d<=days;d++){
-    const key=`${currentYear}-${String(currentMonth+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
-    const match=events.filter(e=>e.date===key);
-    const visible=match.slice(0,2);
-    const pills=visible.map(m=>`<div class="calendar-pill ${cls(m.type)}">${shortType(m.type)}</div>`).join('');
-    const extra=match.length>2?`<div class="calendar-pill">+${match.length-2}</div>`:'';
-    grid.insertAdjacentHTML('beforeend',`<div class="calendar-day"><div class="calendar-date">${d}</div><div class="calendar-items">${pills}${extra}</div></div>`);
-  }
-  const total=start+days;
-  const rest=total%7===0?0:7-(total%7);
-  for(let i=1;i<=rest;i++){
-    grid.insertAdjacentHTML('beforeend',`<div class="calendar-day other-month"><div class="calendar-date">${i}</div></div>`);
-  }
-}
-function renderMonthList(){
-  const box=document.getElementById('monthList');
-  const monthItems=events.filter(e=>{
-    const d=new Date(e.date+'T00:00:00');
-    return d.getFullYear()===currentYear&&d.getMonth()===currentMonth;
-  }).sort((a,b)=>new Date(a.date)-new Date(b.date));
-  if(monthItems.length===0){
-    box.innerHTML=`<div class="month-row"><div class="month-row-title">この月の予定はまだありません。</div></div>`;
-    return;
-  }
-  box.innerHTML=monthItems.map(e=>`<div class="month-row"><div class="month-row-date">${jp(e.date)}</div><div><span class="badge ${cls(e.type)}">${shortType(e.type)}</span></div><div class="month-row-title">${e.title}</div></div>`).join('');
-}
-function rerenderAll(){renderCalendar();renderMonthList();}
-
-function initMap(){
-  const map = L.map('tourMap',{zoomControl:true, scrollWheelZoom:false}).setView([32,20],2);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
-    maxZoom:6,
-    attribution:'© OpenStreetMap'
-  }).addTo(map);
-
-  const points = [];
-  tourStops.forEach(([name,lat,lng,group,color])=>{
-    const icon = L.divIcon({
-      className:'',
-      html:`<div style="width:14px;height:14px;border:2px solid white;border-radius:999px;background:${color};box-shadow:0 0 12px ${color};"></div>`,
-      iconSize:[14,14],
-      iconAnchor:[7,7]
-    });
-    L.marker([lat,lng],{icon}).addTo(map).bindPopup(`<strong>${name}</strong><br>${group}`);
-    points.push([lat,lng]);
-  });
-
-  L.polyline(points,{color:'#ff4fa4',weight:3,opacity:.9}).addTo(map);
-  map.fitBounds(points,{padding:[30,30]});
-}
-
-renderCountdown();
-renderUpcoming();
-rerenderAll();
-setInterval(renderCountdown,60000);
-document.getElementById('prevMonth').addEventListener('click',()=>{currentMonth--;if(currentMonth<0){currentMonth=11;currentYear--;}rerenderAll();});
-document.getElementById('nextMonth').addEventListener('click',()=>{currentMonth++;if(currentMonth>11){currentMonth=0;currentYear++;}rerenderAll();});
-initMap();
-  </script>
-</body>
-</html>
+<div class="nav-actions"><a class="search-toggle" href="search.html" aria-label="サイト内検索" title="サイト内検索"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m20.7 19.3-4.2-4.2a7.5 7.5 0 1 0-1.4 1.4l4.2 4.2a1 1 0 0 0 1.4-1.4ZM5 10.5a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0Z"/></svg></a><button class="theme-toggle" id="themeToggle" type="button" aria-label="テーマ切り替え">☾</button><button class="hamburger" id="hamburger" type="button" aria-label="メニューを開く" aria-controls="mobileMenu" aria-expanded="false">☰</button></div>
+</div></header>
+<nav class="mobile-menu" id="mobileMenu" aria-label="モバイルナビゲーション">
+<a href="index.html">ホーム</a><a class="mobile-search-link" href="search.html">サイト内検索</a>
+<details class="mobile-group"><summary>NMIXX</summary><div class="mobile-submenu"><a href="about.html">NMIXXについて</a><a href="members.html">メンバー</a></div></details>
+<a href="schedule.html">スケジュール</a><a href="news.html">ニュース</a>
+<details class="mobile-group"><summary>音楽</summary><div class="mobile-submenu"><a href="discography.html">ディスコグラフィ</a><a href="mv.html">MV一覧</a><a href="youtube.html">YouTube</a><a href="records.html">記録</a></div></details>
+<details class="mobile-group"><summary>応援ガイド</summary><div class="mobile-submenu"><a href="streaming.html">ストリーミング</a><a href="voting.html">投票ガイド</a><a href="chants.html">掛け声</a></div></details>
+<details class="mobile-group"><summary>リンク</summary><div class="mobile-submenu"><a href="links.html">公式リンク</a><a href="fan-services.html">日本FC・公演ガイド</a><a href="contact.html">お問い合わせ</a></div></details></nav>
+<div class="menu-backdrop" id="menuBackdrop"></div><div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+<!-- SITE-HEADER-END -->
+<main class="container"><section class="page-header section" id="top"><span class="page-kicker">SCHEDULE</span><h1>スケジュール</h1><p>NMIXXのリリース、出演、記念日、メンバーの誕生日をカレンダーで確認できます。</p><p class="schedule-last-updated" id="scheduleLastUpdated">最終更新：確認中</p></section><section class="section"><div class="calendar-subscribe card"><div class="calendar-subscribe-copy"><span class="section-kicker">CALENDAR SUBSCRIPTION</span><h2>すべての予定をカレンダーで受け取る</h2></div><div class="calendar-subscribe-actions"><a class="btn calendar-apple" href="webcal://nswerjapan.jp/data/nswer-schedule.ics">Appleで購読</a><button class="btn calendar-google" id="googleCalendarSubscribe" type="button">Googleで購読</button><a class="btn calendar-copy" download="NMIXX-JAPAN-FANBASE-Schedule.ics" href="data/nswer-schedule.ics">ICSを保存</a></div><p aria-live="polite" class="calendar-subscribe-status" id="calendarSubscribeStatus"></p><p class="calendar-help"><strong>Googleの全予定購読：</strong>購読URLをコピーしてGoogleカレンダーの登録画面を開きます。全予定の購読はPCブラウザで行ってください。各予定の個別追加はスマホでも利用できます。</p></div></section><section aria-labelledby="schedule-category-title" class="section"><div class="schedule-category-panel card"><div><span class="section-kicker">CATEGORY</span><h2 id="schedule-category-title">カテゴリー</h2></div><div aria-label="予定カテゴリー" class="schedule-category-filters" id="scheduleCategoryFilters" role="group"></div></div></section><section class="section"><div class="calendar-shell card"><div class="calendar-toolbar"><button aria-label="前の月" id="prevMonth" type="button">←</button><h2 id="calendarTitle"></h2><button aria-label="次の月" id="nextMonth" type="button">→</button></div><div aria-hidden="true" class="calendar-weekdays"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div><div class="calendar-grid" id="calendarGrid"></div></div></section><section class="section"><div class="section-head schedule-list-head"><div><span class="section-kicker">EVENTS</span><h2 class="section-title" id="scheduleListTitle">今月のスケジュール</h2></div><div aria-label="スケジュール表示切り替え" class="schedule-view-actions" role="group"><button class="schedule-view-button active" id="scheduleMonthView" type="button">月全体を表示</button><button class="schedule-view-button" id="scheduleTodayView" type="button">今日を表示</button></div></div><div class="schedule-list" id="scheduleEvents"></div></section><section aria-labelledby="weekly-music-show-title" class="section"><div class="section-head"><div><span class="section-kicker">MUSIC SHOW WEEK</span><h2 class="section-title" id="weekly-music-show-title">参加対象の音楽番組</h2></div></div><article class="card"><span class="badge">WED → SUN</span><h3>SHOW CHAMPION / M COUNTDOWN / Music Bank / Show! Music Core / Inkigayo</h3><p>NMIXXのカムバック時に確認する番組をまとめています。放送時間、投票期間、配点、使用アプリは改編されることがあるため、固定画像ではなく投票ガイドの管理データから確認してください。</p><a class="btn" href="voting.html#programs">投票ガイドを見る</a></article></section></main>
+<!-- SITE-FOOTER-START -->
+<footer class="site-footer"><div class="footer-inner"><div><strong>NSWER JAPAN FB</strong><p>NMIXXを日本から応援する非公式ファンベースです。</p></div><div class="footer-links"><a href="about.html">ABOUT</a><a href="links.html">OFFICIAL LINKS</a><a href="search.html">SEARCH</a><a href="favorites.html">FAVORITES</a><a href="updates.html">UPDATES</a><a href="sync-status.html">DATA STATUS</a><a href="#top">PAGE TOP ↑</a></div></div><div class="footer-note">公式情報はNMIXXおよび所属事務所・各主催者の案内もあわせてご確認ください。 © <span data-year></span> NSWER JAPAN FB</div></footer>
+<!-- SITE-FOOTER-END -->
+<script src="js/common.js"></script>
+<script src="data/schedule-data.js"></script>
+<script src="js/schedule.js"></script>
+<script src="js/image-optimizer.js"></script>
+</body></html>
