@@ -28,7 +28,7 @@ jobs:
       - uses: actions/setup-node@v4
         with: {node-version: "22"}
       - name: Install build and YouTube dependencies
-        run: python -m pip install -U pillow --pre "yt-dlp[default]"
+        run: python -m pip install --upgrade pip Pillow --pre "yt-dlp[default]"
       - name: Select YouTube mode
         id: mode
         shell: bash

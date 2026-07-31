@@ -34,8 +34,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Install current YouTube extractor
-        run: python -m pip install -U --pre "yt-dlp[default]"
+      - name: Install build and YouTube dependencies
+        run: python -m pip install --upgrade pip Pillow --pre "yt-dlp[default]"
       - name: Select sync mode
         id: mode
         shell: bash

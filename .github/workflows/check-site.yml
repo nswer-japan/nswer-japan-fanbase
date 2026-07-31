@@ -15,7 +15,8 @@ jobs:
         with: {python-version: "3.12"}
       - uses: actions/setup-node@v4
         with: {node-version: "22"}
-      - run: pip install pillow
+      - name: Install Python build dependencies
+        run: python -m pip install --upgrade pip Pillow
       - run: python3 scripts/build-content.py
       - run: python3 scripts/validate-site.py
       - run: python3 scripts/check-site-links.py
