@@ -4,6 +4,7 @@ name: Build Repository Content
   push:
     paths:
       - "data/**"
+      - "docs/**"
       - "assets/**"
       - "templates/**"
       - "scripts/**"
