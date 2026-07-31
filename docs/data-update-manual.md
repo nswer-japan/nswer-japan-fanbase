@@ -498,9 +498,21 @@ bash scripts/run-prepublish-checks.sh
 
 CSVはExcel、Googleスプレッドシートなどで編集できます。保存形式はUTF-8 CSVを推奨します。
 
-## 21. YouTube手動更新
+## 21. YouTube全履歴同期と手動更新
 
-通常は `Sync YouTube` が `data/youtube-channels.json` を更新します。
+通常は `Sync YouTube` が `data/youtube-channels.json` を更新します。初回と毎週の完全同期では、通常動画・Shorts・ライブ配信アーカイブを上限なしで取得します。6時間ごとの確認では直近分を取得し、保存済みの全履歴へ統合します。
+
+
+### 初回の全動画取得
+
+1. GitHubの `Actions` を開く。
+2. `Sync YouTube` を選ぶ。
+3. `Run workflow` を押す。
+4. `full_history` をオンのまま実行する。
+5. 実行後、`data/youtube-channels.json` の `historyComplete` が `true` になっていることを確認する。
+6. `youtube.html` に「全公開履歴取得済み」と表示されることを確認する。
+
+全履歴同期では件数上限を設定しません。通常動画、Shorts、ライブ配信アーカイブを別々に取得し、動画IDで重複を除外します。
 
 全自動取得が失敗した場合も前回データは残ります。急ぎで追加する場合は、対象チャンネルの `videos` 配列へ次の形式で追加します。
 

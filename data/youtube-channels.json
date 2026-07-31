@@ -1,8 +1,8 @@
 {
   "generatedAt": "2026-07-26T03:00:00+09:00",
   "source": "repository-seed",
-  "collectionMode": "all-public-videos-with-verified-publish-dates",
-  "classificationVersion": 2,
+  "collectionMode": "official-channel-seed-before-full-history",
+  "classificationVersion": 3,
   "channels": [
     {
       "key": "nmixx",
@@ -181,5 +181,11 @@
         }
       ]
     }
-  ]
+  ],
+  "requestedSyncMode": "auto",
+  "effectiveSyncMode": "seed",
+  "historyComplete": false,
+  "lastFullSyncAt": "",
+  "successfulTabs": [],
+  "partialFailures": []
 }
