@@ -1,0 +1,12 @@
+﻿title,category,categoryOrder,order,url,subtitle,description,label,icon,iconText,anchor
+NMIXX Official X,公式SNS,10,10,https://x.com/NMIXX_official,韓国公式,NMIXX公式X,OFFICIAL X,,X,official-x
+WE NMIXX,公式SNS,10,20,https://x.com/WE_NMIXX,メンバー公式,メンバー投稿アカウント,X,,X,we-nmixx
+NMIXX Japan X,公式SNS,10,30,https://x.com/JYPJAPAN_NMIXX,日本公式,NMIXX日本公式X,JAPAN X,,X,japan-x
+Instagram,公式SNS,10,40,https://www.instagram.com/nmixx_official/,Official Instagram,NMIXX公式Instagram,INSTAGRAM,,IG,instagram
+TikTok,公式SNS,10,50,https://www.tiktok.com/@nmixx_official,Official TikTok,NMIXX公式TikTok,TIKTOK,assets/platform-icons/tiktok.webp,,tiktok
+YouTube,公式SNS,10,60,https://www.youtube.com/@NMIXXOfficial,Official Artist Channel,NMIXX公式YouTube,YOUTUBE,assets/platform-icons/youtube.png,,youtube
+Official Website,公式サイト,20,10,https://nmixx.jype.com/,JYP Entertainment,NMIXX公式サイト,WEBSITE,,N,website
+NSWER JAPAN,ファンクラブ,30,10,https://nswerjapan.com/s/222/,日本公式ファンクラブ,年会員コース,FANCLUB,,FC,fanclub
+NSWER JAPAN MOBILE,ファンクラブ,30,20,https://m.nswerjapan.com/s/222m/,日本公式モバイルFC,月額・年額コース,MOBILE,,M,mobile-fc
+Spotify,音楽配信,40,10,https://open.spotify.com/artist/28ot3wh4oNmoFOdVajibBl,Music,Spotifyアーティストページ,SPOTIFY,assets/platform-icons/spotify.png,,spotify
+Apple Music,音楽配信,40,20,https://music.apple.com/jp/artist/nmixx/1609054388,Music,Apple Musicアーティストページ,APPLE MUSIC,assets/platform-icons/apple-music.png,,apple-music

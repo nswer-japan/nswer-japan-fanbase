@@ -1,10 +1,9 @@
-# NSWER JAPAN FB Documentation
+# Documentation
 
-このフォルダ内のファイル名は、GitHubへのアップロード時の文字化けを防ぐため、すべて半角英数字で統一しています。本文はUTF-8の日本語です。
-
-- `operations-manual.md` — 運営マニュアル
-- `data-update-manual.md` — データ更新マニュアル
-- `notion-sync-setup.md` — Notion同期設定
-- `image-assets-guide.md` — 画像素材一覧
-- `migration-and-test-report.md` — 移行設計・検査レポート
-- `update-report-20260726.md` — 今回の更新内容
+- `operations-manual.md` — 公開・運営・障害対応
+- `data-update-manual.md` — JSON／CSV／画像の更新方法
+- `feature-parity.md` — 高機能サイトとして維持する機能
+- `migration-and-test-report.md` — 移行と検査内容
+- `image-assets-guide.md` — 画像運用
+- `youtube-full-sync.md` — YouTube全履歴取得
+- `repository-only-update-20260801.md` — リポジトリ完結型への変更記録

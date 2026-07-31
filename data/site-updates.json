@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-26T03:00:00+09:00",
+  "generatedAt": "2026-08-01T00:41:00+09:00",
   "source": "repository-json",
   "items": [
+    {
+      "date": "2026-08-01",
+      "title": "リポジトリ完結型運用へ統一",
+      "description": "外部CMSへの依存をなくし、JSON・CSV・画像を唯一の管理元に統一しました。YouTube全履歴取得、SEO、PWA、検索、記録生成などの高機能は維持しています。",
+      "commit": "repository-only",
+      "files": [
+        "data/",
+        "scripts/",
+        ".github/workflows/",
+        "docs/"
+      ]
+    },
     {
       "date": "2026-07-26",
       "title": "NMIXXサイト全面再構築",

@@ -1,1 +1,7 @@
-slug,date,category,label,title,text,image,sourceLink,sourceLabel
+﻿slug,date,category,label,title,text,image,sourceLink,sourceLabel
+zero-frontier-japan-additional-sale,2026.07.02,event,公演,ZERO FRONTIER IN JAPAN 一般追加販売（立見）の案内,2026年8月8日・9日にKEIO ARENA TOKYOで開催される日本公演の追加販売情報をまとめています。,assets/news/zero-frontier-tour.jpg,fan-services.html#tour,公演情報を見る
+zero-frontier-japan-goods,2026.06.24,event,GOODS,ZERO FRONTIER IN JAPAN オフィシャルグッズ情報,日本公演のオフィシャルグッズと先行通販の確認先をまとめています。,assets/news/zero-frontier-goods.jpg,fan-services.html#tour,公演情報を見る
+heavy-serenade-release,2026.05.11,release,RELEASE,NMIXX 5th EP「Heavy Serenade」リリース,販売形態、プロモーション日程、購入・配信リンクを確認できます。,assets/discography/heavy-serenade.jpg,discography.html#heavy-serenade,作品情報を見る
+japan-fanclub-open,2026.03.04,notice,公式,NMIXX日本公式X・ファンクラブ開設,NSWER JAPANとNSWER JAPAN MOBILEの会費や特徴を整理しています。,assets/news/nswer-japan-fanclub.jpg,fan-services.html#fanclub,FC案内を見る
+blue-valentine-ten-wins,2026.01.02,record,記録,「Blue Valentine」音楽番組10冠達成,「Blue Valentine」がMusic Bankで10冠目を獲得しました。,assets/news/blue-valentine.jpg,music-show-wins.html,1位記録を見る
+site-rebuild,2026.07.26,notice,SITE,NSWER JAPAN FBを新しい管理方式へ全面移行,ニュース、スケジュール、作品、記録、ガイドをリポジトリ内のJSON・CSV・画像で管理する構成へ移行しました。,assets/group/nmixx-group-wide.jpg,updates.html,更新履歴を見る

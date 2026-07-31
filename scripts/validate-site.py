@@ -30,7 +30,7 @@ for p in ROOT.rglob('*.html'):
   except ValueError: errors.append(f'Path escapes root: {p.relative_to(ROOT)} -> {url}'); continue
   if not target.exists(): errors.append(f'Missing local target: {p.relative_to(ROOT)} -> {url}')
 # required managed files
-for rel in ['data/members.json','data/news.json','data/schedule.json','data/discography.json','data/records.json','data/streaming-guide.json','data/voting-guide.json','data/chants.json','data/official-links.json','data/homepage.json','data/site-theme.json','data/comeback-themes.json','data/notion-config.json']:
+for rel in ['data/members.json','data/news.json','data/schedule.json','data/discography.json','data/records.json','data/streaming-guide.json','data/voting-guide.json','data/chants.json','data/official-links.json','data/homepage.json','data/site-theme.json','data/comeback-themes.json']:
  if not (ROOT/rel).exists(): errors.append(f'Missing required data: {rel}')
 if errors:
  print(f'検査エラー {len(errors)}件')
