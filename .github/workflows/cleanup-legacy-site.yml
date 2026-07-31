@@ -1,0 +1,136 @@
+name: Cleanup Legacy Site Files
+
+"on":
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nswer-content-write
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Remove legacy site files
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import shutil
+
+          root = Path.cwd()
+          allowed_root_html = {
+              "404.html",
+              "about.html",
+              "analytics.html",
+              "article.html",
+              "chants.html",
+              "contact.html",
+              "discography.html",
+              "external-links.html",
+              "fan-services.html",
+              "favorites.html",
+              "hanteo-records.html",
+              "index.html",
+              "links.html",
+              "melon-records.html",
+              "members.html",
+              "music-show-wins.html",
+              "mv.html",
+              "news.html",
+              "offline.html",
+              "records.html",
+              "schedule.html",
+              "search.html",
+              "streaming.html",
+              "sync-status.html",
+              "updates.html",
+              "voting.html",
+              "youtube.html",
+          }
+
+          removed = []
+          for path in root.glob("*.html"):
+              if path.name not in allowed_root_html:
+                  path.unlink()
+                  removed.append(path.as_posix())
+
+          legacy_files = [
+              ".external-link-issue.md",
+              "vote-guide.html",
+              "linc.html",
+              "mubeat.html",
+              "idolchamp.html",
+              "higher.html",
+              "fancast.html",
+              ".github/workflows/sync-notion.yml",
+              "scripts/sync-notion-content.py",
+              "data/notion-config.json",
+              "docs/notion-sync-setup.md",
+          ]
+          legacy_dirs = [
+              "nswerjapan-ogp-update",
+              "nswerjapan-index-final-head",
+              "index_search_console",
+              "nswer_complete_setup",
+              "assets/notion",
+              "data/backups/notion",
+          ]
+
+          for rel in legacy_files:
+              path = root / rel
+              if path.is_file() or path.is_symlink():
+                  path.unlink()
+                  removed.append(rel)
+
+          for rel in legacy_dirs:
+              path = root / rel
+              if path.exists():
+                  shutil.rmtree(path)
+                  removed.append(rel + "/")
+
+          print(f"Removed {len(removed)} legacy paths")
+          for rel in removed:
+              print("-", rel)
+          PY
+
+      - name: Rebuild and validate current site
+        run: |
+          python3 scripts/build-content.py
+          python3 scripts/validate-site.py
+          python3 scripts/check-site-links.py
+          for file in js/*.js data/*-data.js service-worker.js; do node --check "$file"; done
+          for file in scripts/*.mjs; do node --check "$file"; done
+          python3 -m compileall -q scripts
+
+      - name: Remove one-time cleanup workflow
+        run: rm -f .github/workflows/cleanup-legacy-site.yml
+
+      - name: Commit cleanup
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No legacy files remained."
+            exit 0
+          fi
+          git commit -m "chore: remove legacy site files"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
