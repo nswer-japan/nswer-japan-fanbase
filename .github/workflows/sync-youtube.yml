@@ -1,8 +1,21 @@
 name: Sync YouTube
 "on":
+  push:
+    branches: [main]
+    paths:
+      - "scripts/sync-youtube-channels.mjs"
+      - ".github/workflows/sync-youtube.yml"
+      - "data/youtube-channels.json"
   workflow_dispatch:
+    inputs:
+      full_history:
+        description: "全公開履歴を再取得する"
+        required: true
+        default: true
+        type: boolean
   schedule:
     - cron: "17 */6 * * *"
+    - cron: "43 3 * * 0"
 permissions:
   contents: write
 concurrency:
@@ -10,17 +23,44 @@ concurrency:
   cancel-in-progress: false
 jobs:
   sync:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: {python-version: "3.12"}
+        with:
+          python-version: "3.12"
       - uses: actions/setup-node@v4
-        with: {node-version: "22"}
-      - run: pip install pillow yt-dlp
+        with:
+          node-version: "22"
+      - name: Install current YouTube extractor
+        run: python -m pip install -U --pre "yt-dlp[default]"
+      - name: Select sync mode
+        id: mode
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          FULL_HISTORY: ${{ inputs.full_history }}
+        run: |
+          mode="recent"
+          if [[ "$EVENT_NAME" == "push" ]]; then
+            mode="auto"
+          elif [[ "$EVENT_NAME" == "workflow_dispatch" && "$FULL_HISTORY" == "true" ]]; then
+            mode="full"
+          elif [[ "$EVENT_NAME" == "schedule" && "$EVENT_SCHEDULE" == "43 3 * * 0" ]]; then
+            mode="full"
+          fi
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          echo "YouTube sync mode: $mode"
       - name: Fetch public YouTube data
         id: youtube
         continue-on-error: true
+        env:
+          YOUTUBE_SYNC_MODE: ${{ steps.mode.outputs.mode }}
+          YOUTUBE_TAB_RETRIES: "3"
+          YOUTUBE_TAB_TIMEOUT_MS: "1200000"
         run: node scripts/sync-youtube-channels.mjs
       - name: Keep previous data on failure
         if: steps.youtube.outcome == 'failure'
@@ -32,5 +72,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/youtube-channels.json data/search-index.json service-worker.js sitemap.xml assets/ogp articles '*.html'
-          git diff --cached --quiet || git commit -m "chore: sync YouTube data"
+          git diff --cached --quiet || git commit -m "chore: sync complete YouTube archive"
           git push
