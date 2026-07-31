@@ -81,6 +81,8 @@ jobs:
               "idolchamp.html",
               "higher.html",
               "fancast.html",
+              "wins-data.js",
+              "js/wins-data.js",
               ".github/workflows/sync-notion.yml",
               "scripts/sync-notion-content.py",
               "data/notion-config.json",
