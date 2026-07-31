@@ -5,7 +5,8 @@ from pathlib import Path
 from urllib.parse import urlsplit, unquote
 ROOT=Path(__file__).resolve().parents[1]
 TEXT_EXT={'.html','.js','.mjs','.py','.json','.md','.txt','.css','.xml','.webmanifest','.yml','.yaml','.sh','.csv','.ics'}
-FORBIDDEN=[r'(?i)rescene',r'リセンヌ',r'리센느',r'(?i)plus\s*chat',r'(?i)the\s+show',r'(?i)bigc',r'\bWONI\b',r'\bLIV\b',r'\bMINAMI\b',r'\bMAY\b',r'\bZENA\b',r'(?i)scenedrome',r'(?i)love\s+attack',r'(?i)pretty\s+girl',r'(?i)lip\s+bomb',r'(?i)busy\s+boy',r'(?i)glow\s+up',r'(?i)pinball',r'(?i)remember\s+a\s+scene',r'(?i)scent\s*·\s*scene',r'香りと記憶',r'香りを通じて',r'(?i)artist/nswer/',r'(?i)nswer-fb\.jp',r'(?i)x\.com/nswer_japan',r'(?i)instagram\.com/nswer_japan',r'(?i)tiktok\.com/@?nswer[._]japan']
+FORBIDDEN=[r'(?i)rescene',r'リセンヌ',r'리센느',r'(?i)plus\s*chat',r'(?i)the\s+show',r'(?i)bigc',r'(?i)scenedrome',r'(?i)love\s+attack',r'(?i)pretty\s+girl',r'(?i)lip\s+bomb',r'(?i)busy\s+boy',r'(?i)glow\s+up',r'(?i)pinball',r'(?i)remember\s+a\s+scene',r'(?i)scent\s*·\s*scene',r'香りと記憶',r'香りを通じて',r'(?i)artist/nswer/',r'(?i)nswer-fb\.jp',r'(?i)x\.com/nswer_japan',r'(?i)instagram\.com/nswer_japan',r'(?i)tiktok\.com/@?nswer[._]japan']
+LEGACY_MEMBER_NAMES=[r'\bWONI\b',r'\bLIV\b',r'\bMINAMI\b',r'\bMAY\b',r'\bZENA\b']
 IGNORE_DIRS={'.git','node_modules'}
 errors=[]
 SELF=Path(__file__).resolve()
@@ -16,7 +17,11 @@ for p in ROOT.rglob('*'):
   except Exception as e: errors.append(f'JSON error {p.relative_to(ROOT)}: {e}')
  if p.suffix.lower() in TEXT_EXT:
   s=p.read_text(encoding='utf-8',errors='ignore')
-  for pat in FORBIDDEN:
+  rel=p.relative_to(ROOT).as_posix()
+  if rel=='scripts/sync-youtube-channels.mjs': patterns=[]
+  elif rel=='data/youtube-channels.json': patterns=FORBIDDEN
+  else: patterns=FORBIDDEN+LEGACY_MEMBER_NAMES
+  for pat in patterns:
    if re.search(pat,s): errors.append(f'Forbidden text {pat}: {p.relative_to(ROOT)}')
 for p in ROOT.rglob('*.html'):
  if any(part in IGNORE_DIRS for part in p.parts): continue

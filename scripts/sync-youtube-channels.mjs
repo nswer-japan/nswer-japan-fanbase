@@ -61,13 +61,43 @@ const run = (command, args, timeoutMs = RUN_TIMEOUT_MS) => new Promise((resolve,
 
 const sleep = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
 
+const LEGACY_ENTRY_PATTERNS = [
+  /rescene/i,
+  /リセンヌ/u,
+  /리센느/u,
+  /\bWONI\b/i,
+  /\bLIV\b/i,
+  /\bMINAMI\b/i,
+  /\bZENA\b/i,
+  /scenedrome/i,
+  /love\s+attack/i,
+  /pretty\s+girl/i,
+  /lip\s+bomb/i,
+  /busy\s+boy/i,
+  /glow\s+up/i,
+  /pinball/i,
+  /remember\s+a\s+scene/i,
+  /scent\s*[·・.]?\s*scene/i,
+];
+
+const isLegacyEntry = (item) => {
+  const text = JSON.stringify(item || {});
+  return LEGACY_ENTRY_PATTERNS.some((pattern) => pattern.test(text));
+};
+
 const parseExisting = async () => {
   try {
     const parsed = JSON.parse(await readFile(outputPath, "utf8"));
     const videos = parsed?.channels?.find((item) => item.key === channel.key)?.videos;
+    const sourceVideos = Array.isArray(videos) ? videos : [];
+    const cleanVideos = sourceVideos.filter((item) => item?.videoId && !isLegacyEntry(item));
+    const removedCount = sourceVideos.length - cleanVideos.length;
+    if (removedCount > 0) {
+      console.log(`旧サイト由来のYouTubeデータを${removedCount}件除外しました。`);
+    }
     return {
       payload: parsed,
-      videoMap: new Map((Array.isArray(videos) ? videos : []).map((item) => [String(item.videoId || ""), item])),
+      videoMap: new Map(cleanVideos.map((item) => [String(item.videoId || ""), item])),
     };
   } catch {
     return { payload: null, videoMap: new Map() };
