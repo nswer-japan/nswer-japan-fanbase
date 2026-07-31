@@ -225,7 +225,8 @@
   channels=Array.isArray(data.channels)?data.channels:[];
   const total=allVideos().length;
   const updated=data.generatedAt?new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(new Date(data.generatedAt)):'';
-  syncLabel=updated?`最終更新：${updated}`:'';
+  const historyLabel=data.historyComplete?'全公開履歴取得済み':'初回の全履歴同期前';
+  syncLabel=[historyLabel,updated?`最終更新：${updated}`:''].filter(Boolean).join(' / ');
   renderLatest();
   render();
  }).catch(error=>{

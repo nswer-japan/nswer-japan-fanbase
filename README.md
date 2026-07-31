@@ -9,7 +9,7 @@ NMIXXを日本から応援する非公式ファンベースサイトです。Git
 - スマートフォン対応、ダーク／ライト表示、サイト内検索、お気に入り、共有
 - SEO、ページ別OGP、構造化データ、サイトマップ、PWA、オフライン画面
 - NSWER専用NotionをGitHub Actionsで同期し、画像もリポジトリへ保存
-- 公式YouTubeチャンネルの公開コンテンツをGitHub Actionsで自動取得
+- 公式YouTubeチャンネルの通常動画・Shorts・ライブ配信アーカイブを全履歴取得し、GitHub Actionsで自動更新
 - Notion・YouTubeの取得失敗時も前回データを維持
 - 音楽番組1位、Melon、Hanteo、ニュース記事などを静的ページへ自動生成
 
@@ -20,6 +20,7 @@ NMIXXを日本から応援する非公式ファンベースサイトです。Git
 - `docs/migration-and-test-report.md`: 構成比較、移行方針、検査内容
 - `docs/image-assets-guide.md`: 採用画像の出典区分と差し替えルール
 - `docs/notion-sync-setup.md`: NSWER専用Notion IntegrationとGitHub Secretの設定
+- `docs/youtube-full-sync.md`: YouTube全履歴取得の実行方法と安全設計
 - `DELETE_OLD_FILES_BEFORE_UPLOAD.md`: 既存リポジトリへ上書きする際の注意
 
 ## 基本コマンド
@@ -35,4 +36,4 @@ bash scripts/run-prepublish-checks.sh
 python3 scripts/import-csv.py news
 ```
 
-Python 3.12、Node.js 22、Pillowが推奨環境です。YouTube取得をローカルで行う場合のみ `yt-dlp` が必要です。
+Python 3.12、Node.js 22、Pillowが推奨環境です。YouTube取得をローカルで行う場合は、JavaScript対応を含む最新の `yt-dlp[default]` が必要です。
