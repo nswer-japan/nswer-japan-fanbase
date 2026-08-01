@@ -14,18 +14,19 @@ const channel = {
   handle: "@NMIXXOfficial",
   channelId: "UCnUAyD4t2LkvW68YrDh7fDg",
   url: "https://www.youtube.com/@NMIXXOfficial",
-  description: "MV、ビハインド、ライブ、ショートなどNMIXXの公式コンテンツ。",
+  description: "NMIXX公式YouTubeチャンネルの動画、ショート、ライブ配信。",
   feedUrl: "https://www.youtube.com/feeds/videos.xml?channel_id=UCnUAyD4t2LkvW68YrDh7fDg",
 };
 
-// Full mode has no playlist limit. Recent mode is used for frequent checks after
-// a successful full-history sync and is merged into the stored archive.
+// YouTubeの各公開タブを別々に取得し、タブを分類の正本にする。
+// full は件数上限なし。recent は全履歴取得後の差分確認用。
 const tabs = [
-  { path: "videos", type: "video", recentLimit: 180 },
-  { path: "shorts", type: "short", recentLimit: 120 },
-  { path: "streams", type: "live", recentLimit: 100 },
+  { path: "videos", type: "video", label: "動画", recentLimit: 240 },
+  { path: "shorts", type: "short", label: "ショート", recentLimit: 240 },
+  { path: "streams", type: "live", label: "ライブ", recentLimit: 180 },
 ];
 
+const TYPE_PRIORITY = { video: 1, short: 2, live: 3 };
 const RUN_TIMEOUT_MS = Number(process.env.YOUTUBE_TAB_TIMEOUT_MS || 20 * 60 * 1000);
 const RETRY_COUNT = Math.max(1, Number(process.env.YOUTUBE_TAB_RETRIES || 3));
 
@@ -34,6 +35,7 @@ const run = (command, args, timeoutMs = RUN_TIMEOUT_MS) => new Promise((resolve,
   let stdout = "";
   let stderr = "";
   let settled = false;
+
   const timer = setTimeout(() => {
     if (settled) return;
     child.kill("SIGTERM");
@@ -61,73 +63,70 @@ const run = (command, args, timeoutMs = RUN_TIMEOUT_MS) => new Promise((resolve,
 
 const sleep = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
 
-const LEGACY_ENTRY_PATTERNS = [
-  /rescene/i,
-  /リセンヌ/u,
-  /리센느/u,
-  /\bWONI\b/i,
-  /\bLIV\b/i,
-  /\bMINAMI\b/i,
-  /\bZENA\b/i,
-  /scenedrome/i,
-  /love\s+attack/i,
-  /pretty\s+girl/i,
-  /lip\s+bomb/i,
-  /busy\s+boy/i,
-  /glow\s+up/i,
-  /pinball/i,
-  /remember\s+a\s+scene/i,
-  /scent\s*[·・.]?\s*scene/i,
-];
-
-const isLegacyEntry = (item) => {
-  const text = JSON.stringify(item || {});
-  return LEGACY_ENTRY_PATTERNS.some((pattern) => pattern.test(text));
-};
-
 const parseExisting = async () => {
   try {
     const parsed = JSON.parse(await readFile(outputPath, "utf8"));
-    const videos = parsed?.channels?.find((item) => item.key === channel.key)?.videos;
-    const sourceVideos = Array.isArray(videos) ? videos : [];
-    const cleanVideos = sourceVideos.filter((item) => item?.videoId && !isLegacyEntry(item));
-    const removedCount = sourceVideos.length - cleanVideos.length;
-    if (removedCount > 0) {
-      console.log(`旧サイト由来のYouTubeデータを${removedCount}件除外しました。`);
-    }
+    const currentChannel = Array.isArray(parsed?.channels)
+      ? parsed.channels.find((item) => item?.key === channel.key && item?.channelId === channel.channelId)
+      : null;
+    const videos = Array.isArray(currentChannel?.videos) ? currentChannel.videos : [];
     return {
       payload: parsed,
-      videoMap: new Map(cleanVideos.map((item) => [String(item.videoId || ""), item])),
+      videoMap: new Map(videos.filter((item) => item?.videoId).map((item) => [String(item.videoId), item])),
     };
   } catch {
     return { payload: null, videoMap: new Map() };
   }
 };
 
-const thumbnailFor = (item, videoId) => {
-  const thumbnails = Array.isArray(item.thumbnails) ? item.thumbnails : [];
-  return thumbnails.at(-1)?.url || `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+const isoFromSeconds = (value) => {
+  const seconds = Number(value || 0);
+  if (!Number.isFinite(seconds) || seconds <= 0) return "";
+  return new Date(seconds * 1000).toISOString();
 };
 
-const normalizeEntry = (item, fallbackType, previous) => {
-  const videoId = String(item?.id || "");
+const isoFromUploadDate = (value) => {
+  const text = String(value || "");
+  if (!/^\d{8}$/.test(text)) return "";
+  const year = text.slice(0, 4);
+  const month = text.slice(4, 6);
+  const day = text.slice(6, 8);
+  return `${year}-${month}-${day}T00:00:00.000Z`;
+};
+
+const thumbnailFor = (item, videoId, previous) => {
+  const thumbnails = Array.isArray(item?.thumbnails) ? item.thumbnails.filter((entry) => entry?.url) : [];
+  return thumbnails.at(-1)?.url
+    || String(item?.thumbnail || "")
+    || String(previous?.thumbnail || "")
+    || `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+};
+
+const normalizeEntry = (item, tab, previous) => {
+  const videoId = String(item?.id || "").trim();
   if (!videoId) return null;
-  const duration = Number(item.duration || previous?.duration || 0) || 0;
-  const publishedAt = item.timestamp
-    ? new Date(item.timestamp * 1000).toISOString()
-    : String(item.release_timestamp ? new Date(item.release_timestamp * 1000).toISOString() : previous?.publishedAt || "");
-  let videoType = fallbackType;
-  if (fallbackType === "video" && duration > 0 && duration <= 61) videoType = "short";
-  if (["is_live", "was_live", "is_upcoming"].includes(item.live_status)) videoType = "live";
+
+  const exactPublishedAt = isoFromSeconds(item?.timestamp) || isoFromSeconds(item?.release_timestamp);
+  const approximatePublishedAt = isoFromUploadDate(item?.upload_date);
+  const publishedAt = exactPublishedAt || approximatePublishedAt || String(previous?.publishedAt || "");
+  const duration = Number(item?.duration ?? previous?.duration ?? 0) || 0;
+  const sourceTypes = new Set(Array.isArray(previous?.sourceTypes) ? previous.sourceTypes : []);
+  sourceTypes.add(tab.type);
+
   return {
     videoId,
-    title: String(item.title || previous?.title || ""),
-    url: `https://www.youtube.com/watch?v=${videoId}`,
-    thumbnail: thumbnailFor(item, videoId) || previous?.thumbnail || "",
+    title: String(item?.title || previous?.title || ""),
+    url: String(item?.webpage_url || `https://www.youtube.com/watch?v=${videoId}`),
+    thumbnail: thumbnailFor(item, videoId, previous),
     publishedAt,
-    videoType,
+    dateAccuracy: exactPublishedAt ? "exact" : (approximatePublishedAt ? "approximate" : (previous?.dateAccuracy || "unknown")),
+    videoType: tab.type,
+    categoryLabel: tab.label,
+    sourceTypes: [...sourceTypes].sort((a, b) => TYPE_PRIORITY[a] - TYPE_PRIORITY[b]),
     duration,
+    liveStatus: tab.type === "live" ? String(item?.live_status || previous?.liveStatus || "stream") : "not_live",
     channelKey: channel.key,
+    channelId: channel.channelId,
   };
 };
 
@@ -135,12 +134,13 @@ const buildYtDlpArgs = (tab, mode) => {
   const args = [
     "--flat-playlist",
     "--dump-single-json",
-    "--ignore-errors",
     "--no-progress",
     "--socket-timeout", "30",
     "--extractor-retries", "5",
     "--retries", "5",
     "--js-runtimes", "node",
+    "--extractor-args", "youtubetab:approximate_date",
+    "--compat-options", "no-youtube-unavailable-videos",
   ];
   if (mode === "recent") {
     args.push("--playlist-end", String(tab.recentLimit));
@@ -152,20 +152,24 @@ const buildYtDlpArgs = (tab, mode) => {
 const fetchTabOnce = async (tab, mode, existingMap) => {
   const raw = await run("yt-dlp", buildYtDlpArgs(tab, mode));
   const parsed = JSON.parse(raw);
-  const entries = Array.isArray(parsed.entries) ? parsed.entries : [];
-  return entries
-    .filter(Boolean)
-    .map((item) => normalizeEntry(item, tab.type, existingMap.get(String(item.id || ""))))
+  const entries = Array.isArray(parsed?.entries) ? parsed.entries.filter(Boolean) : [];
+  if (!entries.length) throw new Error(`${tab.label}タブの取得結果が0件でした`);
+
+  const videos = entries
+    .map((item) => normalizeEntry(item, tab, existingMap.get(String(item?.id || ""))))
     .filter(Boolean);
+
+  return {
+    videos,
+    reportedCount: Number(parsed?.playlist_count || parsed?.n_entries || 0) || null,
+  };
 };
 
 const fetchTab = async (tab, mode, existingMap) => {
   let lastError;
   for (let attempt = 1; attempt <= RETRY_COUNT; attempt += 1) {
     try {
-      const videos = await fetchTabOnce(tab, mode, existingMap);
-      if (!videos.length) throw new Error("取得結果が0件でした");
-      return videos;
+      return await fetchTabOnce(tab, mode, existingMap);
     } catch (error) {
       lastError = error;
       if (attempt < RETRY_COUNT) await sleep(attempt * 5000);
@@ -174,32 +178,62 @@ const fetchTab = async (tab, mode, existingMap) => {
   throw lastError;
 };
 
+const mergeVideo = (current, incoming) => {
+  if (!current) return incoming;
+  const currentPriority = TYPE_PRIORITY[current.videoType] || 0;
+  const incomingPriority = TYPE_PRIORITY[incoming.videoType] || 0;
+  const sourceTypes = [...new Set([...(current.sourceTypes || []), ...(incoming.sourceTypes || [])])]
+    .sort((a, b) => TYPE_PRIORITY[a] - TYPE_PRIORITY[b]);
+  const winner = incomingPriority >= currentPriority ? incoming : current;
+  const fallback = winner === incoming ? current : incoming;
+  return {
+    ...fallback,
+    ...winner,
+    sourceTypes,
+    title: winner.title || fallback.title || "",
+    thumbnail: winner.thumbnail || fallback.thumbnail || "",
+    publishedAt: winner.publishedAt || fallback.publishedAt || "",
+    duration: winner.duration || fallback.duration || 0,
+  };
+};
+
 const existing = await parseExisting();
 const existingHistoryComplete = existing.payload?.historyComplete === true;
-const mode = requestedMode === "auto" ? (existingHistoryComplete ? "recent" : "full") : requestedMode;
-const collected = [];
+let mode;
+if (!existingHistoryComplete) mode = "full";
+else if (requestedMode === "auto") mode = "recent";
+else mode = requestedMode;
+
+const collectedByTab = new Map();
 const failures = [];
 const successfulTabs = [];
+const tabStats = {};
 
 for (const tab of tabs) {
   try {
-    const videos = await fetchTab(tab, mode, existing.videoMap);
-    collected.push(...videos);
+    const result = await fetchTab(tab, mode, existing.videoMap);
+    collectedByTab.set(tab.path, result.videos);
     successfulTabs.push(tab.path);
-    console.log(`${tab.path}: ${videos.length}件取得`);
+    tabStats[tab.path] = {
+      type: tab.type,
+      fetched: result.videos.length,
+      reportedCount: result.reportedCount,
+      completeRequest: mode === "full",
+    };
+    console.log(`${tab.path}: ${result.videos.length}件取得${result.reportedCount ? ` / reported=${result.reportedCount}` : ""}`);
   } catch (error) {
     failures.push(`${tab.path}: ${error.message}`);
   }
 }
 
 try {
+  const collected = [...collectedByTab.values()].flat();
   if (!collected.length) throw new Error(`全タブの取得に失敗しました。${failures.join(" / ")}`);
 
-  const merged = new Map();
   const fullSyncSucceeded = mode === "full" && failures.length === 0 && successfulTabs.length === tabs.length;
+  const merged = new Map();
 
-  // Recent mode always keeps the complete stored archive. A partially failed
-  // full sync also preserves the previous archive rather than deleting entries.
+  // 差分取得または部分失敗では、既存の完全履歴を失わない。
   if (mode === "recent" || !fullSyncSucceeded) {
     for (const video of existing.videoMap.values()) {
       if (video?.videoId) merged.set(String(video.videoId), video);
@@ -207,10 +241,7 @@ try {
   }
 
   for (const video of collected) {
-    const previous = merged.get(video.videoId);
-    // Prefer the more specific classification when an item appears in multiple tabs.
-    if (!previous || ["live", "short"].includes(video.videoType)) merged.set(video.videoId, { ...previous, ...video });
-    else merged.set(video.videoId, { ...previous, ...video, videoType: previous.videoType || video.videoType });
+    merged.set(video.videoId, mergeVideo(merged.get(video.videoId), video));
   }
 
   const videos = [...merged.values()].sort((a, b) => {
@@ -218,9 +249,10 @@ try {
     const timeB = Date.parse(b.publishedAt || "") || 0;
     return timeB - timeA || String(a.title || "").localeCompare(String(b.title || ""), "ja");
   });
+
   const typeCounts = videos.reduce((counts, item) => {
-    const type = ["video", "short", "live"].includes(item.videoType) ? item.videoType : "video";
-    counts[type] = (counts[type] || 0) + 1;
+    const type = Object.hasOwn(TYPE_PRIORITY, item.videoType) ? item.videoType : "video";
+    counts[type] += 1;
     return counts;
   }, { video: 0, short: 0, live: 0 });
 
@@ -228,21 +260,24 @@ try {
   const historyComplete = fullSyncSucceeded || existingHistoryComplete;
   const payload = {
     generatedAt: now,
-    source: "youtube-public",
-    collectionMode: historyComplete ? "official-channel-complete-history" : "official-channel-public-tabs-partial",
+    source: "youtube-public-channel-tabs",
+    collectionMode: historyComplete ? "complete-public-tab-archive" : "partial-public-tab-archive",
     requestedSyncMode: requestedMode,
     effectiveSyncMode: mode,
     historyComplete,
-    lastFullSyncAt: fullSyncSucceeded ? now : (existing.payload?.lastFullSyncAt || ""),
+    lastFullSyncAt: fullSyncSucceeded ? now : String(existing.payload?.lastFullSyncAt || ""),
     successfulTabs,
     partialFailures: failures,
-    classificationVersion: 3,
+    tabStats,
+    classificationVersion: 4,
+    classificationRule: "youtube-source-tab-with-live-precedence",
     channels: [{ ...channel, totalVideos: videos.length, typeCounts, videos }],
   };
+
   const temporaryPath = `${outputPath}.tmp`;
   await writeFile(temporaryPath, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
   await rename(temporaryPath, outputPath);
-  console.log(`YouTubeデータを更新しました: ${videos.length}件 / mode=${mode} / historyComplete=${historyComplete}${failures.length ? ` / 一部失敗=${failures.length}` : ""}`);
+  console.log(`YouTubeデータ更新: 合計${videos.length}件 / 動画${typeCounts.video} / ショート${typeCounts.short} / ライブ${typeCounts.live} / mode=${mode} / historyComplete=${historyComplete}`);
 } catch (error) {
   await rm(`${outputPath}.tmp`, { force: true }).catch(() => {});
   console.error(`YouTube取得に失敗しました。既存データを維持します: ${error.message}`);

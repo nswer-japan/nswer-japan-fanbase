@@ -139,7 +139,7 @@
 <section class="section">
 <div class="section-head"><div><span class="section-kicker">ALL PUBLIC VIDEOS</span><h2 class="section-title">投稿動画一覧</h2></div></div>
 <div class="youtube-search-wrap"><label class="sr-only" for="youtubeSearch">動画タイトルを検索</label><input class="youtube-search" id="youtubeSearch" type="search" placeholder="動画タイトルを検索" autocomplete="off"></div>
-<div class="youtube-controls"><div class="youtube-filter-group"><span class="youtube-filter-label">チャンネル</span><div class="youtube-filter-row" role="group" aria-label="チャンネルの絞り込み"><button class="filter active" type="button" data-channel-filter="all">すべて</button><button class="filter" type="button" data-channel-filter="nmixx">NMIXX Official</button></div></div><div class="youtube-type-panel" id="youtubeTypePanel" hidden><span class="youtube-filter-label" id="youtubeTypeLabel">動画カテゴリー</span><div class="youtube-filter-row" role="group" aria-label="動画カテゴリーの絞り込み"><button class="filter active" type="button" data-type-filter="all">すべて</button><button class="filter" type="button" data-type-filter="video">動画</button><button class="filter" type="button" data-type-filter="short">ショート</button><button class="filter" type="button" data-type-filter="live">ライブ</button></div></div><div class="youtube-status" id="youtubeStatus" aria-live="polite">動画一覧を読み込んでいます。</div></div>
+<div class="youtube-controls"><div class="youtube-filter-group"><span class="youtube-filter-label">チャンネル</span><div class="youtube-filter-row" role="group" aria-label="チャンネルの絞り込み"><button class="filter active" type="button" data-channel-filter="all">すべて</button><button class="filter" type="button" data-channel-filter="nmixx">NMIXX Official</button></div></div><div class="youtube-type-panel" id="youtubeTypePanel"><span class="youtube-filter-label" id="youtubeTypeLabel">動画カテゴリー</span><div class="youtube-filter-row" role="group" aria-label="動画カテゴリーの絞り込み"><button class="filter active" type="button" data-type-filter="all">すべて <span data-type-count="all">0</span></button><button class="filter" type="button" data-type-filter="video">動画 <span data-type-count="video">0</span></button><button class="filter" type="button" data-type-filter="short">ショート <span data-type-count="short">0</span></button><button class="filter" type="button" data-type-filter="live">ライブ <span data-type-count="live">0</span></button></div></div><div class="youtube-status" id="youtubeStatus" aria-live="polite">動画一覧を読み込んでいます。</div></div>
 <div class="video-grid" id="videoGrid"><div class="card loading-card">YouTubeの公開動画を読み込んでいます。</div></div>
 <div class="video-pager" id="videoPager" hidden><button class="btn btn-secondary load-more-button" id="loadMoreVideos" type="button">さらに24件表示</button></div>
 </section>
@@ -201,9 +201,8 @@
  const resetAndRender=()=>{shown=PAGE_SIZE;render()};
  const channelNames={nmixx:'NMIXX Official'};
  const syncTypePanel=()=>{
-  const show=activeChannel!=='all';
-  if(typePanel) typePanel.hidden=!show;
-  if(typeLabelElement&&show) typeLabelElement.textContent=`${channelNames[activeChannel]||'選択中のチャンネル'}のカテゴリー`;
+  if(typePanel) typePanel.hidden=false;
+  if(typeLabelElement) typeLabelElement.textContent=activeChannel==='all'?'動画カテゴリー':`${channelNames[activeChannel]||'選択中のチャンネル'}のカテゴリー`;
  };
  channelButtons.forEach(button=>button.addEventListener('click',()=>{
   activeChannel=button.dataset.channelFilter||'all';
@@ -227,6 +226,8 @@
   const updated=data.generatedAt?new Intl.DateTimeFormat('ja-JP',{year:'numeric',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(new Date(data.generatedAt)):'';
   const historyLabel=data.historyComplete?'全公開履歴取得済み':'初回の全履歴同期前';
   syncLabel=[historyLabel,updated?`最終更新：${updated}`:''].filter(Boolean).join(' / ');
+  const counts=allVideos().reduce((result,video)=>{const type=['video','short','live'].includes(video.videoType)?video.videoType:'video';result.all+=1;result[type]+=1;return result},{all:0,video:0,short:0,live:0});
+  document.querySelectorAll('[data-type-count]').forEach(element=>{element.textContent=String(counts[element.dataset.typeCount]||0)});
   renderLatest();
   render();
  }).catch(error=>{
