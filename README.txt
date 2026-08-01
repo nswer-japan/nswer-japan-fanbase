@@ -1,12 +1,13 @@
-NSWER JAPAN FB Relaunch Version
+NMIXX YouTube 3-category final correction
 
-主な変更:
-- トップページを再公開版として再設計
-- ナビを整理（音楽番組・投票アプリ系は応援ガイド配下へ）
-- メンバー誕生日を修正
-- 期限切れ/準備中ページを通常ナビから非表示
-- discography.html / youtube.html は新ページへリダイレクト
-- robots.txt / sitemap.xml / canonical / OGP を nswerjapan.jp に合わせて整理
-- CNAME / .nojekyll を同梱
+Overwrite these exact repository paths:
+.github/workflows/sync-youtube.yml
+scripts/sync-youtube-channels.mjs
+scripts/test-youtube-sync.py
+scripts/validate-site.py
+data/youtube-channels.json
+youtube.html
 
-アップロード前に GITHUB_UPLOAD_GUIDE.txt を確認してください。
+Then run Sync YouTube with full_history=true.
+The validator verifies the exact NMIXX channel ID and per-video channel ID/category,
+instead of rejecting legitimate public video titles that mention another artist.
