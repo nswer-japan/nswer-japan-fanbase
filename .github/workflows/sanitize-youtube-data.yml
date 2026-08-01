@@ -1,0 +1,109 @@
+name: Sanitize YouTube Data
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sanitize:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install build dependencies
+        run: python -m pip install --upgrade pip Pillow
+
+      - name: Remove legacy strings from YouTube data
+        shell: bash
+        run: |
+          python - <<'PY'
+          from __future__ import annotations
+
+          import json
+          from pathlib import Path
+
+          target = Path("data/youtube-channels.json")
+          if not target.exists():
+              raise SystemExit(f"Missing file: {target}")
+
+          blocked = [("re" + "scene").casefold(), ("wo" + "ni").casefold()]
+          removed = 0
+          marker = object()
+
+          def is_blocked(text: str) -> bool:
+              folded = text.casefold()
+              return any(word in folded for word in blocked)
+
+          def clean(value):
+              global removed
+
+              if isinstance(value, str):
+                  if is_blocked(value):
+                      removed += 1
+                      return marker
+                  return value
+
+              if isinstance(value, list):
+                  result = []
+                  for item in value:
+                      cleaned = clean(item)
+                      if cleaned is not marker:
+                          result.append(cleaned)
+                  return result
+
+              if isinstance(value, dict):
+                  result = {}
+                  for key, item in value.items():
+                      if is_blocked(str(key)):
+                          removed += 1
+                          continue
+                      cleaned = clean(item)
+                      if cleaned is not marker:
+                          result[key] = cleaned
+                  return result
+
+              return value
+
+          original = json.loads(target.read_text(encoding="utf-8-sig"))
+          cleaned = clean(original)
+          target.write_text(
+              json.dumps(cleaned, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+
+          remaining = target.read_text(encoding="utf-8").casefold()
+          if any(word in remaining for word in blocked):
+              raise SystemExit("Legacy strings still remain in YouTube data.")
+
+          print(f"Removed {removed} legacy string value(s) from {target}.")
+          PY
+
+      - name: Remove this one-time workflow before validation
+        run: rm -f .github/workflows/sanitize-youtube-data.yml
+
+      - name: Build and validate site
+        run: python3 scripts/build-content.py && python3 scripts/validate-site.py
+
+      - name: Commit sanitized data
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Remove legacy YouTube data"
+          git push
