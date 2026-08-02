@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nswerjapan.jp/sitemap.xml
+Sitemap: https://nswer-japan.github.io/nswer-japan-fanbase/sitemap.xml
