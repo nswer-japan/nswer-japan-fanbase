@@ -15,7 +15,7 @@ from urllib.parse import quote, urlparse
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE_URL = "https://nswerjapan.jp"
+BASE_URL = os.environ.get("SITE_BASE_URL", "https://nswer-japan.github.io/nswer-japan-fanbase").rstrip("/")
 SITE_NAME = "NSWER JAPAN FB"
 ALT_SITE_NAME = "NMIXX日本ファンベース"
 DEFAULT_DESCRIPTION = "NMIXXを日本から応援する非公式ファンベース。最新情報、スケジュール、作品、ストリーミング、投票ガイドをまとめています。"
@@ -488,6 +488,13 @@ def render_inline(value: str) -> str:
     return result
 
 
+def article_local_url(value: str) -> str:
+    url = str(value or "").strip()
+    if not url or url.startswith(("http://", "https://", "mailto:", "tel:", "data:", "blob:", "#", "../")):
+        return url
+    return "../" + url.lstrip("./").lstrip("/")
+
+
 def render_paragraphs(value: str) -> str:
     lines = str(value or "").replace("\r\n", "\n").split("\n")
     output = []
@@ -509,10 +516,20 @@ def render_paragraphs(value: str) -> str:
         list_type = None
         list_items = []
 
+    image_re = re.compile(r'^!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)$')
     for raw in lines:
         line = raw.strip()
         if not line:
             flush_paragraph(); flush_list(); continue
+        image = image_re.match(line)
+        if image:
+            flush_paragraph(); flush_list()
+            alt = html.escape(image.group(1) or "記事画像", quote=True)
+            src = html.escape(article_local_url(image.group(2)), quote=True)
+            caption = html.escape(image.group(3) or "")
+            caption_html = f'<figcaption>{caption}</figcaption>' if caption else ""
+            output.append(f'<figure class="article-content-image"><img src="{src}" alt="{alt}" loading="lazy" decoding="async">{caption_html}</figure>')
+            continue
         if line == "---":
             flush_paragraph(); flush_list(); output.append("<hr>"); continue
         heading = re.match(r"^(#{2,4})\s+(.+)$", line)
@@ -536,6 +553,20 @@ def render_paragraphs(value: str) -> str:
     flush_paragraph(); flush_list()
     return "".join(output)
 
+
+def relativize_article_template(document: str) -> str:
+    """Make root-page template assets work from the articles/ directory.
+
+    GitHub project pages are published below /nswer-japan-fanbase/, so absolute
+    paths such as /css/common.css incorrectly point to the account root.
+    """
+    def replace(match: re.Match[str]) -> str:
+        attr, quote_char, value = match.group(1), match.group(2), match.group(3)
+        if value.startswith(("http://", "https://", "mailto:", "tel:", "javascript:", "data:", "blob:", "#", "../")):
+            return match.group(0)
+        clean = value.lstrip("/").lstrip("./")
+        return f"{attr}={quote_char}../{clean}{quote_char}"
+    return re.sub(r'(?i)\b(href|src)=("|\')([^"\']+)(?:\2)', replace, document)
 
 def create_article_page(template: str, item: dict, output: Path) -> dict:
     slug = safe_slug(item.get("slug") or item.get("title"))
@@ -577,18 +608,21 @@ def create_article_page(template: str, item: dict, output: Path) -> dict:
             {"@type": "ListItem", "position": 3, "name": title, "item": canonical},
         ],
     }
-    page = inject_head(template, meta, canonical, image_url, og_type="article", structured=[article_schema, breadcrumb], published=published, section=section, base_tag=True)
+    page = inject_head(template, meta, canonical, image_url, og_type="article", structured=[article_schema, breadcrumb], published=published, section=section, base_tag=False)
+    page = relativize_article_template(page)
     page = page.replace('<body class="">', '<body class="" data-static-news-article>')
-    breadcrumb_html = f'<nav class="article-breadcrumb" aria-label="パンくず"><a href="index.html">ホーム</a><span>›</span><a href="news.html">ニュース</a><span>›</span><span>{html.escape(title)}</span></nav>'
+    breadcrumb_html = f'<nav class="article-breadcrumb" aria-label="パンくず"><a href="../index.html">ホーム</a><span>›</span><a href="../news.html">ニュース</a><span>›</span><span>{html.escape(title)}</span></nav>'
     source_link = str(item.get("sourceLink") or "").strip()
     source_button = ""
     if source_link:
         external = source_link.startswith(("http://", "https://"))
         attrs = ' target="_blank" rel="noopener noreferrer"' if external else ""
+        if not external:
+            source_link = article_local_url(source_link)
         label = str(item.get("sourceLabel") or "関連リンクを見る")
         source_button = f'<a class="btn btn-primary" href="{html.escape(source_link, quote=True)}"{attrs}>{html.escape(label)} ↗</a>'
     body = render_paragraphs(item.get("body") or item.get("text") or "")
-    hero_image = str(item.get("image") or "assets/group/nmixx-group.jpg")
+    hero_image = article_local_url(str(item.get("image") or "assets/group/nmixx-group.jpg"))
     share_title = html.escape(title, quote=True)
     share_text = html.escape(f"{item.get('date') or ''} {title}".strip(), quote=True)
     share_url = html.escape(canonical, quote=True)
@@ -603,8 +637,8 @@ def create_article_page(template: str, item: dict, output: Path) -> dict:
     related_html = ""
     if related_rows:
         cards = "".join(
-            f'<a class="card related-news-card" href="articles/{safe_slug(row.get("slug"))}.html">'
-            f'<img src="{html.escape(str(row.get("image") or DEFAULT_SOURCE_IMAGE), quote=True)}" alt="" loading="lazy">'
+            f'<a class="card related-news-card" href="{safe_slug(row.get("slug"))}.html">'
+            f'<img src="{html.escape(article_local_url(str(row.get("image") or DEFAULT_SOURCE_IMAGE)), quote=True)}" alt="" loading="lazy">'
             f'<div><span class="news-date">{html.escape(str(row.get("date") or ""))}</span>'
             f'<h3>{html.escape(str(row.get("title") or "関連記事"))}</h3></div></a>'
             for row in related_rows
@@ -615,17 +649,11 @@ def create_article_page(template: str, item: dict, output: Path) -> dict:
         f'<div class="article-hero"><img src="{html.escape(hero_image, quote=True)}" alt="{html.escape(title, quote=True)}" loading="eager"></div>'
         f'<div class="article-body"><div class="article-meta"><time class="news-date" datetime="{html.escape(published[:10] if published else "", quote=True)}">{html.escape(str(item.get("date") or "UPDATE"))}</time><span class="badge">{html.escape(str(item.get("label") or "NEWS"))}</span></div>'
         f'<h1>{html.escape(title)}</h1><div class="article-lead">{body}</div>'
-        f'<div class="article-actions">{source_button}<a class="btn btn-secondary" href="news.html">ニュース一覧へ戻る</a></div>{share_html}{related_html}</div></article>'
+        f'<div class="article-actions">{source_button}<a class="btn btn-secondary" href="../news.html">ニュース一覧へ戻る</a></div>{share_html}{related_html}</div></article>'
     )
     page = re.sub(r'<main class="container">.*?</main>', f'<main class="container">{breadcrumb_html}{article_html}</main>', page, count=1, flags=re.S)
-    page = re.sub(r'<script src="data/news-data\.js"></script><script id="article-render-script">.*?</script>\s*', '', page, count=1, flags=re.S)
+    page = re.sub(r'<script src="(?:\.\./)?data/news-data\.js"></script><script id="article-render-script">.*?</script>\s*', '', page, count=1, flags=re.S)
     page = re.sub(r'<script id="seo-legacy-article-redirect">.*?</script>\s*', '', page, count=1, flags=re.S)
-    def rootify(match: re.Match[str]) -> str:
-        attr, quote_char, value = match.group(1), match.group(2), match.group(3)
-        if value.startswith(("/", "#", "http://", "https://", "mailto:", "tel:", "javascript:", "data:", "blob:")):
-            return match.group(0)
-        return f"{attr}={quote_char}/{value}{quote_char}"
-    page = re.sub(r'(?i)\b(href|src)=(\"|\')([^\"\']+)(?:\2)', rootify, page)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(page, encoding="utf-8")
     return {"slug": slug, "url": canonical, "published": published, "image": image_url, "title": title}

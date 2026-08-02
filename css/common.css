@@ -1861,3 +1861,9 @@ body.page-melon-records .melon-rank-date time{font:inherit;color:inherit}
 
 body.page-home .member-kyujin .member-color-chip,body.page-home .member-kyujin .badge,body.page-members .member-kyujin .member-color-chip,body.page-members .member-kyujin .badge{--chip:#ff6f7d}
 body.page-about .member-profile-card[data-member="kyujin"]{--chip:#ff6f7d}
+
+/* News article content images */
+.article-content-image{margin:28px 0;padding:14px;border:1px solid color-mix(in srgb,var(--pink) 22%,transparent);border-radius:22px;background:color-mix(in srgb,var(--card) 88%,transparent);overflow:hidden}
+.article-content-image img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;border-radius:14px}
+.article-content-image figcaption{margin:10px 4px 0;color:var(--muted);font-size:.92rem;line-height:1.65}
+@media(max-width:640px){.article-content-image{margin:22px -4px;padding:8px;border-radius:16px}.article-content-image img{border-radius:10px}.article-content-image figcaption{margin:8px 4px 2px;font-size:.84rem}}
