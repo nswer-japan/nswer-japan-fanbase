@@ -471,12 +471,70 @@ def article_href(slug: str) -> str:
     return f"articles/{safe_slug(slug)}.html"
 
 
+def render_inline(value: str) -> str:
+    source = str(value or "")
+    chunks = []
+    cursor = 0
+    link_re = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)")
+    for match in link_re.finditer(source):
+        chunks.append(html.escape(source[cursor:match.start()]))
+        label = html.escape(match.group(1))
+        url = html.escape(match.group(2), quote=True)
+        chunks.append(f'<a href="{url}" target="_blank" rel="noopener noreferrer">{label} ↗</a>')
+        cursor = match.end()
+    chunks.append(html.escape(source[cursor:]))
+    result = "".join(chunks)
+    result = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", result)
+    return result
+
+
 def render_paragraphs(value: str) -> str:
-    paragraphs = []
-    for para in re.split(r"\n{2,}", str(value or "").strip()):
-        if para.strip():
-            paragraphs.append(f"<p>{html.escape(para.strip()).replace(chr(10), '<br>')}</p>")
-    return "".join(paragraphs)
+    lines = str(value or "").replace("\r\n", "\n").split("\n")
+    output = []
+    paragraph = []
+    list_type = None
+    list_items = []
+
+    def flush_paragraph():
+        nonlocal paragraph
+        if paragraph:
+            output.append(f'<p>{"<br>".join(render_inline(line.rstrip()) for line in paragraph)}</p>')
+            paragraph = []
+
+    def flush_list():
+        nonlocal list_type, list_items
+        if list_type and list_items:
+            tag = "ol" if list_type == "ol" else "ul"
+            output.append(f'<{tag}>' + "".join(f'<li>{render_inline(item)}</li>' for item in list_items) + f'</{tag}>')
+        list_type = None
+        list_items = []
+
+    for raw in lines:
+        line = raw.strip()
+        if not line:
+            flush_paragraph(); flush_list(); continue
+        if line == "---":
+            flush_paragraph(); flush_list(); output.append("<hr>"); continue
+        heading = re.match(r"^(#{2,4})\s+(.+)$", line)
+        if heading:
+            flush_paragraph(); flush_list()
+            level = len(heading.group(1))
+            output.append(f'<h{level}>{render_inline(heading.group(2))}</h{level}>')
+            continue
+        bullet = re.match(r"^[*-]\s+(.+)$", line)
+        numbered = re.match(r"^\d+\.\s+(.+)$", line)
+        if bullet or numbered:
+            flush_paragraph()
+            target = "ul" if bullet else "ol"
+            if list_type and list_type != target:
+                flush_list()
+            list_type = target
+            list_items.append((bullet or numbered).group(1))
+            continue
+        flush_list()
+        paragraph.append(raw.rstrip())
+    flush_paragraph(); flush_list()
+    return "".join(output)
 
 
 def create_article_page(template: str, item: dict, output: Path) -> dict:

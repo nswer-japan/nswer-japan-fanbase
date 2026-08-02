@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-08-01T00:41:00+09:00",
+  "generatedAt": "2026-08-02T09:10:00+09:00",
   "source": "repository-json",
   "items": [
+    {
+      "date": "2026-08-02",
+      "title": "日本活動最新情報の記事を追加",
+      "description": "『N=MIXX』店舗別特典、KEIO ARENA TOKYO会場CD販売、ONLINE LUCKY DRAWをまとめたニュース記事を公開しました。",
+      "commit": "",
+      "files": [
+        "data/news.json",
+        "articles/n-mixx-store-benefits-venue-lucky-draw.html"
+      ]
+    },
     {
       "date": "2026-08-01",
       "title": "リポジトリ完結型運用へ統一",

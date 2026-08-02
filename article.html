@@ -87,12 +87,35 @@
   }
   document.title=`${item.title} | NSWER JAPAN FB`;
   const ext=/^https?:\/\//.test(item.sourceLink||'');
-  const body=String(item.body||item.text||'')
-    .trim()
-    .split(/\n{2,}/)
-    .filter(Boolean)
-    .map(paragraph=>`<p>${esc(paragraph).replace(/\n/g,'<br>')}</p>`)
-    .join('');
+  const inline=value=>{
+    const source=String(value??'');
+    let out='';let cursor=0;
+    const re=/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;
+    for(const match of source.matchAll(re)){
+      out+=esc(source.slice(cursor,match.index));
+      out+=`<a href="${esc(match[2])}" target="_blank" rel="noopener noreferrer">${esc(match[1])} ↗</a>`;
+      cursor=match.index+match[0].length;
+    }
+    out+=esc(source.slice(cursor));
+    return out.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+  };
+  const rich=value=>{
+    const output=[];let paragraph=[];let listType='';let items=[];
+    const flushParagraph=()=>{if(paragraph.length){output.push(`<p>${paragraph.map(line=>inline(line.trimEnd())).join('<br>')}</p>`);paragraph=[];}};
+    const flushList=()=>{if(listType&&items.length){output.push(`<${listType}>${items.map(line=>`<li>${inline(line)}</li>`).join('')}</${listType}>`);}listType='';items=[];};
+    for(const raw of String(value??'').replace(/\r\n/g,'\n').split('\n')){
+      const line=raw.trim();
+      if(!line){flushParagraph();flushList();continue;}
+      if(line==='---'){flushParagraph();flushList();output.push('<hr>');continue;}
+      const heading=line.match(/^(#{2,4})\s+(.+)$/);
+      if(heading){flushParagraph();flushList();const level=heading[1].length;output.push(`<h${level}>${inline(heading[2])}</h${level}>`);continue;}
+      const bullet=line.match(/^[*-]\s+(.+)$/);const numbered=line.match(/^\d+\.\s+(.+)$/);
+      if(bullet||numbered){flushParagraph();const target=bullet?'ul':'ol';if(listType&&listType!==target)flushList();listType=target;items.push((bullet||numbered)[1]);continue;}
+      flushList();paragraph.push(raw);
+    }
+    flushParagraph();flushList();return output.join('');
+  };
+  const body=rich(item.body||item.text||'');
   const sourceButton=item.sourceLink?`<a class="btn btn-primary" href="${esc(item.sourceLink)}"${ext?' target="_blank" rel="noopener noreferrer"':''}>${esc(item.sourceLabel||'関連リンクを見る')} ↗</a>`:'';
   host.innerHTML=`<div class="article-hero"><img src="${esc(item.image||'assets/group/nmixx-group.jpg')}" alt="${esc(item.title)}" loading="eager"></div><div class="article-body"><div class="article-meta"><span class="news-date">${esc(item.date)}</span><span class="badge">${esc(item.label||'NEWS')}</span></div><h1>${esc(item.title)}</h1><div class="article-lead">${body}</div><div class="article-actions">${sourceButton}<a class="btn btn-secondary" href="news.html">ニュース一覧へ戻る</a></div></div>`;
 })();

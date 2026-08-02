@@ -1,7 +1,207 @@
-﻿slug,date,category,label,title,text,image,sourceLink,sourceLabel
-zero-frontier-japan-additional-sale,2026.07.02,event,公演,ZERO FRONTIER IN JAPAN 一般追加販売（立見）の案内,2026年8月8日・9日にKEIO ARENA TOKYOで開催される日本公演の追加販売情報をまとめています。,assets/news/zero-frontier-tour.jpg,fan-services.html#tour,公演情報を見る
-zero-frontier-japan-goods,2026.06.24,event,GOODS,ZERO FRONTIER IN JAPAN オフィシャルグッズ情報,日本公演のオフィシャルグッズと先行通販の確認先をまとめています。,assets/news/zero-frontier-goods.jpg,fan-services.html#tour,公演情報を見る
-heavy-serenade-release,2026.05.11,release,RELEASE,NMIXX 5th EP「Heavy Serenade」リリース,販売形態、プロモーション日程、購入・配信リンクを確認できます。,assets/discography/heavy-serenade.jpg,discography.html#heavy-serenade,作品情報を見る
-japan-fanclub-open,2026.03.04,notice,公式,NMIXX日本公式X・ファンクラブ開設,NSWER JAPANとNSWER JAPAN MOBILEの会費や特徴を整理しています。,assets/news/nswer-japan-fanclub.jpg,fan-services.html#fanclub,FC案内を見る
-blue-valentine-ten-wins,2026.01.02,record,記録,「Blue Valentine」音楽番組10冠達成,「Blue Valentine」がMusic Bankで10冠目を獲得しました。,assets/news/blue-valentine.jpg,music-show-wins.html,1位記録を見る
-site-rebuild,2026.07.26,notice,SITE,NSWER JAPAN FBを新しい管理方式へ全面移行,ニュース、スケジュール、作品、記録、ガイドをリポジトリ内のJSON・CSV・画像で管理する構成へ移行しました。,assets/group/nmixx-group-wide.jpg,updates.html,更新履歴を見る
+﻿slug,date,category,label,title,text,body,image,sourceLink,sourceLabel
+n-mixx-store-benefits-venue-lucky-draw,2026.08.02,event,日本活動,NMIXX日本活動に関する最新情報まとめ｜『N=MIXX』店舗別特典・会場CD販売・ONLINE LUCKY DRAW,日本デビューベストアルバム『N=MIXX』の店舗別購入特典、KEIO ARENA TOKYO公演の会場CD販売・抽選特典、ONLINE LUCKY DRAWの内容をまとめました。,"NMIXXの日本活動に関する新しい情報が公開されました。
+
+2026年12月9日（水）に発売される「NMIXX JAPAN DEBUT BEST ALBUM『N=MIXX』」の店舗別購入特典に加え、NMIXX 1ST WORLD TOUR＜EPISODE 1: ZERO FRONTIER＞IN JAPANの会場CD販売、購入者限定抽選特典、ONLINE LUCKY DRAWの実施が決定しています。
+
+この記事では、それぞれの内容を分かりやすくまとめて紹介します。
+
+## NMIXX JAPAN DEBUT BEST ALBUM『N=MIXX』店舗別購入特典
+
+2026年12月9日（水）に発売される、NMIXXの日本デビューベストアルバム『N=MIXX』の店舗別購入特典が公開されました。
+
+購入する店舗によって特典内容が異なるため、希望する特典を確認したうえで予約・購入してください。
+
+### 発売日
+
+2026年12月9日（水）
+
+### 店舗別購入特典
+
+* TOWER RECORDS：フォトカード
+* HMV：スマホサイズステッカー
+* 楽天ブックス：アクリルキーホルダー
+* Amazon：メガジャケ
+* セブンネットショッピング：アクリルクリップバッジ
+* ネオウィング：インスタントフォト風ブロマイド
+* アニメイト：4カットフォト
+* JYP JAPAN ONLINE STORE：回転アクリルスタンド
+* WARNER MUSIC STORE：アクリルコースター
+
+Amazon以外の店舗別特典は、全6種の中からランダムで1種が付属します。
+
+Amazonのメガジャケは、購入した商品のジャケット絵柄に対応した特典となります。
+
+特典は予定数に達し次第終了する場合があるため、確実に入手したい方は早めの予約がおすすめです。
+
+### 対象商品
+
+#### 初回限定盤A
+
+CD＋GOODS  
+価格：5,200円（税込）
+
+#### 初回限定盤B
+
+CD＋Blu-ray  
+価格：4,180円（税込）
+
+#### 通常盤
+
+CD  
+価格：2,530円（税込）
+
+[店舗別購入特典の公式詳細を確認する](https://nmixxjapan.com/s/222o/news/detail/10006)
+
+## KEIO ARENA TOKYO公演 会場CD販売・抽選特典
+
+NMIXX 1ST WORLD TOUR＜EPISODE 1: ZERO FRONTIER＞IN JAPANのKEIO ARENA TOKYO公演にて、会場CD販売が実施されます。
+
+対象商品を1枚購入または予約するごとに、抽選くじを1枚引くことができます。
+
+購入・予約する商品によって、受け取れる特典や参加できる抽選が異なります。
+
+### 会場
+
+KEIO ARENA TOKYO
+
+### CD販売時間
+
+#### 2026年8月8日（土）
+
+10:00〜17:30
+
+#### 2026年8月9日（日）
+
+10:00〜16:00
+
+販売時間は状況により変更される場合があります。
+
+また、各特典や抽選くじは予定数に達し次第終了となります。
+
+## 『Heavy Serenade』購入特典
+
+会場でNMIXX 5th EP『Heavy Serenade』の対象商品を購入すると、会場購入特典を受け取ることができます。
+
+### 購入特典
+
+A5ポストカード  
+全6種の中からランダムで1枚
+
+### 抽選特典
+
+終演後Hi-Bye会  
+各日50名
+
+当選者は、公演終了後に実施されるHi-Bye会に参加できます。
+
+## 『N=MIXX』予約特典
+
+会場でNMIXX JAPAN DEBUT BEST ALBUM『N=MIXX』を予約すると、会場限定特典とリリースイベント応募用シリアルナンバーを受け取ることができます。
+
+### 予約特典
+
+* 会場限定フォトカード 全7種からランダム1枚
+* リリースイベント応募用シリアルナンバー 1枚
+
+### 抽選特典
+
+#### A賞
+
+終演後メンバー個別サイン会  
+各日30名
+
+各メンバーにつき5名が当選します。
+
+#### B賞
+
+終演後Hi-Bye会  
+各日50名
+
+抽選特典は賞によって対象商品が異なります。
+
+参加を予定している方は、購入・予約前に対象商品や注意事項を必ず確認してください。
+
+[会場CD販売・抽選特典の公式詳細を確認する](https://nmixxjapan.com/s/222o/news/detail/10005)
+
+## NMIXX ONLINE LUCKY DRAW
+
+NMIXX 1ST WORLD TOUR＜EPISODE 1: ZERO FRONTIER＞IN JAPANの開催を記念した「NMIXX ONLINE LUCKY DRAW」が実施されます。
+
+オンラインで購入できるラッキードローで、終演後お見送り会への参加権や、メンバーの直筆サイン入りグッズなどが当たります。
+
+会場に行く方だけでなく、オンラインから参加したい方も対象となる企画です。
+
+### 販売期間
+
+2026年7月31日（金）14:00  
+〜2026年8月9日（日）23:59
+
+### 販売価格
+
+1回550円（税込）
+
+販売期間内であっても、賞品の予定数に達した場合は販売が終了する可能性があります。
+
+## ONLINE LUCKY DRAWの主な賞品
+
+### 終演後お見送り会
+
+NMIXX 1ST WORLD TOUR＜EPISODE 1: ZERO FRONTIER＞IN JAPANの公演終了後に実施される、お見送り会への参加権です。
+
+実施日や参加方法などの詳細は、当選後の案内を確認してください。
+
+### 直筆サイン入りユニット／ソロポラ
+
+NMIXXメンバーの直筆サインが入った、ユニットまたはソロのポラロイド写真です。
+
+### メンバー別直筆サイン入りTシャツ
+
+メンバーの直筆サインが入ったTシャツです。
+
+### ビッグ缶バッジ
+
+NMIXXのビジュアルを使用したビッグサイズの缶バッジです。
+
+### MIXXFFY PVCチャーム
+
+NMIXXのキャラクター「MIXXFFY」をデザインしたPVCチャームです。
+
+### ステッカー
+
+NMIXXのデザインを使用したステッカーです。
+
+賞品ごとに当選人数や当選確率が異なる場合があります。参加前に特設サイトの賞品一覧と注意事項を確認してください。
+
+## 賞品の引き換えについて
+
+ONLINE LUCKY DRAWで当選した賞品を受け取るためには、購入後に賞品の引き換え手続きを行う必要があります。
+
+当選しただけでは賞品の発送やイベント参加の手続きが完了しないため、必ず期限内に引き換えを行ってください。
+
+### 引き換え期限
+
+2026年8月16日（日）23:59まで
+
+期限を過ぎた場合、当選した賞品を受け取れなくなる可能性があります。
+
+ラッキードローを購入した方は、購入履歴や当選結果を確認し、忘れずに手続きを行ってください。
+
+[ONLINE LUCKY DRAW特設サイトを確認する](https://nmixx-onlineluckydraw-feature.jypj-store.com/)
+
+## まとめ
+
+今回公開された情報は、以下の3つです。
+
+1. NMIXX JAPAN DEBUT BEST ALBUM『N=MIXX』の店舗別購入特典
+2. KEIO ARENA TOKYO公演での会場CD販売・購入者限定抽選
+3. 終演後お見送り会や直筆サイン入り賞品が当たるONLINE LUCKY DRAW
+
+店舗別特典、会場限定特典、抽選特典は、それぞれ対象商品や受付期間、参加条件が異なります。
+
+特典や抽選くじは予定数に達し次第終了する可能性があるため、参加・購入を予定している方は、各公式ページの詳細と注意事項を確認したうえで早めに手続きを行ってください。",assets/news/zero-frontier-tour.jpg,https://nmixxjapan.com/s/222o/news/detail/10006,公式情報を確認する
+zero-frontier-japan-additional-sale,2026.07.02,event,公演,ZERO FRONTIER IN JAPAN 一般追加販売（立見）の案内,2026年8月8日・9日にKEIO ARENA TOKYOで開催される日本公演の追加販売情報をまとめています。,,assets/news/zero-frontier-tour.jpg,fan-services.html#tour,公演情報を見る
+zero-frontier-japan-goods,2026.06.24,event,GOODS,ZERO FRONTIER IN JAPAN オフィシャルグッズ情報,日本公演のオフィシャルグッズと先行通販の確認先をまとめています。,,assets/news/zero-frontier-goods.jpg,fan-services.html#tour,公演情報を見る
+heavy-serenade-release,2026.05.11,release,RELEASE,NMIXX 5th EP「Heavy Serenade」リリース,販売形態、プロモーション日程、購入・配信リンクを確認できます。,,assets/discography/heavy-serenade.jpg,discography.html#heavy-serenade,作品情報を見る
+japan-fanclub-open,2026.03.04,notice,公式,NMIXX日本公式X・ファンクラブ開設,NSWER JAPANとNSWER JAPAN MOBILEの会費や特徴を整理しています。,,assets/news/nswer-japan-fanclub.jpg,fan-services.html#fanclub,FC案内を見る
+blue-valentine-ten-wins,2026.01.02,record,記録,「Blue Valentine」音楽番組10冠達成,「Blue Valentine」がMusic Bankで10冠目を獲得しました。,,assets/news/blue-valentine.jpg,music-show-wins.html,1位記録を見る
+site-rebuild,2026.07.26,notice,SITE,NSWER JAPAN FBを新しい管理方式へ全面移行,ニュース、スケジュール、作品、記録、ガイドをリポジトリ内のJSON・CSV・画像で管理する構成へ移行しました。,,assets/group/nmixx-group-wide.jpg,updates.html,更新履歴を見る

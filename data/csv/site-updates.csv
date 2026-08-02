@@ -1,4 +1,5 @@
 ﻿date,title,description,commit,files
+2026-08-02,日本活動最新情報の記事を追加,『N=MIXX』店舗別特典、KEIO ARENA TOKYO会場CD販売、ONLINE LUCKY DRAWをまとめたニュース記事を公開しました。,,data/news.json|articles/n-mixx-store-benefits-venue-lucky-draw.html
 2026-08-01,リポジトリ完結型運用へ統一,外部CMSへの依存をなくし、JSON・CSV・画像を唯一の管理元に統一しました。YouTube全履歴取得、SEO、PWA、検索、記録生成などの高機能は維持しています。,repository-only,data/ | scripts/ | .github/workflows/ | docs/
 2026-07-26,NMIXXサイト全面再構築,リポジトリ内JSON・CSV・画像による管理へ移行し、SEO、PWA、検索、多言語、YouTube同期を維持しました。,initial-rebuild,data/ | assets/ | .github/workflows/
 2026-07-26,既存NSWER資産を統合,メンバー画像、作品画像、ストリーミング画像、投票画像、記録データを新構成へ移植しました。,asset-migration,assets/ | data/

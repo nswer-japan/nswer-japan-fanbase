@@ -60,7 +60,7 @@ def normalize_news(rows: list[dict[str, str]]) -> list[dict]:
         result.append({
             "slug": row["slug"], "date": row["date"], "category": row.get("category") or "notice",
             "label": row.get("label") or "NEWS", "title": row["title"], "text": row.get("text", ""),
-            "image": row.get("image", ""), "sourceLink": row.get("sourceLink", ""),
+            "body": row.get("body", ""), "image": row.get("image", ""), "sourceLink": row.get("sourceLink", ""),
             "sourceLabel": row.get("sourceLabel") or "詳細を見る",
         })
     return result
