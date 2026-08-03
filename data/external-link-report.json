@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-01T02:06:19Z",
-  "startedAt": "2026-08-01T02:06:17Z",
-  "elapsedSeconds": 2.37,
+  "generatedAt": "2026-08-03T20:40:19Z",
+  "startedAt": "2026-08-03T20:40:14Z",
+  "elapsedSeconds": 5.4,
   "summary": {
-    "checked": 28,
-    "ok": 27,
-    "warning": 0,
+    "checked": 31,
+    "ok": 29,
+    "warning": 1,
     "broken": 1,
-    "hosts": 12
+    "hosts": 14
   },
   "services": [
     {
@@ -20,18 +20,18 @@
       "broken": 1
     },
     {
-      "key": "other",
-      "label": "analytics.google.com",
-      "checked": 7,
-      "ok": 7,
-      "warning": 0,
-      "broken": 0
-    },
-    {
       "key": "instagram",
       "label": "Instagram",
       "checked": 1,
-      "ok": 1,
+      "ok": 0,
+      "warning": 1,
+      "broken": 0
+    },
+    {
+      "key": "other",
+      "label": "analytics.google.com",
+      "checked": 10,
+      "ok": 10,
       "warning": 0,
       "broken": 0
     },
@@ -98,6 +98,29 @@
       ]
     },
     {
+      "url": "https://www.instagram.com/nmixx_official/",
+      "normalizedUrl": "https://www.instagram.com/nmixx_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnmixx_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "warning",
+      "httpStatus": 429,
+      "message": "HTTP 429（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 49,
+          "label": "Instagram"
+        },
+        {
+          "file": "index.html",
+          "line": 153,
+          "label": "Instagram"
+        }
+      ]
+    },
+    {
       "url": "https://analytics.google.com/",
       "normalizedUrl": "https://analytics.google.com/",
       "finalUrl": "https://analytics.google.com/analytics/web/",
@@ -112,29 +135,6 @@
           "file": "analytics.html",
           "line": 62,
           "label": "Google Analyticsを開く ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://www.instagram.com/nmixx_official/",
-      "normalizedUrl": "https://www.instagram.com/nmixx_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnmixx_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 49,
-          "label": "Instagram"
-        },
-        {
-          "file": "index.html",
-          "line": 153,
-          "label": "Instagram"
         }
       ]
     },
@@ -157,6 +157,24 @@
       ]
     },
     {
+      "url": "https://nmixx-onlineluckydraw-feature.jypj-store.com/",
+      "normalizedUrl": "https://nmixx-onlineluckydraw-feature.jypj-store.com/",
+      "finalUrl": "https://nmixx-onlineluckydraw-feature.jypj-store.com/",
+      "service": "nmixx-onlineluckydraw-feature.jypj-store.com",
+      "serviceKey": "other",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "articles/n-mixx-store-benefits-venue-lucky-draw.html",
+          "line": 73,
+          "label": "ONLINE LUCKY DRAW特設サイトを確認する ↗"
+        }
+      ]
+    },
+    {
       "url": "https://nmixx.jype.com/",
       "normalizedUrl": "https://nmixx.jype.com/",
       "finalUrl": "https://nmixx.jype.com/Default",
@@ -171,6 +189,47 @@
           "file": "data/official-links.json",
           "line": 88,
           "label": "Official Website"
+        }
+      ]
+    },
+    {
+      "url": "https://nmixxjapan.com/s/222o/news/detail/10005",
+      "normalizedUrl": "https://nmixxjapan.com/s/222o/news/detail/10005",
+      "finalUrl": "https://nmixxjapan.com/s/222o/news/detail/10005",
+      "service": "nmixxjapan.com",
+      "serviceKey": "other",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "articles/n-mixx-store-benefits-venue-lucky-draw.html",
+          "line": 73,
+          "label": "会場CD販売・抽選特典の公式詳細を確認する ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://nmixxjapan.com/s/222o/news/detail/10006",
+      "normalizedUrl": "https://nmixxjapan.com/s/222o/news/detail/10006",
+      "finalUrl": "https://nmixxjapan.com/s/222o/news/detail/10006",
+      "service": "nmixxjapan.com",
+      "serviceKey": "other",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "articles/n-mixx-store-benefits-venue-lucky-draw.html",
+          "line": 73,
+          "label": "店舗別購入特典の公式詳細を確認する ↗"
+        },
+        {
+          "file": "data/news.json",
+          "line": 12,
+          "label": "NMIXX日本活動に関する最新情報まとめ｜『N=MIXX』店舗別特典・会場CD販売・ONLINE LUCKY DRAW"
         }
       ]
     },
