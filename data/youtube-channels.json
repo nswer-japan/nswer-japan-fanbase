@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T03:39:17.896Z",
+  "generatedAt": "2026-08-04T09:10:18.403Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -55,7 +55,7 @@
           "title": "We met when we were 13… and now we’re already 21~ | PAJAMA ROOMMATE | JIWOO & KYUJIN",
           "url": "https://www.youtube.com/watch?v=6zYkmgLiFD0",
           "thumbnail": "https://i.ytimg.com/vi/6zYkmgLiFD0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBJkuFDtIhmB1iao-_eERXQLHqAA",
-          "publishedAt": "2026-08-01T00:00:00.000Z",
+          "publishedAt": "2026-07-31T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -72,7 +72,7 @@
           "title": "Already 30,000 steps while exploring Europe | London, Madrid, Paris fragment vlog | MIXX Log",
           "url": "https://www.youtube.com/watch?v=OuEuFgLPgmo",
           "thumbnail": "https://i.ytimg.com/vi/OuEuFgLPgmo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6kNyx3KpPRwyRoEniZOvZyeFWKA",
-          "publishedAt": "2026-07-30T00:00:00.000Z",
+          "publishedAt": "2026-07-29T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -89,7 +89,7 @@
           "title": "Is this what happens when you live together? 👀 | PAJAMA ROOMMATE | LILY & SULLYOON",
           "url": "https://www.youtube.com/watch?v=Gr-n5FmgwRI",
           "thumbnail": "https://i.ytimg.com/vi/Gr-n5FmgwRI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDC-jOUsBSMDRa_txJ3Ouru4pcfGg",
-          "publishedAt": "2026-07-25T00:00:00.000Z",
+          "publishedAt": "2026-07-24T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -123,7 +123,7 @@
           "title": "˗ˋˏ Introducing NMIXX's Must-Haves! ˎˊ˗ | What's in NMIXX's Luggage 🧳",
           "url": "https://www.youtube.com/watch?v=wWU13R5yLIk",
           "thumbnail": "https://i.ytimg.com/vi/wWU13R5yLIk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDHtIocUTgH2pinhPPmZ5qSx5M_GQ",
-          "publishedAt": "2026-07-23T00:00:00.000Z",
+          "publishedAt": "2026-07-22T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -1156,23 +1156,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "go4YQG6gU_8",
-          "title": "NMIXX(엔믹스) Documentary ‘THE FIRST NOTE’ CHAPTER 01",
-          "url": "https://www.youtube.com/watch?v=go4YQG6gU_8",
-          "thumbnail": "https://i.ytimg.com/vi/go4YQG6gU_8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA21WtwaBsTb6wNDnM85a0YLGfNmw",
-          "publishedAt": "2026-06-04T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 1240,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "DrnSZ11JhRQ",
           "title": "NSWERs, you always touch my heart🥹 “Heavy Serenade” Music Show Week 2 Behind the Scenes | Day MIXX",
           "url": "https://www.youtube.com/watch?v=DrnSZ11JhRQ",
@@ -1479,6 +1462,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "go4YQG6gU_8",
+          "title": "NMIXX(엔믹스) Documentary ‘THE FIRST NOTE’ CHAPTER 01",
+          "url": "https://www.youtube.com/watch?v=go4YQG6gU_8",
+          "thumbnail": "https://i.ytimg.com/vi/go4YQG6gU_8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA21WtwaBsTb6wNDnM85a0YLGfNmw",
+          "publishedAt": "2026-05-04T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1240,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "P65eRTcCnIk",
           "title": "올해 예감이 좋아요☆ | NMIXX: Taking the Stage in South America | Chile Viña del Mar 🇨🇱",
           "url": "https://www.youtube.com/watch?v=P65eRTcCnIk",
@@ -1577,23 +1577,6 @@
           ],
           "duration": 6330,
           "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "dAyLlaTkbEM",
-          "title": "It was such an honor to work together ♪ *.˚(with Park Jae-jung) | SULLYOON ‘Just As You Are’ Prom...",
-          "url": "https://www.youtube.com/watch?v=dAyLlaTkbEM",
-          "thumbnail": "https://i.ytimg.com/vi/dAyLlaTkbEM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDgzXIjsstgIRLqpQngCuAY8TdElA",
-          "publishedAt": "2026-04-04T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 612,
-          "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
@@ -1887,6 +1870,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "dAyLlaTkbEM",
+          "title": "It was such an honor to work together ♪ *.˚(with Park Jae-jung) | SULLYOON ‘Just As You Are’ Prom...",
+          "url": "https://www.youtube.com/watch?v=dAyLlaTkbEM",
+          "thumbnail": "https://i.ytimg.com/vi/dAyLlaTkbEM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDgzXIjsstgIRLqpQngCuAY8TdElA",
+          "publishedAt": "2026-03-04T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 612,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "2fXry-ZY1_s",
           "title": "NMIXX 4th ANNIVERS4RY CAMP LIVE🏕️",
           "url": "https://www.youtube.com/watch?v=2fXry-ZY1_s",
@@ -2108,23 +2108,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "ul2iD82O8Ow",
-          "title": "행복했던 겨울의 끝자락❄️ | 마리끌레르X오니츠카타이거 화보 촬영 비하인드 | Day MIXX",
-          "url": "https://www.youtube.com/watch?v=ul2iD82O8Ow",
-          "thumbnail": "https://i.ytimg.com/vi/ul2iD82O8Ow/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBVcNUW8QbWImJie8G2EalVYZDXeQ",
-          "publishedAt": "2026-03-04T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 554,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "rfzmU6u8r6w",
           "title": "[🐰] HAPPY SULLYOON DAY",
           "url": "https://www.youtube.com/watch?v=rfzmU6u8r6w",
@@ -2325,6 +2308,23 @@
           ],
           "duration": 1199,
           "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "ul2iD82O8Ow",
+          "title": "행복했던 겨울의 끝자락❄️ | 마리끌레르X오니츠카타이거 화보 촬영 비하인드 | Day MIXX",
+          "url": "https://www.youtube.com/watch?v=ul2iD82O8Ow",
+          "thumbnail": "https://i.ytimg.com/vi/ul2iD82O8Ow/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBVcNUW8QbWImJie8G2EalVYZDXeQ",
+          "publishedAt": "2026-02-04T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 554,
+          "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
@@ -3553,23 +3553,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "04VWZahtdec",
-          "title": "NMIXX(엔믹스) Blue Valentine Core: “SPINNIN’ ON IT” Video Behind | Making MIXX",
-          "url": "https://www.youtube.com/watch?v=04VWZahtdec",
-          "thumbnail": "https://i.ytimg.com/vi/04VWZahtdec/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBfAtXYcCy6m7C4uu0VXxo1yuDNw",
-          "publishedAt": "2025-11-04T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 1291,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "LCW1AKa0Uhg",
           "title": "PARTY AND SHOCK🔪 | The Party Cake Murder Case🎂 EP.1 | PICK NMIXX",
           "url": "https://www.youtube.com/watch?v=LCW1AKa0Uhg",
@@ -3876,6 +3859,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "04VWZahtdec",
+          "title": "NMIXX(엔믹스) Blue Valentine Core: “SPINNIN’ ON IT” Video Behind | Making MIXX",
+          "url": "https://www.youtube.com/watch?v=04VWZahtdec",
+          "thumbnail": "https://i.ytimg.com/vi/04VWZahtdec/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBfAtXYcCy6m7C4uu0VXxo1yuDNw",
+          "publishedAt": "2025-10-04T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1291,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "86nQMsfVzF0",
           "title": "같이 대전갈래…?!🧡",
           "url": "https://www.youtube.com/watch?v=86nQMsfVzF0",
@@ -4148,6 +4148,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "EsIie7ECKBs",
+          "title": "LILY’s Lost The Plot #20 𝑨𝒗𝒂𝒕𝒂𝒓 (SPOILERS) 💙",
+          "url": "https://www.youtube.com/watch?v=EsIie7ECKBs",
+          "thumbnail": "https://i.ytimg.com/vi/EsIie7ECKBs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQH1DP-3qU6nbPMjB-o50d6PLAMA",
+          "publishedAt": "2025-09-04T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 6490,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "wPyoT_HXo6E",
           "title": "NMIXX FAMILY COMPLETE TRIP TEASER ✈️ NMIXX FAMILY TRIP TEASER | PICK NMIXX",
           "url": "https://www.youtube.com/watch?v=wPyoT_HXo6E",
@@ -4195,23 +4212,6 @@
           ],
           "duration": 1057,
           "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "EsIie7ECKBs",
-          "title": "릴리리야 릴리딩 LILY’s Lost The Plot #20 𝑨𝒗𝒂𝒕𝒂𝒓 (SPOILERS) 💙",
-          "url": "https://www.youtube.com/watch?v=EsIie7ECKBs",
-          "thumbnail": "https://i.ytimg.com/vi/EsIie7ECKBs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQH1DP-3qU6nbPMjB-o50d6PLAMA",
-          "publishedAt": "2025-09-04T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 6490,
-          "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
@@ -4981,6 +4981,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "w-wYLYi1J7c",
+          "title": "My final Music Core ( Ĭ ^ Ĭ )",
+          "url": "https://www.youtube.com/watch?v=w-wYLYi1J7c",
+          "thumbnail": "https://i.ytimg.com/vi/w-wYLYi1J7c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAzqxOKod8uG1mT1KXlhg0WM66eSA",
+          "publishedAt": "2025-08-04T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 2190,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "gL6eOv0nbh8",
           "title": "NMIXX - KNOW ABOUT ME | Live From Vevo Studios",
           "url": "https://www.youtube.com/watch?v=gL6eOv0nbh8",
@@ -5691,23 +5708,6 @@
           ],
           "duration": 1807,
           "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "w-wYLYi1J7c",
-          "title": "마지막 음중 ( Ĭ ^ Ĭ )",
-          "url": "https://www.youtube.com/watch?v=w-wYLYi1J7c",
-          "thumbnail": "https://i.ytimg.com/vi/w-wYLYi1J7c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAzqxOKod8uG1mT1KXlhg0WM66eSA",
-          "publishedAt": "2025-08-04T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 2190,
-          "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
