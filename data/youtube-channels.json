@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T20:17:28.159Z",
+  "generatedAt": "2026-08-04T03:39:17.896Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -3570,23 +3570,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "p9_0-aetRGI",
-          "title": "NMIXX만의 아이스크림을 만들어볼까요🍦 | 벤슨 크리머리 서울 매장 방문기, 벤슨 블루 발렌타인 플레이버 | MIXX Log",
-          "url": "https://www.youtube.com/watch?v=p9_0-aetRGI",
-          "thumbnail": "https://i.ytimg.com/vi/p9_0-aetRGI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9fy4MBRUaYOFjBg4Hs5S_Xxr74w",
-          "publishedAt": "2025-11-04T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 1100,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "LCW1AKa0Uhg",
           "title": "PARTY AND SHOCK🔪 | The Party Cake Murder Case🎂 EP.1 | PICK NMIXX",
           "url": "https://www.youtube.com/watch?v=LCW1AKa0Uhg",
@@ -3599,6 +3582,23 @@
             "video"
           ],
           "duration": 1847,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "p9_0-aetRGI",
+          "title": "Shall we make NMIXX's own ice cream?🍦 | A visit to the Benson's Creamery Seoul store, Benson's Bl...",
+          "url": "https://www.youtube.com/watch?v=p9_0-aetRGI",
+          "thumbnail": "https://i.ytimg.com/vi/p9_0-aetRGI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9fy4MBRUaYOFjBg4Hs5S_Xxr74w",
+          "publishedAt": "2025-11-04T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1100,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
