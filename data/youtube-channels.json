@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T20:12:55.918Z",
+  "generatedAt": "2026-08-06T03:40:47.944Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -55,7 +55,7 @@
           "title": "Guess who's back to meet the European N-Sseo?💋 | NMIXX 'EPISODE 1: ZERO FRONTIER' IN EUROPE Behin...",
           "url": "https://www.youtube.com/watch?v=j4ZekJ6u4Bg",
           "thumbnail": "https://i.ytimg.com/vi/j4ZekJ6u4Bg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBxS0nrbYgOUGENISihKaprUVcKIQ",
-          "publishedAt": "2026-08-05T09:00:00.000Z",
+          "publishedAt": "2026-08-05T10:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -2670,7 +2670,7 @@
         },
         {
           "videoId": "yJgEO-HjOzQ",
-          "title": "˗ˋˏ 내가 가장 사랑하는 계절🍂☃️ˎˊ˗  | 해원 데이즈드 화보 촬영 비하인드 | Day MIXX",
+          "title": "˗ˋˏ The Season I Love Most🍂☃️ˎˊ˗ | Haewon DAZED Pictorial Shoot Behind the Scenes | Day MIXX",
           "url": "https://www.youtube.com/watch?v=yJgEO-HjOzQ",
           "thumbnail": "https://i.ytimg.com/vi/yJgEO-HjOzQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAoEWjtmoywRsjXbGAvi030hb6YvQ",
           "publishedAt": "2025-12-06T00:00:00.000Z",
@@ -3536,23 +3536,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "VJd8Q0jmPp4",
-          "title": "NMIXX(엔믹스) 2025 추석 인사 Message🌕",
-          "url": "https://www.youtube.com/watch?v=VJd8Q0jmPp4",
-          "thumbnail": "https://i.ytimg.com/vi/VJd8Q0jmPp4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAaqDeus7bOsMRax4GcdmqSuaEl2w",
-          "publishedAt": "2025-11-06T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 72,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "LCW1AKa0Uhg",
           "title": "PARTY AND SHOCK🔪 | The Party Cake Murder Case🎂 EP.1 | PICK NMIXX",
           "url": "https://www.youtube.com/watch?v=LCW1AKa0Uhg",
@@ -3820,6 +3803,23 @@
             "video"
           ],
           "duration": 1211,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "VJd8Q0jmPp4",
+          "title": "NMIXX(엔믹스) 2025 추석 인사 Message🌕",
+          "url": "https://www.youtube.com/watch?v=VJd8Q0jmPp4",
+          "thumbnail": "https://i.ytimg.com/vi/VJd8Q0jmPp4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAaqDeus7bOsMRax4GcdmqSuaEl2w",
+          "publishedAt": "2025-10-06T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 72,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -4857,6 +4857,23 @@
             "live"
           ],
           "duration": 3775,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "BApdio0qT-4",
+          "title": "Let's hang out today🐰🦌",
+          "url": "https://www.youtube.com/watch?v=BApdio0qT-4",
+          "thumbnail": "https://i.ytimg.com/vi/BApdio0qT-4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDS77PMaipaN4LpdeomOF_LmE6jiA",
+          "publishedAt": "2025-08-06T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 2355,
           "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -6031,23 +6048,6 @@
           ],
           "duration": 649,
           "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "BApdio0qT-4",
-          "title": "오늘은 나랑 놀ㅈㅏ🐰🦌",
-          "url": "https://www.youtube.com/watch?v=BApdio0qT-4",
-          "thumbnail": "https://i.ytimg.com/vi/BApdio0qT-4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDS77PMaipaN4LpdeomOF_LmE6jiA",
-          "publishedAt": "2025-08-06T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 2355,
-          "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
