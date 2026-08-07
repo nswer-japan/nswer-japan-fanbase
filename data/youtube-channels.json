@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T00:28:35.560Z",
+  "generatedAt": "2026-08-07T03:20:46.221Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -8296,6 +8296,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "luGywCiaqqY",
+          "title": "Monthly 5️⃣☀️1️⃣ #22 Spring is coming💗💗",
+          "url": "https://www.youtube.com/watch?v=luGywCiaqqY",
+          "thumbnail": "https://i.ytimg.com/vi/luGywCiaqqY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCy1YKcdJwbXjG58XBgm6r-qtumMA",
+          "publishedAt": "2024-08-07T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 255,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "HTNIfs6l21w",
           "title": "Monthly 5️⃣☀️1️⃣ #25 Ensseo, it's almost August.",
           "url": "https://www.youtube.com/watch?v=HTNIfs6l21w",
@@ -8308,6 +8325,23 @@
             "live"
           ],
           "duration": 3725,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "i7GBUNNQHJs",
+          "title": "Monthly 5️⃣☀️1️⃣#22 Spring…is…here…",
+          "url": "https://www.youtube.com/watch?v=i7GBUNNQHJs",
+          "thumbnail": "https://i.ytimg.com/vi/i7GBUNNQHJs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDiK81SPfTOoTq5YI3gJPsKZjS1Yw",
+          "publishedAt": "2024-08-07T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 299,
           "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -8755,23 +8789,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "luGywCiaqqY",
-          "title": "월간 5️⃣☀️1️⃣ #22 봄이 오네용💗💗",
-          "url": "https://www.youtube.com/watch?v=luGywCiaqqY",
-          "thumbnail": "https://i.ytimg.com/vi/luGywCiaqqY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCy1YKcdJwbXjG58XBgm6r-qtumMA",
-          "publishedAt": "2024-08-07T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 255,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "0NhIs-rluIg",
           "title": "월간 5️⃣☀️1️⃣ #24 한달만이네요",
           "url": "https://www.youtube.com/watch?v=0NhIs-rluIg",
@@ -8818,23 +8835,6 @@
             "live"
           ],
           "duration": 8106,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "i7GBUNNQHJs",
-          "title": "월간5️⃣☀️1️⃣#22 봄이…왔어…",
-          "url": "https://www.youtube.com/watch?v=i7GBUNNQHJs",
-          "thumbnail": "https://i.ytimg.com/vi/i7GBUNNQHJs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDiK81SPfTOoTq5YI3gJPsKZjS1Yw",
-          "publishedAt": "2024-08-07T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 299,
           "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
