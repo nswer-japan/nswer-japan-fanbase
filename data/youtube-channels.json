@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T19:15:09.007Z",
+  "generatedAt": "2026-08-09T02:30:31.295Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -4047,7 +4047,7 @@
         },
         {
           "videoId": "iiXnv6jzIZQ",
-          "title": "˗ˋˏ 🐶의 옷장을 공개합니다 ˎˊ˗ | 옷장을 부탁해 | PICK NMIXX",
+          "title": "˗ˋˏ Revealing 🐶's Closet ˎˊ˗ | Please Take Care of My Closet | PICK NMIXX",
           "url": "https://www.youtube.com/watch?v=iiXnv6jzIZQ",
           "thumbnail": "https://i.ytimg.com/vi/iiXnv6jzIZQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrh_Wl4NRhU0UOmZdnHD1B6WJMCg",
           "publishedAt": "2025-09-09T00:00:00.000Z",
@@ -4216,6 +4216,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "0V7lRLVrFVs",
+          "title": "Since I swung the bat, isn't that a strike?⚾️ | Haewon LG Twins First Pitch Behind the Scenes | D...",
+          "url": "https://www.youtube.com/watch?v=0V7lRLVrFVs",
+          "thumbnail": "https://i.ytimg.com/vi/0V7lRLVrFVs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAq-FjUhNI-KG1JZmLhoVFcWp_L7Q",
+          "publishedAt": "2025-09-09T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 430,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "iwNZE5iAroY",
           "title": "따따따따따따따ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ",
           "url": "https://www.youtube.com/watch?v=iwNZE5iAroY",
@@ -4229,23 +4246,6 @@
           ],
           "duration": 2805,
           "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "0V7lRLVrFVs",
-          "title": "배트 휘둘렀으니 스트라이크 아닌가요?⚾️ | 해원 엘지 트윈스 시구 비하인드 | Day MIXX",
-          "url": "https://www.youtube.com/watch?v=0V7lRLVrFVs",
-          "thumbnail": "https://i.ytimg.com/vi/0V7lRLVrFVs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAq-FjUhNI-KG1JZmLhoVFcWp_L7Q",
-          "publishedAt": "2025-09-09T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 430,
-          "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
@@ -4789,6 +4789,23 @@
             "video"
           ],
           "duration": 733,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "S7fu7Zqe4LA",
+          "title": "God-tier routine🔥 Sharing the night routine Kyunyang personally curated✨ | KYUJIN’s NIGHT ROUTINE...",
+          "url": "https://www.youtube.com/watch?v=S7fu7Zqe4LA",
+          "thumbnail": "https://i.ytimg.com/vi/S7fu7Zqe4LA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB278wn9stketTqdX9QTbofZBgR6w",
+          "publishedAt": "2025-08-09T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1582,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -5503,23 +5520,6 @@
             "video"
           ],
           "duration": 1123,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "S7fu7Zqe4LA",
-          "title": "갓생루틴🔥 규냥이가 직접 낋여온 나이트 루틴 공유해요✨ | KYUJIN’s NIGHT ROUTINE | 운동 루틴, 나이트 루틴, 피부 관리법, 라부부 언박싱",
-          "url": "https://www.youtube.com/watch?v=S7fu7Zqe4LA",
-          "thumbnail": "https://i.ytimg.com/vi/S7fu7Zqe4LA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB278wn9stketTqdX9QTbofZBgR6w",
-          "publishedAt": "2025-08-09T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 1582,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
