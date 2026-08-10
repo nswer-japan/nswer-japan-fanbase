@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T13:46:21.771Z",
+  "generatedAt": "2026-08-10T19:18:18.769Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -4794,23 +4794,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "tbhzUR3LZfU",
-          "title": "Do you remember hugging me…? | PAJAMA ROOMMATE (KNOW ABOUT ME?!) | HAEWON & SULLYOON",
-          "url": "https://www.youtube.com/watch?v=tbhzUR3LZfU",
-          "thumbnail": "https://i.ytimg.com/vi/tbhzUR3LZfU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBu1cSnMUWBnQVVpfSPVhv5loWzlg",
-          "publishedAt": "2025-08-11T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 733,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "S7fu7Zqe4LA",
           "title": "God-tier routine🔥 Sharing the night routine Kyunyang personally curated✨ | KYUJIN’s NIGHT ROUTINE...",
           "url": "https://www.youtube.com/watch?v=S7fu7Zqe4LA",
@@ -6252,6 +6235,23 @@
           ],
           "duration": 1325,
           "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "tbhzUR3LZfU",
+          "title": "제가 언니 안은 거 기억나요…? | PAJAMA ROOMMATE (KNOW ABOUT ME?!) | HAEWON & SULLYOON",
+          "url": "https://www.youtube.com/watch?v=tbhzUR3LZfU",
+          "thumbnail": "https://i.ytimg.com/vi/tbhzUR3LZfU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBu1cSnMUWBnQVVpfSPVhv5loWzlg",
+          "publishedAt": "2025-08-11T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 733,
+          "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
