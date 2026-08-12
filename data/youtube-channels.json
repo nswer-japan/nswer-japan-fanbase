@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T19:42:33.314Z",
+  "generatedAt": "2026-08-12T02:45:59.994Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -8279,6 +8279,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "hJzTNHnmjLQ",
+          "title": "Lily-li-ya Lily-reading LILY’s Lost The Plot #11 𝑻𝒉𝒆 𝑴𝒂𝒏 𝑾𝒉𝒐 𝑫𝒊𝒆𝒅 𝑻𝒘𝒊𝒄𝒆 (SPOILERS) ☕️🫖",
+          "url": "https://www.youtube.com/watch?v=hJzTNHnmjLQ",
+          "thumbnail": "https://i.ytimg.com/vi/hJzTNHnmjLQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJq7CFNNVPMNBIh1y472G6cE5EGA",
+          "publishedAt": "2024-08-12T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 3810,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "zUNeR5XB7aY",
           "title": "Looking for someone to play with Kyujin and Jiwoo 🙋",
           "url": "https://www.youtube.com/watch?v=zUNeR5XB7aY",
@@ -8512,23 +8529,6 @@
             "live"
           ],
           "duration": 6395,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "hJzTNHnmjLQ",
-          "title": "릴리리야 릴리딩 LILY’s Lost The Plot #11 𝑻𝒉𝒆 𝑴𝒂𝒏 𝑾𝒉𝒐 𝑫𝒊𝒆𝒅 𝑻𝒘𝒊𝒄𝒆 (SPOILERS) ☕️🫖",
-          "url": "https://www.youtube.com/watch?v=hJzTNHnmjLQ",
-          "thumbnail": "https://i.ytimg.com/vi/hJzTNHnmjLQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJq7CFNNVPMNBIh1y472G6cE5EGA",
-          "publishedAt": "2024-08-12T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 3810,
           "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
