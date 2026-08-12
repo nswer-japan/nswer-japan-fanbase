@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T02:45:59.994Z",
+  "generatedAt": "2026-08-12T07:54:11.261Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -43,10 +43,10 @@
       "url": "https://www.youtube.com/@NMIXXOfficial",
       "description": "NMIXX公式YouTubeチャンネルの動画、ショート、ライブ配信。",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnUAyD4t2LkvW68YrDh7fDg",
-      "totalVideos": 1851,
+      "totalVideos": 1852,
       "typeCounts": {
         "video": 682,
-        "short": 942,
+        "short": 943,
         "live": 227
       },
       "videos": [
@@ -89,7 +89,7 @@
           "title": "NMIXX in Tokyo",
           "url": "https://www.youtube.com/watch?v=UTdMrUt4aZQ",
           "thumbnail": "https://i.ytimg.com/vi/UTdMrUt4aZQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQmko_b5LW5yPELGrc8iBArkScaw",
-          "publishedAt": "2026-08-08T00:00:00.000Z",
+          "publishedAt": "2026-08-07T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "live",
           "categoryLabel": "ライブ",
@@ -123,7 +123,7 @@
           "title": "We met when we were 13… and now we’re already 21~ | PAJAMA ROOMMATE | JIWOO & KYUJIN",
           "url": "https://www.youtube.com/watch?v=6zYkmgLiFD0",
           "thumbnail": "https://i.ytimg.com/vi/6zYkmgLiFD0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBJkuFDtIhmB1iao-_eERXQLHqAA",
-          "publishedAt": "2026-08-01T00:00:00.000Z",
+          "publishedAt": "2026-07-31T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -2805,23 +2805,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "FborVGP1aS8",
-          "title": "NMIXX(엔믹스) 2026학년도 대학수학능력시험 응원 메시지🍀",
-          "url": "https://www.youtube.com/watch?v=FborVGP1aS8",
-          "thumbnail": "https://i.ytimg.com/vi/FborVGP1aS8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZ62h627ZIbHLU7BhnkqFPByiHaw",
-          "publishedAt": "2025-12-12T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 81,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "Inqk85nPHa8",
           "title": "Thank You for the Artist of the Year Award💙 | 2025 THE FACT MUSIC AWARDS Behind the Scenes | Day ...",
           "url": "https://www.youtube.com/watch?v=Inqk85nPHa8",
@@ -3519,6 +3502,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "FborVGP1aS8",
+          "title": "NMIXX(엔믹스) 2026학년도 대학수학능력시험 응원 메시지🍀",
+          "url": "https://www.youtube.com/watch?v=FborVGP1aS8",
+          "thumbnail": "https://i.ytimg.com/vi/FborVGP1aS8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZ62h627ZIbHLU7BhnkqFPByiHaw",
+          "publishedAt": "2025-11-12T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 81,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "LCW1AKa0Uhg",
           "title": "PARTY AND SHOCK🔪 | The Party Cake Murder Case🎂 EP.1 | PICK NMIXX",
           "url": "https://www.youtube.com/watch?v=LCW1AKa0Uhg",
@@ -3842,6 +3842,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "u4_5isKdS1Y",
+          "title": "You worked hard today too💙💙💙",
+          "url": "https://www.youtube.com/watch?v=u4_5isKdS1Y",
+          "thumbnail": "https://i.ytimg.com/vi/u4_5isKdS1Y/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_ESPxSY9m0s3zynfj1tDw7vzJlg",
+          "publishedAt": "2025-10-12T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 2350,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "fvK6v1X72Mg",
           "title": "대기실도 우리 공연장이니까요 🎤(´ө｀)و🎤(-᷅ ꃪ -᷄๑)੭⁾⁾ | KCON LA 2025 비하인드 | Day MIXX",
           "url": "https://www.youtube.com/watch?v=fvK6v1X72Mg",
@@ -3922,23 +3939,6 @@
             "live"
           ],
           "duration": 6534,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "u4_5isKdS1Y",
-          "title": "오늘 하루도 수고 많았옹💙💙💙",
-          "url": "https://www.youtube.com/watch?v=u4_5isKdS1Y",
-          "thumbnail": "https://i.ytimg.com/vi/u4_5isKdS1Y/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_ESPxSY9m0s3zynfj1tDw7vzJlg",
-          "publishedAt": "2025-10-12T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 2350,
           "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -5032,6 +5032,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "KmYk_gPJwVo",
+          "title": "Monthly 5️⃣☀️1️⃣ #27 End of Summer, Start of Autumn",
+          "url": "https://www.youtube.com/watch?v=KmYk_gPJwVo",
+          "thumbnail": "https://i.ytimg.com/vi/KmYk_gPJwVo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDLo1LQ7RQSsEBIC0bCecZsJqly4w",
+          "publishedAt": "2025-08-12T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 4705,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "PtCkdfoptag",
           "title": "Monthly 5☀️1️⃣ #28 The Last Night of October",
           "url": "https://www.youtube.com/watch?v=PtCkdfoptag",
@@ -6098,23 +6115,6 @@
             "live"
           ],
           "duration": 4960,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "KmYk_gPJwVo",
-          "title": "월간 5️⃣☀️1️⃣ #27 여름 끝 가을 시작",
-          "url": "https://www.youtube.com/watch?v=KmYk_gPJwVo",
-          "thumbnail": "https://i.ytimg.com/vi/KmYk_gPJwVo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDLo1LQ7RQSsEBIC0bCecZsJqly4w",
-          "publishedAt": "2025-08-12T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 4705,
           "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -26354,6 +26354,23 @@
           "title": "𝑅𝑢𝑛𝑤𝑎𝑦 #NMIXX #엔믹스 #배이 #BAE #규진 #KYUJIN",
           "url": "https://www.youtube.com/watch?v=42yd_2AOqaE",
           "thumbnail": "https://i.ytimg.com/vi/42yd_2AOqaE/oardefault.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDX9btJaSbSZxU6JRUd_hnuqxtLlw&usqp=CCk",
+          "publishedAt": "",
+          "dateAccuracy": "unknown",
+          "videoType": "short",
+          "categoryLabel": "ショート",
+          "sourceTypes": [
+            "short"
+          ],
+          "duration": 0,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "UrJFpY3Ok5w",
+          "title": "Say ‘NSWER’ in 6 different ways #NMIXX #NSWER #LilDevilCircle",
+          "url": "https://www.youtube.com/watch?v=UrJFpY3Ok5w",
+          "thumbnail": "https://i.ytimg.com/vi/UrJFpY3Ok5w/oardefault.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBXpLGCTLQu0-uwbVqxXgXNo0Or6A&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
