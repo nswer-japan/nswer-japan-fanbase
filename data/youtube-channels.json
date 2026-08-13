@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T02:48:46.198Z",
+  "generatedAt": "2026-08-13T07:54:59.645Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -106,7 +106,7 @@
           "title": "NMIXX in Tokyo",
           "url": "https://www.youtube.com/watch?v=UTdMrUt4aZQ",
           "thumbnail": "https://i.ytimg.com/vi/UTdMrUt4aZQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQmko_b5LW5yPELGrc8iBArkScaw",
-          "publishedAt": "2026-08-08T00:00:00.000Z",
+          "publishedAt": "2026-08-07T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "live",
           "categoryLabel": "ライブ",
@@ -140,7 +140,7 @@
           "title": "We met when we were 13… and now we’re already 21~ | PAJAMA ROOMMATE | JIWOO & KYUJIN",
           "url": "https://www.youtube.com/watch?v=6zYkmgLiFD0",
           "thumbnail": "https://i.ytimg.com/vi/6zYkmgLiFD0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBJkuFDtIhmB1iao-_eERXQLHqAA",
-          "publishedAt": "2026-08-01T00:00:00.000Z",
+          "publishedAt": "2026-07-31T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -765,23 +765,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "l6i3ggd5kUU",
-          "title": "Lily Lily Lilding LILY’s Lost The Plot #25 Parasite (𝑷𝒂𝒓𝒂𝒔𝒊𝒕𝒆)(SPOILERS) 🦠🐛",
-          "url": "https://www.youtube.com/watch?v=l6i3ggd5kUU",
-          "thumbnail": "https://i.ytimg.com/vi/l6i3ggd5kUU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCOaqLwcZ-gJ7t95pMj8eBIX1XEXQ",
-          "publishedAt": "2026-06-13T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 6521,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "x3lzcCJsMy4",
           "title": "NMIXX \"Different Girl\" In-ear Experience (Earphones Required!) Real sound from the NMIXX stage, j...",
           "url": "https://www.youtube.com/watch?v=x3lzcCJsMy4",
@@ -867,23 +850,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "q9RPsmB7fBs",
-          "title": "NMIXX(엔믹스) “Crescendo” 응원법 | 5th EP “Heavy Serenade”",
-          "url": "https://www.youtube.com/watch?v=q9RPsmB7fBs",
-          "thumbnail": "https://i.ytimg.com/vi/q9RPsmB7fBs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3-DW_OU9HuWnLf1Zdk6sWb4ai-A",
-          "publishedAt": "2026-06-13T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 220,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "LPue_feaTTM",
           "title": "NMIXX(엔믹스) “Heavy Serenade” Dance Practice (Romance Serenade Ver.)",
           "url": "https://www.youtube.com/watch?v=LPue_feaTTM",
@@ -964,23 +930,6 @@
             "video"
           ],
           "duration": 195,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "rYqxR_Rse9M",
-          "title": "NMIXX(엔믹스) “Heavy Serenade” 응원법 | 5th EP “Heavy Serenade”",
-          "url": "https://www.youtube.com/watch?v=rYqxR_Rse9M",
-          "thumbnail": "https://i.ytimg.com/vi/rYqxR_Rse9M/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDL_5dxiKCdmXfg3LGNu3Uq9WY39w",
-          "publishedAt": "2026-06-13T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 251,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -1224,6 +1173,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "l6i3ggd5kUU",
+          "title": "Lily Lily Lilding LILY’s Lost The Plot #25 Parasite (𝑷𝒂𝒓𝒂𝒔𝒊𝒕𝒆)(SPOILERS) 🦠🐛",
+          "url": "https://www.youtube.com/watch?v=l6i3ggd5kUU",
+          "thumbnail": "https://i.ytimg.com/vi/l6i3ggd5kUU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCOaqLwcZ-gJ7t95pMj8eBIX1XEXQ",
+          "publishedAt": "2026-05-13T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 6521,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "6sGohfYu3Uc",
           "title": "Monthly 5☀️1️⃣ #40 ​​The comeback is just around the corner!",
           "url": "https://www.youtube.com/watch?v=6sGohfYu3Uc",
@@ -1309,6 +1275,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "q9RPsmB7fBs",
+          "title": "NMIXX(엔믹스) “Crescendo” 응원법 | 5th EP “Heavy Serenade”",
+          "url": "https://www.youtube.com/watch?v=q9RPsmB7fBs",
+          "thumbnail": "https://i.ytimg.com/vi/q9RPsmB7fBs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3-DW_OU9HuWnLf1Zdk6sWb4ai-A",
+          "publishedAt": "2026-05-13T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 220,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "zhvnMYsdY3s",
           "title": "NMIXX(엔믹스) “Different Girl” (Official Audio)",
           "url": "https://www.youtube.com/watch?v=zhvnMYsdY3s",
@@ -1372,6 +1355,23 @@
             "video"
           ],
           "duration": 216,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "rYqxR_Rse9M",
+          "title": "NMIXX(엔믹스) “Heavy Serenade” 응원법 | 5th EP “Heavy Serenade”",
+          "url": "https://www.youtube.com/watch?v=rYqxR_Rse9M",
+          "thumbnail": "https://i.ytimg.com/vi/rYqxR_Rse9M/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDL_5dxiKCdmXfg3LGNu3Uq9WY39w",
+          "publishedAt": "2026-05-13T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 251,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
