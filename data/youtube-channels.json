@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T19:34:51.907Z",
+  "generatedAt": "2026-08-15T01:51:07.289Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -5508,6 +5508,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "4y0QYwPx1OI",
+          "title": "Thank you for making every day one where I only cry tears of joy🥹 | Taipei Fan Concert Behind the...",
+          "url": "https://www.youtube.com/watch?v=4y0QYwPx1OI",
+          "thumbnail": "https://i.ytimg.com/vi/4y0QYwPx1OI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8N_8SGm4kbSwYiSJTSFFd-uVNLg",
+          "publishedAt": "2025-08-15T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1299,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "AH0bHdjRCyM",
           "title": "You worked hard today!!😚",
           "url": "https://www.youtube.com/watch?v=AH0bHdjRCyM",
@@ -5622,23 +5639,6 @@
             "video"
           ],
           "duration": 1932,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "4y0QYwPx1OI",
-          "title": "기뻐서 우는 날들만 만들어줘서 고마워🥹 | 타이페이 팬콘서트 비하인드 | Day MIXX",
-          "url": "https://www.youtube.com/watch?v=4y0QYwPx1OI",
-          "thumbnail": "https://i.ytimg.com/vi/4y0QYwPx1OI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8N_8SGm4kbSwYiSJTSFFd-uVNLg",
-          "publishedAt": "2025-08-15T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 1299,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
