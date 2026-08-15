@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T13:00:03.951Z",
+  "generatedAt": "2026-08-15T18:49:20.369Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -2193,23 +2193,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "bly2esbAgTI",
-          "title": "Heading home",
-          "url": "https://www.youtube.com/watch?v=bly2esbAgTI",
-          "thumbnail": "https://i.ytimg.com/vi/bly2esbAgTI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADd83H3Pf0UngZg6pTejuNF9bs8Q",
-          "publishedAt": "2026-02-16T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 1199,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "2fXry-ZY1_s",
           "title": "NMIXX 4th ANNIVERS4RY CAMP LIVE🏕️",
           "url": "https://www.youtube.com/watch?v=2fXry-ZY1_s",
@@ -2427,6 +2410,23 @@
           ],
           "duration": 1369,
           "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "bly2esbAgTI",
+          "title": "Heading home",
+          "url": "https://www.youtube.com/watch?v=bly2esbAgTI",
+          "thumbnail": "https://i.ytimg.com/vi/bly2esbAgTI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADd83H3Pf0UngZg6pTejuNF9bs8Q",
+          "publishedAt": "2026-01-16T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 1199,
+          "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
@@ -3026,23 +3026,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "R6QGiMFpq6g",
-          "title": "NMIXX(엔믹스) “Blue Valentine” Dance Practice (Blue Character Ver.)",
-          "url": "https://www.youtube.com/watch?v=R6QGiMFpq6g",
-          "thumbnail": "https://i.ytimg.com/vi/R6QGiMFpq6g/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyhPYDO6fwxBeyDMBd9SvIFGzvNQ",
-          "publishedAt": "2025-11-16T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 254,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "-hfL_gXMW_g",
           "title": "NMIXX(엔믹스) “Blue Valentine” M/V REACTION | 1st Full Album “Blue Valentine”",
           "url": "https://www.youtube.com/watch?v=-hfL_gXMW_g",
@@ -3481,6 +3464,23 @@
           ],
           "duration": 4516,
           "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "R6QGiMFpq6g",
+          "title": "NMIXX(엔믹스) “Blue Valentine” Dance Practice (Blue Character Ver.)",
+          "url": "https://www.youtube.com/watch?v=R6QGiMFpq6g",
+          "thumbnail": "https://i.ytimg.com/vi/R6QGiMFpq6g/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyhPYDO6fwxBeyDMBd9SvIFGzvNQ",
+          "publishedAt": "2025-10-16T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 254,
+          "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
