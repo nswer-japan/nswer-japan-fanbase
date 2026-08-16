@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-16T04:20:53.989Z",
+  "generatedAt": "2026-08-16T07:00:09.444Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
-  "requestedSyncMode": "full",
-  "effectiveSyncMode": "full",
+  "requestedSyncMode": "recent",
+  "effectiveSyncMode": "recent",
   "historyComplete": true,
   "lastFullSyncAt": "2026-08-16T04:20:53.989Z",
   "successfulTabs": [
@@ -15,21 +15,21 @@
   "tabStats": {
     "videos": {
       "type": "video",
-      "fetched": 684,
-      "reportedCount": 684,
-      "completeRequest": true
+      "fetched": 240,
+      "reportedCount": null,
+      "completeRequest": false
     },
     "shorts": {
       "type": "short",
-      "fetched": 946,
-      "reportedCount": 946,
-      "completeRequest": true
+      "fetched": 240,
+      "reportedCount": null,
+      "completeRequest": false
     },
     "streams": {
       "type": "live",
-      "fetched": 227,
-      "reportedCount": 227,
-      "completeRequest": true
+      "fetched": 180,
+      "reportedCount": null,
+      "completeRequest": false
     }
   },
   "classificationVersion": 4,
@@ -43,10 +43,10 @@
       "url": "https://www.youtube.com/@NMIXXOfficial",
       "description": "NMIXX公式YouTubeチャンネルの動画、ショート、ライブ配信。",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnUAyD4t2LkvW68YrDh7fDg",
-      "totalVideos": 1857,
+      "totalVideos": 1858,
       "typeCounts": {
         "video": 684,
-        "short": 946,
+        "short": 947,
         "live": 227
       },
       "videos": [
@@ -123,7 +123,7 @@
           "title": "NMIXX in Tokyo",
           "url": "https://www.youtube.com/watch?v=UTdMrUt4aZQ",
           "thumbnail": "https://i.ytimg.com/vi/UTdMrUt4aZQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQmko_b5LW5yPELGrc8iBArkScaw",
-          "publishedAt": "2026-08-08T00:00:00.000Z",
+          "publishedAt": "2026-08-07T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "live",
           "categoryLabel": "ライブ",
@@ -28241,6 +28241,23 @@
           "title": "ミ★★★ #NMIXX #LILY #BAE #JIWOO",
           "url": "https://www.youtube.com/watch?v=1dJQ0KdVuLE",
           "thumbnail": "https://i.ytimg.com/vi/1dJQ0KdVuLE/oardefault.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBU_pa-fzLNV_ysXtGgi3Kw0ftNpg&usqp=CCk",
+          "publishedAt": "",
+          "dateAccuracy": "unknown",
+          "videoType": "short",
+          "categoryLabel": "ショート",
+          "sourceTypes": [
+            "short"
+          ],
+          "duration": 0,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "uAtqGYhzatU",
+          "title": "ミ⚾️ೃ⁀🌀 #NMIXX #WeiChuanDragons",
+          "url": "https://www.youtube.com/watch?v=uAtqGYhzatU",
+          "thumbnail": "https://i.ytimg.com/vi/uAtqGYhzatU/oardefault.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCw7shzOTkRQOPqZaIF89_p-CTplw&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
