@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-10T20:05:00Z",
-  "startedAt": "2026-08-10T20:04:57Z",
-  "elapsedSeconds": 2.7,
+  "generatedAt": "2026-08-17T19:46:09Z",
+  "startedAt": "2026-08-17T19:46:06Z",
+  "elapsedSeconds": 2.59,
   "summary": {
     "checked": 31,
-    "ok": 29,
-    "warning": 1,
+    "ok": 30,
+    "warning": 0,
     "broken": 1,
     "hosts": 14
   },
@@ -20,18 +20,18 @@
       "broken": 1
     },
     {
-      "key": "instagram",
-      "label": "Instagram",
-      "checked": 1,
-      "ok": 0,
-      "warning": 1,
-      "broken": 0
-    },
-    {
       "key": "other",
       "label": "analytics.google.com",
       "checked": 10,
       "ok": 10,
+      "warning": 0,
+      "broken": 0
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram",
+      "checked": 1,
+      "ok": 1,
       "warning": 0,
       "broken": 0
     },
@@ -98,29 +98,6 @@
       ]
     },
     {
-      "url": "https://www.instagram.com/nmixx_official/",
-      "normalizedUrl": "https://www.instagram.com/nmixx_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnmixx_official&is_from_rle",
-      "service": "Instagram",
-      "serviceKey": "instagram",
-      "status": "warning",
-      "httpStatus": 429,
-      "message": "HTTP 429（自動確認が制限されています）",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 49,
-          "label": "Instagram"
-        },
-        {
-          "file": "index.html",
-          "line": 153,
-          "label": "Instagram"
-        }
-      ]
-    },
-    {
       "url": "https://analytics.google.com/",
       "normalizedUrl": "https://analytics.google.com/",
       "finalUrl": "https://analytics.google.com/analytics/web/",
@@ -135,6 +112,29 @@
           "file": "analytics.html",
           "line": 62,
           "label": "Google Analyticsを開く ↗"
+        }
+      ]
+    },
+    {
+      "url": "https://www.instagram.com/nmixx_official/",
+      "normalizedUrl": "https://www.instagram.com/nmixx_official",
+      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnmixx_official&is_from_rle",
+      "service": "Instagram",
+      "serviceKey": "instagram",
+      "status": "ok",
+      "httpStatus": 200,
+      "message": "HTTP 200",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 49,
+          "label": "Instagram"
+        },
+        {
+          "file": "index.html",
+          "line": 153,
+          "label": "Instagram"
         }
       ]
     },
@@ -282,7 +282,7 @@
     {
       "url": "https://stationhead.com/c/nswer",
       "normalizedUrl": "https://stationhead.com/c/nswer",
-      "finalUrl": "https://www.stationhead.com/c/nswer",
+      "finalUrl": "https://stationhead.com/c/nswer",
       "service": "stationhead.com",
       "serviceKey": "other",
       "status": "ok",
