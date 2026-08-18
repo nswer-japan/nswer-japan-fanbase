@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T01:52:05.474Z",
+  "generatedAt": "2026-08-18T07:05:50.208Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -55,7 +55,7 @@
           "title": "I was planning on another normal day after work, but…🏌️‍♀️ | Lily has clocked out",
           "url": "https://www.youtube.com/watch?v=LOCFZGCxKlI",
           "thumbnail": "https://i.ytimg.com/vi/LOCFZGCxKlI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBA9l0ZkayfNxTIpxXz7yU6XjfcRw",
-          "publishedAt": "2026-08-17T10:00:00.000Z",
+          "publishedAt": "2026-08-17T09:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -140,7 +140,7 @@
           "title": "NMIXX in Tokyo",
           "url": "https://www.youtube.com/watch?v=UTdMrUt4aZQ",
           "thumbnail": "https://i.ytimg.com/vi/UTdMrUt4aZQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQmko_b5LW5yPELGrc8iBArkScaw",
-          "publishedAt": "2026-08-08T00:00:00.000Z",
+          "publishedAt": "2026-08-07T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "live",
           "categoryLabel": "ライブ",
@@ -5491,6 +5491,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "OOL6MDn5jv0",
+          "title": "That’s my ✰secret weapon✰ | MIXX FAMILY COOKING DAY 𓌉◯𓇋 | PICK NMIXX",
+          "url": "https://www.youtube.com/watch?v=OOL6MDn5jv0",
+          "thumbnail": "https://i.ytimg.com/vi/OOL6MDn5jv0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCv9JP2Hc54WGhYx4A1ZC1OvOev9w",
+          "publishedAt": "2025-08-18T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1932,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "AH0bHdjRCyM",
           "title": "You worked hard today!!😚",
           "url": "https://www.youtube.com/watch?v=AH0bHdjRCyM",
@@ -5588,23 +5605,6 @@
             "video"
           ],
           "duration": 479,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "OOL6MDn5jv0",
-          "title": "그게 나의 ✰secret weapon✰이야 | MIXX FAMILY COOKING DAY 𓌉◯𓇋 | PICK NMIXX",
-          "url": "https://www.youtube.com/watch?v=OOL6MDn5jv0",
-          "thumbnail": "https://i.ytimg.com/vi/OOL6MDn5jv0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCv9JP2Hc54WGhYx4A1ZC1OvOev9w",
-          "publishedAt": "2025-08-18T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 1932,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
