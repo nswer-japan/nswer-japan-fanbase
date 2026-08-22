@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T13:02:21.000Z",
+  "generatedAt": "2026-08-22T18:50:18.793Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -3247,23 +3247,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "8tUjETM9ov8",
-          "title": "월간5️⃣☀️1️⃣#36 이거 다 네 덕",
-          "url": "https://www.youtube.com/watch?v=8tUjETM9ov8",
-          "thumbnail": "https://i.ytimg.com/vi/8tUjETM9ov8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAzUw3jsraCiEdwTJtwTm652XZAvA",
-          "publishedAt": "2025-11-23T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 1870,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "Wjx_BXg9dxo",
           "title": "잠깐얘기할사람🩵💙",
           "url": "https://www.youtube.com/watch?v=Wjx_BXg9dxo",
@@ -3991,6 +3974,23 @@
           ],
           "duration": 1844,
           "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "8tUjETM9ov8",
+          "title": "월간5️⃣☀️1️⃣#36 이거 다 네 덕",
+          "url": "https://www.youtube.com/watch?v=8tUjETM9ov8",
+          "thumbnail": "https://i.ytimg.com/vi/8tUjETM9ov8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAzUw3jsraCiEdwTJtwTm652XZAvA",
+          "publishedAt": "2025-10-23T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 1870,
+          "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
