@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T01:53:38.094Z",
+  "generatedAt": "2026-08-25T07:09:37.062Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -68,23 +68,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "N_L1B9Jf-HA",
-          "title": "수배라 #14 엔써 지금 나랑 놀아주기로 약속했다아",
-          "url": "https://www.youtube.com/watch?v=N_L1B9Jf-HA",
-          "thumbnail": "https://i.ytimg.com/vi/N_L1B9Jf-HA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZZCkptwFEBd1w7ow9k7QgzcNunA",
-          "publishedAt": "2026-08-21T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 1798,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "Prjto1bDpI8",
           "title": "Even when resting, we're a bit extra🔥 | US Tour Snippet Vlog | MIXX Log",
           "url": "https://www.youtube.com/watch?v=Prjto1bDpI8",
@@ -102,11 +85,28 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "N_L1B9Jf-HA",
+          "title": "수배라 #14 엔써 지금 나랑 놀아주기로 약속했다아",
+          "url": "https://www.youtube.com/watch?v=N_L1B9Jf-HA",
+          "thumbnail": "https://i.ytimg.com/vi/N_L1B9Jf-HA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZZCkptwFEBd1w7ow9k7QgzcNunA",
+          "publishedAt": "2026-08-20T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 1798,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "zsFobHXllZI",
           "title": "NMIXX OFFICIAL LIGHT STICK VER.2 TEASER",
           "url": "https://www.youtube.com/watch?v=zsFobHXllZI",
           "thumbnail": "https://i.ytimg.com/vi/zsFobHXllZI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnfFNwBHR1Q6Mo7xl4Cz0-5aX8Ug",
-          "publishedAt": "2026-08-20T00:00:00.000Z",
+          "publishedAt": "2026-08-19T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -4250,6 +4250,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "Xg_Fm76_nLQ",
+          "title": "You worked hard today too~💙",
+          "url": "https://www.youtube.com/watch?v=Xg_Fm76_nLQ",
+          "thumbnail": "https://i.ytimg.com/vi/Xg_Fm76_nLQ/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAIsrr8wjGg7gpop0WJLPkHVlWyRg",
+          "publishedAt": "2025-09-25T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 2021,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "u4_5isKdS1Y",
           "title": "You worked hard today too💙💙💙",
           "url": "https://www.youtube.com/watch?v=u4_5isKdS1Y",
@@ -4347,23 +4364,6 @@
             "live"
           ],
           "duration": 6435,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "Xg_Fm76_nLQ",
-          "title": "오늘 하루도 수고 많았어~💙",
-          "url": "https://www.youtube.com/watch?v=Xg_Fm76_nLQ",
-          "thumbnail": "https://i.ytimg.com/vi/Xg_Fm76_nLQ/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAIsrr8wjGg7gpop0WJLPkHVlWyRg",
-          "publishedAt": "2025-09-25T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 2021,
           "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -4976,23 +4976,6 @@
             "live"
           ],
           "duration": 4190,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "2ehDoeV0yTI",
-          "title": "Lily’s Reading 17: Pride and Prejudice (SPOILERS)",
-          "url": "https://www.youtube.com/watch?v=2ehDoeV0yTI",
-          "thumbnail": "https://i.ytimg.com/vi/2ehDoeV0yTI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDH1cxLfwb_1YNwirh1NQtesNWCGQ",
-          "publishedAt": "2025-08-25T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 5100,
           "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -5741,6 +5724,23 @@
             "live"
           ],
           "duration": 7196,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "2ehDoeV0yTI",
+          "title": "릴리리야 릴리딩 LILY’s Lost The Plot #17 𝑷𝒓𝒊𝒅𝒆 𝒂𝒏𝒅 𝑷𝒓𝒆𝒋𝒖𝒅𝒊𝒄𝒆 (SPOILERS)",
+          "url": "https://www.youtube.com/watch?v=2ehDoeV0yTI",
+          "thumbnail": "https://i.ytimg.com/vi/2ehDoeV0yTI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDH1cxLfwb_1YNwirh1NQtesNWCGQ",
+          "publishedAt": "2025-08-25T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 5100,
           "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
