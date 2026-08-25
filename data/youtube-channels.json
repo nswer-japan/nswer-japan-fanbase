@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T19:16:09.057Z",
+  "generatedAt": "2026-08-25T01:53:38.094Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -4233,6 +4233,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "F5GNrxQT1Gc",
+          "title": "Where Our Story Begins | Cliche Singles Inferno TEASER | PICK NMIXX",
+          "url": "https://www.youtube.com/watch?v=F5GNrxQT1Gc",
+          "thumbnail": "https://i.ytimg.com/vi/F5GNrxQT1Gc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAhhG9o7QOCqcedUzYCd3nKwiG_Nw",
+          "publishedAt": "2025-09-25T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 72,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "u4_5isKdS1Y",
           "title": "You worked hard today too💙💙💙",
           "url": "https://www.youtube.com/watch?v=u4_5isKdS1Y",
@@ -4348,23 +4365,6 @@
           ],
           "duration": 2021,
           "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "F5GNrxQT1Gc",
-          "title": "우리의 이야기가 시작될 이곳 | 클리셰 솔로지옥 TEASER | PICK NMIXX",
-          "url": "https://www.youtube.com/watch?v=F5GNrxQT1Gc",
-          "thumbnail": "https://i.ytimg.com/vi/F5GNrxQT1Gc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAhhG9o7QOCqcedUzYCd3nKwiG_Nw",
-          "publishedAt": "2025-09-25T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 72,
-          "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
