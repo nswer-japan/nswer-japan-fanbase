@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T19:16:45.679Z",
+  "generatedAt": "2026-08-26T01:59:31.588Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -5457,6 +5457,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "eqNAaxxc8Tw",
+          "title": "Samjins and Even-numbered Line, bursting into laughter~",
+          "url": "https://www.youtube.com/watch?v=eqNAaxxc8Tw",
+          "thumbnail": "https://i.ytimg.com/vi/eqNAaxxc8Tw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPtExlg5p2Rcu_luw59I335kuBjA",
+          "publishedAt": "2025-08-26T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 1040,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "4y0QYwPx1OI",
           "title": "Thank you for making every day one where I only cry tears of joy🥹 | Taipei Fan Concert Behind the...",
           "url": "https://www.youtube.com/watch?v=4y0QYwPx1OI",
@@ -5826,23 +5843,6 @@
             "live"
           ],
           "duration": 3553,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "eqNAaxxc8Tw",
-          "title": "삼진즈 짝수즈 박장대솔~",
-          "url": "https://www.youtube.com/watch?v=eqNAaxxc8Tw",
-          "thumbnail": "https://i.ytimg.com/vi/eqNAaxxc8Tw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPtExlg5p2Rcu_luw59I335kuBjA",
-          "publishedAt": "2025-08-26T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 1040,
           "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -29243,7 +29243,7 @@
           "videoId": "dW4ckgk4xnw",
           "title": "너무 더워 ☀️ #NMIXX #엔믹스 #릴리 #LILY",
           "url": "https://www.youtube.com/watch?v=dW4ckgk4xnw",
-          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDPKTQAepbnyVTRTz-J-8m7MBLLfg&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDZtDWtvZGcaBxfVPFLpIYFOY9o9A&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
