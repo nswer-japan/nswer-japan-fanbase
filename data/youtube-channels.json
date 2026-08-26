@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T01:59:31.588Z",
+  "generatedAt": "2026-08-26T07:10:24.380Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -68,23 +68,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "N_L1B9Jf-HA",
-          "title": "수배라 #14 엔써 지금 나랑 놀아주기로 약속했다아",
-          "url": "https://www.youtube.com/watch?v=N_L1B9Jf-HA",
-          "thumbnail": "https://i.ytimg.com/vi/N_L1B9Jf-HA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZZCkptwFEBd1w7ow9k7QgzcNunA",
-          "publishedAt": "2026-08-21T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 1798,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "Prjto1bDpI8",
           "title": "Even when resting, we're a bit extra🔥 | US Tour Snippet Vlog | MIXX Log",
           "url": "https://www.youtube.com/watch?v=Prjto1bDpI8",
@@ -102,11 +85,28 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "N_L1B9Jf-HA",
+          "title": "수배라 #14 엔써 지금 나랑 놀아주기로 약속했다아",
+          "url": "https://www.youtube.com/watch?v=N_L1B9Jf-HA",
+          "thumbnail": "https://i.ytimg.com/vi/N_L1B9Jf-HA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZZCkptwFEBd1w7ow9k7QgzcNunA",
+          "publishedAt": "2026-08-20T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 1798,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "zsFobHXllZI",
           "title": "NMIXX OFFICIAL LIGHT STICK VER.2 TEASER",
           "url": "https://www.youtube.com/watch?v=zsFobHXllZI",
           "thumbnail": "https://i.ytimg.com/vi/zsFobHXllZI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnfFNwBHR1Q6Mo7xl4Cz0-5aX8Ug",
-          "publishedAt": "2026-08-20T00:00:00.000Z",
+          "publishedAt": "2026-08-19T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -1921,23 +1921,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "aDjQMDZFNiM",
-          "title": "NMIXX(엔믹스) “TIC TIC (Feat. Pabllo Vittar)” | Performance Video",
-          "url": "https://www.youtube.com/watch?v=aDjQMDZFNiM",
-          "thumbnail": "https://i.ytimg.com/vi/aDjQMDZFNiM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBVzJBqAlJp8VDj61umB2tjXfB2xg",
-          "publishedAt": "2026-03-26T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 134,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "HwpySSdqnVU",
           "title": "NMIXX(엔믹스) “TIC TIC (Feat. Pabllo Vittar)” Recording Behind | Recording MIXX",
           "url": "https://www.youtube.com/watch?v=HwpySSdqnVU",
@@ -2205,6 +2188,23 @@
             "video"
           ],
           "duration": 151,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "aDjQMDZFNiM",
+          "title": "NMIXX(엔믹스) “TIC TIC (Feat. Pabllo Vittar)” | Performance Video",
+          "url": "https://www.youtube.com/watch?v=aDjQMDZFNiM",
+          "thumbnail": "https://i.ytimg.com/vi/aDjQMDZFNiM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBVzJBqAlJp8VDj61umB2tjXfB2xg",
+          "publishedAt": "2026-02-26T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 134,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
