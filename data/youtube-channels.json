@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T04:38:00.047Z",
+  "generatedAt": "2026-09-02T11:21:28.200Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -43,26 +43,26 @@
       "url": "https://www.youtube.com/@NMIXXOfficial",
       "description": "NMIXX公式YouTubeチャンネルの動画、ショート、ライブ配信。",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnUAyD4t2LkvW68YrDh7fDg",
-      "totalVideos": 1873,
+      "totalVideos": 1875,
       "typeCounts": {
-        "video": 690,
-        "short": 954,
+        "video": 691,
+        "short": 955,
         "live": 229
       },
       "videos": [
         {
-          "videoId": "jQn0gCvEWFI",
-          "title": "진짜X526 알차게 담아온 뀨로그 ต^._.^ต | 규진 휴가 브이로그 | MIXX Log",
-          "url": "https://www.youtube.com/watch?v=jQn0gCvEWFI",
-          "thumbnail": "https://i.ytimg.com/vi/jQn0gCvEWFI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCmW3pel2GjC49TGW-_ttILmXBTTg",
-          "publishedAt": "2026-08-29T00:00:00.000Z",
+          "videoId": "WWjYG6qtDKw",
+          "title": "엉엉 울믹스 데이 ૮₍ ˃̣̣̥᷄ - ˂̣̣̥᷅ ₎ა | NMIXX 'EPISODE 1: ZERO FRONTIER' IN SINGAPORE | Day MIXX",
+          "url": "https://www.youtube.com/watch?v=WWjYG6qtDKw",
+          "thumbnail": "https://i.ytimg.com/vi/WWjYG6qtDKw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCRV-G7VVHwsK1ZmCI1YAzaa4WOgQ",
+          "publishedAt": "2026-09-02T09:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
           "sourceTypes": [
             "video"
           ],
-          "duration": 1923,
+          "duration": 761,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -85,11 +85,28 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "jQn0gCvEWFI",
+          "title": "진짜X526 알차게 담아온 뀨로그 ต^._.^ต | 규진 휴가 브이로그 | MIXX Log",
+          "url": "https://www.youtube.com/watch?v=jQn0gCvEWFI",
+          "thumbnail": "https://i.ytimg.com/vi/jQn0gCvEWFI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCmW3pel2GjC49TGW-_ttILmXBTTg",
+          "publishedAt": "2026-08-28T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1923,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "zQuxwLEj5GQ",
           "title": "Trying to stay on stage as long as possible💃🏼 | NMIXX 'EPISODE 1: ZERO FRONTIER' IN NORTH AMERICA...",
           "url": "https://www.youtube.com/watch?v=zQuxwLEj5GQ",
           "thumbnail": "https://i.ytimg.com/vi/zQuxwLEj5GQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC19GgtP5aj1xjLOz_sURUw16I3_g",
-          "publishedAt": "2026-08-27T00:00:00.000Z",
+          "publishedAt": "2026-08-26T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -106,7 +123,7 @@
           "title": "Look forward to the MIXX ARCHIVE we'll keep filling up 🎞️˚ ॰˚ | MIXX ARCHIVE Album | PICK NMIXX",
           "url": "https://www.youtube.com/watch?v=MOZo3Ie3bhA",
           "thumbnail": "https://i.ytimg.com/vi/MOZo3Ie3bhA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCmOyB5CVhgCnZQgxe9YrW0LX2lWQ",
-          "publishedAt": "2026-08-22T00:00:00.000Z",
+          "publishedAt": "2026-08-21T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -114,40 +131,6 @@
             "video"
           ],
           "duration": 1719,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "Prjto1bDpI8",
-          "title": "Even when resting, we're a bit extra🔥 | US Tour Snippet Vlog | MIXX Log",
-          "url": "https://www.youtube.com/watch?v=Prjto1bDpI8",
-          "thumbnail": "https://i.ytimg.com/vi/Prjto1bDpI8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDpIn2DaKrgi-oG7xd340x2MjN3Cg",
-          "publishedAt": "2026-08-20T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 877,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "zsFobHXllZI",
-          "title": "NMIXX OFFICIAL LIGHT STICK VER.2 TEASER",
-          "url": "https://www.youtube.com/watch?v=zsFobHXllZI",
-          "thumbnail": "https://i.ytimg.com/vi/zsFobHXllZI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnfFNwBHR1Q6Mo7xl4Cz0-5aX8Ug",
-          "publishedAt": "2026-08-20T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 31,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -187,6 +170,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "Prjto1bDpI8",
+          "title": "Even when resting, we're a bit extra🔥 | US Tour Snippet Vlog | MIXX Log",
+          "url": "https://www.youtube.com/watch?v=Prjto1bDpI8",
+          "thumbnail": "https://i.ytimg.com/vi/Prjto1bDpI8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDpIn2DaKrgi-oG7xd340x2MjN3Cg",
+          "publishedAt": "2026-08-19T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 877,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "LOCFZGCxKlI",
           "title": "I was planning on another normal day after work, but…🏌️‍♀️ | Lily has clocked out",
           "url": "https://www.youtube.com/watch?v=LOCFZGCxKlI",
@@ -204,10 +204,10 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "hM_s4hpLcpo",
-          "title": "SULLYOON & ATURIA Aishiteimasu ♡॰˚ | SULLYOON ATURIA Ad Behind-the-Scenes | Day MIXX",
-          "url": "https://www.youtube.com/watch?v=hM_s4hpLcpo",
-          "thumbnail": "https://i.ytimg.com/vi/hM_s4hpLcpo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDoItLe1WO2dUIj4XXO0nNAsr9Pyw",
+          "videoId": "zsFobHXllZI",
+          "title": "NMIXX OFFICIAL LIGHT STICK VER.2 TEASER",
+          "url": "https://www.youtube.com/watch?v=zsFobHXllZI",
+          "thumbnail": "https://i.ytimg.com/vi/zsFobHXllZI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnfFNwBHR1Q6Mo7xl4Cz0-5aX8Ug",
           "publishedAt": "2026-08-19T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
@@ -215,24 +215,7 @@
           "sourceTypes": [
             "video"
           ],
-          "duration": 389,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "j4ZekJ6u4Bg",
-          "title": "Guess who's back to meet the European N-Sseo?💋 | NMIXX 'EPISODE 1: ZERO FRONTIER' IN EUROPE Behin...",
-          "url": "https://www.youtube.com/watch?v=j4ZekJ6u4Bg",
-          "thumbnail": "https://i.ytimg.com/vi/j4ZekJ6u4Bg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB8uwC3q6IUDSvvkpVKFFLVntXNRA",
-          "publishedAt": "2026-08-12T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 1514,
+          "duration": 31,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -284,6 +267,40 @@
             "video"
           ],
           "duration": 66,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "hM_s4hpLcpo",
+          "title": "SULLYOON & ATURIA Aishiteimasu ♡॰˚ | SULLYOON ATURIA Ad Behind-the-Scenes | Day MIXX",
+          "url": "https://www.youtube.com/watch?v=hM_s4hpLcpo",
+          "thumbnail": "https://i.ytimg.com/vi/hM_s4hpLcpo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDoItLe1WO2dUIj4XXO0nNAsr9Pyw",
+          "publishedAt": "2026-08-12T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 389,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "j4ZekJ6u4Bg",
+          "title": "Guess who's back to meet the European N-Sseo?💋 | NMIXX 'EPISODE 1: ZERO FRONTIER' IN EUROPE Behin...",
+          "url": "https://www.youtube.com/watch?v=j4ZekJ6u4Bg",
+          "thumbnail": "https://i.ytimg.com/vi/j4ZekJ6u4Bg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB8uwC3q6IUDSvvkpVKFFLVntXNRA",
+          "publishedAt": "2026-08-05T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1514,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -2397,23 +2414,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "fRXd-juZcoE",
-          "title": "Concert DAY 2 Behind EP.03 | NMIXX 1ST WORLD TOUR ‘EPISODE 1: ZERO FRONTIER’ IN INCHEON",
-          "url": "https://www.youtube.com/watch?v=fRXd-juZcoE",
-          "thumbnail": "https://i.ytimg.com/vi/fRXd-juZcoE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDEe_ANU_dRoaxIWn4Y4DcrJhqmqw",
-          "publishedAt": "2026-02-02T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 1036,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "ScDJpcYlh2E",
           "title": "Didn't everyone grow up playing with LEGO?! | Esquire X LEGO Photoshoot Behind the Scenes | Day MIXX",
           "url": "https://www.youtube.com/watch?v=ScDJpcYlh2E",
@@ -2664,6 +2664,23 @@
             "video"
           ],
           "duration": 1750,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "fRXd-juZcoE",
+          "title": "Concert DAY 2 Behind EP.03 | NMIXX 1ST WORLD TOUR ‘EPISODE 1: ZERO FRONTIER’ IN INCHEON",
+          "url": "https://www.youtube.com/watch?v=fRXd-juZcoE",
+          "thumbnail": "https://i.ytimg.com/vi/fRXd-juZcoE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDEe_ANU_dRoaxIWn4Y4DcrJhqmqw",
+          "publishedAt": "2026-01-02T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1036,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -18258,6 +18275,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "mJMkO4y6kqE",
+          "title": "˗ˋ✊🏻 Ouch- #NMIXX #SULLYOON #JIWOO",
+          "url": "https://www.youtube.com/watch?v=mJMkO4y6kqE",
+          "thumbnail": "https://i.ytimg.com/vi/mJMkO4y6kqE/oardefault.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLA5Tow2OeaCPXvULBuckrRULiX4Mg&usqp=CCk",
+          "publishedAt": "",
+          "dateAccuracy": "unknown",
+          "videoType": "short",
+          "categoryLabel": "ショート",
+          "sourceTypes": [
+            "short"
+          ],
+          "duration": 0,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "55Jt0QTtQVo",
           "title": "༓༝̩̩̥͙Woo🐶🐱like it༓༝̩̩̥͙  #NMIXX #엔믹스 #지우 #JIWOO #규진 #KYUJIN #Fe3O4_BREAK #Soñar #Soñar_Challenge",
           "url": "https://www.youtube.com/watch?v=55Jt0QTtQVo",
@@ -19451,7 +19485,7 @@
           "videoId": "o1I7UOSQzsc",
           "title": "🐶꙳🐱⛓ #NMIXX #엔믹스 #지우 #JIWOO #규진 #KYUJIN",
           "url": "https://www.youtube.com/watch?v=o1I7UOSQzsc",
-          "thumbnail": "https://i.ytimg.com/vi/o1I7UOSQzsc/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAS_gbvDlEbSslSlfxQ4JwKbv3clA&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/o1I7UOSQzsc/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBTDEmhW2HMsFwQBgZIDGECsMejyg&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -21389,7 +21423,7 @@
           "videoId": "POr8flu7TJ8",
           "title": "Blue Valentine with #MOONSUA #문수아 👯‍♀️♡*ꕀ #NMIXX #HAEWON #BlueValentine #BlueValentineChallenge",
           "url": "https://www.youtube.com/watch?v=POr8flu7TJ8",
-          "thumbnail": "https://i.ytimg.com/vi/POr8flu7TJ8/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBxFR-xeN27-Unk7TZS6B2kZuEAgQ&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/POr8flu7TJ8/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBY3vpHWxhtwOu_GVSL4hhNYZpzoA&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -21406,7 +21440,7 @@
           "videoId": "pdF0aiJtH9w",
           "title": "Blue Valentine with #Ode #XdinaryHeroes 🦊.•♡ #NMIXX #BAE #BlueValentine #BlueValentineChallenge",
           "url": "https://www.youtube.com/watch?v=pdF0aiJtH9w",
-          "thumbnail": "https://i.ytimg.com/vi/pdF0aiJtH9w/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAwkhMu32JZkf1jJDKHiLIxIycwaA&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/pdF0aiJtH9w/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLB_Zy7UXjrYNnA4PSC-dFjCTSkQaw&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -22817,7 +22851,7 @@
           "videoId": "JnwzrTFcsU8",
           "title": "Happy birthday 규진 ❤️🎷#NMIXX #KYUJIN #BAE #Be_My_KYUJIN",
           "url": "https://www.youtube.com/watch?v=JnwzrTFcsU8",
-          "thumbnail": "https://i.ytimg.com/vi/JnwzrTFcsU8/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCHmMEv78ktRaL6Lsk4rpMKnCPIAA&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/JnwzrTFcsU8/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDyalNEi5guedslhhdt-yUvf-Xfwg&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -23973,7 +24007,7 @@
           "videoId": "jEPrbK9CCP0",
           "title": "JIWOO’s Heavy Serenade with Melody Box 💍🤍 #NMIXX #엔믹스 #HeavySerenade #HeavySerenadeChallenge",
           "url": "https://www.youtube.com/watch?v=jEPrbK9CCP0",
-          "thumbnail": "https://i.ytimg.com/vi/jEPrbK9CCP0/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBzRTw_4QKZcWQAuJx7K6xrQy7uvg&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/jEPrbK9CCP0/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBMEii_L6Bp_rbv-9r74FDsWKF4MA&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -24007,7 +24041,7 @@
           "videoId": "5iM2mqTbIHU",
           "title": "Jjyu Jjanggu is unstoppable🌀 #NMIXX #LILY #HAEWON #JIWOO",
           "url": "https://www.youtube.com/watch?v=5iM2mqTbIHU",
-          "thumbnail": "https://i.ytimg.com/vi/5iM2mqTbIHU/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBN2CN4eoJX1_snbIUOn86PWG8WAg&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/5iM2mqTbIHU/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDEf9bQ4VJbvvLG1H4XKQpMA22vww&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -24976,7 +25010,7 @@
           "videoId": "kqnfRNH6GoE",
           "title": "Me and my bestie #NMIXX #엔믹스 #BAE #JIWOO",
           "url": "https://www.youtube.com/watch?v=kqnfRNH6GoE",
-          "thumbnail": "https://i.ytimg.com/vi/kqnfRNH6GoE/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBbz3mbNpV4GzBYHuNLSnOKgeHfwQ&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/kqnfRNH6GoE/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBa5yVac83YY55fCi-LRL_J4y0tQg&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -27203,7 +27237,7 @@
           "videoId": "EbQl6zj7LUA",
           "title": "The Beginning of a Legend, JYP Hallway (Vocal ver.) #NMIXX #LILY #heavyserenade",
           "url": "https://www.youtube.com/watch?v=EbQl6zj7LUA",
-          "thumbnail": "https://i.ytimg.com/vi/EbQl6zj7LUA/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAoeo7W-jAFsRHEcxgPyHTaBegaZQ&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/EbQl6zj7LUA/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDGJ7jzJ258wJ9JDLMCL_iwaHXAsA&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -29175,7 +29209,7 @@
           "videoId": "cf_snKXNW-s",
           "title": "뀨냥이 깨우기 #NMIXX #JIWOO #KYUJIN #HeavySerenade #HeavySerenadeChallenge",
           "url": "https://www.youtube.com/watch?v=cf_snKXNW-s",
-          "thumbnail": "https://i.ytimg.com/vi/cf_snKXNW-s/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCie2K5MZcKf8XvCtBOwtXHVldSIw&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/cf_snKXNW-s/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDGeORDENBnAsBq5nlLxIXh98paPA&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -29328,7 +29362,7 @@
           "videoId": "dW4ckgk4xnw",
           "title": "너무 더워 ☀️ #NMIXX #엔믹스 #릴리 #LILY",
           "url": "https://www.youtube.com/watch?v=dW4ckgk4xnw",
-          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDZtDWtvZGcaBxfVPFLpIYFOY9o9A&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDPKTQAepbnyVTRTz-J-8m7MBLLfg&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -29515,7 +29549,7 @@
           "videoId": "RXSXMK18GTc",
           "title": "단발머리하고 #NMIXX #엔믹스 #배이 #BAE",
           "url": "https://www.youtube.com/watch?v=RXSXMK18GTc",
-          "thumbnail": "https://i.ytimg.com/vi/RXSXMK18GTc/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAmcchDlU_YX-M-Tzhb9l6gglxemQ&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/RXSXMK18GTc/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLC1XFMNtQL4HwTiyXaXz28rTjheBQ&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
