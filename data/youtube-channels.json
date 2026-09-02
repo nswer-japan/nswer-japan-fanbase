@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T16:36:46.531Z",
+  "generatedAt": "2026-09-02T21:05:18.677Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -55,7 +55,7 @@
           "title": "엉엉 울믹스 데이 ૮₍ ˃̣̣̥᷄ - ˂̣̣̥᷅ ₎ა | NMIXX 'EPISODE 1: ZERO FRONTIER' IN SINGAPORE | Day MIXX",
           "url": "https://www.youtube.com/watch?v=WWjYG6qtDKw",
           "thumbnail": "https://i.ytimg.com/vi/WWjYG6qtDKw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCRV-G7VVHwsK1ZmCI1YAzaa4WOgQ",
-          "publishedAt": "2026-09-02T10:00:00.000Z",
+          "publishedAt": "2026-09-02T09:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -884,23 +884,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "jgADHuqNPT4",
-          "title": "[Full Version] Haewon | LYn - Love Story | MIXX SERENADE",
-          "url": "https://www.youtube.com/watch?v=jgADHuqNPT4",
-          "thumbnail": "https://i.ytimg.com/vi/jgADHuqNPT4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXQ42G3v4u0eOazar_06EQsueEgw",
-          "publishedAt": "2026-06-03T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 101,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "nfyQGGxDtJg",
           "title": "[Full Version] Kyujin | BLACKPINK - Ice Cream (with Selena Gomez) | MIXX SERENADE",
           "url": "https://www.youtube.com/watch?v=nfyQGGxDtJg",
@@ -952,6 +935,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "jgADHuqNPT4",
+          "title": "[풀버전] 해원 | 린 - 사랑했잖아 | MIXX SERENADE(믹스 세레나데)",
+          "url": "https://www.youtube.com/watch?v=jgADHuqNPT4",
+          "thumbnail": "https://i.ytimg.com/vi/jgADHuqNPT4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXQ42G3v4u0eOazar_06EQsueEgw",
+          "publishedAt": "2026-06-03T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 101,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "xqZAsAfd-gA",
           "title": "🎼 이 곡은 놓치고 싶지 않았어요 | 해원과 로로의 러브하우스",
           "url": "https://www.youtube.com/watch?v=xqZAsAfd-gA",
@@ -981,23 +981,6 @@
             "video"
           ],
           "duration": 892,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "fMNP4WPhuEw",
-          "title": "From the Greatest Contenders to Potential Elimination?🎤 | MIXX SERENADE EP.02 | PICK NMIXX",
-          "url": "https://www.youtube.com/watch?v=fMNP4WPhuEw",
-          "thumbnail": "https://i.ytimg.com/vi/fMNP4WPhuEw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-3ALmimLF-cMP9Gc3ostr8SGdYw",
-          "publishedAt": "2026-06-03T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 2399,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -1050,23 +1033,6 @@
           ],
           "duration": 6521,
           "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "x3lzcCJsMy4",
-          "title": "NMIXX \"Different Girl\" In-ear Experience (Earphones Required!) Real sound from the NMIXX stage, j...",
-          "url": "https://www.youtube.com/watch?v=x3lzcCJsMy4",
-          "thumbnail": "https://i.ytimg.com/vi/x3lzcCJsMy4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCXexs_tyH6SgWbZoB52NrwXlf0Vw",
-          "publishedAt": "2026-06-03T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 152,
-          "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
@@ -1168,6 +1134,23 @@
             "video"
           ],
           "duration": 144,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "x3lzcCJsMy4",
+          "title": "NMIXX(엔믹스) “Different Girl” 인이어 체험 (이어폰 필수 지참!) 엔써만을 위한, 엔믹스 무대 위 리얼 사운드",
+          "url": "https://www.youtube.com/watch?v=x3lzcCJsMy4",
+          "thumbnail": "https://i.ytimg.com/vi/x3lzcCJsMy4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCXexs_tyH6SgWbZoB52NrwXlf0Vw",
+          "publishedAt": "2026-06-03T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 152,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -1491,6 +1474,23 @@
             "video"
           ],
           "duration": 2296,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "fMNP4WPhuEw",
+          "title": "역대급 우승 후보에서 갑자기 탈락 후보로?🎤 | MIXX SERENADE(믹스 세레나데) EP.02 | PICK NMIXX",
+          "url": "https://www.youtube.com/watch?v=fMNP4WPhuEw",
+          "thumbnail": "https://i.ytimg.com/vi/fMNP4WPhuEw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-3ALmimLF-cMP9Gc3ostr8SGdYw",
+          "publishedAt": "2026-06-03T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 2399,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -22851,7 +22851,7 @@
           "videoId": "JnwzrTFcsU8",
           "title": "Happy birthday 규진 ❤️🎷#NMIXX #KYUJIN #BAE #Be_My_KYUJIN",
           "url": "https://www.youtube.com/watch?v=JnwzrTFcsU8",
-          "thumbnail": "https://i.ytimg.com/vi/JnwzrTFcsU8/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAAKjnt_RGFI-RgA54oYOLMdIBc5w&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/JnwzrTFcsU8/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCHmMEv78ktRaL6Lsk4rpMKnCPIAA&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -23786,7 +23786,7 @@
           "videoId": "5WPUPsXfDrE",
           "title": "it’s ma birthday #NMIXX #엔믹스 #지우 #JIWOO #오늘의_쮸인공_김지우 #Crush_On_JIWOO",
           "url": "https://www.youtube.com/watch?v=5WPUPsXfDrE",
-          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBfWl4YpQLTLPMGarc9K_q2WyOSjw&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCSJa2-h7hqxdjLPdO0Mb8k31XXDQ&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -24041,7 +24041,7 @@
           "videoId": "5iM2mqTbIHU",
           "title": "Jjyu Jjanggu is unstoppable🌀 #NMIXX #LILY #HAEWON #JIWOO",
           "url": "https://www.youtube.com/watch?v=5iM2mqTbIHU",
-          "thumbnail": "https://i.ytimg.com/vi/5iM2mqTbIHU/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDEf9bQ4VJbvvLG1H4XKQpMA22vww&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/5iM2mqTbIHU/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBN2CN4eoJX1_snbIUOn86PWG8WAg&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -27237,7 +27237,7 @@
           "videoId": "EbQl6zj7LUA",
           "title": "The Beginning of a Legend, JYP Hallway (Vocal ver.) #NMIXX #LILY #heavyserenade",
           "url": "https://www.youtube.com/watch?v=EbQl6zj7LUA",
-          "thumbnail": "https://i.ytimg.com/vi/EbQl6zj7LUA/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDT9rM9GPgzmuJ95BmEWyikG2dXVQ&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/EbQl6zj7LUA/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDGJ7jzJ258wJ9JDLMCL_iwaHXAsA&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -27441,7 +27441,7 @@
           "videoId": "NDNrcTs4gTw",
           "title": "𝑇𝐼𝐶 𝑇𝐼𝐶☝️ #PablloVittar #NMIXX #엔믹스 #TICTIC #TIC_TIC",
           "url": "https://www.youtube.com/watch?v=NDNrcTs4gTw",
-          "thumbnail": "https://i.ytimg.com/vi/NDNrcTs4gTw/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAuIe5gDGePVjs4DA7bfIC-DzdgKA&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/NDNrcTs4gTw/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDprk1DxzKmQTQ-vAIGruXPOXNdSQ&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -29362,7 +29362,7 @@
           "videoId": "dW4ckgk4xnw",
           "title": "너무 더워 ☀️ #NMIXX #엔믹스 #릴리 #LILY",
           "url": "https://www.youtube.com/watch?v=dW4ckgk4xnw",
-          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCmJHz2Kn5rUWzGVAYYgCvs83JXTw&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDPKTQAepbnyVTRTz-J-8m7MBLLfg&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -29549,7 +29549,7 @@
           "videoId": "RXSXMK18GTc",
           "title": "단발머리하고 #NMIXX #엔믹스 #배이 #BAE",
           "url": "https://www.youtube.com/watch?v=RXSXMK18GTc",
-          "thumbnail": "https://i.ytimg.com/vi/RXSXMK18GTc/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAmcchDlU_YX-M-Tzhb9l6gglxemQ&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/RXSXMK18GTc/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLC1XFMNtQL4HwTiyXaXz28rTjheBQ&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -30059,7 +30059,7 @@
           "videoId": "j-7SLvAh9jg",
           "title": "미웡 #NMIXX #엔믹스 #규진 #KYUJIN",
           "url": "https://www.youtube.com/watch?v=j-7SLvAh9jg",
-          "thumbnail": "https://i.ytimg.com/vi/j-7SLvAh9jg/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBMl7AehynSd1TBQq8aKNUcVFUjKQ&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/j-7SLvAh9jg/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLD2nRr77KhwanbtTSqLRpFf0gUoqw&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
