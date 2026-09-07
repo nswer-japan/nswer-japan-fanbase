@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T23:14:20Z",
-  "startedAt": "2026-08-31T23:14:17Z",
-  "elapsedSeconds": 2.71,
+  "generatedAt": "2026-09-07T22:05:30Z",
+  "startedAt": "2026-09-07T22:05:28Z",
+  "elapsedSeconds": 2.34,
   "summary": {
     "checked": 31,
-    "ok": 30,
-    "warning": 0,
+    "ok": 27,
+    "warning": 3,
     "broken": 1,
     "hosts": 14
   },
@@ -18,6 +18,14 @@
       "ok": 0,
       "warning": 0,
       "broken": 1
+    },
+    {
+      "key": "x",
+      "label": "X",
+      "checked": 3,
+      "ok": 0,
+      "warning": 3,
+      "broken": 0
     },
     {
       "key": "other",
@@ -48,14 +56,6 @@
       "label": "TikTok",
       "checked": 1,
       "ok": 1,
-      "warning": 0,
-      "broken": 0
-    },
-    {
-      "key": "x",
-      "label": "X",
-      "checked": 3,
-      "ok": 3,
       "warning": 0,
       "broken": 0
     },
@@ -98,6 +98,65 @@
       ]
     },
     {
+      "url": "https://x.com/JYPJAPAN_NMIXX",
+      "normalizedUrl": "https://x.com/JYPJAPAN_NMIXX",
+      "finalUrl": "https://x.com/JYPJAPAN_NMIXX",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "warning",
+      "httpStatus": 403,
+      "message": "HTTP 403（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 36,
+          "label": "NMIXX Japan X"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/NMIXX_official",
+      "normalizedUrl": "https://x.com/NMIXX_official",
+      "finalUrl": "https://x.com/NMIXX_official",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "warning",
+      "httpStatus": 403,
+      "message": "HTTP 403（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 10,
+          "label": "NMIXX Official X"
+        },
+        {
+          "file": "index.html",
+          "line": 153,
+          "label": "Official X"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/WE_NMIXX",
+      "normalizedUrl": "https://x.com/WE_NMIXX",
+      "finalUrl": "https://x.com/WE_NMIXX",
+      "service": "X",
+      "serviceKey": "x",
+      "status": "warning",
+      "httpStatus": 403,
+      "message": "HTTP 403（自動確認が制限されています）",
+      "method": "http-get",
+      "sources": [
+        {
+          "file": "data/official-links.json",
+          "line": 23,
+          "label": "WE NMIXX"
+        }
+      ]
+    },
+    {
       "url": "https://analytics.google.com/",
       "normalizedUrl": "https://analytics.google.com/",
       "finalUrl": "https://analytics.google.com/analytics/web/",
@@ -118,7 +177,7 @@
     {
       "url": "https://www.instagram.com/nmixx_official/",
       "normalizedUrl": "https://www.instagram.com/nmixx_official",
-      "finalUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnmixx_official&is_from_rle",
+      "finalUrl": "https://www.instagram.com/nmixx_official",
       "service": "Instagram",
       "serviceKey": "instagram",
       "status": "ok",
@@ -358,65 +417,6 @@
           "file": "music-show-wins.html",
           "line": 89,
           "label": "受賞・アンコール記事を見る ↗"
-        }
-      ]
-    },
-    {
-      "url": "https://x.com/JYPJAPAN_NMIXX",
-      "normalizedUrl": "https://x.com/JYPJAPAN_NMIXX",
-      "finalUrl": "https://x.com/JYPJAPAN_NMIXX",
-      "service": "X",
-      "serviceKey": "x",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 36,
-          "label": "NMIXX Japan X"
-        }
-      ]
-    },
-    {
-      "url": "https://x.com/NMIXX_official",
-      "normalizedUrl": "https://x.com/NMIXX_official",
-      "finalUrl": "https://x.com/NMIXX_official",
-      "service": "X",
-      "serviceKey": "x",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 10,
-          "label": "NMIXX Official X"
-        },
-        {
-          "file": "index.html",
-          "line": 153,
-          "label": "Official X"
-        }
-      ]
-    },
-    {
-      "url": "https://x.com/WE_NMIXX",
-      "normalizedUrl": "https://x.com/WE_NMIXX",
-      "finalUrl": "https://x.com/WE_NMIXX",
-      "service": "X",
-      "serviceKey": "x",
-      "status": "ok",
-      "httpStatus": 200,
-      "message": "HTTP 200",
-      "method": "http-get",
-      "sources": [
-        {
-          "file": "data/official-links.json",
-          "line": 23,
-          "label": "WE NMIXX"
         }
       ]
     },
