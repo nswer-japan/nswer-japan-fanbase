@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T04:52:07.210Z",
+  "generatedAt": "2026-09-16T11:38:11.566Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -43,19 +43,36 @@
       "url": "https://www.youtube.com/@NMIXXOfficial",
       "description": "NMIXX公式YouTubeチャンネルの動画、ショート、ライブ配信。",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnUAyD4t2LkvW68YrDh7fDg",
-      "totalVideos": 1888,
+      "totalVideos": 1889,
       "typeCounts": {
-        "video": 695,
+        "video": 696,
         "short": 963,
         "live": 230
       },
       "videos": [
         {
+          "videoId": "z8683m4u4f8",
+          "title": "'Victorious Cast - Give It Up' Covered by NMIXX LILY&BAE | 릴코딩",
+          "url": "https://www.youtube.com/watch?v=z8683m4u4f8",
+          "thumbnail": "https://i.ytimg.com/vi/z8683m4u4f8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDD1AOkzpI6_D1AvLYQHcw0kDM59Q",
+          "publishedAt": "2026-09-16T10:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 174,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "QkqPwBAY914",
           "title": "Becoming a kawaii Dindori on vacation☺️ | Baei's vacation vlog | MIXX Log",
           "url": "https://www.youtube.com/watch?v=QkqPwBAY914",
           "thumbnail": "https://i.ytimg.com/vi/QkqPwBAY914/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBR8ymIuIEHBB_7x5LrRlFrTJQh6g",
-          "publishedAt": "2026-09-12T00:00:00.000Z",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -72,7 +89,7 @@
           "title": "Please look forward to more in the future Forever~🎀 | NMIXX MAKE UP FOR EVER Ad Behind the Scenes...",
           "url": "https://www.youtube.com/watch?v=Igf-WyPoJwc",
           "thumbnail": "https://i.ytimg.com/vi/Igf-WyPoJwc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBv2tziNlzy2QUaFFTp0BxQ-8Ko3Q",
-          "publishedAt": "2026-09-10T00:00:00.000Z",
+          "publishedAt": "2026-09-09T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -89,7 +106,7 @@
           "title": "I think this will be my new uniform ʚɞ ˚₊‧ | Kyujin VAIDELI Advertising Behind-the-Scenes | Day MIXX",
           "url": "https://www.youtube.com/watch?v=0eMZwRVZsV8",
           "thumbnail": "https://i.ytimg.com/vi/0eMZwRVZsV8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCdV3XSLi5tvwhWr4ECwD2sj4xZ1A",
-          "publishedAt": "2026-09-08T00:00:00.000Z",
+          "publishedAt": "2026-09-07T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -106,7 +123,7 @@
           "title": "Looking for someone to walk puppy Jiwoo in Japan🤚 | Jiwoo's Vacation Vlog | MIXX Log",
           "url": "https://www.youtube.com/watch?v=5KjRZCZbfus",
           "thumbnail": "https://i.ytimg.com/vi/5KjRZCZbfus/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC1UnMfLmcdx8zK5IfozCUGKYkBlw",
-          "publishedAt": "2026-09-05T00:00:00.000Z",
+          "publishedAt": "2026-09-04T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -136,23 +153,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "WWjYG6qtDKw",
-          "title": "엉엉 울믹스 데이 ૮₍ ˃̣̣̥᷄ - ˂̣̣̥᷅ ₎ა | NMIXX 'EPISODE 1: ZERO FRONTIER' IN SINGAPORE | Day MIXX",
-          "url": "https://www.youtube.com/watch?v=WWjYG6qtDKw",
-          "thumbnail": "https://i.ytimg.com/vi/WWjYG6qtDKw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCRV-G7VVHwsK1ZmCI1YAzaa4WOgQ",
-          "publishedAt": "2026-09-03T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 761,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "AZ5kdV7oWTc",
           "title": "Monthly 5️⃣☀️1️⃣ #42 Hurry up, Autumn",
           "url": "https://www.youtube.com/watch?v=AZ5kdV7oWTc",
@@ -170,10 +170,10 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "zQuxwLEj5GQ",
-          "title": "Trying to stay on stage as long as possible💃🏼 | NMIXX 'EPISODE 1: ZERO FRONTIER' IN NORTH AMERICA...",
-          "url": "https://www.youtube.com/watch?v=zQuxwLEj5GQ",
-          "thumbnail": "https://i.ytimg.com/vi/zQuxwLEj5GQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC19GgtP5aj1xjLOz_sURUw16I3_g",
+          "videoId": "WWjYG6qtDKw",
+          "title": "엉엉 울믹스 데이 ૮₍ ˃̣̣̥᷄ - ˂̣̣̥᷅ ₎ა | NMIXX 'EPISODE 1: ZERO FRONTIER' IN SINGAPORE | Day MIXX",
+          "url": "https://www.youtube.com/watch?v=WWjYG6qtDKw",
+          "thumbnail": "https://i.ytimg.com/vi/WWjYG6qtDKw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCRV-G7VVHwsK1ZmCI1YAzaa4WOgQ",
           "publishedAt": "2026-09-02T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
@@ -181,7 +181,7 @@
           "sourceTypes": [
             "video"
           ],
-          "duration": 1957,
+          "duration": 761,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -204,23 +204,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "Prjto1bDpI8",
-          "title": "Even when resting, we're a bit extra🔥 | US Tour Snippet Vlog | MIXX Log",
-          "url": "https://www.youtube.com/watch?v=Prjto1bDpI8",
-          "thumbnail": "https://i.ytimg.com/vi/Prjto1bDpI8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDpIn2DaKrgi-oG7xd340x2MjN3Cg",
-          "publishedAt": "2026-08-26T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 877,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "MOZo3Ie3bhA",
           "title": "Look forward to the MIXX ARCHIVE we'll keep filling up 🎞️˚ ॰˚ | MIXX ARCHIVE Album | PICK NMIXX",
           "url": "https://www.youtube.com/watch?v=MOZo3Ie3bhA",
@@ -233,23 +216,6 @@
             "video"
           ],
           "duration": 1719,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "zsFobHXllZI",
-          "title": "NMIXX OFFICIAL LIGHT STICK VER.2 TEASER",
-          "url": "https://www.youtube.com/watch?v=zsFobHXllZI",
-          "thumbnail": "https://i.ytimg.com/vi/zsFobHXllZI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnfFNwBHR1Q6Mo7xl4Cz0-5aX8Ug",
-          "publishedAt": "2026-08-26T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 31,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -272,6 +238,40 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "zQuxwLEj5GQ",
+          "title": "Trying to stay on stage as long as possible💃🏼 | NMIXX 'EPISODE 1: ZERO FRONTIER' IN NORTH AMERICA...",
+          "url": "https://www.youtube.com/watch?v=zQuxwLEj5GQ",
+          "thumbnail": "https://i.ytimg.com/vi/zQuxwLEj5GQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC19GgtP5aj1xjLOz_sURUw16I3_g",
+          "publishedAt": "2026-08-26T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1957,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "Prjto1bDpI8",
+          "title": "Even when resting, we're a bit extra🔥 | US Tour Snippet Vlog | MIXX Log",
+          "url": "https://www.youtube.com/watch?v=Prjto1bDpI8",
+          "thumbnail": "https://i.ytimg.com/vi/Prjto1bDpI8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDpIn2DaKrgi-oG7xd340x2MjN3Cg",
+          "publishedAt": "2026-08-19T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 877,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "LOCFZGCxKlI",
           "title": "I was planning on another normal day after work, but…🏌️‍♀️ | Lily has clocked out",
           "url": "https://www.youtube.com/watch?v=LOCFZGCxKlI",
@@ -284,6 +284,23 @@
             "video"
           ],
           "duration": 912,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "zsFobHXllZI",
+          "title": "NMIXX OFFICIAL LIGHT STICK VER.2 TEASER",
+          "url": "https://www.youtube.com/watch?v=zsFobHXllZI",
+          "thumbnail": "https://i.ytimg.com/vi/zsFobHXllZI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnfFNwBHR1Q6Mo7xl4Cz0-5aX8Ug",
+          "publishedAt": "2026-08-19T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 31,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -404,23 +421,6 @@
           ],
           "duration": 616,
           "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "4j_J3i22fTc",
-          "title": "Lilyliya Reading LILY’s Lost The Plot #26 𝑬𝒎𝒎𝒂 (SPOILERS) 👗",
-          "url": "https://www.youtube.com/watch?v=4j_J3i22fTc",
-          "thumbnail": "https://i.ytimg.com/vi/4j_J3i22fTc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCSmwf5Yhmmp477FpRnu_Op9Nq90w",
-          "publishedAt": "2026-08-16T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 6915,
-          "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
@@ -658,6 +658,23 @@
             "live"
           ],
           "duration": 4816,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "4j_J3i22fTc",
+          "title": "Lilyliya Reading LILY’s Lost The Plot #26 𝑬𝒎𝒎𝒂 (SPOILERS) 👗",
+          "url": "https://www.youtube.com/watch?v=4j_J3i22fTc",
+          "thumbnail": "https://i.ytimg.com/vi/4j_J3i22fTc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCSmwf5Yhmmp477FpRnu_Op9Nq90w",
+          "publishedAt": "2026-07-16T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 6915,
           "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -1083,23 +1100,6 @@
             "video"
           ],
           "duration": 1426,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "gzhL_SsZEqU",
-          "title": "NMIXX(엔믹스) “Heavy Serenade” M/V REACTION | 5th EP “Heavy Serenade”",
-          "url": "https://www.youtube.com/watch?v=gzhL_SsZEqU",
-          "thumbnail": "https://i.ytimg.com/vi/gzhL_SsZEqU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAdJvh9szcoPaiWStZCD8QQI49lg",
-          "publishedAt": "2026-06-16T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 837,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -1542,6 +1542,23 @@
             "video"
           ],
           "duration": 318,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "gzhL_SsZEqU",
+          "title": "NMIXX(엔믹스) “Heavy Serenade” M/V REACTION | 5th EP “Heavy Serenade”",
+          "url": "https://www.youtube.com/watch?v=gzhL_SsZEqU",
+          "thumbnail": "https://i.ytimg.com/vi/gzhL_SsZEqU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAdJvh9szcoPaiWStZCD8QQI49lg",
+          "publishedAt": "2026-05-16T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 837,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -2329,23 +2346,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "THGAZDSqVzg",
-          "title": "켱오년 컬날에는 케밀리와👩‍🍳 | MIXX FAMILY NEW YEAR | PICK NMIXX",
-          "url": "https://www.youtube.com/watch?v=THGAZDSqVzg",
-          "thumbnail": "https://i.ytimg.com/vi/THGAZDSqVzg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBNK1YiUWEs08LnPwpCpOmjToYwbg",
-          "publishedAt": "2026-03-16T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 1941,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "rfzmU6u8r6w",
           "title": "[🐰] HAPPY SULLYOON DAY",
           "url": "https://www.youtube.com/watch?v=rfzmU6u8r6w",
@@ -2426,23 +2426,6 @@
             "video"
           ],
           "duration": 432,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "nvxrD_6wESo",
-          "title": "Looking forward to 2026 ⊹ ࣪ ˖ | 2025 Year-End Awards Behind the Scenes | Day MIXX",
-          "url": "https://www.youtube.com/watch?v=nvxrD_6wESo",
-          "thumbnail": "https://i.ytimg.com/vi/nvxrD_6wESo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDiGtjVv-TtQuJ8UfmK75gj99xa5w",
-          "publishedAt": "2026-02-16T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 1496,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -2567,6 +2550,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "THGAZDSqVzg",
+          "title": "켱오년 컬날에는 케밀리와👩‍🍳 | MIXX FAMILY NEW YEAR | PICK NMIXX",
+          "url": "https://www.youtube.com/watch?v=THGAZDSqVzg",
+          "thumbnail": "https://i.ytimg.com/vi/THGAZDSqVzg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBNK1YiUWEs08LnPwpCpOmjToYwbg",
+          "publishedAt": "2026-02-16T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1941,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "YIhFxbs1bgY",
           "title": "[🐥] HAPPY BAE DAY",
           "url": "https://www.youtube.com/watch?v=YIhFxbs1bgY",
@@ -2686,6 +2686,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "nvxrD_6wESo",
+          "title": "Looking forward to 2026 ⊹ ࣪ ˖ | 2025 Year-End Awards Behind the Scenes | Day MIXX",
+          "url": "https://www.youtube.com/watch?v=nvxrD_6wESo",
+          "thumbnail": "https://i.ytimg.com/vi/nvxrD_6wESo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDiGtjVv-TtQuJ8UfmK75gj99xa5w",
+          "publishedAt": "2026-01-16T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1496,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "RBLWGLgmN18",
           "title": "NMIXX 1ST WORLD TOUR 'EPISODE 1: ZERO FRONTIER' IN INCHEON Recap Video",
           "url": "https://www.youtube.com/watch?v=RBLWGLgmN18",
@@ -2732,23 +2749,6 @@
             "video"
           ],
           "duration": 717,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "VeJZx_-rMwM",
-          "title": "NMIXX(엔믹스) ‘Funky Glitter Christmas’ Live Clip @NMIXX 1ST WORLD TOUR ‘EPISODE 1: ZERO FRONTIER’",
-          "url": "https://www.youtube.com/watch?v=VeJZx_-rMwM",
-          "thumbnail": "https://i.ytimg.com/vi/VeJZx_-rMwM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBnETPChA9Wve-ToS1I-_SeFyfbLQ",
-          "publishedAt": "2026-01-16T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 197,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -2936,6 +2936,23 @@
             "video"
           ],
           "duration": 905,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "VeJZx_-rMwM",
+          "title": "NMIXX(엔믹스) ‘Funky Glitter Christmas’ Live Clip @NMIXX 1ST WORLD TOUR ‘EPISODE 1: ZERO FRONTIER’",
+          "url": "https://www.youtube.com/watch?v=VeJZx_-rMwM",
+          "thumbnail": "https://i.ytimg.com/vi/VeJZx_-rMwM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBnETPChA9Wve-ToS1I-_SeFyfbLQ",
+          "publishedAt": "2025-12-16T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 197,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -19570,7 +19587,7 @@
           "videoId": "o1I7UOSQzsc",
           "title": "🐶꙳🐱⛓ #NMIXX #엔믹스 #지우 #JIWOO #규진 #KYUJIN",
           "url": "https://www.youtube.com/watch?v=o1I7UOSQzsc",
-          "thumbnail": "https://i.ytimg.com/vi/o1I7UOSQzsc/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBoXG-M5G3MEZCe1dtLk0_CqMqinA&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/o1I7UOSQzsc/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAS_gbvDlEbSslSlfxQ4JwKbv3clA&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -21508,7 +21525,7 @@
           "videoId": "POr8flu7TJ8",
           "title": "Blue Valentine with #MOONSUA #문수아 👯‍♀️♡*ꕀ #NMIXX #HAEWON #BlueValentine #BlueValentineChallenge",
           "url": "https://www.youtube.com/watch?v=POr8flu7TJ8",
-          "thumbnail": "https://i.ytimg.com/vi/POr8flu7TJ8/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBY3vpHWxhtwOu_GVSL4hhNYZpzoA&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/POr8flu7TJ8/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBVsWC9aeuNQ70exblgCCBGGUAB4g&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -22953,7 +22970,7 @@
           "videoId": "JnwzrTFcsU8",
           "title": "Happy birthday 규진 ❤️🎷#NMIXX #KYUJIN #BAE #Be_My_KYUJIN",
           "url": "https://www.youtube.com/watch?v=JnwzrTFcsU8",
-          "thumbnail": "https://i.ytimg.com/vi/JnwzrTFcsU8/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCHmMEv78ktRaL6Lsk4rpMKnCPIAA&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/JnwzrTFcsU8/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAAKjnt_RGFI-RgA54oYOLMdIBc5w&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -27662,7 +27679,7 @@
           "videoId": "NDNrcTs4gTw",
           "title": "𝑇𝐼𝐶 𝑇𝐼𝐶☝️ #PablloVittar #NMIXX #엔믹스 #TICTIC #TIC_TIC",
           "url": "https://www.youtube.com/watch?v=NDNrcTs4gTw",
-          "thumbnail": "https://i.ytimg.com/vi/NDNrcTs4gTw/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDgjGoNrIzuIPpJsxVOw6ZGqoXfQQ&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/NDNrcTs4gTw/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDprk1DxzKmQTQ-vAIGruXPOXNdSQ&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -29583,7 +29600,7 @@
           "videoId": "dW4ckgk4xnw",
           "title": "너무 더워 ☀️ #NMIXX #엔믹스 #릴리 #LILY",
           "url": "https://www.youtube.com/watch?v=dW4ckgk4xnw",
-          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCmJHz2Kn5rUWzGVAYYgCvs83JXTw&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDZtDWtvZGcaBxfVPFLpIYFOY9o9A&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -29753,7 +29770,7 @@
           "videoId": "RXSXMK18GTc",
           "title": "단발머리하고 #NMIXX #엔믹스 #배이 #BAE",
           "url": "https://www.youtube.com/watch?v=RXSXMK18GTc",
-          "thumbnail": "https://i.ytimg.com/vi/RXSXMK18GTc/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLC1XFMNtQL4HwTiyXaXz28rTjheBQ&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/RXSXMK18GTc/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAmcchDlU_YX-M-Tzhb9l6gglxemQ&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -30263,7 +30280,7 @@
           "videoId": "j-7SLvAh9jg",
           "title": "미웡 #NMIXX #엔믹스 #규진 #KYUJIN",
           "url": "https://www.youtube.com/watch?v=j-7SLvAh9jg",
-          "thumbnail": "https://i.ytimg.com/vi/j-7SLvAh9jg/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLD2nRr77KhwanbtTSqLRpFf0gUoqw&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/j-7SLvAh9jg/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLB-a0-HjC8-dgaQaTcfs1NqC3bIVw&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
