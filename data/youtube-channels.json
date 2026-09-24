@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T21:45:45.124Z",
+  "generatedAt": "2026-09-24T04:54:49.590Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -2142,23 +2142,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "XlEIQUuX8mk",
-          "title": "[🐻‍❄️] HAPPY HAEWON DAY",
-          "url": "https://www.youtube.com/watch?v=XlEIQUuX8mk",
-          "thumbnail": "https://i.ytimg.com/vi/XlEIQUuX8mk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC4zhdNMJFcYOU75km7oAQL7dpG1Q",
-          "publishedAt": "2026-03-24T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 2600,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "x-fqfvUL7XE",
           "title": "Currently, Lil Seol-bae is in the car.",
           "url": "https://www.youtube.com/watch?v=x-fqfvUL7XE",
@@ -2205,23 +2188,6 @@
             "video"
           ],
           "duration": 582,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "sWkLpvCHx_w",
-          "title": "NMIXX(엔믹스) “TIC TIC (Feat. Pabllo Vittar)” | Brazil Carnival🇧🇷 | Stage Recap",
-          "url": "https://www.youtube.com/watch?v=sWkLpvCHx_w",
-          "thumbnail": "https://i.ytimg.com/vi/sWkLpvCHx_w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC_-mK9UZggNRhSZpRJlFd-BoqgcA",
-          "publishedAt": "2026-03-24T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 151,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -2397,6 +2363,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "XlEIQUuX8mk",
+          "title": "[🐻‍❄️] HAPPY HAEWON DAY",
+          "url": "https://www.youtube.com/watch?v=XlEIQUuX8mk",
+          "thumbnail": "https://i.ytimg.com/vi/XlEIQUuX8mk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC4zhdNMJFcYOU75km7oAQL7dpG1Q",
+          "publishedAt": "2026-02-24T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 2600,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "l9imMl0PlY0",
           "title": "2026 Lunar New Year Greeting Message💌 | NMIXX",
           "url": "https://www.youtube.com/watch?v=l9imMl0PlY0",
@@ -2494,6 +2477,23 @@
             "video"
           ],
           "duration": 174,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "sWkLpvCHx_w",
+          "title": "NMIXX(엔믹스) “TIC TIC (Feat. Pabllo Vittar)” | Brazil Carnival🇧🇷 | Stage Recap",
+          "url": "https://www.youtube.com/watch?v=sWkLpvCHx_w",
+          "thumbnail": "https://i.ytimg.com/vi/sWkLpvCHx_w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC_-mK9UZggNRhSZpRJlFd-BoqgcA",
+          "publishedAt": "2026-02-24T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 151,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -21814,7 +21814,7 @@
           "videoId": "LeuYIDntmFs",
           "title": "Blue Valentine with #ZIHAO #BOYSTORY 🎤🔥 #NMIXX #엔믹스 #릴리 #LILY #BlueValentine #BlueValentineChallenge",
           "url": "https://www.youtube.com/watch?v=LeuYIDntmFs",
-          "thumbnail": "https://i.ytimg.com/vi/LeuYIDntmFs/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCPP9WgGywjhmvp-zo3_2r1lrzi2g&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/LeuYIDntmFs/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDtsCm-xGCAdnI508q5e5CXaWeX5w&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -23718,7 +23718,7 @@
           "videoId": "KYm49bHBd38",
           "title": "Hey Kim Ji-woo, follow me #NMIXX #HAEWON #JIWOO",
           "url": "https://www.youtube.com/watch?v=KYm49bHBd38",
-          "thumbnail": "https://i.ytimg.com/vi/KYm49bHBd38/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBJrCvIbRkkk9mqeFVKqK2HuJRd2w&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/KYm49bHBd38/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCKSZyB9U2zlkNhYMrBxMpTyfFdkQ&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -24381,7 +24381,7 @@
           "videoId": "5iM2mqTbIHU",
           "title": "Jjyu Jjanggu is unstoppable🌀 #NMIXX #LILY #HAEWON #JIWOO",
           "url": "https://www.youtube.com/watch?v=5iM2mqTbIHU",
-          "thumbnail": "https://i.ytimg.com/vi/5iM2mqTbIHU/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDEf9bQ4VJbvvLG1H4XKQpMA22vww&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/5iM2mqTbIHU/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBOlh8jdBMige9Sbdt3tG82l21pow&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -25367,7 +25367,7 @@
           "videoId": "kqnfRNH6GoE",
           "title": "Me and my bestie #NMIXX #엔믹스 #BAE #JIWOO",
           "url": "https://www.youtube.com/watch?v=kqnfRNH6GoE",
-          "thumbnail": "https://i.ytimg.com/vi/kqnfRNH6GoE/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDpswRdNaHl7ak-AhTCTaLk6tg_vA&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/kqnfRNH6GoE/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBa5yVac83YY55fCi-LRL_J4y0tQg&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -29770,7 +29770,7 @@
           "videoId": "dW4ckgk4xnw",
           "title": "너무 더워 ☀️ #NMIXX #엔믹스 #릴리 #LILY",
           "url": "https://www.youtube.com/watch?v=dW4ckgk4xnw",
-          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCmJHz2Kn5rUWzGVAYYgCvs83JXTw&usqp=CCk",
+          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDPKTQAepbnyVTRTz-J-8m7MBLLfg&usqp=CCk",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
