@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T21:38:47.749Z",
+  "generatedAt": "2026-10-24T04:40:03.175Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -187,23 +187,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "1TFLfpoFYRI",
-          "title": "NMIXX \"Birthday Wish\" Fanchant (Baby POV ver.) | 6th EP \"Strange Muse\"",
-          "url": "https://www.youtube.com/watch?v=1TFLfpoFYRI",
-          "thumbnail": "https://i.ytimg.com/vi/1TFLfpoFYRI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUt0rwobfl8Cr7FvEf_6em4sLytA",
-          "publishedAt": "2026-10-22T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 383,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "QA4DVpNl_8U",
           "title": "NMIXX “Birthday Wish” Stage Practice",
           "url": "https://www.youtube.com/watch?v=QA4DVpNl_8U",
@@ -255,10 +238,27 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "1TFLfpoFYRI",
+          "title": "NMIXX \"Birthday Wish\" Fanchant (Baby POV ver.) | 6th EP \"Strange Muse\"",
+          "url": "https://www.youtube.com/watch?v=1TFLfpoFYRI",
+          "thumbnail": "https://i.ytimg.com/vi/1TFLfpoFYRI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUt0rwobfl8Cr7FvEf_6em4sLytA",
+          "publishedAt": "2026-10-21T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 383,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "jPjK8fPCwE4",
           "title": "NMIXX(엔믹스) \"긴 소원 (Birthday Wish)\" Performance Video",
           "url": "https://www.youtube.com/watch?v=jPjK8fPCwE4",
-          "thumbnail": "https://i.ytimg.com/vi/jPjK8fPCwE4/hq720_custom_3.jpg?sqp=CISm79YG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAa8ibASpHWuSlUftqi9lVLG3BXag",
+          "thumbnail": "https://i.ytimg.com/vi/jPjK8fPCwE4/hq720_custom_1.jpg?sqp=CPTq8NYG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCPJaMR5dfTN0GODZ-NRYOMKeuSMg",
           "publishedAt": "2026-10-21T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
@@ -2737,23 +2737,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "XlEIQUuX8mk",
-          "title": "[🐻‍❄️] HAPPY HAEWON DAY",
-          "url": "https://www.youtube.com/watch?v=XlEIQUuX8mk",
-          "thumbnail": "https://i.ytimg.com/vi/XlEIQUuX8mk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC4zhdNMJFcYOU75km7oAQL7dpG1Q",
-          "publishedAt": "2026-03-24T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 2600,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "x-fqfvUL7XE",
           "title": "Currently, Lil Seol-bae is in the car.",
           "url": "https://www.youtube.com/watch?v=x-fqfvUL7XE",
@@ -2800,23 +2783,6 @@
             "video"
           ],
           "duration": 582,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "sWkLpvCHx_w",
-          "title": "NMIXX(엔믹스) “TIC TIC (Feat. Pabllo Vittar)” | Brazil Carnival🇧🇷 | Stage Recap",
-          "url": "https://www.youtube.com/watch?v=sWkLpvCHx_w",
-          "thumbnail": "https://i.ytimg.com/vi/sWkLpvCHx_w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC_-mK9UZggNRhSZpRJlFd-BoqgcA",
-          "publishedAt": "2026-03-24T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 151,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -2992,6 +2958,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "XlEIQUuX8mk",
+          "title": "[🐻‍❄️] HAPPY HAEWON DAY",
+          "url": "https://www.youtube.com/watch?v=XlEIQUuX8mk",
+          "thumbnail": "https://i.ytimg.com/vi/XlEIQUuX8mk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC4zhdNMJFcYOU75km7oAQL7dpG1Q",
+          "publishedAt": "2026-02-24T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 2600,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "l9imMl0PlY0",
           "title": "2026 Lunar New Year Greeting Message💌 | NMIXX",
           "url": "https://www.youtube.com/watch?v=l9imMl0PlY0",
@@ -3089,6 +3072,23 @@
             "video"
           ],
           "duration": 174,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "sWkLpvCHx_w",
+          "title": "NMIXX(엔믹스) “TIC TIC (Feat. Pabllo Vittar)” | Brazil Carnival🇧🇷 | Stage Recap",
+          "url": "https://www.youtube.com/watch?v=sWkLpvCHx_w",
+          "thumbnail": "https://i.ytimg.com/vi/sWkLpvCHx_w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC_-mK9UZggNRhSZpRJlFd-BoqgcA",
+          "publishedAt": "2026-02-24T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 151,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -4862,6 +4862,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "wJ9JtLMLD64",
+          "title": "Monthly 5️⃣☀️1️⃣ #35 Fall, come quickly",
+          "url": "https://www.youtube.com/watch?v=wJ9JtLMLD64",
+          "thumbnail": "https://i.ytimg.com/vi/wJ9JtLMLD64/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpKUHnD5mqfVfNE7G0ZysKiPaAXQ",
+          "publishedAt": "2025-10-24T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 6186,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "GNIWHqL9alg",
           "title": "Monthly 5️⃣☀️1️⃣#32 May is the Month of 5Haewon",
           "url": "https://www.youtube.com/watch?v=GNIWHqL9alg",
@@ -6166,23 +6183,6 @@
             "live"
           ],
           "duration": 4970,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "wJ9JtLMLD64",
-          "title": "월간 5️⃣☀️1️⃣ #35 가을아 얼른 와라",
-          "url": "https://www.youtube.com/watch?v=wJ9JtLMLD64",
-          "thumbnail": "https://i.ytimg.com/vi/wJ9JtLMLD64/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpKUHnD5mqfVfNE7G0ZysKiPaAXQ",
-          "publishedAt": "2025-10-24T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 6186,
           "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -24211,7 +24211,7 @@
           "videoId": "JnwzrTFcsU8",
           "title": "Happy birthday 규진 ❤️🎷#NMIXX #KYUJIN #BAE #Be_My_KYUJIN",
           "url": "https://www.youtube.com/watch?v=JnwzrTFcsU8",
-          "thumbnail": "https://i.ytimg.com/vi/JnwzrTFcsU8/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCHmMEv78ktRaL6Lsk4rpMKnCPIAA",
+          "thumbnail": "https://i.ytimg.com/vi/JnwzrTFcsU8/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAAKjnt_RGFI-RgA54oYOLMdIBc5w",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -25265,7 +25265,7 @@
           "videoId": "5WPUPsXfDrE",
           "title": "it’s ma birthday #NMIXX #엔믹스 #지우 #JIWOO #오늘의_쮸인공_김지우 #Crush_On_JIWOO",
           "url": "https://www.youtube.com/watch?v=5WPUPsXfDrE",
-          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCSJa2-h7hqxdjLPdO0Mb8k31XXDQ",
+          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBfWl4YpQLTLPMGarc9K_q2WyOSjw",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -25537,7 +25537,7 @@
           "videoId": "5iM2mqTbIHU",
           "title": "Jjyu Jjanggu is unstoppable🌀 #NMIXX #LILY #HAEWON #JIWOO",
           "url": "https://www.youtube.com/watch?v=5iM2mqTbIHU",
-          "thumbnail": "https://i.ytimg.com/vi/5iM2mqTbIHU/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBOlh8jdBMige9Sbdt3tG82l21pow",
+          "thumbnail": "https://i.ytimg.com/vi/5iM2mqTbIHU/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDEf9bQ4VJbvvLG1H4XKQpMA22vww",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -27577,7 +27577,7 @@
           "videoId": "H7wAj8z4Mgs",
           "title": "Now I can see 👀 #NMIXX #LILY #SULLYOON #LongWish_BirthdayWish",
           "url": "https://www.youtube.com/watch?v=H7wAj8z4Mgs",
-          "thumbnail": "https://i.ytimg.com/vi/H7wAj8z4Mgs/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAUXqTb2MuAl7C1_MOT5U6Y0jo13Q",
+          "thumbnail": "https://i.ytimg.com/vi/H7wAj8z4Mgs/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDE8qON9H96XspyjRfgyHpCOnq6jQ",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -29175,7 +29175,7 @@
           "videoId": "NDNrcTs4gTw",
           "title": "𝑇𝐼𝐶 𝑇𝐼𝐶☝️ #PablloVittar #NMIXX #엔믹스 #TICTIC #TIC_TIC",
           "url": "https://www.youtube.com/watch?v=NDNrcTs4gTw",
-          "thumbnail": "https://i.ytimg.com/vi/NDNrcTs4gTw/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAuIe5gDGePVjs4DA7bfIC-DzdgKA",
+          "thumbnail": "https://i.ytimg.com/vi/NDNrcTs4gTw/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDgjGoNrIzuIPpJsxVOw6ZGqoXfQQ",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -30977,7 +30977,7 @@
           "videoId": "cf_snKXNW-s",
           "title": "뀨냥이 깨우기 #NMIXX #JIWOO #KYUJIN #HeavySerenade #HeavySerenadeChallenge",
           "url": "https://www.youtube.com/watch?v=cf_snKXNW-s",
-          "thumbnail": "https://i.ytimg.com/vi/cf_snKXNW-s/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCie2K5MZcKf8XvCtBOwtXHVldSIw",
+          "thumbnail": "https://i.ytimg.com/vi/cf_snKXNW-s/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCLgaLRnLXRPOMXKfAoxu0vLHTLmg",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -31113,7 +31113,7 @@
           "videoId": "dW4ckgk4xnw",
           "title": "너무 더워 ☀️ #NMIXX #엔믹스 #릴리 #LILY",
           "url": "https://www.youtube.com/watch?v=dW4ckgk4xnw",
-          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDZtDWtvZGcaBxfVPFLpIYFOY9o9A",
+          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDPKTQAepbnyVTRTz-J-8m7MBLLfg",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
