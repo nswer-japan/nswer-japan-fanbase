@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T04:40:03.175Z",
+  "generatedAt": "2026-10-24T11:04:59.561Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -43,19 +43,36 @@
       "url": "https://www.youtube.com/@NMIXXOfficial",
       "description": "NMIXX公式YouTubeチャンネルの動画、ショート、ライブ配信。",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnUAyD4t2LkvW68YrDh7fDg",
-      "totalVideos": 1983,
+      "totalVideos": 1988,
       "typeCounts": {
-        "video": 726,
-        "short": 1016,
+        "video": 727,
+        "short": 1020,
         "live": 241
       },
       "videos": [
+        {
+          "videoId": "qS2cH1K-luE",
+          "title": "NMIXX Drive Talk & LIVE🚗 | 6th EP Unit Song Talk & Live | NMIXX ON AIR",
+          "url": "https://www.youtube.com/watch?v=qS2cH1K-luE",
+          "thumbnail": "https://i.ytimg.com/vi/qS2cH1K-luE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnGSD04w3znhIvjAJl4BlcseM3lg",
+          "publishedAt": "2026-10-24T09:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1583,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
         {
           "videoId": "csczCaKQMRA",
           "title": "•┈୨ Providing top-tier cheers with spirit and grit ୧┈• | Strange Agent EP.1 | PICK NMIXX",
           "url": "https://www.youtube.com/watch?v=csczCaKQMRA",
           "thumbnail": "https://i.ytimg.com/vi/csczCaKQMRA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC_MtSTcUVmGMXtgU3oXg-iObkPHQ",
-          "publishedAt": "2026-10-23T10:00:00.000Z",
+          "publishedAt": "2026-10-23T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -80,40 +97,6 @@
             "video"
           ],
           "duration": 576,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "36a7kfTW0Cw",
-          "title": "조금 수상한 에이전트들의 출동🕵️‍♀️ | Strange Agent TEASER | PICK NMIXX",
-          "url": "https://www.youtube.com/watch?v=36a7kfTW0Cw",
-          "thumbnail": "https://i.ytimg.com/vi/36a7kfTW0Cw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3dTLjG2aycuZvqzTqic8AKamRRA",
-          "publishedAt": "2026-10-23T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 65,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "LguH_vGUVbQ",
-          "title": "10/22/2010_Dolphin Class_School Talent Show 【Full Performance Video】",
-          "url": "https://www.youtube.com/watch?v=LguH_vGUVbQ",
-          "thumbnail": "https://i.ytimg.com/vi/LguH_vGUVbQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBI5rjN5EZQwOOYn8k882370H-Vpg",
-          "publishedAt": "2026-10-22T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 464,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -187,23 +170,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "QA4DVpNl_8U",
-          "title": "NMIXX “Birthday Wish” Stage Practice",
-          "url": "https://www.youtube.com/watch?v=QA4DVpNl_8U",
-          "thumbnail": "https://i.ytimg.com/vi/QA4DVpNl_8U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrMaM1Lj1LTHbX8npw5Oauja2srA",
-          "publishedAt": "2026-10-22T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 211,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "kBePxwHgBGU",
           "title": "Sullyoon, you did great today too♥︎",
           "url": "https://www.youtube.com/watch?v=kBePxwHgBGU",
@@ -238,6 +204,40 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "36a7kfTW0Cw",
+          "title": "조금 수상한 에이전트들의 출동🕵️‍♀️ | Strange Agent TEASER | PICK NMIXX",
+          "url": "https://www.youtube.com/watch?v=36a7kfTW0Cw",
+          "thumbnail": "https://i.ytimg.com/vi/36a7kfTW0Cw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3dTLjG2aycuZvqzTqic8AKamRRA",
+          "publishedAt": "2026-10-22T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 65,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "LguH_vGUVbQ",
+          "title": "10/22/2010_Dolphin Class_School Talent Show 【Full Performance Video】",
+          "url": "https://www.youtube.com/watch?v=LguH_vGUVbQ",
+          "thumbnail": "https://i.ytimg.com/vi/LguH_vGUVbQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBI5rjN5EZQwOOYn8k882370H-Vpg",
+          "publishedAt": "2026-10-21T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 464,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "1TFLfpoFYRI",
           "title": "NMIXX \"Birthday Wish\" Fanchant (Baby POV ver.) | 6th EP \"Strange Muse\"",
           "url": "https://www.youtube.com/watch?v=1TFLfpoFYRI",
@@ -255,11 +255,28 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "QA4DVpNl_8U",
+          "title": "NMIXX “Birthday Wish” Stage Practice",
+          "url": "https://www.youtube.com/watch?v=QA4DVpNl_8U",
+          "thumbnail": "https://i.ytimg.com/vi/QA4DVpNl_8U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrMaM1Lj1LTHbX8npw5Oauja2srA",
+          "publishedAt": "2026-10-21T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 211,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "jPjK8fPCwE4",
           "title": "NMIXX(엔믹스) \"긴 소원 (Birthday Wish)\" Performance Video",
           "url": "https://www.youtube.com/watch?v=jPjK8fPCwE4",
-          "thumbnail": "https://i.ytimg.com/vi/jPjK8fPCwE4/hq720_custom_1.jpg?sqp=CPTq8NYG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCPJaMR5dfTN0GODZ-NRYOMKeuSMg",
-          "publishedAt": "2026-10-21T00:00:00.000Z",
+          "thumbnail": "https://i.ytimg.com/vi/jPjK8fPCwE4/hq720_custom_2.jpg?sqp=CLCf8tYG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhvdn4QmNjXIV0Y5vFwU0kDNQpXw",
+          "publishedAt": "2026-10-20T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "video",
           "categoryLabel": "動画",
@@ -268,125 +285,6 @@
           ],
           "duration": 218,
           "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "LxLCHFeAgEo",
-          "title": "NMIXX “Birthday Wish” (Official Audio)",
-          "url": "https://www.youtube.com/watch?v=LxLCHFeAgEo",
-          "thumbnail": "https://i.ytimg.com/vi/LxLCHFeAgEo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDgNHRIfTMnaQEGeHU1oUS7uizM8g",
-          "publishedAt": "2026-10-20T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 201,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "TiTK9siBt0g",
-          "title": "NMIXX “WHIP (JIWOO, KYUJIN)” (Official Audio)",
-          "url": "https://www.youtube.com/watch?v=TiTK9siBt0g",
-          "thumbnail": "https://i.ytimg.com/vi/TiTK9siBt0g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFwr-oBrCNADCVajZr_nMZLqeAVA",
-          "publishedAt": "2026-10-20T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 126,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "H6Uv2xfdo0I",
-          "title": "NMIXX “You Are the Moon (Sing to the Moon) (LILY, HAEWON)” (Official Audio)",
-          "url": "https://www.youtube.com/watch?v=H6Uv2xfdo0I",
-          "thumbnail": "https://i.ytimg.com/vi/H6Uv2xfdo0I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC31PdiyNINS74ZRDReZj9UDJnhAQ",
-          "publishedAt": "2026-10-20T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 241,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "Ttkuuf4corU",
-          "title": "NMIXX(엔믹스) “Hot 'n Unbothered (SULLYOON, BAE)” (Official Audio)",
-          "url": "https://www.youtube.com/watch?v=Ttkuuf4corU",
-          "thumbnail": "https://i.ytimg.com/vi/Ttkuuf4corU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDH8tJr7MzQclP98B_FzE05N_00Jg",
-          "publishedAt": "2026-10-20T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 140,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "nWieHUQ_QbY",
-          "title": "NMIXX(엔믹스) “Kerosene” (Official Audio)",
-          "url": "https://www.youtube.com/watch?v=nWieHUQ_QbY",
-          "thumbnail": "https://i.ytimg.com/vi/nWieHUQ_QbY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDGwX-1QAZGvHXmGK7f7xOETeYVlQ",
-          "publishedAt": "2026-10-20T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 167,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "zuS4oIxy2iA",
-          "title": "NMIXX(엔믹스) “RudE TaLK” (Official Audio)",
-          "url": "https://www.youtube.com/watch?v=zuS4oIxy2iA",
-          "thumbnail": "https://i.ytimg.com/vi/zuS4oIxy2iA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDiLTiPz8qCFhcipQmRGbchxtpeiQ",
-          "publishedAt": "2026-10-20T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 155,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "AZt_Lfn5b8c",
-          "title": "NMIXX(엔믹스) “Strange Muse” Countdown Live",
-          "url": "https://www.youtube.com/watch?v=AZt_Lfn5b8c",
-          "thumbnail": "https://i.ytimg.com/vi/AZt_Lfn5b8c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDqaNI64QUGkm8zPzzgvbHhVduxHw",
-          "publishedAt": "2026-10-20T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 4886,
-          "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
@@ -408,11 +306,130 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "LxLCHFeAgEo",
+          "title": "NMIXX “Birthday Wish” (Official Audio)",
+          "url": "https://www.youtube.com/watch?v=LxLCHFeAgEo",
+          "thumbnail": "https://i.ytimg.com/vi/LxLCHFeAgEo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDgNHRIfTMnaQEGeHU1oUS7uizM8g",
+          "publishedAt": "2026-10-19T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 201,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "TiTK9siBt0g",
+          "title": "NMIXX “WHIP (JIWOO, KYUJIN)” (Official Audio)",
+          "url": "https://www.youtube.com/watch?v=TiTK9siBt0g",
+          "thumbnail": "https://i.ytimg.com/vi/TiTK9siBt0g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFwr-oBrCNADCVajZr_nMZLqeAVA",
+          "publishedAt": "2026-10-19T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 126,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "H6Uv2xfdo0I",
+          "title": "NMIXX “You Are the Moon (Sing to the Moon) (LILY, HAEWON)” (Official Audio)",
+          "url": "https://www.youtube.com/watch?v=H6Uv2xfdo0I",
+          "thumbnail": "https://i.ytimg.com/vi/H6Uv2xfdo0I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC31PdiyNINS74ZRDReZj9UDJnhAQ",
+          "publishedAt": "2026-10-19T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 241,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "Ttkuuf4corU",
+          "title": "NMIXX(엔믹스) “Hot 'n Unbothered (SULLYOON, BAE)” (Official Audio)",
+          "url": "https://www.youtube.com/watch?v=Ttkuuf4corU",
+          "thumbnail": "https://i.ytimg.com/vi/Ttkuuf4corU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDH8tJr7MzQclP98B_FzE05N_00Jg",
+          "publishedAt": "2026-10-19T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 140,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "nWieHUQ_QbY",
+          "title": "NMIXX(엔믹스) “Kerosene” (Official Audio)",
+          "url": "https://www.youtube.com/watch?v=nWieHUQ_QbY",
+          "thumbnail": "https://i.ytimg.com/vi/nWieHUQ_QbY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDGwX-1QAZGvHXmGK7f7xOETeYVlQ",
+          "publishedAt": "2026-10-19T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 167,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "zuS4oIxy2iA",
+          "title": "NMIXX(엔믹스) “RudE TaLK” (Official Audio)",
+          "url": "https://www.youtube.com/watch?v=zuS4oIxy2iA",
+          "thumbnail": "https://i.ytimg.com/vi/zuS4oIxy2iA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDiLTiPz8qCFhcipQmRGbchxtpeiQ",
+          "publishedAt": "2026-10-19T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 155,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "AZt_Lfn5b8c",
+          "title": "NMIXX(엔믹스) “Strange Muse” Countdown Live",
+          "url": "https://www.youtube.com/watch?v=AZt_Lfn5b8c",
+          "thumbnail": "https://i.ytimg.com/vi/AZt_Lfn5b8c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDqaNI64QUGkm8zPzzgvbHhVduxHw",
+          "publishedAt": "2026-10-19T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 4886,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "-JVBkbZarJA",
           "title": "[🌻] HAPPY LILY DAY",
           "url": "https://www.youtube.com/watch?v=-JVBkbZarJA",
           "thumbnail": "https://i.ytimg.com/vi/-JVBkbZarJA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC1EgcSxl61iDf20Lw2vb3jeXLFnw",
-          "publishedAt": "2026-10-18T00:00:00.000Z",
+          "publishedAt": "2026-10-17T00:00:00.000Z",
           "dateAccuracy": "exact",
           "videoType": "live",
           "categoryLabel": "ライブ",
@@ -421,23 +438,6 @@
           ],
           "duration": 3623,
           "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "qmAAxBYGxkY",
-          "title": "NMIXX(엔믹스) 6th EP \"Strange Muse\" Jacket Behind | Making MIXX",
-          "url": "https://www.youtube.com/watch?v=qmAAxBYGxkY",
-          "thumbnail": "https://i.ytimg.com/vi/qmAAxBYGxkY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZ8VwwgKw72H1KIvyXBgw_ogzHJg",
-          "publishedAt": "2026-10-15T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 934,
-          "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
@@ -455,6 +455,23 @@
           ],
           "duration": 4143,
           "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "qmAAxBYGxkY",
+          "title": "NMIXX(엔믹스) 6th EP \"Strange Muse\" Jacket Behind | Making MIXX",
+          "url": "https://www.youtube.com/watch?v=qmAAxBYGxkY",
+          "thumbnail": "https://i.ytimg.com/vi/qmAAxBYGxkY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZ8VwwgKw72H1KIvyXBgw_ogzHJg",
+          "publishedAt": "2026-10-14T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 934,
+          "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
@@ -561,23 +578,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "im3f-QsRxSU",
-          "title": "NMIXX Chuseok Holiday Travel Site Captured📸 | Chuseok Original Content Behind-the-Scenes | Day MIXX",
-          "url": "https://www.youtube.com/watch?v=im3f-QsRxSU",
-          "thumbnail": "https://i.ytimg.com/vi/im3f-QsRxSU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBgsQO2-Fevb78xItT4KBR_iab9AA",
-          "publishedAt": "2026-10-03T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 467,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "n5rgkZq3pHk",
           "title": "NMIXX is overflowing with love again today ₊˚⊹♡ | NMIXX 'EPISODE 1: ZERO FRONTIER' IN JAPAN Behin...",
           "url": "https://www.youtube.com/watch?v=n5rgkZq3pHk",
@@ -612,23 +612,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "vbLFvszOeUQ",
-          "title": "A showdown for the ticket to head home🔥 | Grand Plan to Leave Work for Chuseok🏠 | PICK NMIXX",
-          "url": "https://www.youtube.com/watch?v=vbLFvszOeUQ",
-          "thumbnail": "https://i.ytimg.com/vi/vbLFvszOeUQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCPdpw0fpFJcc13flifB7ASfWKojg",
-          "publishedAt": "2026-09-26T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 2211,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "zTztcOhRYOs",
           "title": "NMIXX 2026 Chuseok Greeting Message🌕",
           "url": "https://www.youtube.com/watch?v=zTztcOhRYOs",
@@ -646,6 +629,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "im3f-QsRxSU",
+          "title": "NMIXX Chuseok Holiday Travel Site Captured📸 | Chuseok Original Content Behind-the-Scenes | Day MIXX",
+          "url": "https://www.youtube.com/watch?v=im3f-QsRxSU",
+          "thumbnail": "https://i.ytimg.com/vi/im3f-QsRxSU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBgsQO2-Fevb78xItT4KBR_iab9AA",
+          "publishedAt": "2026-09-26T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 467,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "z8683m4u4f8",
           "title": "'Victorious Cast - Give It Up' Covered by NMIXX LILY&BAE | 릴코딩",
           "url": "https://www.youtube.com/watch?v=z8683m4u4f8",
@@ -658,6 +658,23 @@
             "video"
           ],
           "duration": 174,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "vbLFvszOeUQ",
+          "title": "A showdown for the ticket to head home🔥 | Grand Plan to Leave Work for Chuseok🏠 | PICK NMIXX",
+          "url": "https://www.youtube.com/watch?v=vbLFvszOeUQ",
+          "thumbnail": "https://i.ytimg.com/vi/vbLFvszOeUQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCPdpw0fpFJcc13flifB7ASfWKojg",
+          "publishedAt": "2026-09-24T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 2211,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -1020,23 +1037,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "Gr-n5FmgwRI",
-          "title": "Is this what happens when you live together? 👀 | PAJAMA ROOMMATE | LILY & SULLYOON",
-          "url": "https://www.youtube.com/watch?v=Gr-n5FmgwRI",
-          "thumbnail": "https://i.ytimg.com/vi/Gr-n5FmgwRI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB9zltu-XTy5kVp1pj75k-MjxKZQA",
-          "publishedAt": "2026-08-24T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 646,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "MOZo3Ie3bhA",
           "title": "Look forward to the MIXX ARCHIVE we'll keep filling up 🎞️˚ ॰˚ | MIXX ARCHIVE Album | PICK NMIXX",
           "url": "https://www.youtube.com/watch?v=MOZo3Ie3bhA",
@@ -1207,6 +1207,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "Gr-n5FmgwRI",
+          "title": "Is this what happens when you live together? 👀 | PAJAMA ROOMMATE | LILY & SULLYOON",
+          "url": "https://www.youtube.com/watch?v=Gr-n5FmgwRI",
+          "thumbnail": "https://i.ytimg.com/vi/Gr-n5FmgwRI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB9zltu-XTy5kVp1pj75k-MjxKZQA",
+          "publishedAt": "2026-07-24T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 646,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "JcM4w0Q1cqM",
           "title": "Is this what roommates are usually like…? ₊˚⊹♡ | PAJAMA ROOMMATE | HAEWON & BAE",
           "url": "https://www.youtube.com/watch?v=JcM4w0Q1cqM",
@@ -1355,40 +1372,6 @@
             "video"
           ],
           "duration": 650,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "oOdCp_TcYQs",
-          "title": "SUBERA #13 It's been so long, SUBERA!",
-          "url": "https://www.youtube.com/watch?v=oOdCp_TcYQs",
-          "thumbnail": "https://i.ytimg.com/vi/oOdCp_TcYQs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrrWNUNjR7C0teQ2lVO0zWUhru_Q",
-          "publishedAt": "2026-07-24T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 4871,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "mhyyau3vWfY",
-          "title": "The color of this summer is Bay Deli₊˚⊹ | Kyujin Bay Deli Ad Behind-the-Scenes | Day MIXX",
-          "url": "https://www.youtube.com/watch?v=mhyyau3vWfY",
-          "thumbnail": "https://i.ytimg.com/vi/mhyyau3vWfY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcvx7u_GkbWVcnE9GqSQzoRhOe0Q",
-          "publishedAt": "2026-07-24T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 554,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -1734,23 +1717,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "WsK_wwh5gTA",
-          "title": "NMIXX(엔믹스) “Heavy Serenade” Recording Behind | Recording MIXX",
-          "url": "https://www.youtube.com/watch?v=WsK_wwh5gTA",
-          "thumbnail": "https://i.ytimg.com/vi/WsK_wwh5gTA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqsavjdhmoRG8bk5cby3TlWB9lFA",
-          "publishedAt": "2026-06-24T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 1635,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "tZJ5P3WdOVM",
           "title": "NMIXX(엔믹스) “IDESERVEIT & Different Girl” Recording Behind | Recording MIXX",
           "url": "https://www.youtube.com/watch?v=tZJ5P3WdOVM",
@@ -1836,6 +1802,40 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "oOdCp_TcYQs",
+          "title": "SUBERA #13 It's been so long, SUBERA!",
+          "url": "https://www.youtube.com/watch?v=oOdCp_TcYQs",
+          "thumbnail": "https://i.ytimg.com/vi/oOdCp_TcYQs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrrWNUNjR7C0teQ2lVO0zWUhru_Q",
+          "publishedAt": "2026-06-24T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 4871,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "mhyyau3vWfY",
+          "title": "The color of this summer is Bay Deli₊˚⊹ | Kyujin Bay Deli Ad Behind-the-Scenes | Day MIXX",
+          "url": "https://www.youtube.com/watch?v=mhyyau3vWfY",
+          "thumbnail": "https://i.ytimg.com/vi/mhyyau3vWfY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcvx7u_GkbWVcnE9GqSQzoRhOe0Q",
+          "publishedAt": "2026-06-24T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 554,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "WmaoTFJ_olk",
           "title": "[M]NMIXX_DOCU_Regarding Final Video Delivery_220222",
           "url": "https://www.youtube.com/watch?v=WmaoTFJ_olk",
@@ -1865,23 +1865,6 @@
             "video"
           ],
           "duration": 766,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "qPoBFlmj_RQ",
-          "title": "Ask me any worries💡 | Help Me CHAT G-MIXX | PICK NMIXX",
-          "url": "https://www.youtube.com/watch?v=qPoBFlmj_RQ",
-          "thumbnail": "https://i.ytimg.com/vi/qPoBFlmj_RQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDYzkQrlRL6d3t0-gxGzdE6aJ91Hw",
-          "publishedAt": "2026-05-24T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 1252,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -2227,6 +2210,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "WsK_wwh5gTA",
+          "title": "NMIXX(엔믹스) “Heavy Serenade” Recording Behind | Recording MIXX",
+          "url": "https://www.youtube.com/watch?v=WsK_wwh5gTA",
+          "thumbnail": "https://i.ytimg.com/vi/WsK_wwh5gTA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqsavjdhmoRG8bk5cby3TlWB9lFA",
+          "publishedAt": "2026-05-24T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1635,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "ZqRJCeCAkX8",
           "title": "NMIXX(엔믹스) “Heavy Serenade” Stage Practice",
           "url": "https://www.youtube.com/watch?v=ZqRJCeCAkX8",
@@ -2494,6 +2494,23 @@
             "video"
           ],
           "duration": 1526,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "qPoBFlmj_RQ",
+          "title": "Ask me any worries💡 | Help Me CHAT G-MIXX | PICK NMIXX",
+          "url": "https://www.youtube.com/watch?v=qPoBFlmj_RQ",
+          "thumbnail": "https://i.ytimg.com/vi/qPoBFlmj_RQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDYzkQrlRL6d3t0-gxGzdE6aJ91Hw",
+          "publishedAt": "2026-04-24T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1252,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -3485,23 +3502,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "XX0lvvx5eKU",
-          "title": "오늘 밤 주인공 산타는 나야🎄 | Who’s The Next Santa? | PICK NMIXX",
-          "url": "https://www.youtube.com/watch?v=XX0lvvx5eKU",
-          "thumbnail": "https://i.ytimg.com/vi/XX0lvvx5eKU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDbgLAheti009TizffRiXXlrO4ptQ",
-          "publishedAt": "2026-01-24T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 1810,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "kgrAb4xXCGY",
           "title": "월간5️⃣☀️1️⃣ #38 말의 해라 포니테일 한 여자의 새해방송",
           "url": "https://www.youtube.com/watch?v=kgrAb4xXCGY",
@@ -3770,6 +3770,23 @@
           ],
           "duration": 6486,
           "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "XX0lvvx5eKU",
+          "title": "오늘 밤 주인공 산타는 나야🎄 | Who’s The Next Santa? | PICK NMIXX",
+          "url": "https://www.youtube.com/watch?v=XX0lvvx5eKU",
+          "thumbnail": "https://i.ytimg.com/vi/XX0lvvx5eKU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDbgLAheti009TizffRiXXlrO4ptQ",
+          "publishedAt": "2025-12-24T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1810,
+          "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
@@ -4075,23 +4092,6 @@
             "video"
           ],
           "duration": 1243,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "LCW1AKa0Uhg",
-          "title": "PARTY AND SHOCK🔪 | The Party Cake Murder Case🎂 EP.1 | PICK NMIXX",
-          "url": "https://www.youtube.com/watch?v=LCW1AKa0Uhg",
-          "thumbnail": "https://i.ytimg.com/vi/LCW1AKa0Uhg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6zNhaRECC14rxx54bYxnqTRbyng",
-          "publishedAt": "2025-11-24T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 1847,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -5605,6 +5605,23 @@
             "video"
           ],
           "duration": 686,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "LCW1AKa0Uhg",
+          "title": "PARTY AND SHOCK🔪 | The Party Cake Murder Case🎂 EP.1 | PICK NMIXX",
+          "url": "https://www.youtube.com/watch?v=LCW1AKa0Uhg",
+          "thumbnail": "https://i.ytimg.com/vi/LCW1AKa0Uhg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6zNhaRECC14rxx54bYxnqTRbyng",
+          "publishedAt": "2025-10-24T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 1847,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -18105,6 +18122,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "fVErItxpe2s",
+          "title": "#MakingALongWishForZanmangLoopy 🩷ᡣ𐭩˚ #NMIXX #BAE #LongWish_BirthdayWish",
+          "url": "https://www.youtube.com/watch?v=fVErItxpe2s",
+          "thumbnail": "https://i.ytimg.com/vi/fVErItxpe2s/oardefault.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCR21SVSaPZ2r0iir2bLh3xhHkeWQ",
+          "publishedAt": "",
+          "dateAccuracy": "unknown",
+          "videoType": "short",
+          "categoryLabel": "ショート",
+          "sourceTypes": [
+            "short"
+          ],
+          "duration": 0,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "YUx0mT87kgI",
           "title": "#MakingAWishForLooksam 🪩 #NMIXX #LILY #HAEWON #BirthdayWish",
           "url": "https://www.youtube.com/watch?v=YUx0mT87kgI",
@@ -18483,6 +18517,23 @@
           "title": "#TWICE #다현 선배님과 럽미라잌디스💗 #Shorts",
           "url": "https://www.youtube.com/watch?v=C4XDVVIFpC0",
           "thumbnail": "https://i.ytimg.com/vi/C4XDVVIFpC0/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLD_j5DwYrN0f_eQeXwOYuS3rvRLRw&usqp=CCk",
+          "publishedAt": "",
+          "dateAccuracy": "unknown",
+          "videoType": "short",
+          "categoryLabel": "ショート",
+          "sourceTypes": [
+            "short"
+          ],
+          "duration": 0,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "IiOKk0splyY",
+          "title": "#TWS #YOUNGJAE I'll make a long wish for you 🐶🎂 ̖́- #NMIXX #SULLYOON #LongWish_BirthdayWish",
+          "url": "https://www.youtube.com/watch?v=IiOKk0splyY",
+          "thumbnail": "https://i.ytimg.com/vi/IiOKk0splyY/oardefault.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLD5iZxI7_jq2pBtqg_6dnMnWiITNw",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -24211,7 +24262,7 @@
           "videoId": "JnwzrTFcsU8",
           "title": "Happy birthday 규진 ❤️🎷#NMIXX #KYUJIN #BAE #Be_My_KYUJIN",
           "url": "https://www.youtube.com/watch?v=JnwzrTFcsU8",
-          "thumbnail": "https://i.ytimg.com/vi/JnwzrTFcsU8/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAAKjnt_RGFI-RgA54oYOLMdIBc5w",
+          "thumbnail": "https://i.ytimg.com/vi/JnwzrTFcsU8/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDyalNEi5guedslhhdt-yUvf-Xfwg",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -25265,7 +25316,7 @@
           "videoId": "5WPUPsXfDrE",
           "title": "it’s ma birthday #NMIXX #엔믹스 #지우 #JIWOO #오늘의_쮸인공_김지우 #Crush_On_JIWOO",
           "url": "https://www.youtube.com/watch?v=5WPUPsXfDrE",
-          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBfWl4YpQLTLPMGarc9K_q2WyOSjw",
+          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCSJa2-h7hqxdjLPdO0Mb8k31XXDQ",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -25503,7 +25554,7 @@
           "videoId": "jEPrbK9CCP0",
           "title": "JIWOO’s Heavy Serenade with Melody Box 💍🤍 #NMIXX #엔믹스 #HeavySerenade #HeavySerenadeChallenge",
           "url": "https://www.youtube.com/watch?v=jEPrbK9CCP0",
-          "thumbnail": "https://i.ytimg.com/vi/jEPrbK9CCP0/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBzRTw_4QKZcWQAuJx7K6xrQy7uvg",
+          "thumbnail": "https://i.ytimg.com/vi/jEPrbK9CCP0/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAzgAVf2pEOttJMJeu5KRxWjL2xLw",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -26591,7 +26642,7 @@
           "videoId": "kqnfRNH6GoE",
           "title": "Me and my bestie #NMIXX #엔믹스 #BAE #JIWOO",
           "url": "https://www.youtube.com/watch?v=kqnfRNH6GoE",
-          "thumbnail": "https://i.ytimg.com/vi/kqnfRNH6GoE/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBbz3mbNpV4GzBYHuNLSnOKgeHfwQ",
+          "thumbnail": "https://i.ytimg.com/vi/kqnfRNH6GoE/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBa5yVac83YY55fCi-LRL_J4y0tQg",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -29039,7 +29090,7 @@
           "videoId": "k3nXVbueYpE",
           "title": "tic tic tic tic tic🎧 #NMIXX #엔믹스#PablloVittar #TICTIC #TIC_TIC",
           "url": "https://www.youtube.com/watch?v=k3nXVbueYpE",
-          "thumbnail": "https://i.ytimg.com/vi/k3nXVbueYpE/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAgKTZS9M1dQkswMRg_Ek9a4HefEA",
+          "thumbnail": "https://i.ytimg.com/vi/k3nXVbueYpE/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBtHIRM-hClbkSlq_vPMMSA2APrHg",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -29175,7 +29226,7 @@
           "videoId": "NDNrcTs4gTw",
           "title": "𝑇𝐼𝐶 𝑇𝐼𝐶☝️ #PablloVittar #NMIXX #엔믹스 #TICTIC #TIC_TIC",
           "url": "https://www.youtube.com/watch?v=NDNrcTs4gTw",
-          "thumbnail": "https://i.ytimg.com/vi/NDNrcTs4gTw/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDgjGoNrIzuIPpJsxVOw6ZGqoXfQQ",
+          "thumbnail": "https://i.ytimg.com/vi/NDNrcTs4gTw/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDprk1DxzKmQTQ-vAIGruXPOXNdSQ",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -29193,6 +29244,23 @@
           "title": "𝑇𝐼𝐶 𝑇𝐼𝐶☝️ #SULLYOON #NMIXX #엔믹스 #TICTIC #TIC_TIC",
           "url": "https://www.youtube.com/watch?v=Z4vvgNXTIc4",
           "thumbnail": "https://i.ytimg.com/vi/Z4vvgNXTIc4/oardefault.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAI-GzCShs0ZB353Wre3CyCO8fnfw",
+          "publishedAt": "",
+          "dateAccuracy": "unknown",
+          "videoType": "short",
+          "categoryLabel": "ショート",
+          "sourceTypes": [
+            "short"
+          ],
+          "duration": 0,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "2OpvpazCmcg",
+          "title": "to find you . . . ♡ #NMIXX #KYUJIN #LongWish_BirthdayWish",
+          "url": "https://www.youtube.com/watch?v=2OpvpazCmcg",
+          "thumbnail": "https://i.ytimg.com/vi/2OpvpazCmcg/oardefault.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLC8DXctUyRkoP5N4r0zYaDYUdq-IA",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -30311,6 +30379,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "1AFUEsrSx5M",
+          "title": "Yuna, I said it's a long wish #NMIXX #SULLYOON #BAE #LongWish_BirthdayWish",
+          "url": "https://www.youtube.com/watch?v=1AFUEsrSx5M",
+          "thumbnail": "https://i.ytimg.com/vi/1AFUEsrSx5M/oardefault.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLANkfXXzOcCb6BBtIEAUW_E7oVoNA",
+          "publishedAt": "",
+          "dateAccuracy": "unknown",
+          "videoType": "short",
+          "categoryLabel": "ショート",
+          "sourceTypes": [
+            "short"
+          ],
+          "duration": 0,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "e8hWoJMiCT4",
           "title": "ZERO FRONTIER Goodbye… 🥹 #NMIXX #엔믹스",
           "url": "https://www.youtube.com/watch?v=e8hWoJMiCT4",
@@ -31113,7 +31198,7 @@
           "videoId": "dW4ckgk4xnw",
           "title": "너무 더워 ☀️ #NMIXX #엔믹스 #릴리 #LILY",
           "url": "https://www.youtube.com/watch?v=dW4ckgk4xnw",
-          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDPKTQAepbnyVTRTz-J-8m7MBLLfg",
+          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDZtDWtvZGcaBxfVPFLpIYFOY9o9A",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
