@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T18:04:25.041Z",
+  "generatedAt": "2026-10-27T22:16:39.982Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -2635,23 +2635,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "JFTIXfIfUKM",
-          "title": "Jju-sol’s First Hotel Livestream in a While!",
-          "url": "https://www.youtube.com/watch?v=JFTIXfIfUKM",
-          "thumbnail": "https://i.ytimg.com/vi/JFTIXfIfUKM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB_q52Ihh-1Kaq19Zw4jGLKIwFmBg",
-          "publishedAt": "2026-04-28T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 3835,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "fg9Z4-Dnukk",
           "title": "NMIXX(엔믹스) 5th EP “Heavy Serenade” Jacket Behind | Making MIXX",
           "url": "https://www.youtube.com/watch?v=fg9Z4-Dnukk",
@@ -2801,6 +2784,23 @@
           ],
           "duration": 612,
           "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "JFTIXfIfUKM",
+          "title": "Jju-sol’s First Hotel Livestream in a While!",
+          "url": "https://www.youtube.com/watch?v=JFTIXfIfUKM",
+          "thumbnail": "https://i.ytimg.com/vi/JFTIXfIfUKM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB_q52Ihh-1Kaq19Zw4jGLKIwFmBg",
+          "publishedAt": "2026-03-28T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 3835,
+          "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
@@ -24483,7 +24483,7 @@
           "videoId": "JnwzrTFcsU8",
           "title": "Happy birthday 규진 ❤️🎷#NMIXX #KYUJIN #BAE #Be_My_KYUJIN",
           "url": "https://www.youtube.com/watch?v=JnwzrTFcsU8",
-          "thumbnail": "https://i.ytimg.com/vi/JnwzrTFcsU8/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDyalNEi5guedslhhdt-yUvf-Xfwg",
+          "thumbnail": "https://i.ytimg.com/vi/JnwzrTFcsU8/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAAKjnt_RGFI-RgA54oYOLMdIBc5w",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -25537,7 +25537,7 @@
           "videoId": "5WPUPsXfDrE",
           "title": "it’s ma birthday #NMIXX #엔믹스 #지우 #JIWOO #오늘의_쮸인공_김지우 #Crush_On_JIWOO",
           "url": "https://www.youtube.com/watch?v=5WPUPsXfDrE",
-          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCSJa2-h7hqxdjLPdO0Mb8k31XXDQ",
+          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDMLjf-j7jS_U8QqUuOwHuLPRcKbQ",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -29498,7 +29498,7 @@
           "videoId": "NDNrcTs4gTw",
           "title": "𝑇𝐼𝐶 𝑇𝐼𝐶☝️ #PablloVittar #NMIXX #엔믹스 #TICTIC #TIC_TIC",
           "url": "https://www.youtube.com/watch?v=NDNrcTs4gTw",
-          "thumbnail": "https://i.ytimg.com/vi/NDNrcTs4gTw/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAuIe5gDGePVjs4DA7bfIC-DzdgKA",
+          "thumbnail": "https://i.ytimg.com/vi/NDNrcTs4gTw/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDgjGoNrIzuIPpJsxVOw6ZGqoXfQQ",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -31334,7 +31334,7 @@
           "videoId": "cf_snKXNW-s",
           "title": "뀨냥이 깨우기 #NMIXX #JIWOO #KYUJIN #HeavySerenade #HeavySerenadeChallenge",
           "url": "https://www.youtube.com/watch?v=cf_snKXNW-s",
-          "thumbnail": "https://i.ytimg.com/vi/cf_snKXNW-s/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDGeORDENBnAsBq5nlLxIXh98paPA",
+          "thumbnail": "https://i.ytimg.com/vi/cf_snKXNW-s/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCLgaLRnLXRPOMXKfAoxu0vLHTLmg",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
