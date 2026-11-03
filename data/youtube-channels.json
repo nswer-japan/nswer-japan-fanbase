@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T23:25:46.155Z",
+  "generatedAt": "2026-11-03T23:39:08.935Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -2771,6 +2771,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "tamSR1oeNZM",
+          "title": "How about spending lunchtime with Seol-yoon?",
+          "url": "https://www.youtube.com/watch?v=tamSR1oeNZM",
+          "thumbnail": "https://i.ytimg.com/vi/tamSR1oeNZM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCUpi5cm7ZNH2Cc4vQwK9A-DETprg",
+          "publishedAt": "2026-04-04T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 6330,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "dAyLlaTkbEM",
           "title": "It was such an honor to work together ♪ *.˚(with Park Jae-jung) | SULLYOON ‘Just As You Are’ Prom...",
           "url": "https://www.youtube.com/watch?v=dAyLlaTkbEM",
@@ -3005,23 +3022,6 @@
           ],
           "duration": 1958,
           "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "tamSR1oeNZM",
-          "title": "점심시간 설윤이와 함께 보내기 어떠신지요",
-          "url": "https://www.youtube.com/watch?v=tamSR1oeNZM",
-          "thumbnail": "https://i.ytimg.com/vi/tamSR1oeNZM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCUpi5cm7ZNH2Cc4vQwK9A-DETprg",
-          "publishedAt": "2026-04-04T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 6330,
-          "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
@@ -3570,6 +3570,40 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "YKkNbWSSsJE",
+          "title": "Bae Jin-sol's ASMR Live #11 Happy Bae-i Day is back with NSWER🥳",
+          "url": "https://www.youtube.com/watch?v=YKkNbWSSsJE",
+          "thumbnail": "https://i.ytimg.com/vi/YKkNbWSSsJE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlrqLIxk4fkSyAiWhoZfw95asH6Q",
+          "publishedAt": "2026-01-04T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 6787,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "5UZaznH5gM0",
+          "title": "Bae Jinsol's sleep-inducing live stream #10  My first live stream since our first solo concert!! ...",
+          "url": "https://www.youtube.com/watch?v=5UZaznH5gM0",
+          "thumbnail": "https://i.ytimg.com/vi/5UZaznH5gM0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAM39ZAwfuBqwhbCLmu2PYKggnMiQ",
+          "publishedAt": "2026-01-04T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 3031,
+          "liveStatus": "was_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "3fom7HRnxgU",
           "title": "Band & Studio rehearsal Behind EP.01 | NMIXX 1ST WORLD TOUR ‘EPISODE 1: ZERO FRONTIER’ IN INCHEON",
           "url": "https://www.youtube.com/watch?v=3fom7HRnxgU",
@@ -3820,40 +3854,6 @@
             "live"
           ],
           "duration": 6486,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "5UZaznH5gM0",
-          "title": "수면에 좋은 배진솔 라이브 #10  첫단콘 끝나구 첫 수배라!! 엔써어어!!💛",
-          "url": "https://www.youtube.com/watch?v=5UZaznH5gM0",
-          "thumbnail": "https://i.ytimg.com/vi/5UZaznH5gM0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAM39ZAwfuBqwhbCLmu2PYKggnMiQ",
-          "publishedAt": "2026-01-04T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 3031,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "YKkNbWSSsJE",
-          "title": "수면에 좋은 배진솔 라이브 #11 엔써와 함께하는 돌아온 해피배이데이🥳",
-          "url": "https://www.youtube.com/watch?v=YKkNbWSSsJE",
-          "thumbnail": "https://i.ytimg.com/vi/YKkNbWSSsJE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlrqLIxk4fkSyAiWhoZfw95asH6Q",
-          "publishedAt": "2026-01-04T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 6787,
           "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -19043,7 +19043,7 @@
           "videoId": "F3cdEyyGwlM",
           "title": "#긴소원 수어 챌린지 #NMIXX #BAE 'Celebrate it'은 BSL(영국수어), '초를 불어'는 IS(국제수화)로 전 세계 사람들이 함께 즐길 수 있도록 표현해봤어요!",
           "url": "https://www.youtube.com/watch?v=F3cdEyyGwlM",
-          "thumbnail": "https://i.ytimg.com/vi/F3cdEyyGwlM/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCml4wBlqE_lPRZM_-j39JuHfyhHg",
+          "thumbnail": "https://i.ytimg.com/vi/F3cdEyyGwlM/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDIFElKt0KRfak4oh-fgM9BdsLJ8Q",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -24755,7 +24755,7 @@
           "videoId": "JnwzrTFcsU8",
           "title": "Happy birthday 규진 ❤️🎷#NMIXX #KYUJIN #BAE #Be_My_KYUJIN",
           "url": "https://www.youtube.com/watch?v=JnwzrTFcsU8",
-          "thumbnail": "https://i.ytimg.com/vi/JnwzrTFcsU8/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCHmMEv78ktRaL6Lsk4rpMKnCPIAA",
+          "thumbnail": "https://i.ytimg.com/vi/JnwzrTFcsU8/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDyalNEi5guedslhhdt-yUvf-Xfwg",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -25843,7 +25843,7 @@
           "videoId": "5WPUPsXfDrE",
           "title": "it’s ma birthday #NMIXX #엔믹스 #지우 #JIWOO #오늘의_쮸인공_김지우 #Crush_On_JIWOO",
           "url": "https://www.youtube.com/watch?v=5WPUPsXfDrE",
-          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDMLjf-j7jS_U8QqUuOwHuLPRcKbQ",
+          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCSJa2-h7hqxdjLPdO0Mb8k31XXDQ",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -26081,7 +26081,7 @@
           "videoId": "jEPrbK9CCP0",
           "title": "JIWOO’s Heavy Serenade with Melody Box 💍🤍 #NMIXX #엔믹스 #HeavySerenade #HeavySerenadeChallenge",
           "url": "https://www.youtube.com/watch?v=jEPrbK9CCP0",
-          "thumbnail": "https://i.ytimg.com/vi/jEPrbK9CCP0/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBzRTw_4QKZcWQAuJx7K6xrQy7uvg",
+          "thumbnail": "https://i.ytimg.com/vi/jEPrbK9CCP0/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAzgAVf2pEOttJMJeu5KRxWjL2xLw",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -26115,7 +26115,7 @@
           "videoId": "5iM2mqTbIHU",
           "title": "Jjyu Jjanggu is unstoppable🌀 #NMIXX #LILY #HAEWON #JIWOO",
           "url": "https://www.youtube.com/watch?v=5iM2mqTbIHU",
-          "thumbnail": "https://i.ytimg.com/vi/5iM2mqTbIHU/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBN2CN4eoJX1_snbIUOn86PWG8WAg",
+          "thumbnail": "https://i.ytimg.com/vi/5iM2mqTbIHU/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDEf9bQ4VJbvvLG1H4XKQpMA22vww",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -28189,7 +28189,7 @@
           "videoId": "H7wAj8z4Mgs",
           "title": "Now I can see 👀 #NMIXX #LILY #SULLYOON #LongWish_BirthdayWish",
           "url": "https://www.youtube.com/watch?v=H7wAj8z4Mgs",
-          "thumbnail": "https://i.ytimg.com/vi/H7wAj8z4Mgs/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAUXqTb2MuAl7C1_MOT5U6Y0jo13Q",
+          "thumbnail": "https://i.ytimg.com/vi/H7wAj8z4Mgs/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDE8qON9H96XspyjRfgyHpCOnq6jQ",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -31657,7 +31657,7 @@
           "videoId": "cf_snKXNW-s",
           "title": "뀨냥이 깨우기 #NMIXX #JIWOO #KYUJIN #HeavySerenade #HeavySerenadeChallenge",
           "url": "https://www.youtube.com/watch?v=cf_snKXNW-s",
-          "thumbnail": "https://i.ytimg.com/vi/cf_snKXNW-s/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDGeORDENBnAsBq5nlLxIXh98paPA",
+          "thumbnail": "https://i.ytimg.com/vi/cf_snKXNW-s/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCLgaLRnLXRPOMXKfAoxu0vLHTLmg",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -31793,7 +31793,7 @@
           "videoId": "dW4ckgk4xnw",
           "title": "너무 더워 ☀️ #NMIXX #엔믹스 #릴리 #LILY",
           "url": "https://www.youtube.com/watch?v=dW4ckgk4xnw",
-          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDZtDWtvZGcaBxfVPFLpIYFOY9o9A",
+          "thumbnail": "https://i.ytimg.com/vi/dW4ckgk4xnw/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCmJHz2Kn5rUWzGVAYYgCvs83JXTw",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
