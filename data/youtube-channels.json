@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T23:49:58.310Z",
+  "generatedAt": "2026-11-06T06:51:14.685Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -136,23 +136,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "-1lw4E1EEEQ",
-          "title": "Did something cool today! 🫨 (Leisure With Lily #22)",
-          "url": "https://www.youtube.com/watch?v=-1lw4E1EEEQ",
-          "thumbnail": "https://i.ytimg.com/vi/-1lw4E1EEEQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAX4Ld3pQ5Des7cBHVq6qOWYI1rgQ",
-          "publishedAt": "2026-10-28T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "live",
-          "categoryLabel": "ライブ",
-          "sourceTypes": [
-            "live"
-          ],
-          "duration": 3615,
-          "liveStatus": "was_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "Yw4f2ov6BrA",
           "title": "NMIXX “Birthday Wish” M/V REACTION | 6th EP \"Strange Muse\"",
           "url": "https://www.youtube.com/watch?v=Yw4f2ov6BrA",
@@ -166,6 +149,23 @@
           ],
           "duration": 761,
           "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "-1lw4E1EEEQ",
+          "title": "Did something cool today! 🫨 (Leisure With Lily #22)",
+          "url": "https://www.youtube.com/watch?v=-1lw4E1EEEQ",
+          "thumbnail": "https://i.ytimg.com/vi/-1lw4E1EEEQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAX4Ld3pQ5Des7cBHVq6qOWYI1rgQ",
+          "publishedAt": "2026-10-27T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "live",
+          "categoryLabel": "ライブ",
+          "sourceTypes": [
+            "live"
+          ],
+          "duration": 3615,
+          "liveStatus": "was_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
@@ -19077,7 +19077,7 @@
           "videoId": "F3cdEyyGwlM",
           "title": "#긴소원 수어 챌린지 #NMIXX #BAE 'Celebrate it'은 BSL(영국수어), '초를 불어'는 IS(국제수화)로 전 세계 사람들이 함께 즐길 수 있도록 표현해봤어요!",
           "url": "https://www.youtube.com/watch?v=F3cdEyyGwlM",
-          "thumbnail": "https://i.ytimg.com/vi/F3cdEyyGwlM/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBndQhDpJaNU4RTStWv1piZkAmpRw",
+          "thumbnail": "https://i.ytimg.com/vi/F3cdEyyGwlM/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDIFElKt0KRfak4oh-fgM9BdsLJ8Q",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -25877,7 +25877,7 @@
           "videoId": "5WPUPsXfDrE",
           "title": "it’s ma birthday #NMIXX #엔믹스 #지우 #JIWOO #오늘의_쮸인공_김지우 #Crush_On_JIWOO",
           "url": "https://www.youtube.com/watch?v=5WPUPsXfDrE",
-          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBfWl4YpQLTLPMGarc9K_q2WyOSjw",
+          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCSJa2-h7hqxdjLPdO0Mb8k31XXDQ",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -26115,7 +26115,7 @@
           "videoId": "jEPrbK9CCP0",
           "title": "JIWOO’s Heavy Serenade with Melody Box 💍🤍 #NMIXX #엔믹스 #HeavySerenade #HeavySerenadeChallenge",
           "url": "https://www.youtube.com/watch?v=jEPrbK9CCP0",
-          "thumbnail": "https://i.ytimg.com/vi/jEPrbK9CCP0/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBMEii_L6Bp_rbv-9r74FDsWKF4MA",
+          "thumbnail": "https://i.ytimg.com/vi/jEPrbK9CCP0/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBzRTw_4QKZcWQAuJx7K6xrQy7uvg",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -27220,7 +27220,7 @@
           "videoId": "kqnfRNH6GoE",
           "title": "Me and my bestie #NMIXX #엔믹스 #BAE #JIWOO",
           "url": "https://www.youtube.com/watch?v=kqnfRNH6GoE",
-          "thumbnail": "https://i.ytimg.com/vi/kqnfRNH6GoE/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBbz3mbNpV4GzBYHuNLSnOKgeHfwQ",
+          "thumbnail": "https://i.ytimg.com/vi/kqnfRNH6GoE/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBa5yVac83YY55fCi-LRL_J4y0tQg",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
