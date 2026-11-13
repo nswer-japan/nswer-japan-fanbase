@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T23:51:54.804Z",
+  "generatedAt": "2026-11-13T06:49:14.441Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -2057,23 +2057,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "q9RPsmB7fBs",
-          "title": "NMIXX(엔믹스) “Crescendo” 응원법 | 5th EP “Heavy Serenade”",
-          "url": "https://www.youtube.com/watch?v=q9RPsmB7fBs",
-          "thumbnail": "https://i.ytimg.com/vi/q9RPsmB7fBs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAEgCgqn4w5JmQ56xCCq5wPA00biA",
-          "publishedAt": "2026-06-13T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 220,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "LPue_feaTTM",
           "title": "NMIXX(엔믹스) “Heavy Serenade” Dance Practice (Romance Serenade Ver.)",
           "url": "https://www.youtube.com/watch?v=LPue_feaTTM",
@@ -2154,23 +2137,6 @@
             "video"
           ],
           "duration": 195,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
-          "videoId": "rYqxR_Rse9M",
-          "title": "NMIXX(엔믹스) “Heavy Serenade” 응원법 | 5th EP “Heavy Serenade”",
-          "url": "https://www.youtube.com/watch?v=rYqxR_Rse9M",
-          "thumbnail": "https://i.ytimg.com/vi/rYqxR_Rse9M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBBxOeYNadYnm1IVcdS73w5Hp9jQ",
-          "publishedAt": "2026-06-13T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 251,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -2516,6 +2482,23 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
+          "videoId": "q9RPsmB7fBs",
+          "title": "NMIXX(엔믹스) “Crescendo” 응원법 | 5th EP “Heavy Serenade”",
+          "url": "https://www.youtube.com/watch?v=q9RPsmB7fBs",
+          "thumbnail": "https://i.ytimg.com/vi/q9RPsmB7fBs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAEgCgqn4w5JmQ56xCCq5wPA00biA",
+          "publishedAt": "2026-05-13T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 220,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
           "videoId": "zhvnMYsdY3s",
           "title": "NMIXX(엔믹스) “Different Girl” (Official Audio)",
           "url": "https://www.youtube.com/watch?v=zhvnMYsdY3s",
@@ -2579,6 +2562,23 @@
             "video"
           ],
           "duration": 216,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "rYqxR_Rse9M",
+          "title": "NMIXX(엔믹스) “Heavy Serenade” 응원법 | 5th EP “Heavy Serenade”",
+          "url": "https://www.youtube.com/watch?v=rYqxR_Rse9M",
+          "thumbnail": "https://i.ytimg.com/vi/rYqxR_Rse9M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBBxOeYNadYnm1IVcdS73w5Hp9jQ",
+          "publishedAt": "2026-05-13T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 251,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -19145,7 +19145,7 @@
           "videoId": "F3cdEyyGwlM",
           "title": "#긴소원 수어 챌린지 #NMIXX #BAE 'Celebrate it'은 BSL(영국수어), '초를 불어'는 IS(국제수화)로 전 세계 사람들이 함께 즐길 수 있도록 표현해봤어요!",
           "url": "https://www.youtube.com/watch?v=F3cdEyyGwlM",
-          "thumbnail": "https://i.ytimg.com/vi/F3cdEyyGwlM/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDIFElKt0KRfak4oh-fgM9BdsLJ8Q",
+          "thumbnail": "https://i.ytimg.com/eb/vi/F3cdEyyGwlM/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLC1HThx1dt0KC0U7g_PpHvnZK3brg&usqp=CCA",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -25945,7 +25945,7 @@
           "videoId": "5WPUPsXfDrE",
           "title": "it’s ma birthday #NMIXX #엔믹스 #지우 #JIWOO #오늘의_쮸인공_김지우 #Crush_On_JIWOO",
           "url": "https://www.youtube.com/watch?v=5WPUPsXfDrE",
-          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCSJa2-h7hqxdjLPdO0Mb8k31XXDQ",
+          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBfWl4YpQLTLPMGarc9K_q2WyOSjw",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -26217,7 +26217,7 @@
           "videoId": "5iM2mqTbIHU",
           "title": "Jjyu Jjanggu is unstoppable🌀 #NMIXX #LILY #HAEWON #JIWOO",
           "url": "https://www.youtube.com/watch?v=5iM2mqTbIHU",
-          "thumbnail": "https://i.ytimg.com/vi/5iM2mqTbIHU/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBN2CN4eoJX1_snbIUOn86PWG8WAg",
+          "thumbnail": "https://i.ytimg.com/vi/5iM2mqTbIHU/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDEf9bQ4VJbvvLG1H4XKQpMA22vww",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -28308,7 +28308,7 @@
           "videoId": "H7wAj8z4Mgs",
           "title": "Now I can see 👀 #NMIXX #LILY #SULLYOON #LongWish_BirthdayWish",
           "url": "https://www.youtube.com/watch?v=H7wAj8z4Mgs",
-          "thumbnail": "https://i.ytimg.com/vi/H7wAj8z4Mgs/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAUXqTb2MuAl7C1_MOT5U6Y0jo13Q",
+          "thumbnail": "https://i.ytimg.com/vi/H7wAj8z4Mgs/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDE8qON9H96XspyjRfgyHpCOnq6jQ",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -31827,7 +31827,7 @@
           "videoId": "cf_snKXNW-s",
           "title": "뀨냥이 깨우기 #NMIXX #JIWOO #KYUJIN #HeavySerenade #HeavySerenadeChallenge",
           "url": "https://www.youtube.com/watch?v=cf_snKXNW-s",
-          "thumbnail": "https://i.ytimg.com/vi/cf_snKXNW-s/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCie2K5MZcKf8XvCtBOwtXHVldSIw",
+          "thumbnail": "https://i.ytimg.com/vi/cf_snKXNW-s/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDGeORDENBnAsBq5nlLxIXh98paPA",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
