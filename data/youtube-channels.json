@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T19:44:35.350Z",
+  "generatedAt": "2026-11-13T23:51:03.057Z",
   "source": "youtube-public-channel-tabs",
   "collectionMode": "complete-public-tab-archive",
   "requestedSyncMode": "recent",
@@ -476,23 +476,6 @@
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
         },
         {
-          "videoId": "TiTK9siBt0g",
-          "title": "NMIXX “WHIP (JIWOO, KYUJIN)” (Official Audio)",
-          "url": "https://www.youtube.com/watch?v=TiTK9siBt0g",
-          "thumbnail": "https://i.ytimg.com/vi/TiTK9siBt0g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFwr-oBrCNADCVajZr_nMZLqeAVA",
-          "publishedAt": "2026-10-24T00:00:00.000Z",
-          "dateAccuracy": "exact",
-          "videoType": "video",
-          "categoryLabel": "動画",
-          "sourceTypes": [
-            "video"
-          ],
-          "duration": 126,
-          "liveStatus": "not_live",
-          "channelKey": "nmixx",
-          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
-        },
-        {
           "videoId": "H6Uv2xfdo0I",
           "title": "NMIXX “You Are the Moon (Sing to the Moon) (LILY, HAEWON)” (Official Audio)",
           "url": "https://www.youtube.com/watch?v=H6Uv2xfdo0I",
@@ -590,6 +573,23 @@
             "video"
           ],
           "duration": 218,
+          "liveStatus": "not_live",
+          "channelKey": "nmixx",
+          "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+        },
+        {
+          "videoId": "TiTK9siBt0g",
+          "title": "NMIXX(엔믹스) “휙 (WHIP) (JIWOO, KYUJIN)” (Official Audio)",
+          "url": "https://www.youtube.com/watch?v=TiTK9siBt0g",
+          "thumbnail": "https://i.ytimg.com/vi/TiTK9siBt0g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFwr-oBrCNADCVajZr_nMZLqeAVA",
+          "publishedAt": "2026-10-24T00:00:00.000Z",
+          "dateAccuracy": "exact",
+          "videoType": "video",
+          "categoryLabel": "動画",
+          "sourceTypes": [
+            "video"
+          ],
+          "duration": 126,
           "liveStatus": "not_live",
           "channelKey": "nmixx",
           "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
@@ -25979,7 +25979,7 @@
           "videoId": "5WPUPsXfDrE",
           "title": "it’s ma birthday #NMIXX #엔믹스 #지우 #JIWOO #오늘의_쮸인공_김지우 #Crush_On_JIWOO",
           "url": "https://www.youtube.com/watch?v=5WPUPsXfDrE",
-          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCSJa2-h7hqxdjLPdO0Mb8k31XXDQ",
+          "thumbnail": "https://i.ytimg.com/vi/5WPUPsXfDrE/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDMLjf-j7jS_U8QqUuOwHuLPRcKbQ",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -26217,7 +26217,7 @@
           "videoId": "jEPrbK9CCP0",
           "title": "JIWOO’s Heavy Serenade with Melody Box 💍🤍 #NMIXX #엔믹스 #HeavySerenade #HeavySerenadeChallenge",
           "url": "https://www.youtube.com/watch?v=jEPrbK9CCP0",
-          "thumbnail": "https://i.ytimg.com/vi/jEPrbK9CCP0/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBMEii_L6Bp_rbv-9r74FDsWKF4MA",
+          "thumbnail": "https://i.ytimg.com/vi/jEPrbK9CCP0/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAzgAVf2pEOttJMJeu5KRxWjL2xLw",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -26251,7 +26251,7 @@
           "videoId": "5iM2mqTbIHU",
           "title": "Jjyu Jjanggu is unstoppable🌀 #NMIXX #LILY #HAEWON #JIWOO",
           "url": "https://www.youtube.com/watch?v=5iM2mqTbIHU",
-          "thumbnail": "https://i.ytimg.com/vi/5iM2mqTbIHU/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDEf9bQ4VJbvvLG1H4XKQpMA22vww",
+          "thumbnail": "https://i.ytimg.com/vi/5iM2mqTbIHU/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLBOlh8jdBMige9Sbdt3tG82l21pow",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -28342,7 +28342,7 @@
           "videoId": "H7wAj8z4Mgs",
           "title": "Now I can see 👀 #NMIXX #LILY #SULLYOON #LongWish_BirthdayWish",
           "url": "https://www.youtube.com/watch?v=H7wAj8z4Mgs",
-          "thumbnail": "https://i.ytimg.com/vi/H7wAj8z4Mgs/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDE8qON9H96XspyjRfgyHpCOnq6jQ",
+          "thumbnail": "https://i.ytimg.com/vi/H7wAj8z4Mgs/oar3.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLAUXqTb2MuAl7C1_MOT5U6Y0jo13Q",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
@@ -31861,7 +31861,7 @@
           "videoId": "cf_snKXNW-s",
           "title": "뀨냥이 깨우기 #NMIXX #JIWOO #KYUJIN #HeavySerenade #HeavySerenadeChallenge",
           "url": "https://www.youtube.com/watch?v=cf_snKXNW-s",
-          "thumbnail": "https://i.ytimg.com/vi/cf_snKXNW-s/oar1.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLDGeORDENBnAsBq5nlLxIXh98paPA",
+          "thumbnail": "https://i.ytimg.com/vi/cf_snKXNW-s/oar2.jpg?sqp=-oaymwEgCJUDEOAESFWQAgHyq4qpAw8IARUAAIhCcAHAAQbIAQE=&rs=AOn4CLCLgaLRnLXRPOMXKfAoxu0vLHTLmg",
           "publishedAt": "",
           "dateAccuracy": "unknown",
           "videoType": "short",
